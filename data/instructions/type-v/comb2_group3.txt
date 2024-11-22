@@ -1,0 +1,42 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: Discover the world's wonders with ease using the Tourist Attraction API. Unleash a wealth of information about popular attractions worldwide, including historical sites, natural landmarks, museums, and more. Seamlessly integrate this API to provide users with detailed insights, captivating images, and essential details, enriching their travel experiences like never before. Whether you’re crafting travel apps, tour guides, or adventure platforms, the Tourist Attraction API is your gateway to enhancing journeys and exploration.
+API-1. Search tourist attraction
+API-2. Get detail of tourist attraction
+API-3. Get photos of tourist attraction
+API-4. Get reviews of tourist attraction
+
+For example:
+Instruction: I am writing an article about the must go places in China. Collect some materials for me please.
+
+
+==== RESPONSE ====
+1. Instruction: Develop a personalized travel itinerary for a history enthusiast planning a trip to Europe. I need a list of historical sites complete with descriptions, images, and visitor experiences.
+   - Use API-1 to search for historical tourist attractions across various European countries.
+   - Employ API-2 to retrieve detailed information about each historical site found.
+   - Utilize API-3 to collect high-quality photos for each location to be included in the itinerary.
+   - Apply API-4 to gather recent reviews of these historical sites to understand current visitor sentiments and experiences.
+
+2. Instruction: Create a top 10 list of family-friendly attractions across the United States for an upcoming travel blog post, including vibrant photos and user feedback.
+   - Leverage API-1 to identify popular family-friendly tourist attractions in the United States.
+   - Use API-2 to get detailed descriptions of each attraction to highlight their family-oriented facilities and activities.
+   - Obtain a set of attractive images for each site with API-3 to visually enhance the blog post.
+   - Collect and summarize reviews from API-4 to provide readers with a sense of what other families thought of the attractions.
+
+3. Instruction: Assemble a virtual tour guide of iconic landmarks in Japan, focusing on providing a cultural and historical context, complemented with visual and anecdotal content.
+   - Deploy API-1 to search for iconic landmarks in Japan that hold cultural and historical significance.
+   - Fetch detailed cultural and historical information about each landmark through API-2.
+   - Acquire a collection of stunning photographs of these landmarks using API-3 to create a visual walk-through.
+   - Aggregate and feature insights from reviews using API-4 to include personal stories and tips from past visitors.
+
+4. Instruction: Provide an in-depth feature on the natural wonders of Brazil for an eco-tourism website, with emphasis on conservation status, visitor information, and photographic evidence of the attractions' beauty.
+   - Apply API-1 to find natural landmarks and wonders in Brazil that are significant for eco-tourists.
+   - Retrieve comprehensive details about each site's conservation efforts and visitor information via API-2.
+   - Use API-3 to curate an array of captivating photos showcasing the natural beauty of these destinations.
+   - Use API-4 to source reviews that highlight the ecological importance of the attractions and visitor recommendations on sustainable practices.
+
+5. Instruction: Compile a dynamic list of must-see art museums around the world for an online culture and arts magazine, ensuring each entry includes a description, gallery snapshots, and firsthand visitor critiques.
+   - Utilize API-1 to identify reputed art museums globally that are revered in the art community.
+   - Gather pertinent information about the museums' collections, history, and unique offerings through API-2.
+   - Capture a selection of interior and exterior photos from API-3 to showcase the museums' architectural beauty and exhibits.
+   - Integrate feedback and critiques via API-4 from art aficionados who've visited these museums to provide readers with qualitative insights.

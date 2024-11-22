@@ -1,0 +1,49 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool: query hotels and flights in real-time data. By searching and comparing hotel options, the tool assists travelers in finding the most cost-effective option for their journey.
+API-1. for providing a list of hotels
+API-2. for providing hotel details
+API-3. for checking hotel price
+API-4. for providing a review list
+API-5. for providing a list of similar hotels
+
+For example:
+Instruction: I am going to travel to London for business. Please help check the high-rate hotels under 500 USD per night in the business district.
+
+
+==== RESPONSE ====
+Instruction 1:
+I'm planning a week-long vacation in Paris, and I'm interested in hotels close to the Eiffel Tower. Could you find me family-friendly hotels with at least a 4-star rating and current prices under 350 USD per night?
+
+Combination of APIs:
+- Use API-1 to get a list of hotels near the Eiffel Tower with an option to filter by family-friendliness and a minimum 4-star rating.
+- Employ API-3 to check the current pricing of these hotels to ensure they are under 350 USD per night.
+
+Instruction 2:
+I'm attending a conference in New York City next month, and I would like to stay in a hotel with great business amenities. Can you provide me with options that have high reviews for their business services and are within walking distance of the Javits Center?
+
+Combination of APIs:
+- Use API-1 to search for hotels near the Javits Center, optimizing the search for business amenities.
+- Apply API-4 to filter the options by those with high reviews specifically mentioning their business services.
+
+Instruction 3:
+For my honeymoon, I'm looking for a luxurious and romantic hotel in Bali. I'd like it to have a spa and a private beach. Please find me the top reviewed options with these amenities.
+
+Combination of APIs:
+- Utilize API-1 to locate hotels in Bali that have a spa and a private beach.
+- Use API-4 to filter for hotels that have the highest reviews mentioning luxury and romantic experiences.
+
+Instruction 4:
+I'm organizing a group trip to Tokyo and need to find hotels that are suitable for groups and offer cultural experiences. Please get me a list of hotels with traditional Japanese aesthetics and are rated well for group accommodations.
+
+Combination of APIs:
+- Invoke API-1 to compile a list of hotels in Tokyo that cater to groups and mention cultural or traditional Japanese aesthetics in their profile.
+- Use API-4 to find those hotels with the highest reviews from groups who have stayed there.
+
+Instruction 5:
+I've enjoyed my recent stay at a boutique hotel in Chicago and I'm looking for similar hotels in San Francisco for my next trip. The hotel should be in a vibrant neighborhood and with a high standard of service. Please suggest similar hotels with great reviews.
+
+Combination of APIs:
+- Reference the details of the Chicago hotel you liked with API-2.
+- Use API-5 to find similar hotels in San Francisco based on the characteristics of the Chicago hotel.
+- Apply API-4 to ensure these recommendations have excellent service reviews, emphasizing the hotel’s standard of service.

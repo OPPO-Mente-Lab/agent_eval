@@ -1,0 +1,73 @@
+{
+  "tool_name": "airports",
+  "tool_description": "Airport codes (IATA, ICAO), location, and local time",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "query_airports_by_name",
+        "description": "Query airports by name. Paging and sorting supported.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "STRING",
+              "description": "Name of the airport"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "page_size": {
+              "type": "STRING",
+              "description": "Number of results per page. Max 20"
+            },
+            "sorted_by": {
+              "type": "STRING",
+              "description": "Sorted by one of {name, icao, iata}. Append ':reversed' for reversed order. For example, 'name:reversed'"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_airport_by_iata_code",
+        "description": "Get airport by IATA code. For example, Singapore airport has IATA code \"SIN\".",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "iata_code": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "iata_code"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_airport_by_icao_code",
+        "description": "Get airport by ICAO code. For example, Singapore airport has ICAO code \"WSSS\".",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "icao_code": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "icao_code"
+          ]
+        }
+      }
+    }
+  ]
+}

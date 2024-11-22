@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,image_processing,compress_image,What is the difference between JPEG and PNG format?,1
+1,,,How to change image format on Windows without using any software?,1
+2,,,Why is it necessary to compress an image file?,1
+3,,,What might be the possible reasons behind a slow-loading image?,1
+4,,,Can compressing an image lead to loss of its quality?,1
+5,,,What are some of the software I can use to compress an image?,1
+6,,,How large usually should an image file be for a website to load efficiently?,1
+7,,,Does reducing the size of an image affect its resolution?,1
+8,,,Are there apps available to compress images on my phone?,1
+9,,,What are some effective ways to save storage space on my computer?,1
+10,,resize_image,What are some popular image formats?,1
+11,,,How does the clarity of the image change when it is compressed?,1
+12,,,Is it possible to change a colored image to black-and-white without photo editing software?,1
+13,,,What is the advantage of converting a .jpeg image to a .png?,1
+14,,,What causes pixelation in images?,1
+15,,,How to take a clear picture with phone?,1
+16,,,When should I use lossless compression over lossy compression for images?,1
+17,,,Can you tell the difference between a high resolution image and a low resolution image just by looking at it?,1
+18,,,Does resizing an image affect its file size significantly?,1
+19,,,What is the suitable resolution for an image to be used on a website?,1
+20,,convert_format,What are the differences between the 'jpg' and 'png' format?,1
+21,,,Which image format is the best for preserving the quality of photographs?,1
+22,,,How can I reduce the size of an image without losing too much quality?,1
+23,,,What is the most commonly used image format on the internet and why?,1
+24,,,Which image format should I use for a transparent background?,1
+25,,,How can I change the image format on my phone?,1
+26,,,What's the benefit of compressing an image?,1
+27,,,How does an image resizing tool work?,1
+28,,,What are the basic principles of image processing?,1
+29,,,Which image format is best for printing purposes?,1

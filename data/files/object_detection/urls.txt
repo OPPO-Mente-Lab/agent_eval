@@ -1,0 +1,10 @@
+birds.jpg	https://crowsnestvet.com.au/wp-content/uploads/2019/11/Keeping-Birds-Feathered-Friends.jpg
+dog-and-cat.jpg	https://storage.googleapis.com/petbacker/images/blog/2017/dog-and-cat-cover.jpg
+dog-and-cat2.jpeg	https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2015/06/28184009/Golden-Retriever-laying-down-playing-with-a-cat.jpeg
+dolphins.jpg	https://www.thoughtco.com/thmb/bwzNgsAEcKhBi49Eg7GEpWUIMg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/two-bottlenose-dolphins-leaping-from-the-water-dv1689001-5bfc567a46e0fb0026652224.jpg
+elephants.jpg	https://images.desenio.com/zoom/18375-8elephantsinthewild50x70.jpg
+koala.jpg	https://media.istockphoto.com/id/965307846/photo/baby-koala-on-a-tree.jpg?s=612x612&w=0&k=20&c=Xmpb8ywXYsDGB-iRQh0VQ4cWElqWFVg9UAuSsy4a_kk=
+panda.jpg	https://media.istockphoto.com/id/523761634/photo/cute-panda-bear-climbing-in-tree.jpg?s=612x612&w=0&k=20&c=TxsmORsbuY1LpxQsc6T8fpWJo7lBwncciYhroAr8rXI=
+quokka.jpg	https://t4.ftcdn.net/jpg/06/08/19/37/360_F_608193739_jAKeehmsoFz8NJdUl9R1MmaBmKCwrIvz.jpg
+tiger.jpg	https://www.clevelandzoosociety.org/files/blog/page/adobestock170818276.jpg
+wallaby.jpg	https://indianapublicmedia.org/large-images/amos-images/red_neck_wallaby.jpg

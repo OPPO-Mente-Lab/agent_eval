@@ -1,0 +1,131 @@
+{
+  "tool_name": "currency_conversion_and_exchange_rates",
+  "tool_description": "Simple reliable API for current and historical foreign exchange (forex) currency rates.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "recent_exchange_rates",
+        "description": "Retrieve the latest exchange rate data. Refresh rate will depend on your subscription: updated every 60 minutes, every 10 minutes or every 60 seconds.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "from": {
+              "type": "STRING",
+              "description": "Three-letter currency code of the currency would would like to convert from. This currency will be converted into the code of the currency provided in the to parameter"
+            },
+            "to": {
+              "type": "STRING",
+              "description": "A comma-separated list of currency codes to convert the from parameter into."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "historical_exchange_rates",
+        "description": "Retrieve historical exchange rate data. Data is available for most currencies all the way back to the year of 1999.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "STRING",
+              "description": "The date to retrieve the historical exchange rates from."
+            },
+            "from": {
+              "type": "STRING",
+              "description": "Three-letter currency code of the currency would would like to convert from. This currency will be converted into the code of the currency provided in the to parameter"
+            },
+            "to": {
+              "type": "STRING",
+              "description": "A comma-separated list of currency codes to convert the from parameter into."
+            }
+          },
+          "required": [
+            "date"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "convert",
+        "description": "In addition to providing converstion rates, our API provides a dedicated endpoint to easily do conversion on a specific amount of the currency.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "from": {
+              "type": "STRING",
+              "description": "The three-letter currency code of the currency you would like to convert from."
+            },
+            "to": {
+              "type": "STRING",
+              "description": "The three-letter currency code of the currency you would like to convert to."
+            },
+            "amount": {
+              "type": "STRING",
+              "description": "The amount to be converted."
+            },
+            "date": {
+              "type": "STRING",
+              "description": "Optionally, provide a specific date (format YYYY-MM-DD) to use historical rates for this conversion."
+            }
+          },
+          "required": [
+            "from",
+            "to",
+            "amount"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "symbols",
+        "description": "Retrieve a list of all currently available currency symbols",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "time_series_endpoint",
+        "description": "Retrieve historical rates between two specified dates.\nMaximum of 365 day time range",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "start_date": {
+              "type": "STRING",
+              "description": ""
+            },
+            "end_date": {
+              "type": "STRING",
+              "description": ""
+            },
+            "from": {
+              "type": "STRING",
+              "description": "Three-letter currency code of the currency would would like to convert from. This currency will be converted into the code of the currency provided in the to parameter"
+            },
+            "to": {
+              "type": "STRING",
+              "description": "A comma-separated list of currency codes to convert the from parameter into."
+            }
+          },
+          "required": [
+            "start_date",
+            "end_date"
+          ]
+        }
+      }
+    }
+  ]
+}

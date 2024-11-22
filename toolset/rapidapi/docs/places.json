@@ -1,0 +1,250 @@
+{
+  "tool_name": "places",
+  "tool_description": "Over 10 million tourist attractions and facilities around the world\nThis API allows you to get objects data from our database. You can easily integrate our data into your external application or website. OpenTripMap based on cooperative processing of different open data sources (OpenStreetMap, Wikidata, Wikipedia, Ministry of Culture and Ministry of Natural Resources and Environment of the Russian Federation) and encompasses over 10 million tourist attractions and facilities around the world. Object types are hierarchically structured.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "geographic_coordinates_by_placename",
+        "description": "Returns geographic coordinates for the given placename (city, village, etc.). The method returns the place whose name is most similar to the search string.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "STRING",
+              "description": "Placename"
+            },
+            "lang": {
+              "type": "ENUM",
+              "description": "Two-letter language code (ISO639-1). The following values are available: en (english), ru (russian)"
+            },
+            "country": {
+              "type": "STRING",
+              "description": "Two-letter country code, ISO-3166 (optional). Default is all countries."
+            }
+          },
+          "required": [
+            "name",
+            "lang"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "place_properties",
+        "description": "Returns detailed information about the object. Objects can contain different amount of information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "xid": {
+              "type": "STRING",
+              "description": "Unique identifier of the object in OpenTripMap"
+            },
+            "lang": {
+              "type": "ENUM",
+              "description": "Two-letter language code (ISO639-1). The following values are available: en (english), ru (russian)"
+            }
+          },
+          "required": [
+            "xid",
+            "lang"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "places_list_by_radius_nearby_search_",
+        "description": "Method returns objects closest to the selected point optionally filtered by parameters. Only basic information is include in response: xid, name, kinds, osm, wikidata of each object. Depending on the chosen format, the response is either a simple array of objects (with a small...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lang": {
+              "type": "ENUM",
+              "description": "Language code (2 characters, ISO639-1). The following values are available: en (english), ru (russian)"
+            },
+            "radius": {
+              "type": "NUMBER",
+              "description": "Maximum distance from selected point in meters"
+            },
+            "lon": {
+              "type": "NUMBER",
+              "description": "Longitude of selected point"
+            },
+            "lat": {
+              "type": "NUMBER",
+              "description": "Latitude of selected point"
+            },
+            "src_attr": {
+              "type": "STRING",
+              "description": "The source of the object attributes. It is allowed to point multiple sources separated by commas. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra, user"
+            },
+            "format": {
+              "type": "STRING",
+              "description": "The output format (GeoJSON is set by default). Specify \u201ccount\u201d to get the number of obtained objects. Available values : json, geojson, count"
+            },
+            "kinds": {
+              "type": "STRING",
+              "description": "Object category. Several comma-separated categories may be stated with OR logic. Objects from all categories are returned by default. See object category hierarchy at https://dev.opentripmap.com/doc/en/"
+            },
+            "src_geom": {
+              "type": "STRING",
+              "description": "The source of the object geometry. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra"
+            },
+            "rate": {
+              "type": "STRING",
+              "description": "Minimum rating of the object popularity, 1 - minimum, 3- maximum, h - object is referred to the cultural heritage. Objects from all categories are returned by default. Available values : 1, 2, 3, 1h, 2h, 3h"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Maximum number of returned objects. 500 is set by default."
+            },
+            "name": {
+              "type": "STRING",
+              "description": "The text string on which to search at the begining of the object name (mimimum 3 characters). All objects are returned by default."
+            }
+          },
+          "required": [
+            "lang",
+            "radius",
+            "lon",
+            "lat"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "places_list_by_bounding_box",
+        "description": "Method returns all objects (or number of objects) in the given boundary box optionally filtered by parameters. Only basic information is include in response: xid, name, kinds, osm, wikidata of each object. Depending on the chosen format, the response is either a simple array o...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lon_max": {
+              "type": "NUMBER",
+              "description": "Maximum longitude"
+            },
+            "lat_min": {
+              "type": "NUMBER",
+              "description": "Minimum latitude"
+            },
+            "lang": {
+              "type": "ENUM",
+              "description": "Language code (2 characters, ISO639-1). The following values are available: en (english), ru (russian)"
+            },
+            "lon_min": {
+              "type": "NUMBER",
+              "description": "Minimum longitude"
+            },
+            "lat_max": {
+              "type": "NUMBER",
+              "description": "Maximum latitude"
+            },
+            "name": {
+              "type": "STRING",
+              "description": "The text string on which to search at the begining of the object name (mimimum 3 characters). All objects are returned by default."
+            },
+            "format": {
+              "type": "STRING",
+              "description": "The output format (GeoJSON is set by default). Specify \u201ccount\u201d to get the number of obtained objects. Available values : json, geojson, count"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Maximum number of returned objects. 500 is set by default."
+            },
+            "src_geom": {
+              "type": "STRING",
+              "description": "The source of the object geometry. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra"
+            },
+            "src_attr": {
+              "type": "STRING",
+              "description": "The source of the object attributes. It is allowed to point multiple sources separated by commas. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra, user"
+            },
+            "kinds": {
+              "type": "STRING",
+              "description": "Object category. Several comma-separated categories may be stated with OR logic. Objects from all categories are returned by default. See object category hierarchy at https://dev.opentripmap.com/doc/en/"
+            },
+            "rate": {
+              "type": "STRING",
+              "description": "Minimum rating of the object popularity, 1 - minimum, 3- maximum, h - object is referred to the cultural heritage. Objects from all categories are returned by default. Available values : 1, 2, 3, 1h, 2h, 3h"
+            }
+          },
+          "required": [
+            "lon_max",
+            "lat_min",
+            "lang",
+            "lon_min",
+            "lat_max"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "autosuggest",
+        "description": "Method returns suggestions for search term closest to the selected point optionally filtered by parameters. Only basic information is include in response: xid, name, kinds, osm, wikidata of each object. Depending on the chosen format, the response is either a simple array of o...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "STRING",
+              "description": "The query term on which to search."
+            },
+            "lon": {
+              "type": "NUMBER",
+              "description": "Longitude of selected point"
+            },
+            "radius": {
+              "type": "NUMBER",
+              "description": "Maximum distance from selected point in meters"
+            },
+            "lang": {
+              "type": "ENUM",
+              "description": "Language code (2 characters, ISO639-1). The following values are available: en (english), ru (russian)"
+            },
+            "lat": {
+              "type": "NUMBER",
+              "description": "Latitude of selected point"
+            },
+            "kinds": {
+              "type": "STRING",
+              "description": "Object category. Several comma-separated categories may be stated with OR logic. Objects from all categories are returned by default. See object category hierarchy at https://dev.opentripmap.com/doc/en/"
+            },
+            "rate": {
+              "type": "STRING",
+              "description": "Minimum rating of the object popularity, 1 - minimum, 3- maximum, h - object is referred to the cultural heritage. Objects from all categories are returned by default. Available values : 1, 2, 3, 1h, 2h, 3h"
+            },
+            "src_attr": {
+              "type": "STRING",
+              "description": "The source of the object attributes. It is allowed to point multiple sources separated by commas. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra, user"
+            },
+            "format": {
+              "type": "ENUM",
+              "description": "The output format (GeoJSON is set by default). Specify \u201ccount\u201d to get the number of obtained objects. Available values : json, geojson"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Maximum number of returned objects. 500 is set by default."
+            },
+            "src_geom": {
+              "type": "STRING",
+              "description": "The source of the object geometry. Objects from all sources are returned by default. Available values : osm, wikidata, snow, cultura.ru, rosnedra"
+            }
+          },
+          "required": [
+            "name",
+            "lon",
+            "radius",
+            "lang",
+            "lat"
+          ]
+        }
+      }
+    }
+  ]
+}

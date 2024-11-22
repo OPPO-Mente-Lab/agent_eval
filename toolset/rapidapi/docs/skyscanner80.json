@@ -1,0 +1,533 @@
+{
+  "tool_name": "skyscanner80",
+  "tool_description": "The unofficial API for skyscanner.com allows you to query hotels and flights in real-time data.\nBy searching and comparing hotel and rental car options, the API assists travelers in finding the most cost-effective option for their journey.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_config",
+        "description": "Get config",
+        "parameters": {
+          "type": "object",
+          "properties": {
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_auto_complete",
+        "description": "This endpoint is resposible for providing a list of airports for the location",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where the Airport is situated. Ex: New York"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["query"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_search_one_way",
+        "description": "This API helps to get the list of one-way flights. Note:- In the event that the status is incomplete (data->context->status=incomplete), you must utilize the api/v1/flights/search-incomplete endpoint to retrieve the complete data until it's complete (data->context->status=complete).",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fromId": {
+              "type": "STRING",
+              "description": "`fromId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTllDQSIsImUiOiIyNzUzNzU0MiIsImgiOiIyNzUzNzU0MiJ9 (New York)"
+            },
+            "toId": {
+              "type": "STRING",
+              "description": "`toId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTE9ORCIsImUiOiIyNzU0NDAwOCIsImgiOiIyNzU0NDAwOCJ9 (London)"
+            },
+            "departDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "adults": {
+              "type": "Number",
+              "description": "Adults: 12+ years. Default value: 1. Ex: 2"
+            },
+            "children": {
+              "type": "Number",
+              "description": "Children: 2-12 years. Default value: 0. Ex: 2"
+            },
+            "infants": {
+              "type": "Number",
+              "description": "Infants: Under 2 years. Default value: 0. Ex: 1"
+            },
+            "cabinClass": {
+              "type": "STRING",
+              "description": "Cabin class. Ex: economy. Default value: economy. \n\neconomy: Economy\npremium_economy: Premium Economy\nbusiness: Business\nfirst: First."
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["fromId", "toId", "departDate"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_search_roundtrip",
+        "description": "This API helps to get the list of round trip flights. Note:- In the event that the status is incomplete (data->context->status=incomplete), you must utilize the `flights_search_incomplete` endpoint to retrieve the complete data until it's complete (data->context->status=complete).",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fromId": {
+              "type": "STRING",
+              "description": "`fromId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTllDQSIsImUiOiIyNzUzNzU0MiIsImgiOiIyNzUzNzU0MiJ9 (New York)"
+            },
+            "toId": {
+              "type": "STRING",
+              "description": "`toId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTE9ORCIsImUiOiIyNzU0NDAwOCIsImgiOiIyNzU0NDAwOCJ9 (London)"
+            },
+            "departDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "returnDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "adults": {
+              "type": "Number",
+              "description": "Adults: 12+ years. Default value: 1. Ex: 2"
+            },
+            "children": {
+              "type": "Number",
+              "description": "Children: 2-12 years. Default value: 0. Ex: 2"
+            },
+            "infants": {
+              "type": "Number",
+              "description": "Infants: Under 2 years. Default value: 0. Ex: 1"
+            },
+            "cabinClass": {
+              "type": "STRING",
+              "description": "Cabin class. Ex: economy. Default value: economy. \n\neconomy: Economy\npremium_economy: Premium Economy\nbusiness: Business\nfirst: First."
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["fromId", "toId", "departDate", "returnDate"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_search_everywhere",
+        "description": "This API helps to find flights with uncertain destinations.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fromId": {
+              "type": "STRING",
+              "description": "`fromId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTllDQSIsImUiOiIyNzUzNzU0MiIsImgiOiIyNzUzNzU0MiJ9 (New York)"
+            },
+            "departDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "returnDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "adults": {
+              "type": "Number",
+              "description": "Adults: 12+ years. Default value: 1. Ex: 2"
+            },
+            "children": {
+              "type": "Number",
+              "description": "Children: 2-12 years. Default value: 0. Ex: 2"
+            },
+            "infants": {
+              "type": "Number",
+              "description": "Infants: Under 2 years. Default value: 0. Ex: 1"
+            },
+            "cabinClass": {
+              "type": "STRING",
+              "description": "Cabin class. Ex: economy. Default value: economy. \n\neconomy: Economy\npremium_economy: Premium Economy\nbusiness: Business\nfirst: First."
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["fromId", "departDate"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_search_incomplete",
+        "description": "Obtain complete data for the endpoint of flights_search_one_way, flights_search_roundtrip. Until the item's status is complete (data->context->status=complete), you must call the API multiple times",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sessionId": {
+              "type": "STRING",
+              "description": "sessionId can be retrieved from flights_search_one_way or flights_search_roundtrip (data->context->sessionId)"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["sessionId"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_flight_detail",
+        "description": "Get all the details of the fights based on itineraryId and token.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "itineraryId": {
+              "type": "STRING",
+              "description": "itineraryId can be retrieved from flights_search_one_way or flights_search_roundtrip (data->context->sessionId)"
+            },
+            "token": {
+              "type": "STRING",
+              "description": "token can be retrieved from flights_search_one_way or flights_search_roundtrip (data->context->sessionId)"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["itineraryId", "token"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "flights_price_calendar",
+        "description": "This API will return a calendar for the given source and destination",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fromId": {
+              "type": "STRING",
+              "description": "`fromId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTllDQSIsImUiOiIyNzUzNzU0MiIsImgiOiIyNzUzNzU0MiJ9 (New York)"
+            },
+            "toId": {
+              "type": "STRING",
+              "description": "`toId` can be retrieved from `flights_auto_complete` (data->id) Ex: eyJzIjoiTE9ORCIsImUiOiIyNzU0NDAwOCIsImgiOiIyNzU0NDAwOCJ9 (London)"
+            },
+            "departDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "returnDate": {
+              "type": "Date",
+              "description": "Format: YYYY-MM-DD. Ex: 2024-06-01"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["fromId", "toId", "departDate", "returnDate"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_hotel_auto_complete",
+        "description": "This API is responsible for providing a list of locations",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Names of locations, cities, districts, places, countries, counties etc. Ex: New York"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US. Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US. Ex: en-US"
+            }
+          },
+          "required": ["query"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_search",
+        "description": "This API is responsible for providing a list of hotels",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "entityId": {
+              "type": "STRING",
+              "description": "entityId can be retrieved from hotels_auto_complete (data->entityId) Ex: 27537542"
+            },
+            "checkin": {
+              "type": "Date",
+              "description": "Check-in date. Format: YYYY-MM-DDEx: 2024-06-01"
+            },
+            "checkout": {
+              "type": "Date",
+              "description": "Check-out date. Format: YYYY-MM-DDEx: 2024-06-02"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["entityId", "checkin", "checkout"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_hotel_detail",
+        "description": "This API is responsible for providing hotel details",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "id can be retrieved from hotels_search (data->results->hotelCards-id) Ex: 218005414"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["id"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_prices",
+        "description": "This API is responsible for providing a price list",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "id can be retrieved from hotels_search (data->results->hotelCards-id) Ex: 218005414"
+            },
+            "checkin": {
+              "type": "Date",
+              "description": "Check-in date. Format: YYYY-MM-DDEx: 2024-06-01"
+            },
+            "checkout": {
+              "type": "Date",
+              "description": "Check-out date. Format: YYYY-MM-DDEx: 2024-06-02"
+            },
+            "rooms": {
+              "type": "INT",
+              "description": "Rooms. Default value: 1."
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["id", "checkin", "checkout"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_reviews",
+        "description": "This API is responsible for providing a review list",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "id can be retrieved from hotels_search (data->results->hotelCards-id) Ex: 218005414"
+            },
+            "page": {
+              "type": "INT",
+              "description": "specify the page number. Default value: 1."
+            }
+          },
+          "required": ["id"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_similar_hotels",
+        "description": "This API is responsible for providing a list of similar hotels",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "id can be retrieved from hotels_search (data->results->hotelCards-id) Ex: 218005414"
+            },
+            "checkin": {
+              "type": "Date",
+              "description": "Check-in date. Format: YYYY-MM-DDEx: 2024-06-01"
+            },
+            "checkout": {
+              "type": "Date",
+              "description": "Check-out date. Format: YYYY-MM-DDEx: 2024-06-02"
+            },
+            "rooms": {
+              "type": "INT",
+              "description": "Rooms. Default value: 1."
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["id", "checkin", "checkout"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_nearby_map",
+        "description": "This API is responsible for providing a list of near by hotels",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "latitude": {
+              "type": "Number",
+              "description": "`latitude` can be retrieved from `hotels_search` endpoint (data->results->hotelCards->coordinates->latitude). Ex: 19.10132"
+            },
+            "longitude": {
+              "type": "Number",
+              "description": "`longitude` can be retrieved from `hotels_search` endpoint (data->results->hotelCards->coordinates->longitude). Ex: 72.8916"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "`currency` can be retrieved from `get_config` (data->currency). Default value: USD. Ex: USD"
+            },
+            "market": {
+              "type": "STRING",
+              "description": "`market` can be retrieved from `get_config` (data->market) Default value: US Ex: US"
+            },
+            "locale": {
+              "type": "STRING",
+              "description": "`locale` can be retrieved from `get_config` (data->locale) Default value: en-US Ex: en-US"
+            }
+          },
+          "required": ["latitude", "longitude"]
+        }
+      }
+    }
+  ]
+}

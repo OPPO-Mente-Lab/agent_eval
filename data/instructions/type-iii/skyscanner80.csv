@@ -1,0 +1,151 @@
+,Tool,API,Prompt,Type
+0,skyscanner80,get_config,How much would it cost to fly to New York?,3
+1,,,Can you find me a hotel in Los Angeles?,3
+2,,,What's the cheapest flight option on June 1st?,3
+3,,,Are there any hotel discounts available on October 21st?,3
+4,,,Can I find a flight for less than 3000 yuan?,3
+5,,,Are there any hotels within my 500 yuan per night budget?,3
+6,,,What are the best flight options to Tokyo on May 5th?,3
+7,,,Can you find a hotel in Paris for July 14th?,3
+8,,,Can you help me find a flight to London within my 4000 yuan budget?,3
+9,,,I need a hotel in Sydney for less than 800 yuan per night.,3
+10,,flights_auto_complete,Are there airports available in Beijing?,3
+11,,,Can you tell me which airports are in New York?,3
+12,,,"I am travelling from the US, can you list down the airports available?",3
+13,,,"I want to know about the airports in my area, I'm from the UK.",3
+14,,,Show me the information of airports in my language Russian.,3
+15,,,Can you display airport options in Japanese?,3
+16,,,Can I know the different airports for my flights?,3
+17,,,Can you show me the options of airports?,3
+18,,,Where can I find airport options?,3
+19,,,Can you provide a list of available airports?,3
+20,,flights_search_one_way,I have an ID for a start location but where can I find the best one-way flights going from Shenzhen to any spot?,3
+21,,,Can you give me some suggestions on the one-way flights from Beijing tomorrow?,3
+22,,,I want to know the one-way flights from New York on 2024-06-01.,3
+23,,,"I know the ID of my destination, but feel unsure about where to start. Can you help me to find the best one-way flights to Shenzhen?",3
+24,,,Could you please provide me with some choices of one-way flights to Orlando?,3
+25,,,I'm planning to go to London. Any advice on one-way flights?,3
+26,,,Could you search the one-way flights for me on 2023-12-25? Sorry I can't provide more details.,3
+27,,,I want to leave the city around this year's national day. Can you help to find some one-way flights?,3
+28,,,Is there any recommended one-way flight on 2024-06-01?,3
+29,,,Could you help me to look up some one-way flights?,3
+30,,flights_search_roundtrip,Can you find me a round trip flight from Shenzhen?,3
+31,,,"I want to book a round trip flight to Tokyo, can you help me with that?",3
+32,,,"Can you show me round trip flights leaving on May 10th, 2024?",3
+33,,,"I'd like to return on May 20th, 2024. Can you find me a round trip flight?",3
+34,,,Can you help me find round trip flights from Shenzhen to Bangkok?,3
+35,,,"I want to fly from Shenzhen on August 15th, 2024. Can you find me a round trip flight?",3
+36,,,"I need to fly from Shenzhen and come back on September 10th, 2024. Can you help?",3
+37,,,"I'd like to fly to London on October 1st, 2024. Can you find me a round trip flight?",3
+38,,,"Can you find me a round trip flight to Sydney that returns on December 1st, 2024?",3
+39,,,"Can you book me a round trip flight between April 1st, 2024, and April 15th, 2024?",3
+40,,flights_search_everywhere,"I want to travel from Shenzhen on April 10th, 2024. What are my flight options?",3
+41,,,"Find me flights leaving from Shenzhen on June 5th, 2024.",3
+42,,,"I'm planning a trip from Shenzhen in August, can you show me the flights on August 12th, 2024?",3
+43,,,"Where can I fly to from New York on July 15th, 2024?",3
+44,,,"What destinations are available for flights departing on October 1st, 2024?",3
+45,,,"Show me flight options for May 20th, 2024.",3
+46,,,Can you help me find flights to anywhere?,3
+47,,,"I want to go on a trip, but I'm not sure where. Please suggest some flights.",3
+48,,,Show me flights for my next vacation.,3
+49,,,"I'm looking for flight ideas, can you help me?",3
+50,,flights_search_incomplete,Can I see the possible flights for my trip?,3
+51,,,What are the flight options for my search?,3
+52,,,How much does it cost for the flight I found before?,3
+53,,,What's the price in the currency I provided for my flight? ,3
+54,,,Can I search for the flight in this market I gave you? ,3
+55,,,Are there flights available in my current market?,3
+56,,,Can I get the flight details in my current region's language?,3
+57,,,Can you provide me with flight information according to my region?,3
+58,,,"What's the cost of my flight in my currency, market, and according to my region?",3
+59,,,"What's the status of the flight for the given session ID, in my currency and market?",3
+60,,flights_flight_detail,"What is the detail of this flight with itinerary ID ""ABC123""?",3
+61,,,"Can you provide the details for the flight schedule with itinerary ID ""XYZ987""?",3
+62,,,"I want to check the details of flight that has itinerary ID ""DEF456"".",3
+63,,,"I have a token ""TKN567"", could you show me the flight details?",3
+64,,,"Can you provide flight information using this token ""GDG890""?",3
+65,,,"I want to see flight details with token ""ALT321"".",3
+66,,,Can you show me the details of my flight?,3
+67,,,I would like to know more about my flight.,3
+68,,,What are the details for my flight?,3
+69,,,"Provide me with the information about my flight, please.",3
+70,,flights_price_calendar,"I'm planning a trip from New York to London, when should I book my flights?",3
+71,,,Can you compare flight rates from Beijing to Sydney for me?,3
+72,,,What are the flights from Paris to Rome?,3
+73,,,I want to leave from San Francisco around the start of June and return in a week. What are my options?,3
+74,,,Can you find flights for me from LA from 2024-05-01 to 2024-05-07?,3
+75,,,"I'm starting from Tokyo, planning for a 2-week holiday around 2024-10-15. What would you suggest?",3
+76,,,"I'm planning a trip to Sydney, leaving around the middle of July and coming back at the beginning of August. Can you find flights for me?",3
+77,,,I want to go to London from 2024-09-01 to 2024-09-10. Can you help me find flights?,3
+78,,,Can you find flights for me to Rome around 2024-12-25 for about two weeks?,3
+79,,,Can you tell me the flight price calendar?,3
+80,,hotels_hotel_auto_complete,Can you find hotels in Shenzhen for me?,3
+81,,,I'm looking for hotels in New York. Can you help?,3
+82,,,"Quiero buscar hoteles en París, ¿puedes ayudarme?",3
+83,,,"I need hotels in London, United Kingdom. Can you show me some options?",3
+84,,,What hotels are available in the location I'm interested in?,3
+85,,,Can you recommend some hotels for my trip?,3
+86,,,"I'm planning to visit a city, can you find hotels for me?",3
+87,,,Where can I find hotels during my vacation?,3
+88,,,Can you help me search for hotels during my stay?,3
+89,,,How do I find the best hotels in the destination I'm traveling to?,3
+90,,hotels_search,Can you find hotels in Shenzhen for me?,3
+91,,,What are the available hotels in entity ID 27537542?,3
+92,,,"I need to book a hotel from 2024-06-02, can you help me find one?",3
+93,,,What options do I have for hotels starting from 2024-07-01?,3
+94,,,"I want to check out on 2024-07-10, what hotels can I choose from?",3
+95,,,Can you find me hotels with checkout on 2024-08-01?,3
+96,,,"Can you help me book a hotel in Shenzhen, China, starting from 2024-07-20?",3
+97,,,"I'm looking for hotels in location ID 27537542 from 2024-09-15, can you find any?",3
+98,,,What hotels are available in location ID 27537542 with checkout on 2024-09-20?,3
+99,,,"Can you find me hotels in Shenzhen, China, with check-out on 2024-05-20?",3
+100,,hotels_hotel_detail,Can you get the details of the hotel with id 218005414?,3
+101,,,I want to know more about the hotel with id 165432930. ,3
+102,,,"I have the currency set as USD, can you provide any hotel details?",3
+103,,,What can you tell me about the hotels in the US market?,3
+104,,,What hotel details can you provide in the en-US locale?,3
+105,,,"Can you give me the details of the hotel with id 78456239, in GBP currency?",3
+106,,,What can you share about the hotel with id 63526478 that's in the France market?,3
+107,,,Can I have the information of the hotel with id 47856213 in an en-GB locale?,3
+108,,,Could you find a hotel with id 38945623 in EU market and in EUR currency?,3
+109,,,"Can you tell me more about the hotel with id 89745634, using the GBP currency and the en-GB locale?",3
+110,,hotels_prices,How much does it cost to stay at the hotel 218005414?,3
+111,,,Can you tell me the price of hotel 218005414?,3
+112,,,"I want to check-in on 2024-05-01, how much will it cost?",3
+113,,,What's the price if I check-in on 2024-07-01?,3
+114,,,"If I check-out on 2024-06-05, how much will I need to pay?",3
+115,,,What would the price be if I check-out on 2024-11-15?,3
+116,,,Can you tell me the prices of hotels? ,3
+117,,,"I'm planning a trip, can you tell me the cost of stay? ",3
+118,,,"I am planning to travel tomorrow, can you tell me how much it costs to stay at the hotel?",3
+119,,,Can you provide some information on the cost of hotels?,3
+120,,hotels_reviews,Are the reviews for hotel 218005414 good?,3
+121,,,Can you show me hotel reviews?,3
+122,,,What do other travelers say about this hotel?,3
+123,,,Can you retrieve the guest feedback?,3
+124,,,Do people recommend this accommodation?,3
+125,,,I need to check some hotel reviews. ,3
+126,,,Show me what guests are saying about this place.,3
+127,,,Are there any recent comments about this hotel?,3
+128,,,What's the guest rating for this stay?,3
+129,,,Are there any reviews I can look at?,3
+130,,hotels_similar_hotels,Can you show me similar hotels to Hotel XYZ?,3
+131,,,What are the hotel options similar to Hotel ABC?,3
+132,,,"I need a hotel on 2024-04-15, can you help?",3
+133,,,I'm planning to stay in a hotel starting from 2024-05-22.,3
+134,,,"I will check out on 2024-07-14, what are some similar hotels for my stay?",3
+135,,,Which hotels are similar to this one if I want to check out on 2024-08-30?,3
+136,,,Can you find hotels like Hotel XYZ for my stay starting on 2024-09-10?,3
+137,,,What are some similar hotel options to Hotel ABC for check-in on 2024-10-05?,3
+138,,,Can you show me hotels like Hotel XYZ if I want to check out on 2024-11-18?,3
+139,,,What are my options for similar hotels to Hotel ABC with check out on 2024-12-15?,3
+140,,hotels_nearby_map,Can you help me find hotels nearby with a latitude of 22.543061?,3
+141,,,"Are there any hotels near where I currently am, with a latitude of 22.55?",3
+142,,,Can you show me the hotels close to a location with a longitude of 114.057865?,3
+143,,,I have the longitude of 114.01 – could you suggest any hotels in that area?,3
+144,,,What are the nearby hotels for my trip?,3
+145,,,Can you list some hotels close to me?,3
+146,,,Where should I stay during my trip?,3
+147,,,Could you help me find a hotel?,3
+148,,,"I need a place to stay, can you show me some options?",3
+149,,,Are there any hotels you can recommend?,3

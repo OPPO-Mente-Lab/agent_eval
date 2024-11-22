@@ -1,0 +1,699 @@
+,fn,comb,instruction,explain,label,,,,,,,,,,,,,
+0,comb1_group1.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","I'm planning a week-long vacation in Paris, and I'm interested in hotels close to the Eiffel Tower. Could you find me family-friendly hotels with at least a 4-star rating and current prices under 350 USD per night?","Combination of APIs:
+- Use API-1 to get a list of hotels near the Eiffel Tower with an option to filter by family-friendliness and a minimum 4-star rating.
+- Employ API-3 to check the current pricing of these hotels to ensure they are under 350 USD per night.",1,,,,,,,,,,,,,
+1,comb1_group1.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","I'm attending a conference in New York City next month, and I would like to stay in a hotel with great business amenities. Can you provide me with options that have high reviews for their business services and are within walking distance of the Javits Center?","Combination of APIs:
+- Use API-1 to search for hotels near the Javits Center, optimizing the search for business amenities.
+- Apply API-4 to filter the options by those with high reviews specifically mentioning their business services.",1,,,,,,,,,,,,,
+2,comb1_group1.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","For my honeymoon, I'm looking for a luxurious and romantic hotel in Bali. I'd like it to have a spa and a private beach. Please find me the top reviewed options with these amenities.","Combination of APIs:
+- Utilize API-1 to locate hotels in Bali that have a spa and a private beach.
+- Use API-4 to filter for hotels that have the highest reviews mentioning luxury and romantic experiences.",1,,,,,,,,,,,,,
+3,comb1_group1.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",I'm organizing a group trip to Tokyo and need to find hotels that are suitable for groups and offer cultural experiences. Please get me a list of hotels with traditional Japanese aesthetics and are rated well for group accommodations.,"Combination of APIs:
+- Invoke API-1 to compile a list of hotels in Tokyo that cater to groups and mention cultural or traditional Japanese aesthetics in their profile.
+- Use API-4 to find those hotels with the highest reviews from groups who have stayed there.",1,,,,,,,,,,,,,
+4,comb1_group1.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",I've enjoyed my recent stay at a boutique hotel in Chicago and I'm looking for similar hotels in San Francisco for my next trip. The hotel should be in a vibrant neighborhood and with a high standard of service. Please suggest similar hotels with great reviews.,"Combination of APIs:
+- Reference the details of the Chicago hotel you liked with API-2.
+- Use API-5 to find similar hotels in San Francisco based on the characteristics of the Chicago hotel.
+- Apply API-4 to ensure these recommendations have excellent service reviews, emphasizing the hotel¡¯s standard of service.",0,,,,,,,,,,,,,
+5,comb1_group2.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","Find the most affordable hotel near the Eiffel Tower in Paris, including detailed amenities and user reviews.","Steps:
+   - Use API-1 to provide a list of hotels near the Eiffel Tower.
+   - Use API-3 to check and compare the prices of these hotels.
+   - Use API-2 to get detailed information on the amenities of the least expensive option.
+   - Use API-4 to access and display a list of reviews for that hotel to ensure quality.",0,,,,,,,,,,,,,
+6,comb1_group2.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",Identify a top-rated luxury hotel in New York City with similar alternatives in case the primary option is fully booked.,"Steps:
+   - Use API-1 to provide a list of luxury hotels in New York City.
+   - Use API-4 to find the hotel with the best user reviews.
+   - Use API-5 to provide a list of similar hotels as alternatives.
+   - Use API-3 to check real-time prices for the primary and alternative hotels.",0,,,,,,,,,,,,,
+7,comb1_group2.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",Curate a list of budget-friendly hotels in downtown Tokyo that have consistently received positive reviews.,"Steps:
+   - Use API-1 to provide a list of budget-friendly hotels in downtown Tokyo.
+   - Use API-4 to gather review lists for each of the hotels provided.
+   - Use API-3 to confirm the real-time prices to ensure they are budget-friendly.
+   - Filter the results by those with a high percentage of positive reviews to finalize the curated list.",1,,,,,,,,,,,,,
+8,comb1_group2.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","Assemble a comprehensive report on a five-star hotel in Dubai, including pricing, amenities, reviews, and a list of similar hotels.","Steps:
+   - Use API-1 to search for five-star hotels in Dubai.
+   - Use API-2 to acquire detailed information about the hotel's amenities.
+   - Use API-3 to check the current pricing for the selected hotel.
+   - Use API-4 to compile the latest reviews.
+   - Use API-5 to generate a list of similar hotels for comparison or alternative options.",1,,,,,,,,,,,,,
+9,comb1_group2.txt,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","Plan a romantic getaway in Venice, identifying a hotel with a view of the Grand Canal, its price trends, and alternatives with equally attractive views.","Steps:
+   - Use API-1 to locate hotels with views of the Grand Canal in Venice.
+   - Use API-2 to collect details on the specific views and romantic amenities of those hotels.
+   - Use API-3 to analyze price trends and availability for the chosen hotels.
+   - Use API-4 to read through reviews for insights into the romantic experiences of past guests.
+   - Use API-5 to present a list of similar hotels that also offer views of the Grand Canal as backup options.",1,,,,,,,,,,,,,
+10,comb2_group1.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","I'm interested in exploring ancient ruins on my trip to Greece. Can you provide me with a list of historical sites, detailed information about their significance, and some images to help me decide which ones to visit?","- Use API-1 to search for historical sites in Greece.
+   - Use API-2 to get detailed information about each historical site's significance.
+   - Use API-3 to retrieve photos of each of the ancient ruins to visualize the attractions.",0,,,,,,,,,,,,,
+11,comb2_group1.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","For my upcoming trip to Paris, I¡¯d like to visit the top-rated museums. Could you give me a list of museums with the best reviews and some pictures?","- Use API-1 to search for museums in Paris.
+   - Use API-4 to obtain reviews of museums and sort them by rating to find the top-rated ones.
+   - Use API-3 to get photos of the highest-rated museums to aid in making a final decision.",1,,,,,,,,,,,,,
+12,comb2_group1.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","I'm planning a nature-focused vacation in Canada. Can you give me information about the most popular natural landmarks, along with photos and what visitors have to say about them?","- Use API-1 to search for natural landmarks in Canada.
+   - Use API-2 to get detailed information about each landmark.
+   - Use API-3 to get photos of these natural landmarks.
+   - Use API-4 to read reviews from visitors about these sites to gauge popularity and visitor satisfaction.",1,,,,,,,,,,,,,
+13,comb2_group1.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","I'm taking a historical tour around Egypt and want a curated experience. Can you compile a list of must-see attractions, including a brief history, images, and current visitor perceptions?","- Use API-1 to search for must-see tourist attractions in Egypt.
+   - Use API-2 to gather a brief history of each attraction.
+   - Use API-3 to collect images of these attractions for a visual preview.
+   - Use API-4 to summarize current visitor reviews to understand recent perceptions and experiences.",0,,,,,,,,,,,,,
+14,comb2_group1.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","I am writing an article about hidden gems in Italy and need insider information on lesser-known attractions, including vivid images and testimonials from those who've visited.","- Use API-1 to find off-the-beaten-path attractions in Italy.
+   - Use API-2 to get in-depth details for crafting an insightful article.
+   - Use API-3 to obtain captivating images that depict these hidden gems.
+   - Use API-4 to collect visitor testimonials for authentic insights into these lesser-known sites.",0,,,,,,,,,,,,,
+15,comb2_group2.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Plan an educational day out for a family interested in history in Rome, Italy.","Steps:
+- Use API-1 to search for historical tourist attractions in Rome.
+- Utilize API-2 to get detailed information about each identified historical site, focusing on those offering educational tours.
+- Obtain imagery using API-3 to give the family a preview of the attractions.
+- Check API-4 to review visitor feedback on the educational value of each site to ensure a quality experience for the family.",1,,,,,,,,,,,,,
+16,comb2_group2.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Create a photo-based travel diary for your recent trip to Paris, France.","Steps:
+- Employ API-1 to list all tourist attractions you visited in Paris.
+- Retrieve detailed descriptions of each site with API-2 to include informative captions in your diary.
+- Use API-3 to gather high-quality photos of the Parisian attractions for the diary.
+- Incorporate personal experiences by referencing API-4 for reviews you may have left or read that could add a personal touch to your diary entries.",0,,,,,,,,,,,,,
+17,comb2_group2.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews",Develop a weekend itinerary for a nature lover traveling to Yellowstone National Park.,"Steps:
+- Search for natural landmarks within Yellowstone using API-1.
+- Use API-2 to pull in-depth information about the park's geysers, hot springs, and wildlife to build an engaging and informative itinerary.
+- Grab enticing photographs of the park's features with API-3 to visually enrich the itinerary.
+- Review API-4 to find the best times to visit particular spots based on traveler recommendations and plan the itinerary around those times.",0,,,,,,,,,,,,,
+18,comb2_group2.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews",Compare top-rated museums in New York City for an art enthusiast's blog post.,"Steps:
+- Execute a query with API-1 to find museums specializing in art in New York City.
+- Collect exhaustive details about the art collections and exhibitions from each museum using API-2.
+- Use API-3 to get compelling photographs representing the art and ambiance of the different museums.
+- Gather and compare public impressions and critiques of the museums through API-4 to offer an objective comparison in the blog post.",1,,,,,,,,,,,,,
+19,comb2_group2.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews",Assist a traveler in deciding whether to visit the Grand Canyon in the offseason.,"Steps:
+- Search for information about the Grand Canyon with API-1.
+- Get a detailed overview of the attraction, including offseason specifics, using API-2.
+- Acquire off-season photos of the Grand Canyon with API-3 to show the traveler what the experience might look like during that time.
+- Access API-4 to read through reviews left by visitors who went during the offseason to provide personal anecdotes and tips for the traveler's decision-making process.",0,,,,,,,,,,,,,
+20,comb2_group3.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Develop a personalized travel itinerary for a history enthusiast planning a trip to Europe. I need a list of historical sites complete with descriptions, images, and visitor experiences.","- Use API-1 to search for historical tourist attractions across various European countries.
+   - Employ API-2 to retrieve detailed information about each historical site found.
+   - Utilize API-3 to collect high-quality photos for each location to be included in the itinerary.
+   - Apply API-4 to gather recent reviews of these historical sites to understand current visitor sentiments and experiences.",1,,,,,,,,,,,,,
+21,comb2_group3.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Create a top 10 list of family-friendly attractions across the United States for an upcoming travel blog post, including vibrant photos and user feedback.","- Leverage API-1 to identify popular family-friendly tourist attractions in the United States.
+   - Use API-2 to get detailed descriptions of each attraction to highlight their family-oriented facilities and activities.
+   - Obtain a set of attractive images for each site with API-3 to visually enhance the blog post.
+   - Collect and summarize reviews from API-4 to provide readers with a sense of what other families thought of the attractions.",1,,,,,,,,,,,,,
+22,comb2_group3.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Assemble a virtual tour guide of iconic landmarks in Japan, focusing on providing a cultural and historical context, complemented with visual and anecdotal content.","- Deploy API-1 to search for iconic landmarks in Japan that hold cultural and historical significance.
+   - Fetch detailed cultural and historical information about each landmark through API-2.
+   - Acquire a collection of stunning photographs of these landmarks using API-3 to create a visual walk-through.
+   - Aggregate and feature insights from reviews using API-4 to include personal stories and tips from past visitors.",0,,,,,,,,,,,,,
+23,comb2_group3.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Provide an in-depth feature on the natural wonders of Brazil for an eco-tourism website, with emphasis on conservation status, visitor information, and photographic evidence of the attractions' beauty.","- Apply API-1 to find natural landmarks and wonders in Brazil that are significant for eco-tourists.
+   - Retrieve comprehensive details about each site's conservation efforts and visitor information via API-2.
+   - Use API-3 to curate an array of captivating photos showcasing the natural beauty of these destinations.
+   - Use API-4 to source reviews that highlight the ecological importance of the attractions and visitor recommendations on sustainable practices.",0,,,,,,,,,,,,,
+24,comb2_group3.txt,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Compile a dynamic list of must-see art museums around the world for an online culture and arts magazine, ensuring each entry includes a description, gallery snapshots, and firsthand visitor critiques.","- Utilize API-1 to identify reputed art museums globally that are revered in the art community.
+   - Gather pertinent information about the museums' collections, history, and unique offerings through API-2.
+   - Capture a selection of interior and exterior photos from API-3 to showcase the museums' architectural beauty and exhibits.
+   - Integrate feedback and critiques via API-4 from art aficionados who've visited these museums to provide readers with qualitative insights.",1,,,,,,,,,,,,,
+25,comb3_group1.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Find the best flight options for a multi-city tour.,"- Use API 3 to find flights with uncertain destinations to build a potential list of cities to visit.
+   - For each city pair, use API 1 and API 2 to compare the cost and schedule of one-way vs. round trip flights.
+   - Utilize API 6 to view the price calendar for flights between each city on your multi-city list to identify the cheapest travel dates.",0,,,,,,,,,,,,,
+26,comb3_group1.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Organize a last-minute weekend getaway from New York to a surprise destination.,"- Employ API 3 to discover flights with uncertain destinations departing from New York for the upcoming weekend.
+   - Use API 6 to check for the cheapest available flights for the next few days.
+   - After selecting a destination, retrieve all the details of the flight using API 5 before making a booking.",1,,,,,,,,,,,,,
+27,comb3_group1.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Plan a honeymoon trip that involves multiple stopovers and compare prices for the most cost-effective options.,"- With API 3, explore flights to several romantic destinations with uncertain dates for flexibility.
+   - Utilize API 1 to find the best one-way flights between the desired stopover cities.
+   - Leverage API 6 to check the price calendar and determine the most economical dates for each leg of the trip.",1,,,,,,,,,,,,,
+28,comb3_group1.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Prepare a comparative analysis of flying out on a Friday vs. a Monday for a week-long international conference.,"- Utilize API 2 to find round trip flights departing on a Friday and returning the following Friday.
+   - Repeat the search with the departure on a Monday and return on the next Monday.
+   - Use API 6 to inspect the price calendar for price trends during these periods.
+   - Finally, employ API 5 to get the details of the selected flights for a more comprehensive comparison.",0,,,,,,,,,,,,,
+29,comb3_group1.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Create a flexible travel itinerary for a month-long European backpacking adventure with open destinations.,"- Start with API 3 to explore flights to various potential starting points in Europe.
+   - Use API 1 to find one-way flight options between cities on your backpacking route.
+   - Employ API 6 to consult the price calendar for the cheapest travel dates between each destination on your itinerary.
+   - As you travel and finalize your plans, continuously refer to API 5 for the details of your upcoming flights.
+
+In each case, the tool's ability to search, compare, and provide real-time data of hotels and flights would be crucial in helping travelers make the best decisions for their itineraries, budgets, and travel preferences.",0,,,,,,,,,,,,,
+30,comb3_group2.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Determine the lowest fare for a one-way flight from New York to Paris on Oct.15th, considering only direct flights with morning departures.",,1,,,,,,,,,,,,,
+31,comb3_group2.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Compare prices for round-trip flights from Tokyo to London, leaving on Aug. 5th and returning on Aug. 19th, including one-stop flights. Organize the results by the shortest total travel time.",,1,,,,,,,,,,,,,
+32,comb3_group2.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Identify the best-priced flight options for a flexible traveler who wants to depart from San Francisco to an unspecified destination in Europe on July 10th. Focus on direct flights and compile a list of possible destinations based on the lowest fares available.,,1,,,,,,,,,,,,,
+33,comb3_group2.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Retrieve the flight details and price breakdown for a given itineraryId and token representing a previously searched round-trip from Dubai to Sydney, leaving on September 1st and returning on September 15th.",,0,,,,,,,,,,,,,
+34,comb3_group2.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Generate a flight price calendar for the month of August for flights from Los Angeles to Toronto. Include both one-way and round-trip flight options, and highlight the days with the cheapest available prices for both types of flights.",,0,,,,,,,,,,,,,
+35,comb3_group3.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Find the most cost-effective 10-day round trip from New York to Paris in September, including the cheapest days to fly out and return.","API Combination: Use API 2 to get the list of round trip flights for New York to Paris in September. Then, apply API 6 to return a calendar for the given source (New York) and destination (Paris) to identify the cheapest travel dates within the month.
+
+2. **Flexible Date Adventure Trip**",1,,,,,,,,,,,,,
+36,comb3_group3.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","I'm looking to explore a new destination from Los Angeles within the next three months, but I'm flexible about the location. Show me the best deals for one-way flights.","API Combination: Use API 3 to find flights with uncertain destinations from Los Angeles for the next three months. Then, apply API 1 to get a list of one-way flights to these destinations and find the best deals.
+
+3. **Surprise Weekend Getaway**",1,,,,,,,,,,,,,
+37,comb3_group3.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Arrange a surprise round trip from Chicago for a weekend in April with flexibility in the destination to ensure the best price.,"API Combination: First, use API 3 to find potential surprise destinations from Chicago with available flights for weekends in April. Then use API 2 to get round trip flight options to these destinations, and API 6 to check the calendar for the most affordable weekend dates.
+
+4. **Extended Stay Combination Trip**",0,,,,,,,,,,,,,
+38,comb3_group3.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",I want to visit London and Paris over a 14-day period in July. Determine the cheapest sequence and dates to book these flights from Toronto.,"API Combination: Utilize API 3 to look for flights with uncertain destinations from Toronto, focusing on London and Paris. Use API 2 to identify round trip options and API 6 to find the calendar with cost-effective dates for July. Blend the data to decide the sequence (Toronto -> London -> Paris -> Toronto) and the specific dates offering the best prices.
+
+5. **Last-Minute Travel Preparation**",1,,,,,,,,,,,,,
+39,comb3_group3.txt,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",I have an itinerary ID for a last-minute flight tomorrow from Seattle to Tokyo. Can you confirm all the flight details for me?,"API Combination: Use API 5 to get all the details of the flight based on the provided itinerary ID and token. Ensure that all the information, such as departure time, arrival time, and any layovers or stops, is accurate and up to date for last-minute preparations.
+
+Note: The sequence in which the APIs are used may vary depending on the user requirements and constraints such as budget, flexibility on dates, or preference for destinations. The combination of the APIs allows for a variety of travel plans to be accommodated efficiently.",0,,,,,,,,,,,,,
+40,comb4_group1.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Collect a visual and text record of job listings on https://example-job-board.com for archival purposes. Capture images of each listing and extract the text content for easier searching and indexing.,1. **Archive Online Job Postings**,1,,,,,,,,,,,,,
+41,comb4_group1.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file","Monitor pricing updates for products on https://example-ecommerce.com/deals by taking daily screenshots of the deals page. Then, extract the text to keep a log of price changes over time.",2. **Monitor Price Changes on an E-commerce Site**,1,,,,,,,,,,,,,
+42,comb4_group1.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file","Create a digital text version of a restaurant's menu by taking a screenshot of the online menu at https://example-restaurant.com/menu. Then, extract the text to allow for parsing and analysis of menu items and prices.",3. **Digitize Printed Restaurant Menus**,0,,,,,,,,,,,,,
+43,comb4_group1.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file","Preserve event details listed on https://example-event-site.com/upcoming-events by capturing a screenshot of the webpage and subsequently extracting the text to maintain an accessible record of schedules, dates, and locations.",4. **Document Event Information from Websites**,0,,,,,,,,,,,,,
+44,comb4_group1.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file","Collect study resources from a tutorial website like https://example-education-site.com/resources by capturing screenshots of study guides and articles, and then extracting text to compile into a searchable document for reference and review.",5. **Gather Research Material from Educational Resources**,0,,,,,,,,,,,,,
+45,comb4_group2.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Create a visual summary of today's news from the New York Times homepage.,"Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to take a screenshot of the New York Times homepage by providing the URL.
+2. With the screenshot obtained, apply the ocr_extract_text/extract_text_from_image_file API to extract the headlines and any accompanying text.
+3. Store the extracted text in a document as a summary.
+4. Repeat this process daily to maintain a visual and text archive of daily news from the New York Times.
+5. Optionally categorize the summaries by section (e.g., International, Politics, Technology).",0,,,,,,,,,,,,,
+46,comb4_group2.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Generate a searchable PDF from a restaurant's online menu.,"Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Capture a screenshot of the restaurant's online menu using the web_capture/take_image_screenshot API by providing the menu's URL.
+2. Extract the text from the screenshot using ocr_extract_text/extract_text_from_image_file API.
+3. Compile the extracted text into a PDF, maintaining the original formatting to the extent possible.
+4. Ensure that the text in the PDF is selectable and searchable for easy navigation.
+5. Save the PDF with an appropriate naming convention, such as 'RestaurantName_Menu_Date.pdf'.",0,,,,,,,,,,,,,
+47,comb4_group2.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Save a copy of today's best seller list from an online bookstore.,"Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to take a screenshot of the best seller list page from the online bookstore by providing the URL.
+2. Extract the list of book titles, authors, and rankings using the ocr_extract_text/extract_text_from_image_file API.
+3. Save the extracted information in a text file or spreadsheet for personal archiving or analysis.
+4. If desired, repeat this process regularly to track changes in the bestseller list over time.
+5. For enhanced utility, create a database to input and query the data over time.",0,,,,,,,,,,,,,
+48,comb4_group2.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Document an online tutorial process for training purposes.,"Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Navigate through each step of the online tutorial and use web_capture/take_image_screenshot API to capture screenshots at key moments or instructions.
+2. Apply ocr_extract_text/extract_text_from_image_file API to extract any instructional text from these screenshots.
+3. Assemble the screenshots and text into a step-by-step instructional document.
+4. Add annotations or additional explanations as needed for clarity in the training document.
+5. Save and distribute the final document to relevant trainees or employees.",0,,,,,,,,,,,,,
+49,comb4_group2.txt,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Archive a series of blog posts at https://lilianweng.github.io/(https://lilianweng.github.io/) for offline reading.,"Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to capture screenshots of each blog post by navigating to their individual URLs.
+2. Extract the textual content from each image using the ocr_extract_text/extract_text_from_image_file API.
+3. Combine the text from all blog posts into a single document, preserving the order and titles.
+4. Format the document for readability, and save it both as a text file and a PDF for offline access.
+5. Organize the archived blog posts by date or topic in a folder structure for easy reference.",1,,,,,,,,,,,,,
+50,comb5_group1.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","I need to prepare product images for an online catalog. The original files are at high-resolution in the folder `/high_res_images`. Each image should have its background removed, be resized to a width of 800 pixels while maintaining aspect ratio, and saved in JPEG format.",,1,,,,,,,,,,,,,
+51,comb5_group1.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","For a presentation, I want to create thumbnails of team members' profile pictures. The profiles are located in `/team/profiles`. Each image should first have the background removed, then be resized to 100x100 pixels, and finally compressed to ensure that the file size is below 50 KB without worrying much about image quality loss.",,0,,,,,,,,,,,,,
+52,comb5_group1.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg",We need to archive our digital art collection. The images located at `/art_collection` need to be processed for long-term storage. Each image's background should be removed and then converted into a lossless PNG format to preserve quality. No change in image dimensions is necessary.,,1,,,,,,,,,,,,,
+53,comb5_group1.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","I'm building a mobile app and need the app icons from `/app_icons/originals` optimized. Please remove the background from each icon, resize each to 256x256 pixels for high-resolution displays, and compress them while trying to maintain a decent quality to ensure the app remains lightweight for downloading.",,1,,,,,,,,,,,,,
+54,comb5_group1.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","For email marketing, we need to adjust a set of promotional images in `/emails/promos`. These images should have their background removed to create a clean look. Then, to comply with email client limitations, they need to be resized to a maximum width of 600 pixels, maintaining the aspect ratio, and saved as smaller-size JPEG images to ensure quick loading times for recipients.",,0,,,,,,,,,,,,,
+55,comb5_group2.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""I have a set of product photos in a folder named 'inventory/photos'. I need to compress their sizes for faster loading on my e-commerce website, change their dimensions to fit the site's image placeholders, and convert them all to JPEG format.""","Combination of APIs:
+1. Use the compress image size API to reduce the quality of each photo for a smaller file size.
+2. Utilize the change image size API to resize each image according to the website's requirements.
+3. Apply the convert image format API to switch all images to the JPEG format.",0,,,,,,,,,,,,,
+56,comb5_group2.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""We need to prepare images for a presentation. Take the images from 'presentation/slides', remove the backgrounds to highlight the subjects, resize them to 800px by 600px, and save the edited images as PNG files to retain transparency.""","Combination of APIs:
+1. Apply the remove background API to each image to isolate the subjects.
+2. Use the change image size API to adjust the resolution to 800px by 600px.
+3. Implement the convert image format API to save the results in PNG format.",1,,,,,,,,,,,,,
+57,comb5_group2.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""For a mobile app, I need to batch process images in 'app_assets/icons'. First, I want to convert each image from PNG to SVG for scalability purposes, then remove the backgrounds, and finally resize the images to 100x100 pixels for icons.""","Combination of APIs:
+1. Call the convert image format API to change every image from PNG to SVG format.
+2. Employ the remove background API for eliminating the backgrounds of these SVG images.
+3. Use the change image size API to adjust each image's dimensions to 100x100 pixels for uniformity as icons.",0,,,,,,,,,,,,,
+58,comb5_group2.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""In our 'marketing/banners' folder, we have banner images that are too heavy for the web. Compress them to reduce file size by 50%, convert them to web-optimized JPEG format, and ensure each image is 1920px wide while maintaining the aspect ratio.""","Combination of APIs:
+1. Use the compress image size API to reduce file size by roughly 50%.
+2. Utilize the convert image format API to switch the images to a web-optimized JPEG format.
+3. Apply the change image size API to make the images 1920px in width, preserving their respective aspect ratios.",0,,,,,,,,,,,,,
+59,comb5_group2.txt,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""The photos from 'events/conference' need editing before uploading to our gallery. We want to remove any distracting backgrounds, compress the file size for quicker web page load times, and standardize all images to a width of 1200px.""","Combination of APIs:
+1. Apply the remove background API to each photo to clean up distractions.
+2. Utilize the compress image size API to make the files lighter and faster to load.
+3. Use the change image size API to set the width of each cleaned photo to 1200px, maintaining the aspect ratio.",1,,,,,,,,,,,,,
+60,comb6_manual,"web_capture/take_image_screenshot
+image_translation/image_translation",I found a good article at http://example.article.com/63457. Save it in image and translate it into Chinese.,,1,,,,,,,,,,,,,
+61,comb6_manual,"web_capture/take_image_screenshot
+image_translation/image_translation",Save this online menu at https://example-restaurant.com/menu and also give me a French version.,,1,,,,,,,,,,,,,
+62,comb7_group1.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Create a collection of motivational posters with reduced file size for easier sharing.,"- Use `images_search` to find high-quality motivational posters.
+- Use `compress_image` to reduce the file sizes of the posters for better shareability.",1,,,,,,,,,,,,,
+63,comb7_group1.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Archive textual information from historical document images in a readable format.,"- Use `images_search` to find historical documents available as images.
+- Use `extract_text_from_image_url` to transcribe text from those historical document images.",1,,,,,,,,,,,,,
+64,comb7_group1.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Develop a visual database of famous landmarks for a mobile application that loads images quickly.,"- Use `images_search` to gather high-quality images of famous landmarks.
+- Compress them with `compress_image` to optimize for quick loading on mobile devices.
+- Use `resize_image` to adjust these images to the required resolution for the mobile application.",1,,,,,,,,,,,,,
+65,comb7_group1.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Curate a collection of classic book covers suitable for thumbnails.,"- Use `images_search` to locate images of classic book covers.
+- Utilize `resize_image` to transform these images into a thumbnail-friendly size.",1,,,,,,,,,,,,,
+66,comb7_group1.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Prepare a series of reduced-size infographics for an email newsletter.,"- With `images_search`, gather infographics related to a specific topic.
+- Use `compress_image` to minimize the file size of each infographic, making them email-friendly.
+- Employ `resize_image` to alter the dimensions of the infographics if necessary to fit within the email template guidelines.",0,,,,,,,,,,,,,
+67,comb7_group2.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Create a gallery of optimized web images showcasing popular tourist attractions in Europe.,"- Use **images_search** to find high-quality photos of popular European tourist destinations such as the Eiffel Tower, Colosseum, and Buckingham Palace.
+- Resize the images using **resize_image** to fit standard web gallery dimensions.
+- Compress the resized images using **compress_image** to ensure faster loading times on the web.",0,,,,,,,,,,,,,
+68,comb7_group2.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Prepare a series of images with inspirational quotes for a motivational blog.,"- Look for high-resolution images with plain backgrounds using **images_search** that relate to concepts such as success, determination, and perseverance.
+- Extract potential quotes found in any images using **extract_text_from_image_url**, and select the most inspiring ones.
+- Overlay the selected quotes onto the images by first resizing them appropriately for blog post headers using **resize_image**.
+- Compress the final images with quotes using **compress_image** to optimize them before uploading them to the blog.",1,,,,,,,,,,,,,
+69,comb7_group2.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Update a restaurant's online menu with images of their dishes.,"- Use **images_search** to find appealing images of dishes similar to the restaurant's offerings.
+- Use **resize_image** to modify the dimensions of each image so that they fit the layout of the online menu.
+- Once resized, compress the images using **compress_image** to ensure that the menu page loads quickly for customers.",0,,,,,,,,,,,,,
+70,comb7_group2.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Compile a digital catalog of artwork for an online auction.,"- Find high-resolution images of famous paintings and sculptures using **images_search**.
+- Resize each image using **resize_image** to match the uniform size requirement for the auction catalog thumbnails.
+- Compress the images using **compress_image**, balancing quality and file size, to quickly load on the auction platform without compromising the viewers' ability to appreciate the art.",1,,,,,,,,,,,,,
+71,comb7_group2.txt,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Create a library of reduced-size educational infographics for students.,"- Use **images_search** to locate infographics on educational subjects such as math, science, and history.
+- Resize the images using **resize_image** to fit the screen of common educational tablets and devices.
+- Compress the resized infographics using **compress_image** to minimize storage usage on the devices without significantly degrading clarity.",0,,,,,,,,,,,,,
+72,comb8_manual,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",Plan a travel to Melbourne for me. I would be perfect if you can give me one-stop troutist information service.,,1,,,,,,,,,,,,,
+73,comb8_manual,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search","Can you estimate the cost of travelling to London for a week? Considerat least the flight, accomodation, and must-go tourist spots in the budget.",,1,,,,,,,,,,,,,
+74,comb8_manual,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",Make a travel plan to Bali in July for me. I have ten days for a holiday. I am an Italian living in Venice btw.,,1,,,,,,,,,,,,,
+75,comb8_manual,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",I will make a flight transition in Singapore for 10 hours. Any places close to the airport I can go? ,,1,,,,,,,,,,,,,
+76,comb9_group1.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am creating a presentation on the impact of climate change on Arctic wildlife. Provide me with a variety of sources including news articles, relevant images, and informative videos that I can use for visual aids and reference materials.","Solution:
+1. Use the `news_api/search` to find recent news articles focused on climate change effects on Arctic wildlife.
+2. Utilize the `images_search` API to find and download images that depict Arctic animals and the changing landscapes due to climate change.
+3. Apply the `video_search` API to identify educational videos that illustrate the impact of climate change on the Arctic ecosystem.",1,,,,,,,,,,,,,
+77,comb9_group1.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","As a journalist, I need to gather background information and visual aids on the recent volcanic eruption in Indonesia for my upcoming article.","Solution:
+1. Implement the `news_api/search` to locate the latest news coverage about the volcanic eruption in Indonesia.
+2. Use the `images_search` API to find high-quality images of the eruption and its aftermath for use as visual content in the article.
+3. Engage the `video_search` to find footage of the eruption and any related rescue or evacuation operations.",1,,,,,,,,,,,,,
+78,comb9_group1.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am preparing a report on the evolution of electric vehicles. Collect comprehensive data including historical milestones, technological advancements, and future trends related to electric vehicles.","Solution:
+1. Leverage the `web_search` API to gather information on the history and evolution of electric vehicles.
+2. Use the `news_api/search` to find recent articles and expert analyses predicting future trends in the electric vehicle industry.
+3. Utilize the `video_search` to find documentaries and expert talks discussing technological advancements in electric vehicles.",1,,,,,,,,,,,,,
+79,comb9_group1.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am tasked with preparing a cultural awareness training for employees. Assemble resources on cultural etiquette, traditional customs, and communication styles in Japan.","Solution:
+1. Utilize the `web_search` API to find articles, guides, and resources on Japanese culture, customs, and communication.
+2. Engage the `images_search` API to find images that represent traditional Japanese customs and everyday cultural practices.
+3. Apply the `video_search` API to identify instructional videos that help explain the nuances of Japanese cultural etiquette.",0,,,,,,,,,,,,,
+80,comb9_group1.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",I'm writing an article on the advancements in artificial intelligence (AI) in the healthcare sector. I need up-to-date information and examples of AI applications in medical treatments and diagnostics.,"Solution:
+1. Use the `web_search` API to obtain information on recent advancements in AI within healthcare.
+2. Apply the `news_api/search` to find the latest news and reports about AI applications in medical diagnostics and treatments.
+3. Use the `video_search` API to find interviews and presentations by experts discussing AI in healthcare and its impact on patient care.",0,,,,,,,,,,,,,
+81,comb9_group2.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I'm planning a vacation to Paris. Give me some ideas for top tourist attractions, and show me some images and latest news related to them.","APIs combination: web_search (for searching top tourist attractions), images_search (for images of the attractions), news_api/search (for latest news about each attraction).",1,,,,,,,,,,,,,
+82,comb9_group2.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I want to make a presentation about the effects of climate change on polar bears. Provide me with the latest scientific research, relevant images, and videos to include in my presentation.","APIs combination: web_search (for scientific research articles), images_search (for images of polar bears in the context of climate change), video_search (for videos showing effects of climate change on polar bears).",0,,,,,,,,,,,,,
+83,comb9_group2.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am doing a market analysis on electric vehicles. Can you find the most recent articles, statistics, and infographics regarding electric vehicle trends and market growth?","APIs combination: web_search (for statistics and market research), images_search (for infographics on electric vehicle trends), news_api/search (for recent news articles on the electric vehicle market).",0,,,,,,,,,,,,,
+84,comb9_group2.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am a sports journalist looking to write a story on the rise of esports. Could you provide me with the latest esports tournament highlights, related news articles, and striking images of popular players and events?","APIs combination: video_search (for tournament highlights), news_api/search (for the latest news on esports), images_search (for images of players and events).",1,,,,,,,,,,,,,
+85,comb9_group2.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","As an educator, I want to update my curriculum on solar system exploration. Find me educational videos, recent discoveries in the field, and vivid images of the planets and space technology.","APIs combination: video_search (for educational videos on solar system exploration), web_search (for information on recent discoveries), images_search (for images of planets and space technology).",0,,,,,,,,,,,,,
+86,comb9_group3.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Create a monthly report providing a comparison between the current market trends of electric vehicles and hybrid cars.,"- Use the `web_search` API to gather data on the latest electric vehicle technologies and market trends.
+- Use the `news_api/search` with keywords such as ""electric vehicles market trends"" and ""hybrid cars market analysis"" to find recent articles and analyses.
+- Compile the information highlighting key points where electric vehicles excel and where hybrid cars may be falling behind or advancing.",0,,,,,,,,,,,,,
+87,comb9_group3.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Prepare a travel guide for top historic destinations in Europe including visual content.,"- Utilize the `web_search` API to find top-rated historic sites within Europe.
+- Use the `images_search` API for each destination to source a collection of high-quality images.
+- Execute a `video_search` for travel vlogs or documentaries related to each of these historic destinations to provide additional visual insights.
+- Assemble this information into an engaging travel guide format.",1,,,,,,,,,,,,,
+88,comb9_group3.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Compile a weekly sports highlight reel featuring top football moments.,"- Implement the `news_api/search` with keywords such as ¡°football highlights¡± and ¡°top football plays this week¡± to get the latest news and events.
+- Use the `video_search` API to find clips and highlights from recent football games mentioned in the news.
+- Merge the content into a video compilation that showcases spectacular moments from the week¡¯s games, providing narration or subtitles summarizing the clips if necessary.",1,,,,,,,,,,,,,
+89,comb9_group3.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Research and present a brief analysis of the impact of artificial intelligence on healthcare in the last year.,"- Apply the `news_api/search` using keywords like ¡°artificial intelligence in healthcare¡± and select the filter for the past year to gather relevant articles.
+- Leverage the `web_search` API for academic papers, white papers, or case studies to gain deeper insights.
+- Summarize your findings that detail how AI integration is influencing different areas of healthcare, such as diagnostics, treatment personalization, and patient care.",0,,,,,,,,,,,,,
+90,comb9_group3.txt,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Create an educational piece on the latest advancements in renewable energy and their environmental benefits.,"- Use the `web_search` API to collect up-to-date information on the newest renewable energy technologies and recent advancements.
+- Employ the `images_search` API to find diagrams, infographics, or visual representations of these technologies and their operation.
+- Engage the `news_api/search` to source recent news articles discussing the environmental impacts and benefits of the latest advancements in renewable energy.
+- Present the information as an article or a video to educate readers or viewers about the state-of-the-art in renewable energy and its positive effects on the environment.",1,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

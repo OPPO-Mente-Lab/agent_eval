@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ip_geo_location,visitor_lookup,What's my current location?,2
+1,,,"Can you tell me about my location information like country, city, and time zone in French?",2
+2,,,I would like to know what my IP address is.,2
+3,,,Could you give me the detailed information about where I am right now in Chinese?,2
+4,,,What is the surrounding security situation of my current location?,2
+5,,,Is it possible to have the area and currency information related to my current location in Spanish?,2
+6,,,In which country is my IP address located at this moment?,2
+7,,,"Can I have the information about my current location's continent, city, and country in Japanese?",2
+8,,,Can you provide any details about the local time and postcode related to my present location in Italian?,2
+9,,,I'm interested to know about my current location's security status and the Timezone in English.,2
+10,,ip_lookup,What city and country is associated with IP address 123.34.55.78?,2
+11,,,"Can you tell me the latitude, longitude, and time zone information for the IP address 192.168.1.102?",2
+12,,,What is the currency and postal code for IP address 231.45.23.108?,2
+13,,,"Can you provide me with the city, country, and security information for IP address 180.211.100.1 in French language?",2
+14,,,What is the area and continent information for IP address 122.165.10.53 in Chinese language?,2
+15,,,What are the ASN and time zone details for IP address 56.134.10.30?,2
+16,,,"I'm interested in knowing the area, currency, and postal code for IP address 144.123.33.11. Can you provide that information in German language?",2
+17,,,"Can you give me the city, country, and time information for IP address 205.201.89.34 in Spanish language?",2
+18,,,"What are the city, latitude, longitude, and postal code details for IP address 38.120.203.95?",2
+19,,,"Please provide me with the currency, time, and security information for IP address 238.24.60.72 in Russian language.",2

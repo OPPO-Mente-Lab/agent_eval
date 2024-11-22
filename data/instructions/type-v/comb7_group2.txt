@@ -1,0 +1,37 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. images_search: Search images from the search engine for the most relevant keywords and images related to keywords and images.
+2. compress_image: Compress image size at the cost of lower quality.
+3. extract_text_from_image_url: Image must be a regular **JPEG** or **PNG** image (with or without transparency)
+4. resize_image: Changing the size (i.e. width and height) of image.
+
+For example:
+Instruction: Curate a collection of classic book covers suitable for thumbnails
+
+
+==== RESPONSE ====
+Instruction 1: Create a gallery of optimized web images showcasing popular tourist attractions in Europe.
+- Use **images_search** to find high-quality photos of popular European tourist destinations such as the Eiffel Tower, Colosseum, and Buckingham Palace.
+- Resize the images using **resize_image** to fit standard web gallery dimensions.
+- Compress the resized images using **compress_image** to ensure faster loading times on the web.
+
+Instruction 2: Prepare a series of images with inspirational quotes for a motivational blog.
+- Look for high-resolution images with plain backgrounds using **images_search** that relate to concepts such as success, determination, and perseverance.
+- Extract potential quotes found in any images using **extract_text_from_image_url**, and select the most inspiring ones.
+- Overlay the selected quotes onto the images by first resizing them appropriately for blog post headers using **resize_image**.
+- Compress the final images with quotes using **compress_image** to optimize them before uploading them to the blog.
+
+Instruction 3: Update a restaurant's online menu with images of their dishes.
+- Use **images_search** to find appealing images of dishes similar to the restaurant's offerings.
+- Use **resize_image** to modify the dimensions of each image so that they fit the layout of the online menu.
+- Once resized, compress the images using **compress_image** to ensure that the menu page loads quickly for customers.
+
+Instruction 4: Compile a digital catalog of artwork for an online auction.
+- Find high-resolution images of famous paintings and sculptures using **images_search**.
+- Resize each image using **resize_image** to match the uniform size requirement for the auction catalog thumbnails.
+- Compress the images using **compress_image**, balancing quality and file size, to quickly load on the auction platform without compromising the viewers' ability to appreciate the art.
+
+Instruction 5: Create a library of reduced-size educational infographics for students.
+- Use **images_search** to locate infographics on educational subjects such as math, science, and history.
+- Resize the images using **resize_image** to fit the screen of common educational tablets and devices.
+- Compress the resized infographics using **compress_image** to minimize storage usage on the devices without significantly degrading clarity.

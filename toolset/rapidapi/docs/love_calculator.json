@@ -1,0 +1,30 @@
+{
+  "tool_name": "love_calculator",
+  "tool_description": "Enter your name and the name of your partner/lover/crush to find Love compatibility & chances of successful love relationship.\nEnter your name and the name of your partner/lover/crush to find Love compatibility & chances of successful love relationship.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "getpercentage",
+        "description": "getPercentage",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sname": {
+              "type": "STRING",
+              "description": "Enter second name."
+            },
+            "fname": {
+              "type": "STRING",
+              "description": "Enter first name."
+            }
+          },
+          "required": [
+            "sname",
+            "fname"
+          ]
+        }
+      }
+    }
+  ]
+}

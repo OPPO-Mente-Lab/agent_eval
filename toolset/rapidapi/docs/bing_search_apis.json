@@ -1,0 +1,33 @@
+{
+  "tool_name": "bing_search_apis",
+  "tool_description": "An AI service from Microsoft Azure that enables secure, ad-free location search for your users, displaying relevant information from web results, images, local businesses, news and images Photo.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "images_search",
+        "description": "Search images from the search engine for the most relevant keywords and images related to keywords and images.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "keyword": {
+              "type": "STRING",
+              "description": ""
+            },
+            "page": {
+              "type": "STRING",
+              "description": ""
+            },
+            "size": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "keyword"
+          ]
+        }
+      }
+    }
+  ]
+}

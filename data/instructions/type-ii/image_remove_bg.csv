@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,image_remove_bg,remove_bg,Can you remove the background of the image at $FILE?,2
+1,,,I'd like to remove the background from the photo located at $FILE.,2
+2,,,Please remove the background of the picture I have saved as $FILE.,2
+3,,,"I want to eliminate the background from an image with the local path $FILE, can you do that?",2
+4,,,Is it possible to get rid of the background in the image I saved as $FILE?,2
+5,,,Can you help me in removing the background of my photo located in $FILE?,2
+6,,,"I have an image saved at $FILE, can you strip away its background?",2
+7,,,"My image with local path $FILE needs background removal, could you please assist?",2
+8,,,How do I remove the background of the image I have saved at $FILE?,2
+9,,,Please help me remove the background from the image I stored at $FILE.,2

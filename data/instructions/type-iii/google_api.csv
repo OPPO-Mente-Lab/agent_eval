@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,google_api,video_search,Can you find videos for me?,3
+1,,,Which videos are trending right now?,3
+2,,,Can you find me videos with moderate safesearch enabled?,3
+3,,,I would like to see videos with safesearch turned off.,3
+4,,,I want to watch videos popular in the US.,3
+5,,,Show me videos from the UK region.,3
+6,,,Can you show me a list of 30 videos?,3
+7,,,I only want to see 10 video results.,3
+8,,,Can you limit the search results to 50 videos?,3
+9,,,Show me the top five videos.,3

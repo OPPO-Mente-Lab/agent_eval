@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,currency_exchange,listquotes,"I have USD, can you tell me how much I can get if I exchange it?",3
+1,,,"If I have Japanese Yen, how much will I get?",3
+2,,,What's the exchange rate for the Euro?,3
+3,,,How much do I get if I change to Australian Dollar?,3
+4,,,"I want to exchange to Hong Kong Dollar, can you tell me the rate?",3
+5,,,Can you help me calculate the amount if I want to change to Indian Rupee?,3
+6,,,Can you tell me how much I can get with 500?,3
+7,,,What will be the amount if I exchange 1000?,3
+8,,,Can you calculate the amount for 2000?,3
+9,,,"I want to exchange USD to AUD, how much will I get?",3
+10,,exchange,How much do I get for 100 USD in another currency?,3
+11,,,What's the exchange rate from Euro to another currency?,3
+12,,,"I want to exchange my British Pounds, what's the rate?",3
+13,,,"I will travel to Japan, how many Yen can I get for my USD?",3
+14,,,"I want to buy some goods from Europe, how much do I need in Euros?",3
+15,,,"I plan to move to the UK, how many Pounds can I get?",3
+16,,,Can you tell me the current exchange rate?,3
+17,,,"I need to calculate the exchange rate, but I don't know what currency I need.",3
+18,,,I want to understand how much I get when I exchange money. ,3
+19,,,Is it a good time to exchange money now?,3

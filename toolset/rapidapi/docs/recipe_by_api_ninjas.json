@@ -1,0 +1,29 @@
+{
+    "tool_name": "recipe_by_api_ninjas",
+    "tool_description": "Search recipes",
+    "APIs": [
+      {
+        "type": "function",
+        "function": {
+          "name": "v1_recipe",
+          "description": "Get a list of recipes for a given search query. Returns at most 10 results. To access more than the first 10 results, use the offset parameter to offset results in multiple API calls.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "STRING",
+                "description": "query text to search."
+              },
+              "offset": {
+                "type": "STRING",
+                "description": "number of results to offset for pagination."
+              }
+            },
+            "required": [
+              "query"
+            ]
+          }
+        }
+      }
+    ]
+  }

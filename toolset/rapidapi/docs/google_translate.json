@@ -1,0 +1,82 @@
+{
+  "tool_name": "google_translate",
+  "tool_description": "Dynamically translate between languages.\nThe Translation API provides a simple programmatic interface for translating an arbitrary string into any supported language using state-of-the-art Neural Machine Translation. It is highly responsive, so websites and applications can integrate with Translation API for fast, dynamic translation of source text from the source language to a target language (such as French to English). Language detection is also available in cases where the source language is unknown. The underlying technology is updated constantly to include improvements from Google research teams, which results in better translations and new languages and language pairs.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "detect",
+        "description": "Detects the language of text within a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "STRING",
+              "description": "The input text upon which to perform language detection. Repeat this parameter to perform language detection on multiple text inputs."
+            }
+          },
+          "required": [
+            "q"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "languages",
+        "description": "Returns a list of supported languages for translation.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "target": {
+              "type": "STRING",
+              "description": "The target language code for the results. If specified, then the language names are returned in the name field of the response, localized in the target language. If you do not supply a target language, then the name field is omitted from the response and only the language codes are returned."
+            },
+            "model": {
+              "type": "STRING",
+              "description": "The translation model of the supported languages. Can be either base to return languages supported by the Phrase-Based Machine Translation (PBMT) model, or nmt to return languages supported by the Neural Machine Translation (NMT) model. If omitted, then all supported languages are returned."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "translate",
+        "description": "Translates input text, returning translated text",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "STRING",
+              "description": "The input text to translate. Repeat this parameter to perform translation operations on multiple text inputs."
+            },
+            "target": {
+              "type": "STRING",
+              "description": "The language to use for translation of the input text, set to one of the language codes listed in the overview tab"
+            },
+            "format": {
+              "type": "STRING",
+              "description": "The format of the source text, in either HTML (default) or plain-text. A value of html indicates HTML and a value of text indicates plain-text."
+            },
+            "source": {
+              "type": "STRING",
+              "description": "The language of the source text, set to one of the language codes listed in Language Support. If the source language is not specified, the API will attempt to detect the source language automatically and return it within the response."
+            },
+            "model": {
+              "type": "STRING",
+              "description": "The translation model. Can be either base to use the Phrase-Based Machine Translation (PBMT) model, or nmt to use the Neural Machine Translation (NMT) model. If omitted, then nmt is used. If the model is nmt, and the requested language translation pair is not supported for the NMT model, then the request is translated using the base model."
+            }
+          },
+          "required": [
+            "q",
+            "target"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,access_user_info,get_user_profile,Can you provide me with Jane's user profile?,3
+1,,,Can you get the user profiles for users named 'David'?,3
+2,,,Is it possible to fetch the 'John Doe' user profile?,3
+3,,,Could you provide the user profile for someone who is 30 years old?,3
+4,,,Can you fetch user profiles for users who are 50 years old?,3
+5,,,Can I get user profiles for female users?,3
+6,,,Can you provide user profiles for male users?,3
+7,,,Is it possible to fetch user profiles for users from New York?,3
+8,,,Can you get user profiles for users currently located in Los Angeles?,3
+9,,,Can I get user profiles for users speaking Spanish?,3

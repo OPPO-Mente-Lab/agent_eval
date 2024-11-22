@@ -1,0 +1,48 @@
+## images for image translation tool
+files/img_trans/proberb9.png
+files/img_trans/proverb1.jpg
+files/img_trans/proverb10.png
+files/img_trans/proverb2.jpg
+files/img_trans/proverb3.jpg
+files/img_trans/proverb4.jpg
+files/img_trans/proverb5.jpg
+files/img_trans/proverb6.jpg
+files/img_trans/proverb7.jpg
+files/img_trans/proverb8.png
+files/img_trans/quote-cn-1.png
+
+## animal images, can be used for object detection tool
+files/object_detection/birds.jpg
+files/object_detection/dog-and-cat.jpg
+files/object_detection/dog-and-cat2.jpeg
+files/object_detection/dolphins.jpg
+files/object_detection/elephants.jpg
+files/object_detection/koala.jpg
+files/object_detection/panda.jpg
+files/object_detection/quokka.jpg
+files/object_detection/tiger.jpg
+files/object_detection/wallaby.jpg
+
+## images for ocr tool
+files/ocr/quotes-1.jpg
+files/ocr/quotes-10.jpg
+files/ocr/quotes-2.jpg
+files/ocr/quotes-3.jpg
+files/ocr/quotes-4.jpg
+files/ocr/quotes-5.jpg
+files/ocr/quotes-6.jpg
+files/ocr/quotes-7.jpg
+files/ocr/quotes-8.jpg
+files/ocr/quotes-9.jpg
+
+## images for "remove background" tool
+files/rm_bg/albert-einstein.jpg
+files/rm_bg/apollo_moon_landing.jpg
+files/rm_bg/dog.jpg
+files/rm_bg/dog2.jpg
+files/rm_bg/flower.jpg
+files/rm_bg/flower2.jpg
+files/rm_bg/kobe-bryant.jpg
+files/rm_bg/moon.jpg
+files/rm_bg/mountain.jpg
+files/rm_bg/talor-swift.jpg

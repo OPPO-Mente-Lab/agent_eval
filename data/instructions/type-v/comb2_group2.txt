@@ -1,0 +1,47 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: Discover the world's wonders with ease using the Tourist Attraction API. Unleash a wealth of information about popular attractions worldwide, including historical sites, natural landmarks, museums, and more. Seamlessly integrate this API to provide users with detailed insights, captivating images, and essential details, enriching their travel experiences like never before. Whether you’re crafting travel apps, tour guides, or adventure platforms, the Tourist Attraction API is your gateway to enhancing journeys and exploration.
+API-1. Search tourist attraction
+API-2. Get detail of tourist attraction
+API-3. Get photos of tourist attraction
+API-4. Get reviews of tourist attraction
+
+For example:
+Instruction: Give me some tourist information about Fuji-san.
+
+
+==== RESPONSE ====
+Instruction 1: Plan an educational day out for a family interested in history in Rome, Italy.
+Steps:
+- Use API-1 to search for historical tourist attractions in Rome.
+- Utilize API-2 to get detailed information about each identified historical site, focusing on those offering educational tours.
+- Obtain imagery using API-3 to give the family a preview of the attractions.
+- Check API-4 to review visitor feedback on the educational value of each site to ensure a quality experience for the family.
+
+Instruction 2: Create a photo-based travel diary for your recent trip to Paris, France.
+Steps:
+- Employ API-1 to list all tourist attractions you visited in Paris.
+- Retrieve detailed descriptions of each site with API-2 to include informative captions in your diary.
+- Use API-3 to gather high-quality photos of the Parisian attractions for the diary.
+- Incorporate personal experiences by referencing API-4 for reviews you may have left or read that could add a personal touch to your diary entries.
+
+Instruction 3: Develop a weekend itinerary for a nature lover traveling to Yellowstone National Park.
+Steps:
+- Search for natural landmarks within Yellowstone using API-1.
+- Use API-2 to pull in-depth information about the park's geysers, hot springs, and wildlife to build an engaging and informative itinerary.
+- Grab enticing photographs of the park's features with API-3 to visually enrich the itinerary.
+- Review API-4 to find the best times to visit particular spots based on traveler recommendations and plan the itinerary around those times.
+
+Instruction 4: Compare top-rated museums in New York City for an art enthusiast's blog post.
+Steps:
+- Execute a query with API-1 to find museums specializing in art in New York City.
+- Collect exhaustive details about the art collections and exhibitions from each museum using API-2.
+- Use API-3 to get compelling photographs representing the art and ambiance of the different museums.
+- Gather and compare public impressions and critiques of the museums through API-4 to offer an objective comparison in the blog post.
+
+Instruction 5: Assist a traveler in deciding whether to visit the Grand Canyon in the offseason.
+Steps:
+- Search for information about the Grand Canyon with API-1.
+- Get a detailed overview of the attraction, including offseason specifics, using API-2.
+- Acquire off-season photos of the Grand Canyon with API-3 to show the traveler what the experience might look like during that time.
+- Access API-4 to read through reviews left by visitors who went during the offseason to provide personal anecdotes and tips for the traveler's decision-making process.

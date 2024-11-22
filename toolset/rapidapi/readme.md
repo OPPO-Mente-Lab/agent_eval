@@ -1,0 +1,1 @@
+pdf_to_text_converter.py 文件格式错误，故没有将这个工具注册在到接口

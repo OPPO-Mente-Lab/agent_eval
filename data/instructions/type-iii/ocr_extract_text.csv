@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ocr_extract_text,extract_text_from_image_url,Can you help me extract text from this image?,3
+1,,,"I have a photo with texts that I want to get, can you do it?",3
+2,,,"I cannot read the texts in the picture I have, can your tool help?",3
+3,,,"There is an article printed on the paper, and I have shot a photo of it, can you help me extract the contents?",3
+4,,,Is it possible to extract words from a picture using your tool?,3
+5,,,"I'm trying to digitize some document images, can your API do this?",3
+6,,,I'd like to know how to get text from the image using your tool?,3
+7,,,How do I use your tool to scan and extract text from an image?,3
+8,,,Does your API support extracting texts from images online?,3
+9,,,Can your service be used to get text from a screenshot?,3
+10,,extract_text_from_image_file,Can you extract the text in the image I have?,3
+11,,,"I have a JPEG file, can you read the text from it?",3
+12,,,What text is written in this PNG image?,3
+13,,,"I have a picture with some text, can you help me get that text?",3
+14,,,"There's an image with words in it, can you tell me what it says?",3
+15,,,Can you extract text from a photo for me?,3
+16,,,"I need to get the text out of an image, can you help?",3
+17,,,Is it possible to extract text from this picture I have?,3
+18,,,"I want to know the text in this image I found, can you help?",3
+19,,,Can you read the text from a picture I've got?,3

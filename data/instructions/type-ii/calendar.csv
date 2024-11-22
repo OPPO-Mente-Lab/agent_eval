@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,calendar,days_of_month,Can you show me the calendar for May 2024?,2
+1,,,I'd like to see the calendar for December 2023.,2
+2,,,What day of the week does the 9th of July 2024 fall on?,2
+3,,,Can you tell me which day of the week the first day of April 2024 is?,2
+4,,,I need to see the calendar days for March 2024.,2
+5,,,What are the days and their weekdays in September 2024?,2
+6,,,Can I have a look at the calendar for June 2024?,2
+7,,,What day of the week is the 30th of November 2024?,2
+8,,,Can you show me the calendar for this month?,2
+9,,,I'd like to know the day of the week for the 15th of October 2024.,2
+10,,display_calendar_of_month,Can you show me the calendar for April 2024?,2
+11,,,"What does the calendar look like for the next month, April 2024?",2
+12,,,I need to see the calendar for May 2024.,2
+13,,,Can you display the calendar for October 2023?,2
+14,,,Let me see the calendar of June 2025.,2
+15,,,What's the calendar for January 2024?,2
+16,,,"Show me the calendar of the current month, March 2024.",2
+17,,,Please display the calendar of August 2024.,2
+18,,,I want to check the calendar for December 2023.,2
+19,,,Can you present the calendar for September 2025?,2

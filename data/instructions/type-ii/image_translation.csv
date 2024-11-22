@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,image_translation,image_translation,Can you translate the English text on this image ($FILE) into Chinese (simplified)?,2
+1,,,"Can you help me translate the Japanese characters on this photo ($FILE) to English, please?",2
+2,,,I need the Portuguese text on this image ($FILE) translated to Spanish. Can you do that?,2
+3,,,"I have a Russian sign in this picture ($FILE), can you translate it to German for me?",2
+4,,,"There is some Arabic text on this image ($FILE); I need it translated to French, please.",2
+5,,,Can you help me convert the Korean characters on this file ($FILE) into Italian text?,2
+6,,,Could you translate the Dutch text in this photo ($FILE) to Swedish for me?,2
+7,,,"Can you translate the Hindi characters on this image ($FILE) into Vietnamese, please?",2
+8,,,There's some Turkish text in this picture ($FILE); can you translate it to Norwegian for me?,2
+9,,,Please help me translate the text in the Polish image ($FILE) into Danish.,2

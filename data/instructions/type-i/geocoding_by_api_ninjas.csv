@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,geocoding_by_api_ninjas,v1_geocoding,What is the latitude and longitude of the geographical center of China?,1
+1,,,Why there is no state for cities in China in this API?,1
+2,,,Can I get the temperature by knowing latitude and longitude?,1
+3,,,Can I use this API to find out which city and country I am currently in by using latitude and longitude?,1
+4,,,"In Shenzhen, are buildings in higher latitude areas generally taller?",1
+5,,,What's the difference between the 2-letter ISO country code and the 3-letter one?,1
+6,,,Can I determine the time zone based on latitude and longitude? ,1
+7,,,Will the longitude and latitude of a city change over time due to continental drift?,1
+8,,,Why is geographic coordinate division expressed in latitude and longitude rather than other units?,1
+9,,,"In the northern hemisphere, does latitude influence the amount of sunlight a region receives?",1
+10,,v1_reversegeocoding,What's the capital city of China?,1
+11,,,Is the city I am in the Northern or Southern hemisphere?,1
+12,,,Which city is located on the Mengtze River in China?,1
+13,,,How can I measure the latitude and longitude of my current location?,1
+14,,,How many time zones are there in Russia?,1
+15,,,What is the distance between London and New York?,1
+16,,,How can I book a flight to London from Shenzhen?,1
+17,,,What are the different types of map projections?,1
+18,,,What kind of activities can I do in Hawaii?,1
+19,,,What is the geographical difference between Hong Kong and Macau?,1

@@ -1,0 +1,31 @@
+{
+    "tool_name": "web_capture",
+    "tool_description": "Take screenshots of any website or generate a pdf either from the website or an HTML file.",
+    "APIs": [
+      {
+        "type": "function",
+        "function": {
+          "name": "take_image_screenshot",
+          "description": "Get Screenshot of any website by providing URL and the image ratio (width, height)",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "STRING",
+                "description": ""
+              },
+              "height": {
+                "type": "NUMBER",
+                "description": ""
+              },
+              "width": {
+                "type": "NUMBER",
+                "description": ""
+              }
+            },
+            "required": ["url"]
+          }
+        }
+      }
+    ]
+  }

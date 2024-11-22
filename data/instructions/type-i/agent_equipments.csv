@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,agent_equipments,get_current_time,Is today a legal holiday in China?,1
+1,,,How many time zones does China have?,1
+2,,,"As a foreigner, what documents do I need to stay in Shenzhen?",1
+3,,,What's the public transportation like in Shenzhen?,1
+4,,,Are there any cultural norms or etiquette I should be aware of while in China?,1
+5,,,Is today my birthday? (Assume my birthday is on a day that is not today),1
+6,,,Is Shenzhen considered a coastal city?,1
+7,,,What's the historical significance of today's date?,1
+8,,,What are some traditional events that occur in China on this date?,1
+9,,,What foods are Shenzhen known for?,1
+10,,get_my_location,"What is the time difference between Shenzhen, China and New York, USA?",1
+11,,,"How long does it usually take to fly from Shenzhen, China to Tokyo, Japan?",1
+12,,,Which Chinese festivals are usually celebrated in Shenzhen in April?,1
+13,,,"What are some popular tourist attractions in Shenzhen, China?",1
+14,,,"What is the public transportation system like in Shenzhen, China?",1
+15,,,"How can I say ""Hello"" in the local language of Shenzhen, China?",1
+16,,,"What is the currency used in Shenzhen, China?",1
+17,,,"Are there any famous local dishes in Shenzhen, China that I should try?",1
+18,,,"What is the average temperature in Shenzhen, China during March?",1
+19,,,"Can you recommend a good restaurant near my location in Shenzhen, China?",1

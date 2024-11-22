@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,airports,query_airports_by_name,"Where is the airport named ""Frankfurt Airport"" located?",3
+1,,,"Can you tell me some information about ""Haneda Airport"" in Japan?",3
+2,,,I am looking for information about “Brisbane Airport”.,3
+3,,,Can you show me the next page of the list of airports?,3
+4,,,I would like to navigate to page 3 of all airports list. ,3
+5,,,I want to see twenty airports on one page. ,3
+6,,,Can you display 15 airports per page for me?,3
+7,,,Can you sort the airports by their names for me?,3
+8,,,Can you organize the airport list in the order of IATA code?,3
+9,,,Can I get the airport list sorted by ICAO codes?,3
+10,,get_airport_by_iata_code,Can you tell me more information about the airport?,3
+11,,,I want to know more about Hong Kong International Airport.,3
+12,,,What is the information of Beijing International Airport?,3
+13,,,Can you give me the local time of an airport?,3
+14,,,What is the ICAO code of the airport?,3
+15,,,Could I know the location of the airport?,3
+16,,,What's the information about Frankfurt airport in Germany?,3
+17,,,Is Los Angeles International Airport a large or small airport?,3
+18,,,How many gates does the airport have?,3
+19,,,Do you know the airport’s contact number?,3
+20,,get_airport_by_icao_code,Can you tell me the location of an airport?,3
+21,,,"I want to know the local time at an airport, but I don't have the ICAO code.",3
+22,,,What is the latitude and longitude of an airport?,3
+23,,,Is the airport I am thinking of an international or domestic airport?,3
+24,,,Can you provide me with information about an airport?,3
+25,,,Which timezone does the airport belong to? ,3
+26,,,What is the IATA code of an airport?,3
+27,,,How can I find the details of an airport nearby?,3
+28,,,What country is the airport located in? ,3
+29,,,What are the airport facilities available?,3

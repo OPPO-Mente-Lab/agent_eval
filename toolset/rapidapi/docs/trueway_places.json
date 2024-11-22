@@ -1,0 +1,64 @@
+{
+  "tool_name": "trueway_places",
+  "tool_description": "Search for places. Provides detailed information for over 100 million places and points of interest.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "findplacesnearby",
+        "description": "Search for nearby places",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "STRING",
+              "description": "The latitude/longitude around which to retrieve places"
+            },
+            "type": {
+              "type": "STRING",
+              "description": "The type of places that are returned"
+            },
+            "radius": {
+              "type": "NUMBER",
+              "description": "The distance (in meters) within which to return results. Max = 10000 m"
+            },
+            "language": {
+              "type": "STRING",
+              "description": "The language in which to return results"
+            }
+          },
+          "required": [
+            "location"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "findplacebytext",
+        "description": "Search for places by text string",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "STRING",
+              "description": "A text string on which to search"
+            },
+            "language": {
+              "type": "STRING",
+              "description": "The language in which to return results"
+            },
+            "bounds": {
+              "type": "STRING",
+              "description": "Rectangular bounds (south,west,north,east)"
+            }
+          },
+          "required": [
+            "text"
+          ]
+        }
+      }
+    }
+  ]
+}

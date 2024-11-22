@@ -1,0 +1,37 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: query hotels and flights in real-time data. By searching and comparing hotel options, the tool assists travelers in finding the most cost-effective option for their journey.
+1. This API helps to get the list of one-way flights. 
+2. This API helps to get the list of round trip flights. 
+3. This API helps to find flights with uncertain destinations.
+5. Get all the details of the fights based on itineraryId and token.
+6. This API will return a calendar for the given source and destination
+
+For example:
+Instruction: I plan to travel to Sydney for 7 days in August. Can you check the flights and tell me the best departure and return dates?
+
+
+==== RESPONSE ====
+Here are five high-level instructions which involve solving complex tasks using combinations of the mentioned APIs:
+
+1. **Optimized Cost Travel Plan**
+   Instruction: Find the most cost-effective 10-day round trip from New York to Paris in September, including the cheapest days to fly out and return.
+   API Combination: Use API 2 to get the list of round trip flights for New York to Paris in September. Then, apply API 6 to return a calendar for the given source (New York) and destination (Paris) to identify the cheapest travel dates within the month.
+
+2. **Flexible Date Adventure Trip**
+   Instruction: I'm looking to explore a new destination from Los Angeles within the next three months, but I'm flexible about the location. Show me the best deals for one-way flights.
+   API Combination: Use API 3 to find flights with uncertain destinations from Los Angeles for the next three months. Then, apply API 1 to get a list of one-way flights to these destinations and find the best deals.
+
+3. **Surprise Weekend Getaway**
+   Instruction: Arrange a surprise round trip from Chicago for a weekend in April with flexibility in the destination to ensure the best price.
+   API Combination: First, use API 3 to find potential surprise destinations from Chicago with available flights for weekends in April. Then use API 2 to get round trip flight options to these destinations, and API 6 to check the calendar for the most affordable weekend dates.
+
+4. **Extended Stay Combination Trip**
+   Instruction: I want to visit London and Paris over a 14-day period in July. Determine the cheapest sequence and dates to book these flights from Toronto.
+   API Combination: Utilize API 3 to look for flights with uncertain destinations from Toronto, focusing on London and Paris. Use API 2 to identify round trip options and API 6 to find the calendar with cost-effective dates for July. Blend the data to decide the sequence (Toronto -> London -> Paris -> Toronto) and the specific dates offering the best prices.
+
+5. **Last-Minute Travel Preparation**
+   Instruction: I have an itinerary ID for a last-minute flight tomorrow from Seattle to Tokyo. Can you confirm all the flight details for me?
+   API Combination: Use API 5 to get all the details of the flight based on the provided itinerary ID and token. Ensure that all the information, such as departure time, arrival time, and any layovers or stops, is accurate and up to date for last-minute preparations.
+
+Note: The sequence in which the APIs are used may vary depending on the user requirements and constraints such as budget, flexibility on dates, or preference for destinations. The combination of the APIs allows for a variety of travel plans to be accommodated efficiently.

@@ -1,0 +1,151 @@
+,Tool,API,Prompt,Type
+0,skyscanner80,get_config,What is the best time to travel to Tokyo for cherry blossom viewing?,1
+1,,,Can you recommend some famous attractions in New York City?,1
+2,,,When is the peak tourist season in Paris?,1
+3,,,How much luggage am I allowed to carry on a domestic flight in China?,1
+4,,,Are there any famous local food items in Shenzhen that I should try during my visit?,1
+5,,,How far in advance should I book my hotel to get the best price?,1
+6,,,"What is the difference between economy, business, and first class on an airplane?",1
+7,,,Do I need a visa to travel to the United States as a Chinese citizen?,1
+8,,,Can you suggest some tips for reducing jet lag during long-haul flights?,1
+9,,,What are the common methods of transportation from Shenzhen Bao'an International Airport to downtown Shenzhen?,1
+10,,flights_auto_complete,Is taking a taxi or a subway more convenient when going to New York's airport from city center? ,1
+11,,,Can I carry fruits on the plane at Shenzhen airport?,1
+12,,,How early should I arrive at the airport for international flights?,1
+13,,,Does Beijing international airport provide free WiFi service? ,1
+14,,,What's the fastest way to get to the city center from London Heathrow airport?,1
+15,,,Is there a direct flight between Shenzhen and New York?,1
+16,,,Can I store my luggage at Shanghai airport?,1
+17,,,Is it easy to find vegetarian food options at Tokyo airport?,1
+18,,,How to dress appropriately when flying in March?,1
+19,,,What are some good places to visit in Paris near the airport?,1
+20,,flights_search_one_way,"If I plan a trip to New York in September, what clothes should I pack?",1
+21,,,What kind of visa do I need to travel from China to the United States?,1
+22,,,How long do I need to arrive at the airport before the departure time for international flights?,1
+23,,,Is it generally cheaper to fly during weekdays or weekends?,1
+24,,,What is the best time of year to visit London?,1
+25,,,How can I get discounts on flight tickets for children under 12 years old?,1
+26,,,Are meals usually included when I buy an economy class flight ticket?,1
+27,,,How can I calculate the total flight time if I have a layover?,1
+28,,,What is the baggage limit for economy class on international flights?,1
+29,,,How safe is it to travel to New York right now considering the current Covid-19 situation?,1
+30,,flights_search_roundtrip,Is it better to travel during the high season or low season for a lower price on airfare and hotels?,1
+31,,,How early should I book a flight to get the best price?,1
+32,,,What local attractions should I visit in London during my trip?,1
+33,,,"Can I bring a carry-on bag on an economy flight, or is it only allowed for business-class passengers?",1
+34,,,How can I accumulate airline miles to use for future flight discounts?,1
+35,,,Are there any travel restrictions or quarantine requirements due to COVID-19 for my destination?,1
+36,,,What's the most convenient transportation option from the airport to the city center in New York?,1
+37,,,How should I pack for a two-week trip to minimize luggage fees?,1
+38,,,What is the approximate cost of a taxi from JFK airport to Manhattan?,1
+39,,,Are there any hotel recommendations near popular tourist destinations in London?,1
+40,,flights_search_everywhere,What is the ideal time to book a flight for getting the cheapest rates?,1
+41,,,What is the average amount of baggage allowed on an economy class flight?,1
+42,,,Are there any specific requirements for an infant's documents while travelling on a flight?,1
+43,,,How can one compensate for a cancelled flight?,1
+44,,,What are some suitable travel insurance options for my upcoming flight?,1
+45,,,How can I minimize jet lag after a long-haul flight?,1
+46,,,How early should I arrive at the airport before my flight?,1
+47,,,Can I carry food in my hand luggage on the flight?,1
+48,,,How can I get a VAT refund for my purchases during my travel?,1
+49,,,Is the weather usually pleasant in Bali during May?,1
+50,,flights_search_incomplete,How much money is usually advised to bring for a 3-day trip to Tokyo?,1
+51,,,What are the important things to pack when flying for a business trip?,1
+52,,,Which are the best airlines for comfortable long-haul flights?,1
+53,,,How can I get the best hotel deals in New York City?,1
+54,,,What’s the most cost-effective way to commute around Shenzhen?,1
+55,,,Are there any dietary restrictions I should consider when eating on international flights?,1
+56,,,What is the typical baggage allowance for domestic flights in China?,1
+57,,,"Will I need a visa to travel from Shenzhen, China to San Francisco, USA?",1
+58,,,Does traveling in the off-peak season usually lead to cheaper flight and hotel prices?,1
+59,,,Are there recommended safety tips when traveling to unfamiliar countries?,1
+60,,flights_flight_detail,What is the best time of the year to travel to Paris for the lowest flight prices?,1
+61,,,How much luggage can I carry on a Singapore Airlines flight without any extra charges?,1
+62,,,What should be done if I miss my flight due to unforeseen circumstances?,1
+63,,,Does the price of a flight ticket include insurance or do I need to purchase it separately?,1
+64,,,How long are flight tickets usually valid for?,1
+65,,,Are there any restrictions on booking round-trip flights from different airlines?,1
+66,,,"If my flight is delayed for more than 2 hours, can I get a refund?",1
+67,,,What are the rules and policies for carrying pets on an international flight?,1
+68,,,"If I book a flight and a hotel together, will I get a discount on the overall cost?",1
+69,,,What should I do if I need to cancel my flight due to a medical emergency?,1
+70,,flights_price_calendar,Is it cheaper to travel to London from New York in the spring or the fall?,1
+71,,,What is the longest non-stop flight in the world?,1
+72,,,What is the best way to fight jet lag after a long-haul flight?,1
+73,,,How much time should I arrive at the airport before my flight?,1
+74,,,How would a flight attendant suggest I adapt to a new time zone?,1
+75,,,What type of aircraft usually covers the route between New York and London?,1
+76,,,Is the air quality better in an airplane or in a car?,1
+77,,,What items are not allowed in carry-on luggage for international flights?,1
+78,,,What is the typical in-flight entertainment provided by airlines?,1
+79,,,What measures airlines are taking to prevent the spread of COVID-19?,1
+80,,hotels_hotel_auto_complete,Do I need any travel documents when staying in a hotel in Paris?,1
+81,,,Is it cheaper to rent a car or to use public transportation in Los Angeles?,1
+82,,,What are some popular tourist spots in New York?,1
+83,,,What’s the best way to travel from one city to another in Japan?,1
+84,,,Would it be better to book a hotel in advance for a trip during the peak season?,1
+85,,,What are the common customs and etiquette in hotels in Dubai?,1
+86,,,How many days should I plan for a trip to London?,1
+87,,,Can you recommend any good restaurants near the hotels in Rome?,1
+88,,,What times of the year are the cheapest to book hotels in Sydney?,1
+89,,,Which credit cards typically offer the best travel rewards for booking hotels and flights?,1
+90,,hotels_search,What are some popular tourist attractions near the hotel I booked in Shenzhen?,1
+91,,,Are there any good local restaurants near my hotel in Shenzhen?,1
+92,,,Is it common to tip the hotel staff in China?,1
+93,,,What is the best way to get from Shenzhen Bao'an International Airport to my hotel?,1
+94,,,Can you recommend a hotel with a good gym and spa facilities in Shenzhen?,1
+95,,,What should I pack for my trip to Shenzhen in terms of clothing and essentials?,1
+96,,,Are there any cultural etiquette tips I should be aware of when staying in a hotel in China?,1
+97,,,What is the average cost of a hotel room in Shenzhen per night?,1
+98,,,Is it better to book my hotel directly with the hotel or through a third-party website?,1
+99,,,Are there any public transportation options near my hotel in Shenzhen?,1
+100,,hotels_hotel_detail,"What is the preferred currency in Shenzhen, China?",1
+101,,,"What language is commonly spoken in Shenzhen, China?",1
+102,,,Is it good practice to tip hotel staff in China?,1
+103,,,"What kind of power sockets does China use, and do I need to bring a travel adapter for my devices?",1
+104,,,"Can I get a local SIM card for my phone when I arrive in Shenzhen, China?",1
+105,,,"What are some local delicacies I must try in Shenzhen, China?",1
+106,,,"What are the public transportation options in Shenzhen, China?",1
+107,,,"What places of interest should I visit in Shenzhen, China?",1
+108,,,"Are credit cards widely accepted in hotels and restaurants in Shenzhen, China?",1
+109,,,"What is the local time now in Shenzhen, China?",1
+110,,hotels_prices,How can I ask for a discount at the reception when I check in?,1
+111,,,What's the purpose of a hotel room deposit?,1
+112,,,How can I check if I left something in the hotel room after checking out?,1
+113,,,What's the best way to get to the hotel from the airport?,1
+114,,,What kind of facilities usually come with a standard hotel room?,1
+115,,,How early can I check-in in a hotel?,1
+116,,,Can I book a hotel room for others using my ID?,1
+117,,,How can I extend my stay in a hotel?,1
+118,,,Do I need to tip hotel staff and how much is appropriate?,1
+119,,,Can I have visitors in my hotel room?,1
+120,,hotels_reviews,"Which part of the year is the off-peak time for travel to Tokyo, Japan?",1
+121,,,How do you spot fake hotel reviews?,1
+122,,,What is the most common complaint among hotel guests?,1
+123,,,"I'm planning for a 3-day tour to New York, which part of the city should I consider for cheaper hotel options?",1
+124,,,Is checking the review of the hotel essential before booking?,1
+125,,,Is it worth trusting online hotel reviews?,1
+126,,,How long in advance do I need to book a hotel for the best rate?,1
+127,,,What are some common amenities that good middle-class hotels often provide?,1
+128,,,Do all hotels allow pets?,1
+129,,,How does an increase in positive hotel reviews impact the hotel's business?,1
+130,,hotels_similar_hotels,Is it cheap to stay in a hotel near the airport?,1
+131,,,What are some basic amenities to expect when staying in a luxury hotel?,1
+132,,,What's the usual check-in and check-out times for hotels in general?,1
+133,,,Is it more expensive to travel during the peak tourist season?,1
+134,,,Are there any customs that I need to observe when staying in a Ryokan in Japan?,1
+135,,,Are pet-friendly hotels common in Europe?,1
+136,,,Is it typical for hotels in America to include breakfast in the room rate?,1
+137,,,What factors should I consider when choosing a hotel for my family holiday?,1
+138,,,Which is generally more affordable: Airbnb or hotel?,1
+139,,,How far in advance should I book my hotel for a trip? ,1
+140,,hotels_nearby_map,What is the average cost of a hotel room in Shenzhen?,1
+141,,,Which hotel in Shenzhen is the best for a business trip?,1
+142,,,What is the check-in and check-out time usually for hotels?,1
+143,,,How can I find hotels that allow pets?,1
+144,,,When is the best time to book a hotel in Shenzhen for getting a good deal?,1
+145,,,How can I contact the hotel after finding it on Skyscanner?,1
+146,,,Can I reserve a room directly with the hotel after searching for it on Skyscanner?,1
+147,,,What is a good hotel etiquette to follow?,1
+148,,,Are there any hotels in Shenzhen that offer a shuttle service from the airport?,1
+149,,,What are some great restaurants near the hotel I found on Skyscanner in Shenzhen?,1

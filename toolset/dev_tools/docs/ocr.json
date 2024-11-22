@@ -1,0 +1,30 @@
+{
+    "tool_name": "ocr",
+    "tool_description": "This API analyzes images and conducts Optical Character Recognition.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "ocr",
+                "description": "Extract the characters on the image. The target language need to be specified.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The local path of image."
+                        },
+                        "lang": {
+                            "type": "STRING",
+                            "description": "The language of characters to extract. Supported languages are: ['Afrikaans', 'Albanian', 'Arabic', 'Assamese', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bhojpuri', 'Bosnian', 'Bulgarian', 'Chinese (simplified)', 'Chinese (traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'English', 'Estonian', 'French', 'German', 'Hindi', 'Hungarian', 'Icelandic', 'Indonesian', 'Irish', 'Italian', 'Japanese', 'Kannada', 'Korean', 'Latin', 'Latvian', 'Lithuanian', 'Maithili', 'Malay', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Norwegian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Tamil', 'Telugu', 'Thai', 'Turkish', 'Urdu', 'Uyghur', 'Uzbek', 'Vietnamese', 'Welsh']"
+                        }
+                    },
+                    "required": [
+                        "image_path",
+                        "lang"
+                    ]
+                }
+            }
+        }
+    ]
+}

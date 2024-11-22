@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ip_geo_location,visitor_lookup,Can you give me the location data in JSON format?,3
+1,,,Can you tell me only the city and country information of my current location?,3
+2,,,Can you provide the location information in Chinese?,3
+3,,,I want to know my current latitude and longitude in XML format.,3
+4,,,Can you give me the location data in JSON format and in Spanish?,3
+5,,,Can you tell me my current city and country information in French?,3
+6,,,I want to know my current latitude and longitude in XML format and in German.,3
+7,,,Could you please give me the location data of the client in an XML format?,3
+8,,,"I would like the client's location details, could you display them in JSON format for me?",3
+9,,,"Can I see just the client's city and country, please?",3
+10,,ip_lookup,What data can I get from this IP address?,3
+11,,,Please give me the location information of this IP.,3
+12,,,In what format can I get geo information for my IP? ,3
+13,,,Can I just get the location and currency information from this IP?,3
+14,,,Is it possible to get IP data in French?,3
+15,,,Can you show me the ip details in Chinese?,3
+16,,,Can you get me the geolocation information?,3
+17,,,I want to look up the details of this IP.,3
+18,,,I would like to know about an IP address.,3
+19,,,Can you determine the location for me?,3

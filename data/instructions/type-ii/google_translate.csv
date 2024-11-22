@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,google_translate,detect,"What language is the phrase ""Je suis très heureux""?",2
+1,,,"Can you identify the language of this sentence, ""Ich liebe dich""?",2
+2,,,"What language does ""Amo la pizza"" belong to?",2
+3,,,"I just received a text saying ""Te extraño"", do you know what language it is in?",2
+4,,,"What's the language of this saying, ""Καλημέρα""?",2
+5,,,"Can you tell me the language of ""ありがとう""?",2
+6,,,"I found ""Eu te amo"" in my letter, which language is it?",2
+7,,,"I don't recognize the language of this phrase ""Jeg elsker dig"", do you know?",2
+8,,,"Can you determine which language ""Я тебя люблю"" is in?",2
+9,,,"I received a message ""你好"", could you tell me what language it is?",2
+10,,languages,Can you tell me what languages can be translated into Italian?,2
+11,,,What languages do the Phrase-Based Machine Translation model support?,2
+12,,,Which languages can I translate to using Neural Machine Translation model?,2
+13,,,I want to have the list of the languages that can be translated into Spanish.,2
+14,,,What are the languages supported for translation into German by the Neural Machine Translation model?,2
+15,,,Give me a list of languages supported by the Phrase-Based Machine Translation model that can be translated into French.,2
+16,,,Can you provide the available languages that can be translated into Mandarin Chinese?,2
+17,,,What are the languages that I can translate when using the Phrase-Based Machine Translation model into English?,2
+18,,,I want the list of all languages that can be translated into Russian using the Neural Machine Translation model.,2
+19,,,What languages are available for translation into Arabic according to the Neural Machine Translation model?,2
+20,,translate,"Can you translate 'Hello, how are you?' to French for me?",2
+21,,,What is 'Je t'aime' in English?,2
+22,,,"I have a Spanish document in plain text, how do I say 'Buenos días' in Chinese?",2
+23,,,"I didn't know what's the language used in 'Привет, как дела?', please help me translate it into English.",2
+24,,,Could you translate 'Guten Tag' into Italian for me using the Neural Machine Translation model?,2
+25,,,"I have HTML text, 'Je suis content', translate it to English please.",2
+26,,,"I want to translate multiple text strings 'Buenos días', 'Buenas tardes', and 'Buenas noches' into Japanese, how can I do that?",2
+27,,,Help me translate this Danish saying 'God morgen' into Polish using the Phrase-Based Machine Translation model.,2
+28,,,What does this Italian sentence 'Buona notte' mean in Korean?,2
+29,,,Translate the unknown language 'おはようございます' into Vietnamese.,2

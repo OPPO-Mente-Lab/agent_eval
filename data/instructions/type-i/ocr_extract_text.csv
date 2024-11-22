@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ocr_extract_text,extract_text_from_image_url,What is the difference between JPEG and PNG file formats?,1
+1,,,How can I convert a PDF file to a PNG or JPEG image?,1
+2,,,Are there any free online tools to compress JPEG or PNG images?,1
+3,,,Can this tool extract text from handwritten notes in an image?,1
+4,,,How do I ensure the best image quality for text recognition?,1
+5,,,How can I remove noise or artifacts from an image before using this API?,1
+6,,,Can I extract text from images in languages other than English?,1
+7,,,How can I improve the lighting of an image to enhance text recognition?,1
+8,,,What are the common applications of Optical Character Recognition (OCR)?,1
+9,,,"How does OCR technology work, and what are the underlying principles?",1
+10,,extract_text_from_image_file,What kind of image file formats are considered high quality for viewing and editing?,1
+11,,,What are some ways to enhance the resolution of an image to make it clearer?,1
+12,,,How to convert a PDF file into a JPEG image?,1
+13,,,What is the fastest way to scan a physical document into an image?,1
+14,,,How do I resize my PNG image without losing quality?,1
+15,,,What are some commonly used software for viewing or editing JPEG images?,1
+16,,,How can I protect my personal images from being used without my permission?,1
+17,,,What is the difference between JPEG and PNG file formats?,1
+18,,,How can I print the text that I extracted from the image?,1
+19,,,How can I translate the extracted text to another language?,1

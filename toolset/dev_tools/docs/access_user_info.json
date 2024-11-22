@@ -1,0 +1,18 @@
+{
+    "tool_name": "access_user_info",
+    "tool_description": "Get user profile, including name, age, sex, location, and language.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "get_user_profile",
+                "description": "Get user profile, including name, age, sex, location, and language.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        }
+    ]
+}

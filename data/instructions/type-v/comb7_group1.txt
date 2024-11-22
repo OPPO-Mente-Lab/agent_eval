@@ -1,0 +1,33 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. images_search: Search images from the search engine for the most relevant keywords and images related to keywords and images.
+2. compress_image: Compress image size at the cost of lower quality.
+3. extract_text_from_image_url: Image must be a regular **JPEG** or **PNG** image (with or without transparency)
+4. resize_image: Changing the size (i.e. width and height) of image.
+
+For example:
+Instruction: Collect some proverb images and save the text in them.
+
+
+==== RESPONSE ====
+Instruction 1: Create a collection of motivational posters with reduced file size for easier sharing.
+- Use `images_search` to find high-quality motivational posters.
+- Use `compress_image` to reduce the file sizes of the posters for better shareability.
+
+Instruction 2: Archive textual information from historical document images in a readable format.
+- Use `images_search` to find historical documents available as images.
+- Use `extract_text_from_image_url` to transcribe text from those historical document images.
+
+Instruction 3: Develop a visual database of famous landmarks for a mobile application that loads images quickly.
+- Use `images_search` to gather high-quality images of famous landmarks.
+- Compress them with `compress_image` to optimize for quick loading on mobile devices.
+- Use `resize_image` to adjust these images to the required resolution for the mobile application.
+
+Instruction 4: Curate a collection of classic book covers suitable for thumbnails.
+- Use `images_search` to locate images of classic book covers.
+- Utilize `resize_image` to transform these images into a thumbnail-friendly size. 
+
+Instruction 5: Prepare a series of reduced-size infographics for an email newsletter.
+- With `images_search`, gather infographics related to a specific topic.
+- Use `compress_image` to minimize the file size of each infographic, making them email-friendly.
+- Employ `resize_image` to alter the dimensions of the infographics if necessary to fit within the email template guidelines.

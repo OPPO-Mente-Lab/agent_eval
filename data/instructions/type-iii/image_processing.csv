@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,image_processing,compress_image,Can you compress this image to a quality of 50?,3
+1,,,"I want to reduce the quality of my photo to 30, can you help me?",3
+2,,,"I need to lower the quality of this picture to 15, can you do it?",3
+3,,,Can you compress the size of my image?,3
+4,,,"I want to reduce the quality of this image, can you assist?",3
+5,,,Can this image be compressed to a smaller size?,3
+6,,,Could you compress this photo for me?,3
+7,,,"I need to compress an image, could you help?",3
+8,,,"Compress an image to get a smaller file size, please.",3
+9,,,"I'd like to reduce the file size of an image, could you do it for me?",3
+10,,resize_image,Can you resize the image from this path D:\Images\HolidayPic.jpg?,3
+11,,,"I found a cool picture at C:\Users\Lee\Pictures\CoolPic.png, can you make it bigger?",3
+12,,,Resize the image from my download folder at E:\Downloads\NewProfilePic.jpeg.,3
+13,,,"I want to increase the image size by 1.5 times, can you do it?",3
+14,,,Can we reduce the image size by half?,3
+15,,,"Make the image three quarters of its original size, please.",3
+16,,,Can you resize the image for me?,3
+17,,,"I want the image to be bigger, can you help?",3
+18,,,Can I have this image in a smaller size?,3
+19,,,Is it possible to change the image size?,3
+20,,convert_format,Can you convert my image to a PNG format?,3
+21,,,I want to change the format of my photo to JPEG.,3
+22,,,How can I get my picture in the WebP format?,3
+23,,,"I have an image at ""/home/user/pictures/photo.jpg"", can you convert it to another format?",3
+24,,,"Please convert my image located at ""/home/user/documents/image.bmp"".",3
+25,,,"I need to change the format of my logo, which is at ""/home/user/logos/logo.png"".",3
+26,,,How can I convert an image format?,3
+27,,,Can you help me change the format of a picture?,3
+28,,,"I want to convert a photo to another format, how can I do that?",3
+29,,,Is it possible to change my image to a different format?,3

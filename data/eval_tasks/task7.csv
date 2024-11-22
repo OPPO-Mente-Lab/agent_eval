@@ -1,0 +1,282 @@
+,did,tool_name,api_name,instruction,type,label,dep,hard_reliance,ref_steps
+0,120,currency_exchange,exchange,What's the equivalent amount in Japanese Yen for 1000 Chinese Yuan?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+1,121,currency_exchange,exchange,"If I have 200 Euros, how much will it be in Canadian dollars?",2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+2,122,currency_exchange,exchange,Can you tell me how many Australian dollars I will get for 50 United States dollars?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+3,123,currency_exchange,exchange,"I want to know, how much British Pounds can I get for 5000 Indian Rupees?",2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+4,124,currency_exchange,exchange,How much Swiss Franc will I get for 15000 Korean Won?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+5,125,currency_exchange,exchange,"I have 750 Brazilian real, what will be its equivalent in Russian Ruble?",2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+6,126,currency_exchange,exchange,What's the current exchange rate from Chinese Yuan to United States Dollars?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+7,127,currency_exchange,exchange,How much Thai Baht can I get for 250 Singapore Dollar?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+8,128,currency_exchange,exchange,Can you tell me the conversion from South African Rand to Mexican Peso for 500 units?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+9,129,currency_exchange,exchange,What will be the equivalent amount in New Zealand Dollar for 4000 Hong Kong Dollar?,2,1,rapidapi/currency_exchange/listquotes,0,listquotes -> exchange
+10,180,google_translate,translate,"Can you translate 'Hello, how are you?' to French for me?",2,1,rapidapi/google_translate/languages,0,languages -> translate
+11,181,google_translate,translate,What is 'Je t'aime' in English?,2,1,rapidapi/google_translate/languages,0,languages -> translate
+12,185,google_translate,translate,"I have HTML text, 'Je suis content', translate it to English please.",2,1,rapidapi/google_translate/languages,0,languages -> translate
+13,188,google_translate,translate,What does this Italian sentence 'Buona notte' mean in Korean?,2,1,rapidapi/google_translate/languages,0,languages -> translate
+14,291,news_api,search,Find some big news happened this year in the AI industry of US?,2,1,dev_tools/agent_equipments/get_current_time,1,get_current_time -> search
+15,292,news_api,search,Can you find some financial news in English from the past week?,2,1,dev_tools/agent_equipments/get_current_time,1,get_current_time -> search
+16,295,news_api,search,Are there any headlines related to the cryptocurrency market in China within the past month?,2,1,dev_tools/agent_equipments/get_current_time,1,get_current_time -> search
+17,298,news_api,search,I'm looking for health news articles published in French language newspapers from France within the last week.,2,1,dev_tools/agent_equipments/get_current_time,1,get_current_time -> search
+18,299,news_api,search,Can you find some science and technology news stories from Indian publishers in the past month?,2,1,dev_tools/agent_equipments/get_current_time,1,get_current_time -> search
+19,380,skyscanner80,flights_search_one_way,I'm planning to fly from Beijing to Shenzhen on 2024-04-10. Can you find me a one-way flight?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+20,381,skyscanner80,flights_search_one_way,Can you help me search for a one-way flight from New York City to London departing on 2024-06-01 for 2 adults and 1 child?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+21,382,skyscanner80,flights_search_one_way,"I'm looking for a one-way flight from Sydney, Australia to Paris, France, with the departure date set for 2024-07-15. Can you assist me?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+22,383,skyscanner80,flights_search_one_way,I am traveling alone from Shanghai to Tokyo and will depart on 2024-08-08. Can I know the available flights?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+23,384,skyscanner80,flights_search_one_way,"I need to find a one-way flight from Bangkok to Singapore for 2 adults, 1 child, and 1 infant departing on 2024-05-10, can you help me look it up?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+24,385,skyscanner80,flights_search_one_way,Can you find a one-way flight from Seoul to Beijing for 3 adults departing on 2024-12-24 in the first class cabin?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+25,386,skyscanner80,flights_search_one_way,Can you find a one-way business class flight from Frankfurt to Madrid departing on 2024-06-15 for 4 adults?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+26,387,skyscanner80,flights_search_one_way,"I'm traveling from Toronto to Vancouver with my family including 2 adults and 2 children, departure date is 2024-07-24. What flights are available?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+27,388,skyscanner80,flights_search_one_way,"I need a one-way flight from Athens to Rome for 1 adult and 1 infant, departing on 2024-05-30. Can you help me find one?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+28,389,skyscanner80,flights_search_one_way,I'm planning a trip from Dublin to London on 2024-09-15 for 2 adults. Can you find me flights?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_one_way -> flights_search_incomplete
+29,390,skyscanner80,flights_search_roundtrip,"Can you help me find a round trip flight from Shenzhen to Beijing departing on 2024-04-01 and returning on 2024-04-07, for two adults and one infant?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+30,391,skyscanner80,flights_search_roundtrip,"I'm looking to book a round trip flight in premium economy class from Shanghai to Tokyo, leaving on 2024-04-10 and coming back on 2024-04-20, just for me. Can you help me with that?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+31,392,skyscanner80,flights_search_roundtrip,What are my flight options for a round trip from Guangzhou to Sydney departing on 2024-05-01 and returning on 2024-05-18 for one adult and two children?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+32,393,skyscanner80,flights_search_roundtrip,"I want to book a round trip flight in first class from Beijing to New York, leaving on 2024-06-01 and coming back on 2024-06-20. It's for me and my wife. Can you help me find options?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+33,394,skyscanner80,flights_search_roundtrip,Can you help me find a round trip flight from Shenzhen to London departing on 2024-07-01 and returning on 2024-07-14 for three adults and provided with the currency option?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+34,395,skyscanner80,flights_search_roundtrip,"I wish to book a round trip flight in business class from Shanghai to Dubai, leaving on 2024-08-01 and coming back on 2024-08-10 for me. Can you help me with that and provide options in my local language?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+35,396,skyscanner80,flights_search_roundtrip,What are my flight options for a round trip from Beijing to Paris departing on 2024-09-01 and returning on 2024-09-20 for two adults and one child? Can you provide the results in Chinese market context?,2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+36,397,skyscanner80,flights_search_roundtrip,"I'm interested in booking a round trip flight from Guangzhou to Singapore, leaving on 2024-10-01 and coming back on 2024-10-10, for me and my two children, considering local market and currency. Can you assist?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+37,398,skyscanner80,flights_search_roundtrip,"Can you help me find a round trip flight from Shenzhen to Seoul departing on 2024-11-01 and returning on 2024-11-07, for two adults, one child, and one infant, in my local market context and language?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+38,399,skyscanner80,flights_search_roundtrip,"Can you provide me with a round trip flight option from Beijing to Melbourne departing on 2024-12-01 and returning on 2024-12-20, for an adult in first class, considering the local market and currency?",2,1,"rapidapi/skyscanner80/flights_auto_complete
+rapidapi/skyscanner80/flights_search_incomplete
+rapidapi/skyscanner80/get_config
+dev_tools/calendar/days_of_month",1,flights_auto_complete -> flights_auto_complete -> flights_search_roundtrip -> flights_search_incomplete
+39,450,skyscanner80,hotels_search,What are some hotels are available in Beijing from 2024-04-12 to 2024-04-15?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+40,451,skyscanner80,hotels_search,Can you recommend me some hotels in Tokyo for my stay from 2024-05-10 to 2024-05-14?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+41,452,skyscanner80,hotels_search,Which hotels can I choose from in Hong Kong when I visit from 2024-07-20 to 2024-07-25?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+42,453,skyscanner80,hotels_search,I'm planning a trip to Paris. What hotels are available from 2024-08-10 to 2024-08-17?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+43,454,skyscanner80,hotels_search,Help me find hotels in New York City for my trip from 2024-09-10 to 2024-09-15.,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+44,455,skyscanner80,hotels_search,"I'll be in London from 2024-10-01 to 2024-10-07, can you find me some hotels to stay in?",2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+45,456,skyscanner80,hotels_search,Recommend me hotels in San Francisco for my vacation from 2024-12-01 to 2024-12-10.,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+46,457,skyscanner80,hotels_search,I am visiting Seoul on 2024-11-15 and will stay until 2024-11-20. Which hotels should I consider?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+47,458,skyscanner80,hotels_search,My trip to Sydney is from 2024-06-30 to 2024-07-06. Can you help me find a hotel?,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+48,459,skyscanner80,hotels_search,Find me the hotels available in Bangkok from 2024-08-20 to 2024-08-27.,2,1,"rapidapi/skyscanner80/hotels_hotel_auto_complete
+rapidapi/skyscanner80/get_config",1,hotels_hotel_auto_complete -> hotels_search
+49,540,tourist_attraction,search,"Can you tell me about the main tourist attractions in Paris, France, in English and price in Euros?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+50,541,tourist_attraction,search,"I am heading to New York after a month, could you provide me with the English details of the popular sites there and expected expenditure in US dollars?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+51,542,tourist_attraction,search,"I am planning a trip to Sydney, Australia. Could you give me some information about the attractions there in Chinese and cost in Chinese yuan?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+52,543,tourist_attraction,search,"Could you provide me with some information about tourist attractions in Tokyo, Japan, in Japanese language and the expenses in Japanese yen?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+53,544,tourist_attraction,search,"I will visit London, UK, next week, and I need English information and the cost in British Pound for the popular tourist sites there, can you do that?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+54,545,tourist_attraction,search,"I'm planning a vacation in Rome, Italy. Can you give me some information about popular attractions there in English and the cost in Euros?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+55,546,tourist_attraction,search,"Can you show me the details about the tourist attractions in Berlin, Germany, in German and the cost in Euros?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+56,547,tourist_attraction,search,"I'm interested in visiting Moscow, Russia. Could you tell me about the famous sites there and the cost in Ruble, and kindly ensure that the information is in Russian?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+57,548,tourist_attraction,search,"What are the popular tourist sites in Madrid, Spain and might I ask for the information in Spanish and the cost in Euros?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+58,549,tourist_attraction,search,"I'm going to Istanbul, Turkey next month. Can you give me information about the attractions there in Turkish and the costs in Turkish lira?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> search
+typeahead -> languages/currencies  -> search
+typeahead -> languages/currencies -> languages/currencies ->  search
+languages/currencies -> languages/currencies -> typeahead ->  search
+languages/currencies -> typeahead ->  search"
+59,550,tourist_attraction,detail,"Can you give me more information about the Eiffel Tower in Paris, in English, using Euro as the currency?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+60,551,tourist_attraction,detail,"I want to know more about the Great Wall of China in Mandarin, using Yuan as the currency.",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+61,552,tourist_attraction,detail,"What information is available about the Statue of Liberty in New York, in English, using US dollar?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+62,553,tourist_attraction,detail,"I'm interested in the Colosseum in Rome, can I get the details in Italian, using Euro?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+63,554,tourist_attraction,detail,"Can I get details about the Pyramids of Giza in Egypt, in Arabic, and using Egyptian pound as the currency?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+64,555,tourist_attraction,detail,"I want to know more about Mount Fuji in Japan, in Japanese, using Yen as the currency.",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+65,556,tourist_attraction,detail,"Can you provide me details of the Sydney Opera House, in English, using Australian dollar?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+66,557,tourist_attraction,detail,"Can you give me the detailed information about Machu Picchu in Peru, in Spanish, using Sol as the currency?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+67,558,tourist_attraction,detail,"I would like to know more about the Great Barrier Reef in Australia, in English, using Australian dollar.",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+68,559,tourist_attraction,detail,"Can I get the details of the Christ the Redeemer in Brazil, in Portuguese, using Brazilian real as the currency?",2,1,"rapidapi/tourist_attraction/currencies
+rapidapi/tourist_attraction/languages
+rapidapi/tourist_attraction/typeahead",0,"typeahead -> detail
+typeahead -> languages/currencies  -> detail
+typeahead -> languages/currencies -> languages/currencies ->  detail
+languages/currencies -> languages/currencies -> typeahead ->  detail
+languages/currencies -> typeahead ->  detail"
+69,580,weatherapi_com,realtime_weather_api,What is the current weather?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+70,581,weatherapi_com,realtime_weather_api,Can you tell me the real-time temperature right now?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+71,582,weatherapi_com,realtime_weather_api,Is it going to rain in the next hour?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+72,583,weatherapi_com,realtime_weather_api,What's the humidity level at the moment?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+73,584,weatherapi_com,realtime_weather_api,How strong is the wind currently?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+74,585,weatherapi_com,realtime_weather_api,Is there any weather alert right now?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+75,586,weatherapi_com,realtime_weather_api,Can you tell me the air quality index right now?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+76,587,weatherapi_com,realtime_weather_api,What is the current visibility?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+77,588,weatherapi_com,realtime_weather_api,Is it cloudy outside?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+78,589,weatherapi_com,realtime_weather_api,What's the weather condition right now?,3,1,dev_tools/access_user_info/get_user_profile,1,get_user_profile -> realtime_weather_api
+79,590,weatherapi_com,forecast_weather_api,What's the weather forecast for the next week in London?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,v1_worldtime -> forecast_weather_api
+80,591,weatherapi_com,forecast_weather_api,Can you tell me the weather alerts for the coming days?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,get_user_profile -> v1_worldtime -> forecast_weather_api
+81,594,weatherapi_com,forecast_weather_api,Can I have the details for tomorrow's weather?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,get_user_profile -> v1_worldtime -> forecast_weather_api
+82,595,weatherapi_com,forecast_weather_api,I am going to travel to Beijing the day after tomorrow. Is there any weather alerts there?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,v1_worldtime -> forecast_weather_api
+83,598,weatherapi_com,forecast_weather_api,Can you tell me the weather forecast?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,get_user_profile -> realtime_weather_api
+84,599,weatherapi_com,forecast_weather_api,Can I have the weather alerts for the upcoming days?,3,1,"rapidapi/world_time_by_api_ninjas/v1_worldtime
+dev_tools/access_user_info/get_user_profile",1,get_user_profile -> realtime_weather_api

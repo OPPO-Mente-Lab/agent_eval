@@ -1,0 +1,25 @@
+{
+  "tool_name": "ip_location",
+  "tool_description": "Geo location information by user internet address.\nIP geographical info including continent, country, district, city, lantitude and longitude, currency, phone-code etc.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_ip_geo_info",
+        "description": "Get geo location information for the given ip address in ipv4 or ipv6 format.\nAdditionally, using return coordinate in our bundle Geocodding api to get further deeper multilingu...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ip": {
+              "type": "STRING",
+              "description": "ipv4\n(e.g 146.160.63.10)\nipv6\n(e.g 2001:f40:904:90c9:fd94:ca34:c685:85cf)"
+            }
+          },
+          "required": [
+            "ip"
+          ]
+        }
+      }
+    }
+  ]
+}

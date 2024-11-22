@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,news_api,top_headlines,What are the top technology news headlines in the United States today?,2
+1,,,Show me the most recent sports news in China in the Chinese language.,2
+2,,,Can you find the latest business news articles in India?,2
+3,,,What are the top entertainment stories in the United Kingdom right now?,2
+4,,,"Can you find the top science news in Japan, in Japanese?",2
+5,,,"What are the latest headlines about health in France, in French?",2
+6,,,Please show me the most recent articles on sports in Australia.,2
+7,,,"Can you provide the top news stories in South Africa, only related to business?",2
+8,,,"What are the current top headlines in Mexico, in the technology category?",2
+9,,,"Can you find the latest news about entertainment in Brazil, in Portuguese?",2
+10,,search,"Are there any recent news about the COVID-19 situation in Shenzhen, China?",2
+11,,,What's the latest news in the technology industry in the US?,2
+12,,,Can you find some financial news in English from the past week?,2
+13,,,I'm interested in the top news stories about soccer in the UK since 2024-3-20. ,2
+14,,,Can you search for any environmental news articles in Australia from 2024-3-1 to 2024-3-25?,2
+15,,,Are there any headlines related to the cryptocurrency market in China within the past month?,2
+16,,,How is the entertainment industry in Japan doing? Can you find some recent trending news?,2
+17,,,Show me the major political news in Hong Kong from 2024-3-10 to 2024-3-25 sorted by popularity.,2
+18,,,I'm looking for health news articles published in French language newspapers from France within the last week.,2
+19,,,Can you find some science and technology news stories from Indian publishers in the past month?,2

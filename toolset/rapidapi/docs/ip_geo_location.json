@@ -1,0 +1,62 @@
+{
+  "tool_name": "ip_geo_location",
+  "tool_description": "API returns location data such as country, city, latitude, longitude, timezone, asn, currency, secur",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "visitor_lookup",
+        "description": "Returns the IP address of the client with all the location data",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "format": {
+              "type": "STRING",
+              "description": "The desired format of the data. Options: json or xml"
+            },
+            "filter": {
+              "type": "STRING",
+              "description": "Lets you to return only required data. It can be comma separated. Options: asn, city, country, continent, area, currency, security, time, postcode. If left blank the API will return all available data."
+            },
+            "language": {
+              "type": "ENUM",
+              "description": "language code to return the results in the specific language. Available options are: en, ru, zh, es, ar, fr, fa, ja, pl, it, pt, de"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ip_lookup",
+        "description": "Provides geo information for the given IP",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ip": {
+              "type": "STRING",
+              "description": "IPv4 or IPv6 address"
+            },
+            "format": {
+              "type": "STRING",
+              "description": "The desired format of the data. Options: json or xml"
+            },
+            "filter": {
+              "type": "STRING",
+              "description": "Lets you to return only required data. It can be comma separated. Options: asn, city, country, continent, area, currency, security, time, postcode. If left blank the API will return all available data."
+            },
+            "language": {
+              "type": "ENUM",
+              "description": "language code to return the results in the specific language. Available options are: en, ru, zh, es, ar, fr, fa, ja, pl, it, pt, de"
+            }
+          },
+          "required": [
+            "ip"
+          ]
+        }
+      }
+    }
+  ]
+}

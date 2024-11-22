@@ -1,0 +1,25 @@
+{
+    "tool_name": "image_remove_bg",
+    "tool_description": "Remove the background of the image.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "remove_bg",
+                "description": "Given the local path of an image, remove the background, and save the new image locally.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The local path of the image."
+                        }
+                    },
+                    "required": [
+                        "image_path"
+                    ]
+                }
+            }
+        }
+    ]
+}

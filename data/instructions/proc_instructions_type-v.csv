@@ -1,0 +1,218 @@
+,did,comb,instruction
+0,0,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","I'm planning a week-long vacation in Paris, and I'm interested in hotels close to the Eiffel Tower. Could you find me family-friendly hotels with at least a 4-star rating and current prices under 350 USD per night?"
+1,1,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","I'm attending a conference in New York City next month, and I would like to stay in a hotel with great business amenities. Can you provide me with options that have high reviews for their business services and are within walking distance of the Javits Center?"
+2,2,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","For my honeymoon, I'm looking for a luxurious and romantic hotel in Bali. I'd like it to have a spa and a private beach. Please find me the top reviewed options with these amenities."
+3,3,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",I'm organizing a group trip to Tokyo and need to find hotels that are suitable for groups and offer cultural experiences. Please get me a list of hotels with traditional Japanese aesthetics and are rated well for group accommodations.
+7,7,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels",Curate a list of budget-friendly hotels in downtown Tokyo that have consistently received positive reviews.
+8,8,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","Assemble a comprehensive report on a five-star hotel in Dubai, including pricing, amenities, reviews, and a list of similar hotels."
+9,9,"skyscanner80/hotels_search
+skyscanner80/hotels_hotel_detail
+skyscanner80/hotels_prices
+skyscanner80/hotels_reviews
+skyscanner80/hotels_similar_hotels","Plan a romantic getaway in Venice, identifying a hotel with a view of the Grand Canal, its price trends, and alternatives with equally attractive views."
+11,11,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","For my upcoming trip to Paris, I’d like to visit the top-rated museums. Could you give me a list of museums with the best reviews and some pictures?"
+12,12,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","I'm planning a nature-focused vacation in Canada. Can you give me information about the most popular natural landmarks, along with photos and what visitors have to say about them?"
+15,15,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Plan an educational day out for a family interested in history in Rome, Italy."
+18,18,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews",Compare top-rated museums in New York City for an art enthusiast's blog post.
+20,20,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Develop a personalized travel itinerary for a history enthusiast planning a trip to Europe. I need a list of historical sites complete with descriptions, images, and visitor experiences."
+21,21,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Create a top 10 list of family-friendly attractions across the United States for an upcoming travel blog post, including vibrant photos and user feedback."
+24,24,"tourist_attraction/search
+tourist_attraction/detail
+tourist_attraction/photos
+tourist_attraction/reviews","Compile a dynamic list of must-see art museums around the world for an online culture and arts magazine, ensuring each entry includes a description, gallery snapshots, and firsthand visitor critiques."
+26,26,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Organize a last-minute weekend getaway from New York to a surprise destination.
+27,27,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Plan a honeymoon trip that involves multiple stopovers and compare prices for the most cost-effective options.
+30,30,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Determine the lowest fare for a one-way flight from New York to Paris on Oct.15th, considering only direct flights with morning departures."
+31,31,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Compare prices for round-trip flights from Tokyo to London, leaving on Aug. 5th and returning on Aug. 19th, including one-stop flights. Organize the results by the shortest total travel time."
+32,32,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",Identify the best-priced flight options for a flexible traveler who wants to depart from San Francisco to an unspecified destination in Europe on July 10th. Focus on direct flights and compile a list of possible destinations based on the lowest fares available.
+35,35,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","Find the most cost-effective 10-day round trip from New York to Paris in September, including the cheapest days to fly out and return."
+36,36,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar","I'm looking to explore a new destination from Los Angeles within the next three months, but I'm flexible about the location. Show me the best deals for one-way flights."
+38,38,"skyscanner80/flights_search_one_way
+skyscanner80/flights_search_roundtrip
+skyscanner80/flights_search_everywhere
+skyscanner80/flights_search_incomplete
+skyscanner80/flights_flight_detail
+skyscanner80/flights_price_calendar",I want to visit London and Paris over a 14-day period in July. Determine the cheapest sequence and dates to book these flights from Toronto.
+40,40,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Collect a visual and text record of job listings on https://example-job-board.com for archival purposes. Capture images of each listing and extract the text content for easier searching and indexing.
+41,41,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file","Monitor pricing updates for products on https://example-ecommerce.com/deals by taking daily screenshots of the deals page. Then, extract the text to keep a log of price changes over time."
+49,49,"web_capture/take_image_screenshot
+ocr_extract_text/extract_text_from_image_file",Archive a series of blog posts at https://lilianweng.github.io/(https://lilianweng.github.io/) for offline reading.
+50,50,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","I need to prepare product images for an online catalog. The original files are at high-resolution in the folder `/high_res_images`. Each image should have its background removed, be resized to a width of 800 pixels while maintaining aspect ratio, and saved in JPEG format."
+52,52,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg",We need to archive our digital art collection. The images located at `/art_collection` need to be processed for long-term storage. Each image's background should be removed and then converted into a lossless PNG format to preserve quality. No change in image dimensions is necessary.
+53,53,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","I'm building a mobile app and need the app icons from `/app_icons/originals` optimized. Please remove the background from each icon, resize each to 256x256 pixels for high-resolution displays, and compress them while trying to maintain a decent quality to ensure the app remains lightweight for downloading."
+56,56,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""We need to prepare images for a presentation. Take the images from 'presentation/slides', remove the backgrounds to highlight the subjects, resize them to 800px by 600px, and save the edited images as PNG files to retain transparency."""
+59,59,"image_processing/compress_image
+image_processing/resize_image
+image_processing/convert_format
+image_remove_bg/remove_bg","""The photos from 'events/conference' need editing before uploading to our gallery. We want to remove any distracting backgrounds, compress the file size for quicker web page load times, and standardize all images to a width of 1200px."""
+60,60,"web_capture/take_image_screenshot
+image_translation/image_translation",I found a good article at http://example.article.com/63457. Save it in image and translate it into Chinese.
+61,61,"web_capture/take_image_screenshot
+image_translation/image_translation",Save this online menu at https://example-restaurant.com/menu and also give me a French version.
+62,62,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Create a collection of motivational posters with reduced file size for easier sharing.
+63,63,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Archive textual information from historical document images in a readable format.
+64,64,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Develop a visual database of famous landmarks for a mobile application that loads images quickly.
+65,65,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Curate a collection of classic book covers suitable for thumbnails.
+68,68,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Prepare a series of images with inspirational quotes for a motivational blog.
+70,70,"bing_search_apis/images_search
+image_processing/compress_image
+ocr_extract_text/extract_text_from_image_url
+image_processing/resize_image",Compile a digital catalog of artwork for an online auction.
+72,72,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",Plan a travel to Melbourne for me. I would be perfect if you can give me one-stop troutist information service.
+73,73,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search","Can you estimate the cost of travelling to London for a week? Considerat least the flight, accomodation, and must-go tourist spots in the budget."
+74,74,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",Make a travel plan to Bali in July for me. I have ten days for a holiday. I am an Italian living in Venice btw.
+75,75,"currency_exchange/exchange
+airports/query_airports_by_name
+skyscanner80/flights_search_roundtrip
+tourist_attraction/search
+skyscanner80/hotels_search",I will make a flight transition in Singapore for 10 hours. Any places close to the airport I can go? 
+76,76,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am creating a presentation on the impact of climate change on Arctic wildlife. Provide me with a variety of sources including news articles, relevant images, and informative videos that I can use for visual aids and reference materials."
+77,77,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","As a journalist, I need to gather background information and visual aids on the recent volcanic eruption in Indonesia for my upcoming article."
+78,78,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am preparing a report on the evolution of electric vehicles. Collect comprehensive data including historical milestones, technological advancements, and future trends related to electric vehicles."
+81,81,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I'm planning a vacation to Paris. Give me some ideas for top tourist attractions, and show me some images and latest news related to them."
+84,84,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search","I am a sports journalist looking to write a story on the rise of esports. Could you provide me with the latest esports tournament highlights, related news articles, and striking images of popular players and events?"
+87,87,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Prepare a travel guide for top historic destinations in Europe including visual content.
+88,88,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Compile a weekly sports highlight reel featuring top football moments.
+90,90,"bing/web_search
+bing_search_apis/images_search
+google_api/video_search
+news_api/search",Create an educational piece on the latest advancements in renewable energy and their environmental benefits.

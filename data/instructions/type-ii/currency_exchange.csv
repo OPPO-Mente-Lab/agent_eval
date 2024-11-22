@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,currency_exchange,listquotes,How many RMB (CNY) do I need to exchange for 100 USD?,2
+1,,,"I'm planning to travel to Japan, what's the current exchange rate from CNY to JPY?",2
+2,,,"I received 500 Euros as a gift, how much will it be in CNY?",2
+3,,,What's the exchange rate between Australian Dollar (AUD) and British Pound (GBP) right now?,2
+4,,,"I'm going to Hong Kong, how much Hong Kong Dollar (HKD) can I get for 2000 CNY?",2
+5,,,How much CNY can I get if I exchange 1000 Canadian Dollars (CAD)?,2
+6,,,I want to know the live conversion rate between Indian Rupee (INR) and CNY.,2
+7,,,What's the current exchange rate from United Arab Emirates Dirham (AED) to CNY?,2
+8,,,"I'm interested in investing in Brazilian Real (BRL), how much would 5000 CNY be in BRL?",2
+9,,,How much CNY can I get by exchanging 3000 Russian Ruble (RUB)?,2
+10,,exchange,What's the equivalent amount in Japanese Yen for 1000 Chinese Yuan?,2
+11,,,"If I have 200 Euros, how much will it be in Canadian dollars?",2
+12,,,Can you tell me how many Australian dollars I will get for 50 United States dollars?,2
+13,,,"I want to know, how much British Pounds can I get for 5000 Indian Rupees?",2
+14,,,How much Swiss Franc will I get for 15000 Korean Won?,2
+15,,,"I have 750 Brazilian real, what will be its equivalent in Russian Ruble?",2
+16,,,What's the current exchange rate from Chinese Yuan to United States Dollars?,2
+17,,,How much Thai Baht can I get for 250 Singapore Dollar?,2
+18,,,Can you tell me the conversion from South African Rand to Mexican Peso for 500 units?,2
+19,,,What will be the equivalent amount in New Zealand Dollar for 4000 Hong Kong Dollar?,2

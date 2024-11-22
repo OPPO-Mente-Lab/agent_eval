@@ -1,0 +1,1023 @@
+{
+  "tool_name": "tripadvisor",
+  "tool_description": "Tripadvisor API helps to query realtime Hotels search, Flights prices, Restaurants, Attracting locations, etc to create a travelling site.\nTripadvisor, Inc. is an American online travel company that operates a website and mobile app with user-generated content and a comparison shopping website. It also offers online hotel reservations and bookings for transportation, lodging, travel experiences, and restaurants.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "search_airport",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where the Airport is situated."
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_filters",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sourceAirportCode": {
+              "type": "STRING",
+              "description": "Source airportCode. The airportCode can be extracted from the Search Airport API in the Flights collection."
+            },
+            "destinationAirportCode": {
+              "type": "STRING",
+              "description": "Destination airportCode. The airportCode can be extracted from the Search Airport API in the Flights collection."
+            },
+            "date": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Departure or Travel date.\nFormat: YYYY-MM-DD"
+            },
+            "itineraryType": {
+              "type": "ENUM",
+              "description": "Pass itineraryType as ONE_WAY for one way and ROUND_TRIP for return flight."
+            },
+            "classOfService": {
+              "type": "ENUM",
+              "description": "Traveller cabin class."
+            },
+            "returnDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Return date.\nFormat: YYYY-MM-DD"
+            }
+          },
+          "required": [
+            "sourceAirportCode",
+            "destinationAirportCode",
+            "date",
+            "itineraryType",
+            "classOfService"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_flights",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sourceAirportCode": {
+              "type": "STRING",
+              "description": "Source airportCode. The airportCode can be extracted from the Search Airport API in the Flights collection."
+            },
+            "destinationAirportCode": {
+              "type": "STRING",
+              "description": "Destination airportCode. The airportCode can be extracted from the Search Airport API in the Flights collection."
+            },
+            "date": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Departure or Travel date.\nFormat: YYYY-MM-DD"
+            },
+            "itineraryType": {
+              "type": "ENUM",
+              "description": "Pass itineraryType as ONE_WAY for one way and ROUND_TRIP for return flight."
+            },
+            "sortOrder": {
+              "type": "ENUM",
+              "description": "Sort by parameter"
+            },
+            "numAdults": {
+              "type": "NUMBER",
+              "description": "Number of Adults (Ages between 18-64 years)\nDefault Value: 1"
+            },
+            "numSeniors": {
+              "type": "NUMBER",
+              "description": "Number of Seniors (with age 65 and over)\nDefault Value: 1"
+            },
+            "classOfService": {
+              "type": "ENUM",
+              "description": "Traveller cabin class."
+            },
+            "returnDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Return date.\nFormat: YYYY-MM-DD"
+            },
+            "pageNumber": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "childAges": {
+              "type": "ARRAY",
+              "description": "Pass Children age in the form of Array (Ages between 2-12 years)\nEg: [2, 10]"
+            },
+            "nearby": {
+              "type": "ENUM",
+              "description": "Include nearby airports"
+            },
+            "nonstop": {
+              "type": "ENUM",
+              "description": "Prefer nonstop"
+            },
+            "searchHash": {
+              "type": "STRING",
+              "description": "Pass searchHash from the previous API call to get a complete response."
+            },
+            "pageLoadUid": {
+              "type": "STRING",
+              "description": "Pass pageLoadUid from the previous API call to get a complete response."
+            },
+            "searchId": {
+              "type": "STRING",
+              "description": "Pass searchId from the previous API call to get a complete response."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            },
+            "airlines": {
+              "type": "STRING",
+              "description": "Filter by airline. You can get airline id from api/v1/flights/getFilters(Get Filters) endpoint in flights collection in filters->airlinesas value\nPlease use comma-separated airline id.\nExample: KL,JU"
+            },
+            "bookingSites": {
+              "type": "STRING",
+              "description": "Filter by bookingSites. You can get booking sites id from api/v1/flights/getFilters(Get Filters) endpoint in flights collection in filters->bookingSitesas value\nPlease use comma-separated bookingSites id.\nExample: Air Serbia,Austrian Airlines"
+            },
+            "region": {
+              "type": "ENUM",
+              "description": ""
+            }
+          },
+          "required": [
+            "sourceAirportCode",
+            "destinationAirportCode",
+            "date",
+            "itineraryType",
+            "sortOrder",
+            "numAdults",
+            "numSeniors",
+            "classOfService"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_flights_multicity",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "legs": {
+              "type": "OBJECT",
+              "description": "The legs must contain the origin, destination and date in object format and must be passed in an array.\nEXAMPLE:\n[\n{'sourceAirportCode':'BOS','destinationAirportCode':'LON','date':'2022-12-18'},{'sourceAirportCode':'LON','destinationAirportCode':'BOS','date':'2022-12-26'},\n\u2026\n]\nNote: If there are multiple stops, there should be more leg objects on the board."
+            },
+            "classOfService": {
+              "type": "ENUM",
+              "description": "Traveller cabin class."
+            },
+            "sortOrder": {
+              "type": "ENUM",
+              "description": "Sort by parameter"
+            },
+            "searchHash": {
+              "type": "STRING",
+              "description": "Pass searchHash from the previous API call to get a complete response."
+            },
+            "pageLoadUid": {
+              "type": "STRING",
+              "description": "Pass pageLoadUid from the previous API call to get a complete response."
+            },
+            "searchId": {
+              "type": "STRING",
+              "description": "Pass searchId from the previous API call to get a complete response."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "legs",
+            "classOfService",
+            "sortOrder"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where the Hotel is situated."
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_hotels_filter",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "geoId": {
+              "type": "STRING",
+              "description": "Pass in the geoId of the location retrieved from the Search Location API from the Hotels collection."
+            },
+            "checkIn": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "checkOut": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "CheckOut Date\nFormat: YYYY-MM-DD"
+            }
+          },
+          "required": [
+            "geoId",
+            "checkIn",
+            "checkOut"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_hotels",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "geoId": {
+              "type": "STRING",
+              "description": "Pass in the geoId of the location retrieved from the Search Location API from the Hotels collection."
+            },
+            "checkIn": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "checkOut": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkout Date\nFormat: YYYY-MM-DD"
+            },
+            "pageNumber": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "sort": {
+              "type": "STRING",
+              "description": ""
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "rooms": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "childrenAges": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            },
+            "healthSafety": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "deals": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "type": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "amenity": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "neighborhood": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "rating": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "class": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "style": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "brand": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "distFrom": {
+              "type": "STRING",
+              "description": ""
+            },
+            "distFromMaxDistance": {
+              "type": "STRING",
+              "description": ""
+            },
+            "priceMin": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "priceMax": {
+              "type": "NUMBER",
+              "description": ""
+            }
+          },
+          "required": [
+            "geoId",
+            "checkIn",
+            "checkOut"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_hotels_by_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "latitude": {
+              "type": "STRING",
+              "description": "Pass in the geoId of the location retrieved from the Search Location API from the Hotels collection."
+            },
+            "longitude": {
+              "type": "STRING",
+              "description": ""
+            },
+            "checkIn": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "checkOut": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkout Date\nFormat: YYYY-MM-DD"
+            },
+            "pageNumber": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "sort": {
+              "type": "STRING",
+              "description": ""
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "rooms": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "childrenAges": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            },
+            "healthSafety": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "deals": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "type": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "amenity": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "neighborhood": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "rating": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "class": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "style": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "brand": {
+              "type": "ARRAY",
+              "description": ""
+            },
+            "distFrom": {
+              "type": "STRING",
+              "description": ""
+            },
+            "distFromMaxDistance": {
+              "type": "STRING",
+              "description": ""
+            },
+            "priceMin": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "priceMax": {
+              "type": "NUMBER",
+              "description": ""
+            }
+          },
+          "required": [
+            "latitude",
+            "longitude",
+            "checkIn",
+            "checkOut"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_hotel_details",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Pass in the hotel id as id, which can be retrieved from Search Hotels API from Hotels collection."
+            },
+            "checkIn": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "checkOut": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "CheckOut Date\nFormat: YYYY-MM-DD"
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": "Number of adult guests (with age 18 and over)"
+            },
+            "rooms": {
+              "type": "NUMBER",
+              "description": "Number of rooms required."
+            },
+            "childrenAges": {
+              "type": "ARRAY",
+              "description": "Number of children (with age between 0 and 17)\nExample:\nIf 1st child's age is 11 months and 2nd child's age is 10 years, then the parameter should be passed as [0,10]"
+            },
+            "currency": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "id",
+            "checkIn",
+            "checkOut"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_restaurant_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where the Restaurant is situated."
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_restaurants",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locationId": {
+              "type": "STRING",
+              "description": "locationId of the place got from Search Restaurant Location in Restaurants collection."
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            }
+          },
+          "required": [
+            "locationId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_restaurant_details",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "restaurantsId": {
+              "type": "STRING",
+              "description": "Get restaurantsId from search restaurant API as restaurantsId parameter."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "restaurantsId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_vacation_rental_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where you want to search for Vacation Rentals."
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "rental_search",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "geoId": {
+              "type": "STRING",
+              "description": "Get geoId of the place from Rental Search API from the Vacation Rentals collection."
+            },
+            "arrival": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "departure": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkout Date\nFormat: YYYY-MM-DD"
+            },
+            "sortOrder": {
+              "type": "ENUM",
+              "description": "Sort by parameter"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "geoId",
+            "arrival",
+            "departure",
+            "sortOrder"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "rental_details",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rentalId": {
+              "type": "STRING",
+              "description": "Get rentalId from Rental Search API in Vacation Rentals collection."
+            }
+          },
+          "required": [
+            "rentalId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "rental_availability",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rentalId": {
+              "type": "STRING",
+              "description": "Get rentalId from Rental Search API in Vacation Rentals collection."
+            }
+          },
+          "required": [
+            "rentalId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "rental_rates",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rentalId": {
+              "type": "STRING",
+              "description": "Get rentalId from Rental Search API in Vacation Rentals collection."
+            },
+            "startDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkin Date\nFormat: YYYY-MM-DD"
+            },
+            "endDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "Checkout Date\nFormat: YYYY-MM-DD"
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": "The number of guests."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "rentalId",
+            "startDate",
+            "endDate",
+            "adults"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "rental_reviews",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rentalId": {
+              "type": "STRING",
+              "description": "Get rentalId from Rental Search API in Vacation Rentals collection."
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            }
+          },
+          "required": [
+            "rentalId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_cruises_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_cruises_quick_links",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_cruises",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "destinationId": {
+              "type": "STRING",
+              "description": "destinationId can be retrieved from Get Cruises Location API from the Cruises collection."
+            },
+            "order": {
+              "type": "ENUM",
+              "description": "Order by parameter"
+            },
+            "departureDate": {
+              "type": "STRING",
+              "description": "Departure Date\nFormat: YYYY-MM"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "destinationId",
+            "order"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_cruises_details",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "shipId": {
+              "type": "STRING",
+              "description": "shipId can be retrieved from Search Cruises API and Get Cruises Quick Links API from the Cruises collection."
+            },
+            "seoName": {
+              "type": "STRING",
+              "description": "seoName can be retrieved from Search Cruises API and Get Cruises Quick Links API from the Cruises collection."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "shipId",
+            "seoName"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_rental_cars_location",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Name of the location where you want to Rent the Car."
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_cars_same_dropoff",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pickUpPlaceId": {
+              "type": "STRING",
+              "description": "placeId for the location from where you want to pick up the car. pickUpPlaceId can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "pickUpLocationType": {
+              "type": "STRING",
+              "description": "pickUpLocationType can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "pickUpDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "PickUp Date\nFormat: YYYY-MM-DD"
+            },
+            "dropOffDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "DropOff Date\nFormat: YYYY-MM-DD"
+            },
+            "pickUpTime": {
+              "type": "TIME (24-HOUR HH:MM)",
+              "description": "PickUp Time\nFormat: YYYY-MM-DD"
+            },
+            "dropOffTime": {
+              "type": "TIME (24-HOUR HH:MM)",
+              "description": "DropOff Time\nFormat: YYYY-MM-DD"
+            },
+            "order": {
+              "type": "ENUM",
+              "description": "Order by parameter"
+            },
+            "pickUpAirportCode": {
+              "type": "STRING",
+              "description": "Pass in the airportCode as pickUpAirportCode if the searched place type is AIRPORT."
+            },
+            "driverAge": {
+              "type": "ENUM",
+              "description": "Age of the Driver"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "pickUpPlaceId",
+            "pickUpLocationType",
+            "pickUpDate",
+            "dropOffDate",
+            "pickUpTime",
+            "dropOffTime",
+            "order"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_cars_different_dropoff",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pickUpPlaceId": {
+              "type": "STRING",
+              "description": "placeId for the location from where you want to pick up the car. pickUpPlaceId can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "dropOffPlaceId": {
+              "type": "STRING",
+              "description": "placeId for the location from where you want to drop off the car. dropOffPlaceId can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "pickUpLocationType": {
+              "type": "STRING",
+              "description": "pickUpLocationType can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "dropOffLocationType": {
+              "type": "STRING",
+              "description": "dropOffLocationType can be retrieved from Search Rental Cars Location API from the Rental Cars collection."
+            },
+            "pickUpDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "PickUp Date\nFormat: YYYY-MM-DD"
+            },
+            "dropOffDate": {
+              "type": "DATE (YYYY-MM-DD)",
+              "description": "DropOff Date\nFormat: YYYY-MM-DD"
+            },
+            "pickUpTime": {
+              "type": "TIME (24-HOUR HH:MM)",
+              "description": "PickUp Time\nFormat: YYYY-MM-DD"
+            },
+            "dropOffTime": {
+              "type": "TIME (24-HOUR HH:MM)",
+              "description": "DropOff Time\nFormat: YYYY-MM-DD"
+            },
+            "order": {
+              "type": "ENUM",
+              "description": "Order by parameter"
+            },
+            "pickUpAirportCode": {
+              "type": "STRING",
+              "description": "Pass in the airportCode as pickUpAirportCode if the searched place type is AIRPORT."
+            },
+            "dropOffAirportCode": {
+              "type": "STRING",
+              "description": "Pass in the airportCode as dropOffAirportCode if the searched place type is AIRPORT."
+            },
+            "driverAge": {
+              "type": "ENUM",
+              "description": "Age of the Driver"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": "Page number. The default page number is 1."
+            },
+            "currencyCode": {
+              "type": "STRING",
+              "description": "currencyCode can be retrieved from Get Currency API from Configs collection."
+            }
+          },
+          "required": [
+            "pickUpPlaceId",
+            "dropOffPlaceId",
+            "pickUpLocationType",
+            "dropOffLocationType",
+            "pickUpDate",
+            "dropOffDate",
+            "pickUpTime",
+            "dropOffTime",
+            "order"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_currency",
+        "description": "-",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "test_api",
+        "description": "This API is to test if server is up and running",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

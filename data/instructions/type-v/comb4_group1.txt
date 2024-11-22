@@ -1,0 +1,33 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. web_capture/take_image_screenshot: Get Screenshot of any website by providing URL and the image ratio (width, height)
+2. ocr_extract_text/extract_text_from_image_file: Image must be a regular **JPEG** or **PNG** image (with or without transparency)
+
+For example:
+Instruction: I want to save the article at https://lilianweng.github.io/posts/2024-02-05-human-data-quality/ . Save the screenshot of this webpage and extract text from it.
+
+
+==== RESPONSE ====
+Here are five high-level instructions that can be solved using a combination of the APIs mentioned:
+
+1. **Archive Online Job Postings**
+
+   Instruction: Collect a visual and text record of job listings on https://example-job-board.com for archival purposes. Use the screenshot API to capture images of each listing and extract the text content for easier searching and indexing.
+
+2. **Monitor Price Changes on an E-commerce Site**
+
+   Instruction: Monitor pricing updates for products on https://example-ecommerce.com/deals by taking daily screenshots of the deals page. Then, extract the text to keep a log of price changes over time.
+
+3. **Digitize Printed Restaurant Menus**
+
+   Instruction: Create a digital text version of a restaurant's menu by taking a screenshot of the online menu at https://example-restaurant.com/menu. Then, extract the text to allow for parsing and analysis of menu items and prices.
+
+4. **Document Event Information from Websites**
+
+   Instruction: Preserve event details listed on https://example-event-site.com/upcoming-events by capturing a screenshot of the webpage and subsequently extracting the text to maintain an accessible record of schedules, dates, and locations.
+
+5. **Gather Research Material from Educational Resources**
+
+   Instruction: Collect study resources from a tutorial website like https://example-education-site.com/resources by capturing screenshots of study guides and articles, and then extracting text to compile into a searchable document for reference and review.
+
+The first step in each of these tasks involves capturing a visual representation of the webpage content through the web_capture/take_image_screenshot API and then processing the resulting screenshots with the ocr_extract_text/extract_text_from_image_file API to obtain editable and searchable text data.

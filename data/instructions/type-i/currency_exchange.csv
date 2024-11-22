@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,currency_exchange,listquotes,"Which currency is generally stronger, the US Dollar or the Euro?",1
+1,,,How can I exchange my currency at a local bank or currency exchange office?,1
+2,,,What is the typical commission fee for exchanging currency at a physical exchange service?,1
+3,,,Can I use credit cards in most places while traveling abroad?,1
+4,,,Which countries use the Euro as their official currency?,1
+5,,,What is the historical significance of the British Pound in the global financial market?,1
+6,,,How has the Chinese Yuan's exchange rate changed in the past 5 years?,1
+7,,,What factors can influence the exchange rate fluctuations between currencies?,1
+8,,,Are there any restrictions on carrying large amounts of cash when traveling to another country?,1
+9,,,How do I determine if a currency exchange rate is favorable for me when traveling or making an international transaction?,1
+10,,exchange,What is the capital of the country that uses the Euro (EUR) as its currency?,1
+11,,,"Which major currency is more stable over the past few years, USD or EUR?",1
+12,,,"What are some common currency symbols used in the international market besides USD, EUR, and CNY?",1
+13,,,Can you suggest some popular online platforms for trading cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH)?,1
+14,,,How does inflation affect the exchange rate between two currencies?,1
+15,,,What factors in a country's economy can lead to the depreciation of its currency?,1
+16,,,Do the exchange rates offered at the airport usually have better or worse rates than the ones available online?,1
+17,,,How can I convert my physical cash to digital currency for online transactions?,1
+18,,,What is the historical significance of the British Pound (GBP) as a global currency?,1
+19,,,"As a traveler, is it more cost-effective to exchange currency before leaving for my trip or after arriving at the destination?",1

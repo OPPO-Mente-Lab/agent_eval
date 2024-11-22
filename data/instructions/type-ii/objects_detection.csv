@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,objects_detection,objects_detection,Can you tell me what objects are in this photo I took at the park? $FILE,2
+1,,,What items are present in this image I found online? $URL,2
+2,,,Can you tell me what's in this picture I took during my vacation? $FILE,2
+3,,,Which objects appear in this image from a news article? $URL,2
+4,,,Please identify the objects in this photo from my friend's birthday party. $FILE,2
+5,,,Could you help me analyze this picture I found on a blog? $URL,2
+6,,,What are the objects in this photograph I took at a concert? $FILE,2
+7,,,"I found this image with a strange scene, can you tell me what's in it? $URL",2
+8,,,Can you help me identify the items in this picture I took at a museum? $FILE,2
+9,,,What objects can you detect in this image from a store catalog? $URL,2

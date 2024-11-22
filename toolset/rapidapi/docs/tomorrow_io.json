@@ -1,0 +1,570 @@
+{
+  "tool_name": "tomorrow_io",
+  "tool_description": "The Tomorrow.io Weather API delivers fast, reliable, and hyper-accurate weather data with the flexibility to integrate with any application, system, or program.\nSee why 40k developers currently use Tomorrow.io Weather API. Try it for free today here.\nOffering 80+ layers of historical, real-time, and forecasted data, the Tomorrow.io Weather API delivers the weather data you need to boost efficiency and safety in any industry. With a 15-minute forecast update frequency and high-resolution, global coverage, it\u2019s the perfect tool for businesses and developers looking to innovate using weather data.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "weather_forecast",
+        "description": "Get Weather forecast for Core parameters",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "STRING",
+              "description": ""
+            },
+            "timesteps": {
+              "type": "STRING",
+              "description": ""
+            },
+            "units": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "location",
+            "timesteps"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieverealtimeweather",
+        "description": "Get the Realtime Weather for a location",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "timesteps": {
+              "type": "STRING",
+              "description": ""
+            },
+            "location": {
+              "type": "STRING",
+              "description": ""
+            },
+            "units": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "timesteps",
+            "location"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieveweatherrecenthisotry",
+        "description": "Get recent historical weather of a location",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "timesteps": {
+              "type": "STRING",
+              "description": ""
+            },
+            "location": {
+              "type": "STRING",
+              "description": ""
+            },
+            "units": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "timesteps",
+            "location"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrievetimelinesbasic",
+        "description": "Get Timeline parameters",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "startTime": {
+              "type": "STRING",
+              "description": "Start time in ISO 8601 format \\\"2019-03-20T14:09:50Z\\\" (defaults to now)"
+            },
+            "location": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined location or latlong string"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "(Required) Selected fields from our data layers (polygon/polyline default to Max, if not suffix is not specified)"
+            },
+            "endTime": {
+              "type": "STRING",
+              "description": "End time in ISO 8601 format \\\"2019-03-20T14:09:50Z\\\""
+            },
+            "timesteps": {
+              "type": "STRING",
+              "description": "Timesteps of the timelines: \\\"1m\\\", \\\"5m\\\", \\\"15m\\\", \\\"30m\\\", \\\"1h\\\", \\\"1d\\\", and \\\"current\\\""
+            },
+            "timezone": {
+              "type": "STRING",
+              "description": "Timezone of time values, according to IANA Timezone Names (defaults to UTC)"
+            },
+            "units": {
+              "type": "STRING",
+              "description": "Units of field values, either \\\"metric\\\" or \\\"imperial\\\" (defaults to metric)"
+            }
+          },
+          "required": [
+            "startTime",
+            "location",
+            "fields",
+            "endTime",
+            "timesteps"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrievetimelinesadvanced",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieveeventsbasic",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "buffer": {
+              "type": "STRING",
+              "description": "The buffer around locations, in case of pre-defined insight categories (in km)"
+            },
+            "location": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined location or latlong string"
+            },
+            "insights": {
+              "type": "STRING",
+              "description": "(Required) Pre-defined category names or custom insight IDs"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieveeventsadvanced",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "updatealocation",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locationId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined location"
+            },
+            "name": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "locationId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "removelocationtags",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locations": {
+              "type": "STRING",
+              "description": ""
+            },
+            "tags": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "createalocation",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrievealocation",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locationId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined location"
+            }
+          },
+          "required": [
+            "locationId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "addlocationtags",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locations": {
+              "type": "STRING",
+              "description": ""
+            },
+            "tags": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "deletealocation",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "locationId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined location"
+            }
+          },
+          "required": [
+            "locationId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "listlocations",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "deleteaninsight",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "insightId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined insight"
+            }
+          },
+          "required": [
+            "insightId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "listinsights",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieveaninsight",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "insightId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined insight"
+            }
+          },
+          "required": [
+            "insightId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "updateaninsight",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "insightId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined insight"
+            }
+          },
+          "required": [
+            "insightId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "createaninsight",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "updateanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "unlinklocations",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "retrieveanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "listalerts",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "activateanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "linkedlocations",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "deactivateanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "deleteanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "linklocations",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "alertId": {
+              "type": "STRING",
+              "description": "(Required) ID of a pre-defined alert"
+            }
+          },
+          "required": [
+            "alertId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "createanalert",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

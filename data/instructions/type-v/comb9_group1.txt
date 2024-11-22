@@ -1,0 +1,46 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. web_search: Web search.
+2. images_search: Search images from the search engine for the most relevant keywords and images related to keywords and images.
+3. video_search: Search videos over web.
+4. news_api/search: Endpoint to search news by specific keywords.
+
+For example:
+Instruction: I am writing a book about Bill Gates. Help me collect some materials about him. I need some inspiration.
+
+
+==== RESPONSE ====
+Instruction 1: I am creating a presentation on the impact of climate change on Arctic wildlife. Provide me with a variety of sources including news articles, relevant images, and informative videos that I can use for visual aids and reference materials.
+
+Solution:
+1. Use the `news_api/search` to find recent news articles focused on climate change effects on Arctic wildlife.
+2. Utilize the `images_search` API to find and download images that depict Arctic animals and the changing landscapes due to climate change.
+3. Apply the `video_search` API to identify educational videos that illustrate the impact of climate change on the Arctic ecosystem.
+
+Instruction 2: As a journalist, I need to gather background information and visual aids on the recent volcanic eruption in Indonesia for my upcoming article.
+
+Solution:
+1. Implement the `news_api/search` to locate the latest news coverage about the volcanic eruption in Indonesia.
+2. Use the `images_search` API to find high-quality images of the eruption and its aftermath for use as visual content in the article.
+3. Engage the `video_search` to find footage of the eruption and any related rescue or evacuation operations.
+
+Instruction 3: I am preparing a report on the evolution of electric vehicles. Collect comprehensive data including historical milestones, technological advancements, and future trends related to electric vehicles.
+
+Solution:
+1. Leverage the `web_search` API to gather information on the history and evolution of electric vehicles.
+2. Use the `news_api/search` to find recent articles and expert analyses predicting future trends in the electric vehicle industry.
+3. Utilize the `video_search` to find documentaries and expert talks discussing technological advancements in electric vehicles.
+
+Instruction 4: I am tasked with preparing a cultural awareness training for employees. Assemble resources on cultural etiquette, traditional customs, and communication styles in Japan.
+
+Solution:
+1. Utilize the `web_search` API to find articles, guides, and resources on Japanese culture, customs, and communication.
+2. Engage the `images_search` API to find images that represent traditional Japanese customs and everyday cultural practices.
+3. Apply the `video_search` API to identify instructional videos that help explain the nuances of Japanese cultural etiquette.
+
+Instruction 5: I'm writing an article on the advancements in artificial intelligence (AI) in the healthcare sector. I need up-to-date information and examples of AI applications in medical treatments and diagnostics.
+
+Solution:
+1. Use the `web_search` API to obtain information on recent advancements in AI within healthcare.
+2. Apply the `news_api/search` to find the latest news and reports about AI applications in medical diagnostics and treatments.
+3. Use the `video_search` API to find interviews and presentations by experts discussing AI in healthcare and its impact on patient care.

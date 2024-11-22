@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,objects_detection,objects_detection,Can you analyse this image I have on my device?,3
+1,,,What objects are in this artwork I photographed?,3
+2,,,Can this software analyze this picture I took for all objects it contains?,3
+3,,,Could you analyse this image I found online for objects?,3
+4,,,"I have found an interesting image on the internet, can it be analyzed for identifiable objects?",3
+5,,,What objects are in this online image?,3
+6,,,Can you detect objects in images?,3
+7,,,What does this image analysis tool do?,3
+8,,,Can you describe what is in this image?,3
+9,,,Could you find out about the objects in my image?,3

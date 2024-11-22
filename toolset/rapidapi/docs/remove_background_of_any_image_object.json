@@ -1,0 +1,63 @@
+{
+  "tool_name": "remove_background_of_any_image_object",
+  "tool_description": "FREE API FOR EVERYONE!!",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "remove_bg_using_file",
+        "description": "Remove the background given a path of the image, and save the output image locally.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "STRING",
+              "description": "The path of the image"
+            }
+          },
+          "required": [
+            "path"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "remove_bg_post_",
+        "description": "use:\nrequests.post(api_url, json={\"url\": image_url})",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "remove_bg_get_",
+        "description": "use:\n/rembg?url=https://www.example.com/abc.jpeg",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,world_time_by_api_ninjas,v1_worldtime,"What is the current time in New York City, United States?",2
+1,,,"Can you tell me the current time in Paris, France?",2
+2,,,"What's the time in Los Angeles, California, USA right now?",2
+3,,,"I need to know the current time in London, United Kingdom.",2
+4,,,"What is the time in Tokyo, Japan at the moment?",2
+5,,,Please tell me the current time for the timezone Europe/Berlin.,2
+6,,,"Can you find out the time in Sydney, Australia right now?",2
+7,,,"What is the current time at the latitude and longitude coordinates (37.7749, -122.4194)?",2
+8,,,"How late is it in Moscow, Russia at this moment?",2
+9,,,"I would like to know the current time in Rio de Janeiro, Brazil.",2

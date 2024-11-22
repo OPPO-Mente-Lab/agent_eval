@@ -1,0 +1,48 @@
+{
+    "tool_name": "calendar",
+    "tool_description": "Check the calendar of a certain month.",
+    "APIs":[
+        {
+            "type": "function",
+            "function": {
+                "name": "days_of_month",
+                "description": "Get a list of days with their corresponding weekdays of a certain month.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "year": {
+                            "description": "year",
+                            "type": "INT"
+                        },
+                        "month": {
+                            "description": "month",
+                            "type": "INT"
+                        }
+                    },
+                    "required": ["year", "month"]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "display_calendar_of_month",
+                "description": "Returns formated string, which is a matrix representing a month's calendar. Each row represents a week.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "year": {
+                            "description": "year",
+                            "type": "INT"
+                        },
+                        "month": {
+                            "description": "month",
+                            "type": "INT"
+                        }
+                    },
+                    "required": ["year", "month"]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,web_capture,take_image_screenshot,"Can I obtain a screenshot of the website: www.technews.cn with width 500 pixels, and height of 700 pixels?",2
+1,,,How does the homepage of www.google.com look like in a picture of 250 x 300 resolution.,2
+2,,,I want the screenshot of website www.alibaba.com with the dimension of 800x600.,2
+3,,,Can I take a screenshot of the website www.microsoft.com? Use width 350 pixels and height 500 pixels.,2
+4,,,Could you give me a screenshot of my personal blog at www.blogger.com/myhome? Let's have it in a 1280x720 resolution.,2
+5,,,How can I get a picture of the page www.apple.com/ipad in a 720x480 size?,2
+6,,,I need a screenshot of my online course homepage on www.coursera.com/mycourses at 1024x768 pixels.,2
+7,,,Can you help me take a screen capture of the news page www.cnn.com at the current date and time with a resolution of 500x700?,2
+8,,,"How to make a screenshot of the webpage www.amazon.com, with the image size of 800 by 600?",2
+9,,,"Can I have a screenshot of the website www.nasa.gov, at a resolution of 1920x1080?",2

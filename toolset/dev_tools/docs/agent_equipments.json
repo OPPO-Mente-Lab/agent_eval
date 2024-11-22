@@ -1,0 +1,30 @@
+{
+    "tool_name": "agent_equipments",
+    "tool_description": "For the AI agent (i.e. assistant) to get its local time (including time, date and weekday) and location.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "get_current_time",
+                "description": "Get the time of now, date and weekday of today.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "get_my_location",
+                "description": "Get my location info.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        }
+    ]
+}

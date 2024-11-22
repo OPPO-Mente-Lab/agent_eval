@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,"Can you tell me the official name, two-letter code, numeric code and Internet ccTLD code for all countries?",2
+1,,,"I need a list of all countries with their respective official state names, alpha 2 code, alpha 3 code, numeric code, and internet ccTLD code. Could you provide that?",2
+2,,,"Is there a way to obtain the official information for all countries, including their country name, official state name, alpha 2 code, alpha 3 code, numeric code, and internet ccTLD code?",2
+3,,,"Can you give me a comprehensive list of all countries along with their official state names, 2-letter codes, 3-letter codes, numerical codes, and internet ccTLD codes?",2
+4,,,"I'm looking for a resource that lists all countries' official state names, alpha 2 codes, alpha 3 codes, numeric codes and internet ccTLD. Can you provide that?",2
+5,,,"Where can I find a list of all countries with official names, 2-letter codes, 3-letter codes, numeric codes, and internet ccTLDs?",2
+6,,,"How can I obtain a complete list of all countries along with their associated details including country name, official state name, alpha 2 code, alpha 3 code, numeric code, and internet ccTLD code?",2
+7,,,"I need a compilation of all the countries and their comprehensive information like the Official State Name, Alpha 2 Code, Alpha 3 Code, Numeric Code, and Internet Cctld Code, can you provide it?",2
+8,,,"Can you show me a list of all countries along with their corresponding alpha 2 codes, alpha 3 codes, numeric codes, and internet ccTLD codes?",2
+9,,,"Can you provide an all-encompassing list of all countries with their official names, two-letter codes, three-letter codes, numeric codes, and internet ccTLDs?",2
+10,,list_of_all_languages,Can you provide the list of all official languages along with their ISO Language Name and their 639-1 Codes?,2
+11,,,"I'd like to know about all existing languages, can you list them along with their ISO details?",2
+12,,,May I get a list of languages along with their recognized ISO names and their 639-1 codes?,2
+13,,,Can anyone share a list of all languages including their ISO Language Name and their 639-1 Codes?,2
+14,,,Is there a way to find out all the languages along with their ISO Language Name and 639-1 Codes?,2
+15,,,Could I have a list of all known languages with their ISO Language Name and codes defined by ISO 639-1?,2
+16,,,Is there a list documenting every language along with its ISO Language Name and 639-1 Codes?,2
+17,,,Could you provide an inventory of all the languages including their ISO Language Name and their respective 639-1 codes?,2
+18,,,I'm searching for a comprehensive list of known languages along with their ISO Language Names and ISO 639-1 codes. Can you help with that?,2
+19,,,Please could you share a catalogue of all languages that includes ISO Language Names and their 639-1 Codes?,2

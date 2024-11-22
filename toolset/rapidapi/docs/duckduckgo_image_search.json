@@ -1,0 +1,25 @@
+{
+    "tool_name": "duckduckgo_image_search",
+    "tool_description": "",
+    "APIs": [
+      {
+        "type": "function",
+        "function": {
+          "name": "image_search",
+          "description": "This endpoint expects a query named 'q' which is the query you want to search for.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "q": {
+                "type": "STRING",
+                "description": ""
+              }
+            },
+            "required": [
+              "q"
+            ]
+          }
+        }
+      }
+    ]
+  }

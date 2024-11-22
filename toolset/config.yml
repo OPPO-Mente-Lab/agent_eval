@@ -1,0 +1,46 @@
+X-RapidAPI-Key: ""
+
+USER:
+  name: "Sam"
+  age: 20
+  sex: "Male"
+  location: "London, UK"
+  language: "English"
+
+AGENT:
+  location: "London, UK"
+
+
+RAPIDAPI_TOOLS:
+  - weatherapi_com
+  - news_api
+  - public_holiday
+  - recipe_by_api_ninjas
+  - objects_detection
+  - ocr_extract_text
+  - web_capture
+  - onecompiler_apis
+  - bing
+  - bing_search_apis
+  - google_api
+  - skyscanner80
+  - currency_exchange
+  - geocoding_by_api_ninjas
+  - airports
+  - list_of_all_countries_and_languages_with_their_codes
+  - tourist_attraction
+  - world_time_by_api_ninjas
+  - google_translate
+  - ip_geo_location
+
+
+DEV_TOOLS:
+  - calendar
+  - calculator
+  - image_processing
+  - image_remove_bg
+  - image_translation
+  - access_user_info
+  - agent_equipments
+
+FILE_DIR: ""

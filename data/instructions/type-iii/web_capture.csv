@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,web_capture,take_image_screenshot,Could you take a screenshot of the homepage of Amazon?,3
+1,,,I need a screenshot from this YouTube video.,3
+2,,,Can you provide a screenshot of the Wikipedia page on Shenzhen?,3
+3,,,I need a screenshot with a height of 480 pixels.,3
+4,,,Can I get an image with the height of 1024px?,3
+5,,,Can you provide a screenshot with a height of 768 pixels?,3
+6,,,I need a screenshot with a width of 1280 pixels.,3
+7,,,Can I get an image with the width of 720px?,3
+8,,,Can you provide a screenshot with a width of 840 pixels?,3
+9,,,Can you take a screenshot?,3

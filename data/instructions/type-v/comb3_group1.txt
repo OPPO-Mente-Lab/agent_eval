@@ -1,0 +1,44 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: query hotels and flights in real-time data. By searching and comparing hotel options, the tool assists travelers in finding the most cost-effective option for their journey.
+1. This API helps to get the list of one-way flights. 
+2. This API helps to get the list of round trip flights. 
+3. This API helps to find flights with uncertain destinations.
+5. Get all the details of the fights based on itineraryId and token.
+6. This API will return a calendar for the given source and destination
+
+For example:
+Instruction: Check the flight price between Hongkong and Brisbane for me. Depart from Hongkong on July 10 and return from Brisbane on July 20. Compare the total prices of two single-trip and one round-trip.
+
+
+==== RESPONSE ====
+Here are five high-level instructions that cover different scenarios and require the combination of APIs listed:
+
+1. Instruction: Find the best flight options for a multi-city tour.
+   - Use API 3 to find flights with uncertain destinations to build a potential list of cities to visit.
+   - For each city pair, use API 1 and API 2 to compare the cost and schedule of one-way vs. round trip flights.
+   - Utilize API 6 to view the price calendar for flights between each city on your multi-city list to identify the cheapest travel dates.
+
+2. Instruction: Organize a last-minute weekend getaway from New York to a surprise destination.
+   - Employ API 3 to discover flights with uncertain destinations departing from New York for the upcoming weekend.
+   - Use API 6 to check for the cheapest available flights for the next few days.
+   - After selecting a destination, retrieve all the details of the flight using API 5 before making a booking.
+
+3. Instruction: Plan a honeymoon trip that involves multiple stopovers and compare prices for the most cost-effective options.
+   - With API 3, explore flights to several romantic destinations with uncertain dates for flexibility.
+   - Utilize API 1 to find the best one-way flights between the desired stopover cities.
+   - Leverage API 6 to check the price calendar and determine the most economical dates for each leg of the trip.
+
+4. Instruction: Prepare a comparative analysis of flying out on a Friday vs. a Monday for a week-long international conference.
+   - Utilize API 2 to find round trip flights departing on a Friday and returning the following Friday.
+   - Repeat the search with the departure on a Monday and return on the next Monday.
+   - Use API 6 to inspect the price calendar for price trends during these periods.
+   - Finally, employ API 5 to get the details of the selected flights for a more comprehensive comparison.
+
+5. Instruction: Create a flexible travel itinerary for a month-long European backpacking adventure with open destinations.
+   - Start with API 3 to explore flights to various potential starting points in Europe.
+   - Use API 1 to find one-way flight options between cities on your backpacking route.
+   - Employ API 6 to consult the price calendar for the cheapest travel dates between each destination on your itinerary.
+   - As you travel and finalize your plans, continuously refer to API 5 for the details of your upcoming flights.
+
+In each case, the tool's ability to search, compare, and provide real-time data of hotels and flights would be crucial in helping travelers make the best decisions for their itineraries, budgets, and travel preferences.

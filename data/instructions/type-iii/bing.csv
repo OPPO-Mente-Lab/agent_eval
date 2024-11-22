@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,bing,web_search,"Can you search for the term ""AI development""?",3
+1,,,"Do a web search for ""best stories"".",3
+2,,,"Perform a web search for ""recent scientific discoveries"".",3
+3,,,Start from the tenth result when presenting web search results.,3
+4,,,Show search results but start from the fifth.,3
+5,,,Can you skip the first 20 search results?,3
+6,,,Show the search results in Chinese.,3
+7,,,Can you conduct the search in Spanish?,3
+8,,,I prefer the search results in Hindi.,3
+9,,,Can you perform an internet search for me?,3

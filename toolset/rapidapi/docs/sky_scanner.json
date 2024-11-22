@@ -1,0 +1,443 @@
+{
+  "tool_name": "sky_scanner",
+  "tool_description": "Real-time data, unofficial API skyscanner.com, query hotels, rental cars.\nAPI searches and compares hotel and rental car options to help them find the best deal for their journey.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "languages",
+        "description": "languages",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "regions",
+        "description": "regions",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "currencies",
+        "description": "currencies",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_auto_complete",
+        "description": "hotels/auto-complete",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_search",
+        "description": "hotels/search",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "search_id": {
+              "type": "STRING",
+              "description": "search_id get from hotels/auto-complete endpoint, data[index]->entity_id"
+            },
+            "checkin_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "checkout_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            },
+            "currency_code": {
+              "type": "STRING",
+              "description": "currency_code get from currencies endpoint, data[index]->CurrencyCode\nDefault: USD"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "sort_by": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": "Default: 3"
+            },
+            "children_ages": {
+              "type": "STRING",
+              "description": ""
+            },
+            "rooms": {
+              "type": "NUMBER",
+              "description": "Default: 1"
+            },
+            "price_type": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "min_price": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "max_price": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "book_with_peace_of_mind": {
+              "type": "STRING",
+              "description": "The book_with_peace_of_mind is separated by a comma\nEx: FreeCancellation,PayOnArrival\nFreeCancellation: Free cancellation\nPayOnArrival: Pay on arrival"
+            },
+            "star_rating": {
+              "type": "STRING",
+              "description": "The star_rating is separated by a comma\nEx: 5stars,Unrated\n5stars: 5 stars\n4stars: 4 stars\n3stars: 3 stars\n2stars: 2 stars\n1star: 1 star\nUnrated: Unrated"
+            },
+            "accommodation_type": {
+              "type": "STRING",
+              "description": "The accommodation_type is separated by a comma\nEx: Hotel,Resort\nHotel: Hotel\nApartment: Apartment\nHostel: Hostel\nGuestHouse: Guest House\nVacationRentals: Vacation rentals\nResort: Resort\nUniqueStays: Unique stays\nResidence: Residence\nPrivateHome: Private home\nCountryHouse: Country House"
+            },
+            "cancellation_policy": {
+              "type": "STRING",
+              "description": "The cancellation_policy is separated by a comma\nEx: FreeCancellation,NonRefundable\nFreeCancellation: Free cancellation\nNonRefundable: Non-Refundable"
+            },
+            "meal_plan": {
+              "type": "STRING",
+              "description": "The meal_plan is separated by a comma\nEx: BreakfastIncluded,MealsNotIncluded\nBreakfastIncluded: Breakfast included\nMealsNotIncluded: Meals not included"
+            },
+            "guest_rating": {
+              "type": "STRING",
+              "description": "The guest_rating is separated by a comma\nEx: Outstanding,Good\nOutstanding: 5.0+ Outstanding\nExcellent: 4.5+ Excellent\nVeryGood: 4.0+ Very Good\nGood: 3.5+ Good\nSatisfactory: 3.0+ Satisfactory"
+            },
+            "deals": {
+              "type": "STRING",
+              "description": "The deals is separated by a comma\nEx: ShowDiscounts\nShowDiscounts: Show discounts"
+            },
+            "popular_with": {
+              "type": "STRING",
+              "description": "The popular_with is separated by a comma\nEx: Families,Couples\nFamilies: Families\nBusinessTravelers: Business travelers\nCouples: Couples\nSoloTravelers: Solo travelers"
+            },
+            "filters": {
+              "type": "STRING",
+              "description": "filters get from response of this endpoint, data->filters->data[index]\nid=options[index]->id\nEx: district=27562583\nIf you want multiple district options, ex: district=27562583,27562587\nIf you want to add one more choice as a different type, separate them with an & symbol\nEx: district=27562583,27562587&rating=5"
+            }
+          },
+          "required": [
+            "search_id",
+            "checkin_date",
+            "checkout_date"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_detail",
+        "description": "hotels/detail",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "STRING",
+              "description": "url get from hotels/search endpoint, data->hotelCards[index]->url"
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_detail_by_url",
+        "description": "hotels/detail-by-url",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "STRING",
+              "description": "url can copy from browser"
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_prices",
+        "description": "hotels/prices",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "entity_id": {
+              "type": "STRING",
+              "description": "entity_id get from hotels/search endpoint, data->hotelCards[index]->id"
+            },
+            "checkin_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "checkout_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            },
+            "currency_code": {
+              "type": "STRING",
+              "description": "currency_code get from currencies endpoint, data[index]->CurrencyCode\nDefault: USD"
+            },
+            "price_type": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "adults": {
+              "type": "NUMBER",
+              "description": "Default: 3"
+            },
+            "rooms": {
+              "type": "NUMBER",
+              "description": "Default: 1"
+            },
+            "children_ages": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "entity_id",
+            "checkin_date",
+            "checkout_date"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_reviews",
+        "description": "hotels/reviews",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "entity_id": {
+              "type": "STRING",
+              "description": "entity_id get from hotels/search endpoint, data->hotelCards[index]->id"
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            },
+            "currency_code": {
+              "type": "STRING",
+              "description": "currency_code get from currencies endpoint, data[index]->CurrencyCode\nDefault: USD"
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": ""
+            },
+            "sort_by": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "filter_locale": {
+              "type": "STRING",
+              "description": "filter_locale get from this endpoint, data->filters->filterLocale[index]->type"
+            },
+            "guest_type": {
+              "type": "STRING",
+              "description": "guest_type get from this endpoint, data->filters->guestType[index]->type"
+            },
+            "data_source": {
+              "type": "STRING",
+              "description": "data_source get from this endpoint, data->filters->dataSource[index]->type"
+            },
+            "guest_rating": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "tags": {
+              "type": "STRING",
+              "description": "tags get from this endpoint, data->filters->tags[index]->type"
+            }
+          },
+          "required": [
+            "entity_id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "hotels_search_for_hotels_close_to",
+        "description": "hotels/search-for-hotels-close-to",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "search_id": {
+              "type": "STRING",
+              "description": "search_id get from hotels/auto-complete endpoint, data[index]->entity_id"
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "currency_code": {
+              "type": "STRING",
+              "description": "currency_code get from currencies endpoint, data[index]->CurrencyCode\nDefault: USD"
+            }
+          },
+          "required": [
+            "search_id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "car_rental_auto_complete",
+        "description": "car-rental/auto-complete",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "car_rental_search",
+        "description": "car-rental/search",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pick_up_location": {
+              "type": "STRING",
+              "description": "pick_up_location get from car-rental/auto-complete endpoint, data[index]->entity_id"
+            },
+            "pickup_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "return_date": {
+              "type": "STRING",
+              "description": "Format: YYYY-MM-DD"
+            },
+            "language_code": {
+              "type": "STRING",
+              "description": "language_code get from languages endpoint, data[index]->LanguageCode\nDefault: en-US"
+            },
+            "region_code": {
+              "type": "STRING",
+              "description": "region_code get from regions endpoint, data[index]->RegionCode\nDefault: US"
+            },
+            "currency_code": {
+              "type": "STRING",
+              "description": "currency_code get from currencies endpoint, data[index]->CurrencyCode\nDefault: USD"
+            },
+            "return_location": {
+              "type": "STRING",
+              "description": "Default: return_location= pick_up_location"
+            },
+            "driver_age": {
+              "type": "NUMBER",
+              "description": "Default: 30"
+            },
+            "pickup_hour": {
+              "type": "ENUM",
+              "description": ""
+            },
+            "return_hour": {
+              "type": "ENUM",
+              "description": ""
+            }
+          },
+          "required": [
+            "pick_up_location",
+            "pickup_date",
+            "return_date"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,calendar,days_of_month,Can you show me the calendar for 2024's May?,3
+1,,,What day is April 1st in 2025?,3
+2,,,Can you show me the calendar for this year's September?,3
+3,,,Is December 25th a weekend?,3
+4,,,What were all the weekends this month?,3
+5,,,Which days are public holidays in January?,3
+6,,,How many days are there in February?,3
+7,,,Show me the calendar of June.,3
+8,,,Can you show me the calendar of next month?,3
+9,,,Which date is the next full moon?,3
+10,,display_calendar_of_month,Can you show me the calendar for March?,3
+11,,,When is the first Monday in December?,3
+12,,,How many Sundays are there in May?,3
+13,,,Can you display the calendar for January 2024?,3
+14,,,When is the last Friday of July in 2023?,3
+15,,,How many days are there in February 2025?,3
+16,,,Display the calendar of a certain month.,3
+17,,,Show me the number of weekends in a month.,3
+18,,,When is the next full moon?,3
+19,,,What is the start day of the month?,3

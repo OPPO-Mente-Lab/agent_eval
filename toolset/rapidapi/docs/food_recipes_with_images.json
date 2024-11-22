@@ -1,0 +1,25 @@
+{
+  "tool_name": "food_recipes_with_images",
+  "tool_description": "Thousands food recipes with images.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "go",
+        "description": "Get a recipes list by search query",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "q"
+          ]
+        }
+      }
+    }
+  ]
+}

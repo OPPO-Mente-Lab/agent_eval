@@ -1,0 +1,622 @@
+{
+  "tool_name": "moviesdatabase",
+  "tool_description": "MoviesDatabase provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members\nCollection of information for movies, tv-shows, actors. Includes youtube trailer url, awards, full biography, and many other usefull informations.\nThis api provides complete and updated data for over 9 million titles ( movies, series and episodes) and 11 million actors / crew and cast members.\nSupport developers: https://www.buymeacoffee.com/SAdrian13",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_series_seriesid_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "seriesId": {
+              "type": "STRING",
+              "description": "Series Imdb Id"
+            }
+          },
+          "required": [
+            "seriesId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_x_upcoming",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2022"
+            },
+            "genre": {
+              "type": "STRING",
+              "description": "Year filter ex: ?genre=Drama"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            },
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr / year.decr"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_id_ratings",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Imdb Id of title ex: tt0000002"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_id_crew",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Imdb Id of title ex: tt0000002"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_series_seriesid_season_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "season": {
+              "type": "STRING",
+              "description": "Season number"
+            },
+            "seriesId": {
+              "type": "STRING",
+              "description": "Series Imdb Id"
+            }
+          },
+          "required": [
+            "season",
+            "seriesId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_episode_id_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Episode Imdb Id"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_id_main_actors",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Imdb Id of title ex: tt0000002"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_x_titles_by_ids",
+        "description": "Titles by ids list",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "idsList": {
+              "type": "STRING",
+              "description": "Imdb id's comma separated -> tt0001702,tt0001856,tt0001856 \u2026"
+            },
+            "list": {
+              "type": "STRING",
+              "description": "Selected list -> most_pop_movies / most_pop_series / top_rated_series_250 / \u2026"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            }
+          },
+          "required": [
+            "idsList"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_id_aka",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Imdb Id of title ex: tt0000002"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_random",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "genre": {
+              "type": "STRING",
+              "description": "Year filter ex: ?genre=Drama"
+            },
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr /year.decr"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2020"
+            },
+            "list": {
+              "type": "STRING",
+              "description": "Selected list -> most_pop_movies / most_pop_series / top_rated_series_250 / \u2026"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_id_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Imdb Id of title ex: tt0000002"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: base-info) -> base_info / mini_info / image / \u2026"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "genre": {
+              "type": "STRING",
+              "description": "Year filter ex: ?genre=Drama"
+            },
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            },
+            "list": {
+              "type": "STRING",
+              "description": "Selected list -> most_pop_movies / most_pop_series / top_rated_series_250 / \u2026"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2020"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr /year.decr"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_seasons_seriesid_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "seriesId": {
+              "type": "STRING",
+              "description": "Series Imdb Id"
+            }
+          },
+          "required": [
+            "seriesId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_search_akas_aka_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "aka": {
+              "type": "STRING",
+              "description": "Title of the Movie/Series"
+            },
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image /\u2026"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2020"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr /year.decr"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            },
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            }
+          },
+          "required": [
+            "aka"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_search_keyword_keyword_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "keyword": {
+              "type": "STRING",
+              "description": "Keyword"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image / \u2026"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2020"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr /year.decr"
+            },
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            }
+          },
+          "required": [
+            "keyword"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_search_title_title_",
+        "description": "Search by Title",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "STRING",
+              "description": "Title of the Movie/Series"
+            },
+            "exact": {
+              "type": "BOOLEAN",
+              "description": "Search by exact title"
+            },
+            "info": {
+              "type": "STRING",
+              "description": "Info type structure (default: mini-info) -> base_info / mini_info / image /\u2026"
+            },
+            "year": {
+              "type": "NUMBER",
+              "description": "Year filter ex: ?year=2020"
+            },
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "sort": {
+              "type": "STRING",
+              "description": "Add sorting (incr, decr) -> year.incr /year.decr"
+            },
+            "endYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -to- ex: ?endYear=2020"
+            },
+            "startYear": {
+              "type": "NUMBER",
+              "description": "Year range filter -from- ex: ?startYear=2020"
+            },
+            "titleType": {
+              "type": "STRING",
+              "description": "Filter by type of title"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            },
+            "list": {
+              "type": "STRING",
+              "description": "Selected list -> most_pop_movies / most_pop_series / top_rated_series_250 / \u2026"
+            }
+          },
+          "required": [
+            "title"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "actors_random",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "actors_id_",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "Actor imdb id"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "actors",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "page": {
+              "type": "STRING",
+              "description": "Page number"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Number of titles per page (default: 10) -> 10 max"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_utils_genres",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_utils_lists",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "titles_utils_titletypes",
+        "description": "",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

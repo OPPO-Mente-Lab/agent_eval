@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,news_api,top_headlines,What's the difference between international news and domestic news?,1
+1,,,Why is the sports category usually separate from other news categories?,1
+2,,,How can I tell if a news source is credible?,1
+3,,,What is the typical news cycle length for major world events?,1
+4,,,"Are newspapers still popular in urban areas, or have they mostly transitioned to digital platforms?",1
+5,,,How do different countries approach journalism and freedom of the press?,1
+6,,,What is the impact of social media on traditional news media?,1
+7,,,How can I submit my own news article to a local news website?,1
+8,,,How do news organizations maintain objectivity in their reporting?,1
+9,,,"How often should I check the news to stay informed, but not be overwhelmed by information?",1
+10,,search,Will reading news online use a lot of mobile data?,1
+11,,,Would English version news cover as much content as the original language version?,1
+12,,,Is the news covering topics worldwide usually providing timely information?,1
+13,,,Who can help me understand the news in foreign language?,1
+14,,,How to improve my reading speed for news articles?,1
+15,,,Which publisher generally publishes news with neutral opinion?,1
+16,,,Can I rely totally on one news source for global news?,1
+17,,,What is ISO 8601 format and why is it used in API parameters?,1
+18,,,Are there any benefits of reading news in the early morning?,1
+19,,,How can the information in the news help my daily work?,1

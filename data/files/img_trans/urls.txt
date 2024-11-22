@@ -1,0 +1,10 @@
+proverb1.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb1.jpg
+proverb2.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb7.jpg
+proverb3.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb5.jpg
+proverb4.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb6.jpg
+proverb5.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb2.jpg
+proverb6.jpg	https://i.pinimg.com/736x/0a/f5/f9/0af5f9b4294cdfefb298487fc44493d1.jpg
+proverb7.jpg	https://i.pinimg.com/736x/92/ec/d9/92ecd95bce2c7dc86d5ec525108fd110.jpg
+proverb8.png	https://i.pinimg.com/originals/a4/f6/73/a4f67312ae4b54eba3d105c64afe6843.png
+proverb9.png	https://www.superchinese.com/img/Image%201%20(1).10cf70f2.png
+proverb10.png	https://www.superchinese.com/img/Image%201%20(2).fbc4934c.png

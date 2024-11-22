@@ -1,0 +1,17 @@
+deep_translator==1.11.4
+easyocr==1.7.1
+json5==0.9.14
+langchain==0.3.0
+numpy==1.23.5
+openai==1.47.1
+pandas==1.5.3
+Pillow==10.1.0
+Pillow==10.4.0
+PyYAML==6.0.1
+PyYAML==6.0.2
+rembg==2.0.56
+Requests==2.32.3
+retry==0.9.2
+scikit_learn==1.5.2
+tqdm==4.66.1
+urlextract==1.9.0

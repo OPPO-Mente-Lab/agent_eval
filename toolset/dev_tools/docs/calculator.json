@@ -1,0 +1,23 @@
+{
+    "tool_name": "calculator",
+    "tool_description": "Calculate simple math formula which is expressed in Python grammar.",
+    "APIs":[
+        {
+            "type": "function",
+            "function": {
+                "name": "calculate",
+                "description": "Calculate math formula expressed in Python expression",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "formula": {
+                            "description": "The math formula. e.g. 1+1, 3*5, 10/(2+2)*8-20",
+                            "type": "STRING"
+                        }
+                    },
+                    "required": ["formula"]
+                }
+            }
+        }
+    ]
+}

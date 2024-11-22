@@ -1,0 +1,246 @@
+{
+  "tool_name": "news",
+  "tool_description": "Connexun News APIs serve historical and trending news content from trusted sources worldwide. Our crawler scrapes content published by over 20.000 highly-trusted online sources in different languages, thus enabling our users to be the first to pick up on emerging stories and most relevant information. Ensure a real-time view into the world of football with our solution, or collect historical structured data on the most relevant past stories and events. Test our endpoints for free and do not hesitate to reach us out for further information.\nConnexun is an innovative tech startup based in Milan, Italy. It was founded to ease cultural integration, reduce information barriers and foster internationalization.\nToday Connexun is an AI news engine with long lasting experience and know-how, promoting content and text analysis APIs and proprietary technologies of use to developers, startups, businesses and eventually also consumers. It enables its clients to source in real time multilingual headlines, articles and dynamic summaries extracted from thousands of trusted online news outlets. It serves its clients with proprietary text crawling and classifying technologies.\nConnexun also developed B.I.R.B.AL., its artificial intelligent engine used to power its mobile app, to deliver real time news and information to digital cosmopolitans. We continue to augment intelligent tools that leverage the power of Machine Learning and Natural Language Processing to analyze large datasets of aggregated content.\nCheck out our recently released \u201cNews API\u201d. It returns present and historical content and information from trusted sources worldwide. Our crawler enables our users to be the first to pick up on emerging stories and most relevant information.\nEnsure a real-time view with our solution, or collect historical structured data on the most relevant past stories and events.\nTest our api for free and do not hesitate to reach us out for further information.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "topic_search",
+        "description": "Use topic-search endpoint to find news which talks about specific topics. Topics can range from specific keywords, to the name of a person or a place, or a combination of both. Results can be filtered by topics that are present in the title or text of the news, or both by defa...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "languages": {
+              "type": "STRING",
+              "description": "Two letter ISO code to filter content by language. Use /languages resource to get language codes."
+            },
+            "search": {
+              "type": "STRING",
+              "description": "Phrases or topics to be searched, in any of supported language."
+            },
+            "batchSize": {
+              "type": "NUMBER",
+              "description": "Number of news elements to be returned in each call. Defaults to 10, maximum 30."
+            },
+            "skip": {
+              "type": "NUMBER",
+              "description": "For next batch of results use this with value increment of previous call batchSize value."
+            },
+            "searchType": {
+              "type": "STRING",
+              "description": "Boolean search parameter applied between search terms. Must be AND or OR, defaults to OR."
+            },
+            "qField": {
+              "type": "STRING",
+              "description": "Field where input text would be matched Must be either title, or text."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "Sort the final results by relevance or publication date in descending order. Defaults to relevance."
+            },
+            "publishedAfter": {
+              "type": "STRING",
+              "description": "ISO 8601 formatted Date Time value to filter the results which are published after the input date.\nIt must be within 30 days from the current date.\nexample format:\nWith date and time: YYYY-MM-DDTHH:MM:SS\nWith only Date: YYYY-MM-DD"
+            },
+            "publishedBefore": {
+              "type": "STRING",
+              "description": "ISO 8601 formatted Date Time value to filter the results which are published before the input date.\nIt must be within 30 days from the current date. If using the upper limit, it will show results going as far back as 35 days.\nexample format:\nWith date and time: YYYY-MM-DDTHH:MM:SS\nWith only Date: YYYY-MM-DD"
+            }
+          },
+          "required": [
+            "languages",
+            "search"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "country_news",
+        "description": "This endpoint returns news which are specific to countries. You can use different filters to get local news about a country, international news about country, or inter-country news which discusses about the two countries.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "skip": {
+              "type": "NUMBER",
+              "description": "For next batch of results use this with value increment of previous call batchSize value."
+            },
+            "batchSize": {
+              "type": "NUMBER",
+              "description": "Number of news elements to be returned in each call."
+            },
+            "fromCountry": {
+              "type": "STRING",
+              "description": "Use this parameter to filter news from a given country."
+            },
+            "languages": {
+              "type": "STRING",
+              "description": "Two letter ISO code to filter content by languages. Use comman separated codes to get results for multiple languages. Use /languages resource to get language codes. Defaults to all."
+            },
+            "onlyInternational": {
+              "type": "BOOLEAN",
+              "description": "To get only international news when getting news fromCountry, use true. Defaults to false."
+            },
+            "aboutCountry": {
+              "type": "STRING",
+              "description": "Use this parameter to filter news which talks about a specific country."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "crypto_news",
+        "description": "Get latest news and topics about Blockchain & Cryptocurrencies. Use sentiments to follow only positive news. Use token filter to get news about token that you want to follow.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "token": {
+              "type": "STRING",
+              "description": "Enter token symbol to get news specific to that currency.\nDefault is all tokens we process."
+            },
+            "languages": {
+              "type": "STRING",
+              "description": "Two letter ISO language code to filter the news. Multiple languages can be selected by passing a comma separated string.\nDefault is all."
+            },
+            "sentiment": {
+              "type": "STRING",
+              "description": "Use sentiment value of \"positive\" or \"negative\" to filter out content.\nDefault to both"
+            },
+            "publishedAfter": {
+              "type": "STRING",
+              "description": "Date field to get news published after input date. Must be within last 30 days from current day to 30 mins ago from current time in UTC.\nFormatted as YYYY-MM-DDTHH:MM:SS\nDefault to last 30th day."
+            },
+            "publishedBefore": {
+              "type": "STRING",
+              "description": "Date field to get news published before input date. Must be within last 30 days from current day to 30 mins ago from current time in UTC.\nFormatted as YYYY-MM-DDTHH:MM:SS\nDefault to last 30th day."
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort the news output by \"latest\" news first or \"oldest\" news first based on captured publication date using this parameter.\nDefaults to latest."
+            },
+            "batchSize": {
+              "type": "NUMBER",
+              "description": "Use this parameter to limit the number of news per result.\nDefault to 15, maximum 30"
+            },
+            "skip": {
+              "type": "NUMBER",
+              "description": "Use this parameter for pagination to get next batch of results.\nDefault to 0"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "news_feed",
+        "description": "This endpoint fetches latest news published. This endpoint can be used to get a continuous feed of news on your dashboard. Various filter can be applied to get the feed according to requirements. The topics are made available as soon as our pipeline finihes processing them, t...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "categoryCode": {
+              "type": "STRING",
+              "description": "Filter feed of news based on IPTC categories code. Use /categories-info resource to get the values."
+            },
+            "batchSize": {
+              "type": "NUMBER",
+              "description": "Number of news elements to be returned in each call. Defaults to 10, maximum 30"
+            },
+            "languages": {
+              "type": "STRING",
+              "description": "Two letter ISO code to filter content by language. Use /languages resource to get language codes. Defaults to all."
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort the final result in descending or ascending order of publication by passing 'oldest' or 'latest' respectively, defaults to oldest."
+            },
+            "sources": {
+              "type": "STRING",
+              "description": "FIlter feed of news from different source/sources. Takes comma separated values."
+            },
+            "sentiment": {
+              "type": "STRING",
+              "description": "Filter the feed for news with either positive or negative sentiments. Defaults to both"
+            },
+            "skip": {
+              "type": "NUMBER",
+              "description": "For next batch of results use this with value increment of previous call batchSize value. Default is zero."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "world_trending",
+        "description": "Get trending news topics from across the world with this endpoint. We determine trending news / / topics by considering unique sources, and nationalities which are talking about the same topic, / / along with various languages the topic is published in. Thus providing an unbia...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "relatedNewsLimit": {
+              "type": "NUMBER",
+              "description": "Limit the number of news that are returned inside a cluster."
+            },
+            "languages": {
+              "type": "STRING",
+              "description": "Two letter ISO code to filter content by languages. Use comman separated codes to get results for multiple languages. Use /languages resource to get language codes. Defaults to all."
+            },
+            "top": {
+              "type": "STRING",
+              "description": "Limit number of trending topics that are returned. Defaults to 10."
+            },
+            "skip": {
+              "type": "STRING",
+              "description": "For next batch of results use this with value increment of previous call top value."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "language_info",
+        "description": "Get two letter language codes for languages supported by us.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "catergories_info",
+        "description": "Get list of IPTC media category labels and code o filter our news feed.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "countries_info",
+        "description": "Get list of two letter country codes",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tool_name": "public_holiday",
+  "tool_description": "An API for Public Holidays & Bank Holidays",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "public_holidays",
+        "description": "Returns the public holidays from a given year and country.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "CountryCode": {
+              "type": "STRING",
+              "description": "CountryCode"
+            },
+            "Year": {
+              "type": "STRING",
+              "description": "Year"
+            }
+          },
+          "required": [
+            "CountryCode",
+            "Year"
+          ]
+        }
+      }
+    }
+  ]
+}

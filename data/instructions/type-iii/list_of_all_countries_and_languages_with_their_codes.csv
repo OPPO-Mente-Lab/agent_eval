@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Can you tell me the official names of all the countries in the world?,3
+1,,,I want to know the two-letter codes for all countries.,3
+2,,,What are the numeric codes for all the countries?,3
+3,,,Could you list all the countries with their corresponding internet Cctld codes?,3
+4,,,I need a list of alpha 3 codes for all countries.,3
+5,,,Can you show me the list of all countries with their official state names?,3
+6,,,Could you give me a list of all countries with their respective Alpha 2 Codes?,3
+7,,,What are the Alpha 3 Codes for all the countries?,3
+8,,,Could you tell me the internet Cctld Code for all the countries?,3
+9,,,I want to know the numeric codes for each country. ,3
+10,,list_of_all_languages,Can you tell me the language code of German?,3
+11,,,"What's the ISO language name for the code ""fr""?",3
+12,,,I want to know the 639-1 code for Spanish.,3
+13,,,"Could you provide the language information for the code ""ru""?",3
+14,,,I need the language details for Arabic.,3
+15,,,"What language corresponds to the 639-1 code ""it""?",3
+16,,,"Can you tell me more about the language coded as ""pt""?",3
+17,,,"What does ""ja"" stand for in terms of languages?",3
+18,,,"Is there a specific language for the code ""sv""?",3
+19,,,"I want to know what's the language of the code ""zh"".",3

@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ocr_extract_text,extract_text_from_image_url,Can you tell me what the text says in this JPEG image I found online? Here's the URL: $FILE,2
+1,,,I found a PNG image with some text on it. Can you extract the text for me? The image URL is: $FILE,2
+2,,,What's the text content in this image from the following link? $FILE,2
+3,,,I have an image containing text at this URL: $FILE. Can you tell me what it says?,2
+4,,,Could you please extract the text from this image for me? The image can be found at this URL: $FILE,2
+5,,,I need to know the content written in the following image. Can you help me with that? Here's the image URL: $FILE,2
+6,,,Can you read the text from this image for me? Here is the image link: $FILE,2
+7,,,I found an image with text that I can't read. Can you extract the text from this link? $FILE,2
+8,,,"There's some text in this image, but I can't quite make it out. Could you extract it for me? Here's the URL: $FILE",2
+9,,,Please help me with the text in the following image. This is the URL where you can find it: $FILE,2
+10,,extract_text_from_image_file,What does this handwritten note in my photo say?,2
+11,,,Can you read the plate number in the picture $FILE I took?,2
+12,,,What is the text in the billboard image $FILE I shot?,2
+13,,,What does the text say in the road sign from my image $FILE?,2
+14,,,Could you help me read the text in the screenshot $FILE of my phone?,2
+15,,,Can you tell me the text content on the book cover in the image $FILE?,2
+16,,,Could you recognize the letters in the artwork photo $FILE?,2
+17,,,"I can't read the message in the picture $FILE, can you help?",2
+18,,,Can you decipher the text on the poster in this image $FILE?,2
+19,,,What is the text in this graffiti picture $FILE I have?,2

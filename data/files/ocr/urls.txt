@@ -1,0 +1,10 @@
+quotes-1.jpg	https://images.ctfassets.net/pdf29us7flmy/7gy0r75zJRlIjq0QYz4ZHI/c3129417675361bce0d92399a2ede7ff/resized.jpg?w=720&q=100&fm=jpg
+quotes-2.jpg	https://images.ctfassets.net/pdf29us7flmy/3fDtiphlV4fKyXhzANvbRa/ebfcaf71ff5140e6d995017b96761fff/resized.jpg?w=720&q=100&fm=jpg
+quotes-3.jpg	https://images.ctfassets.net/pdf29us7flmy/6dUqzLou9eaR5a4laikLzy/b3cc20e7d4a44116d5ad06e8145005f7/resized.jpg
+quotes-4.jpg	https://cdn.geckoandfly.com/wp-content/uploads/2017/07/top-best-quotes-01-830x467.jpg
+quotes-5.jpg	https://cms-article.forbesindia.com/media/images/2023/May/img_207569_thomasedison.jpg
+quotes-6.jpg	https://cms-article.forbesindia.com/media/images/2023/May/img_207571_tonyrobbins.jpg
+quotes-7.jpg	https://images.ctfassets.net/pdf29us7flmy/7eJIWOZSOd9p79EGHcEOqQ/4678b6fd4199c9e7b71d6dacd0c56097/resized.jpg?w=720&q=100&fm=jpg
+quotes-8.jpg	https://www.southernliving.com/thmb/gcIVfPLWMWQbBWOLouJH6JPGSGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SL_INSPIRATIONQUOTE_01-102545aa08da44eabd35b7bd456c01e9.jpg
+quotes-9.jpg	https://images.ctfassets.net/pdf29us7flmy/2aufE71KN154w8kNytZcU8/44bf4b509cf193c50a555dae97c4e662/resized.jpg
+quotes-10.jpg	https://clockify.me/blog/wp-content/uploads/2023/12/Lincoln.jpg

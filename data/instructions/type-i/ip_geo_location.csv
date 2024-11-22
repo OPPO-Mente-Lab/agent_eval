@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,ip_geo_location,visitor_lookup,What is the language most widely spoken in the city I am currently located in?,1
+1,,,What's the traditional food in the city I'm in right now?,1
+2,,,What's the exchange rate for the local currency to US dollars where I am now?,1
+3,,,What are some famous landmarks in my current city?,1
+4,,,What is the main industry of the country I am currently located in?,1
+5,,,Why does my current city have this timezone?,1
+6,,,What typical souvenirs can I buy in the city I am at now?,1
+7,,,What's the local custom around tipping in restaurants where I am now?,1
+8,,,What's the population of my current city?,1
+9,,,What's the education level of the country I'm in now?,1
+10,,ip_lookup,How can I know the currency used in the place where an IP is located without using an API?,1
+11,,,Can I determine the geographical position of an IP address on a physical map only with the latitude and longitude from the API?,1
+12,,,What is the difference between IPv4 and IPv6?,1
+13,,,Are there any tools that I can use to find my public IP address?,1
+14,,,"If I have the city where an IP is located, can I know the timezone of this city without using an API?",1
+15,,,Are the results of API calls in different languages different at the level of content or just differences in translation?,1
+16,,,Is Berlin in the same timezone as Paris?,1
+17,,,How can I change the language of my computer system to get the results of API calls in a different language?,1
+18,,,What is ASN in the network field?,1
+19,,,How to understand the security-related information from the API?,1

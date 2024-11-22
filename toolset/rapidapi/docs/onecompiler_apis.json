@@ -1,0 +1,25 @@
+{
+    "tool_name": "onecompiler_apis",
+    "tool_description": "Fast & reliable online code execution of python. OneCompiler is a free online compiler. It helps users to write, run and share code online for Python. Users can integrate the OneCompiler APIs from their backend servers and execute the code programmatically.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "execute_code",
+                "description": "Execute Python code",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "content": {
+                            "type": "STRING",
+                            "description": "A python program. Line wrap if necessary."
+                        }
+                    },
+                    "required": [
+                        "content"
+                    ]
+                }
+            }
+        }
+    ]
+}

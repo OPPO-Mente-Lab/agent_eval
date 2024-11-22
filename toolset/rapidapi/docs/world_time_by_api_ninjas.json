@@ -1,0 +1,43 @@
+{
+  "tool_name": "world_time_by_api_ninjas",
+  "tool_description": "Get the current time for any location in the world. See more info at https://api-ninjas.com/api/worl",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "v1_worldtime",
+        "description": "API Ninjas World Time API endpoint. Returns the current date and time by city/state/country, location coordinates (latitude/longitude), or timezone.\nOne of the following parameter combinations must be set:\nlat + lon,\ncity (state and country optional),\ntimezone",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "STRING",
+              "description": "Latitude of desired location."
+            },
+            "lon": {
+              "type": "STRING",
+              "description": "Longitude of desired location."
+            },
+            "city": {
+              "type": "STRING",
+              "description": "City name."
+            },
+            "state": {
+              "type": "STRING",
+              "description": "US state name or 2-letter abbreviation (for United States cities only)."
+            },
+            "country": {
+              "type": "STRING",
+              "description": "Country name or 2-letter country code."
+            },
+            "timezone": {
+              "type": "STRING",
+              "description": "Timezone of desired location (e.g. Europe/London)."
+            }
+          },
+          "required": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "tool_name": "pdf_to_text_converter",
+  "tool_description": "Use this API to convert your PDF file into text or words! Please let me know if you have any suggestion or problem regarding the API.\nUse this API to convert your PDF file into text or words! Please let me know if you have any suggestion or problem regarding the API.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "convert",
+        "description": "Attach your PDF file and send the API request to get the text.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "file_path": {
+              "type": "STRING",
+              "description": ""
+            },
+            "page": {
+              "type": "NUMBER",
+              "description": ""
+            }
+          },
+          "required": [
+            "file"
+          ]
+        }
+      }
+    }
+  ]
+}

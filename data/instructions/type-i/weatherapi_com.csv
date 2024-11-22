@@ -1,0 +1,61 @@
+,Tool,API,Prompt,Type
+0,weatherapi_com,realtime_weather_api,What's the optimal temperature for my plants growing at home?,1
+1,,,Does the amount of cloud impact the city's temperature?,1
+2,,,Will wearing a winter jacket in 10 degrees Celsius weather make me feel hot?,1
+3,,,Is it often sunny in California?,1
+4,,,"When is the best time for me to go hiking, considering the weather conditions?",1
+5,,,Why does it often rain in spring?,1
+6,,,"From the perspective of weather, when is the ideal time to visit Hawaii?",1
+7,,,How does air pollution affect the weather?,1
+8,,,What causes the four seasons to change?,1
+9,,,Should I wear long sleeves if the temperature is 20°C outside?,1
+10,,forecast_weather_api,"What are some common weather conditions during the month of April in Shenzhen, China?",1
+11,,,How do typhoons usually affect the weather in Shenzhen?,1
+12,,,Is it common for Shenzhen to have a humid climate during the summer months?,1
+13,,,What type of clothing should I wear outdoors today considering the current weather conditions?,1
+14,,,Which month of the year typically experiences the highest rainfall in Shenzhen?,1
+15,,,How does the pollution in Shenzhen usually affect air quality in various seasons?,1
+16,,,Are there any traditional festivals or events in Shenzhen that are affected by the weather?,1
+17,,,How do people in Shenzhen usually prepare for sudden weather changes or emergencies?,1
+18,,,Is it generally safe to go swimming at the beach in Shenzhen during the summer months?,1
+19,,,What are the typical temperature ranges for each season in Shenzhen?,1
+20,,ip_lookup_api,What is the difference between IPv4 and IPv6 addresses?,1
+21,,,Can an IP address reveal my exact physical location?,1
+22,,,How can I change my IP address for privacy reasons?,1
+23,,,Do IP addresses change frequently for mobile devices?,1
+24,,,What type of information can be gathered from an IP geolocation API?,1
+25,,,How can a VPN help me mask my IP address?,1
+26,,,What are the public and private IP address ranges?,1
+27,,,How does dynamic IP allocation work?,1
+28,,,Are there any precautions I should take when sharing my IP address online?,1
+29,,,Can I find the name of the Internet Service Provider (ISP) for an IP address without using an API?,1
+30,,time_zone_api,When do we need to adjust the clock for daylight saving time in Shenzhen?,1
+31,,,How many time zones are there in the world?,1
+32,,,Is the time difference between New York and Los Angeles always constant?,1
+33,,,What is the standard time zone for China?,1
+34,,,How do I know if my device automatically updates the time for daylight saving time?,1
+35,,,When was the concept of time zones first introduced?,1
+36,,,How do we calculate the time difference between two places given their longitudes?,1
+37,,,What is the purpose of having Coordinated Universal Time (UTC)?,1
+38,,,How many hours ahead or behind is Shenzhen compared to Greenwich Mean Time (GMT)?,1
+39,,,Which countries do not observe daylight saving time?,1
+40,,astronomy_api,Why does the moon appear larger when it's near the horizon?,1
+41,,,What causes the change in colors during sunrise and sunset?,1
+42,,,How does the altitude and latitude of a location affect the length of day and night?,1
+43,,,What is the difference between a solar eclipse and a lunar eclipse?,1
+44,,,What is the cause of the moon's changing phases?,1
+45,,,"In general, do summer days have earlier sunrises and later sunsets?",1
+46,,,How does daylight saving time affect sunrise and sunset times?,1
+47,,,What is the reason for the varying lengths of twilight throughout the year?,1
+48,,,Why do some places in the world have midnight sun or polar night?,1
+49,,,"What are some traditional cultural events related to the phases of the moon, such as Chinese Moon Festival?",1
+50,,search_autocomplete_api,Can you recommend some popular tourist attractions in Paris?,1
+51,,,What is the most populous city in the world?,1
+52,,,How do I obtain a bus route from Shenzhen to nearby cities?,1
+53,,,Is it common to have traffic congestion in big cities like Beijing?,1
+54,,,What time does the last subway train depart in Shenzhen?,1
+55,,,Can you suggest some authentic Chinese restaurants in Shenzhen?,1
+56,,,What is the local language spoken in Paris?,1
+57,,,What's the average living cost in New York City?,1
+58,,,Are there any famous universities in London?,1
+59,,,How far is the Great Wall of China from Beijing?,1

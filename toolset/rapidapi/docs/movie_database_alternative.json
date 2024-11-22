@@ -1,0 +1,78 @@
+{
+  "tool_name": "movie_database_alternative",
+  "tool_description": "RESTful web service to access information, pictures, and more from the movie database.\nGet Title, Year, Metascore Rating, Release date, Runtime, Genre, Directors, Writers, Actors, Plot, Awards, Posters, IMDB ID, Type, DVD, Boxoffice, Production company, website and response data.\nRESTful web service to access information, pictures, and more from the movie database.\nGet Title, Year, Metascore Rating, IMDB rating, Release date, Runtime, Genre, Directors, Writers, Actors, Plot, Awards, Posters, IMDB ID, Type, DVD, Boxoffice, Production company, website and response data.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "by_search",
+        "description": "Search movie titles",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "s": {
+              "type": "STRING",
+              "description": ""
+            },
+            "r": {
+              "type": "STRING",
+              "description": ""
+            },
+            "type": {
+              "type": "STRING",
+              "description": ""
+            },
+            "y": {
+              "type": "STRING",
+              "description": ""
+            },
+            "page": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "s"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "by_id_or_title",
+        "description": "Search for Movies by ID or Title",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "y": {
+              "type": "STRING",
+              "description": "Year of release (e.g. 2019)"
+            },
+            "r": {
+              "type": "STRING",
+              "description": "The data type to return: (json, xml)"
+            },
+            "i": {
+              "type": "STRING",
+              "description": "A valid IMDb ID (e.g. tt4154796)"
+            },
+            "type": {
+              "type": "STRING",
+              "description": "Type of result to return: (movie, series, episode)"
+            },
+            "plot": {
+              "type": "STRING",
+              "description": "Return short or full plot: (short, full)"
+            },
+            "callback": {
+              "type": "STRING",
+              "description": "JSONP callback name"
+            }
+          },
+          "required": []
+        }
+      }
+    }
+  ]
+}

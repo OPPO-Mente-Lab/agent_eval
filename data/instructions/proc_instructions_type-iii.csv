@@ -1,0 +1,196 @@
+,did,tool_name,api_name,instruction,type
+0,40,airports,get_airport_by_iata_code,Can you tell me more information about the airport?,3
+3,43,airports,get_airport_by_iata_code,Can you give me the local time of an airport?,3
+4,45,airports,get_airport_by_iata_code,Could I know the location of the airport?,3
+7,48,airports,get_airport_by_iata_code,How many gates does the airport have?,3
+8,50,airports,get_airport_by_icao_code,Can you tell me the location of an airport?,3
+9,54,airports,get_airport_by_icao_code,Can you provide me with information about an airport?,3
+10,57,airports,get_airport_by_icao_code,How can I find the details of an airport nearby?,3
+11,59,airports,get_airport_by_icao_code,What are the airport facilities available?,3
+12,75,bing_search_apis,images_search,"I'd like to search for some images, can you help me?",3
+13,76,bing_search_apis,images_search,"Can you find some pictures for me, please?",3
+14,77,bing_search_apis,images_search,"I'm interested in looking at some images, can you assist me with that?",3
+15,78,bing_search_apis,images_search,Can you find some interesting images for me?,3
+16,81,calculator,calculate,Can you help me solve this equation?,3
+17,82,calculator,calculate,I need the answer to this arithmetic question.,3
+18,83,calculator,calculate,What's the outcome of this mathematical expression?,3
+19,84,calculator,calculate,Can you assist me in finding the solution to this problem?,3
+20,85,calculator,calculate,What is the value of this operation?,3
+21,86,calculator,calculate,I need help with computing this formula.,3
+22,87,calculator,calculate,Can you evaluate this math equation for me?,3
+23,88,calculator,calculate,I want to know the result of this calculation.,3
+24,89,calculator,calculate,Can you find the solution to this mathematical issue?,3
+25,106,calendar,display_calendar_of_month,Display the calendar of a certain month.,3
+26,107,calendar,display_calendar_of_month,Show me the number of weekends in a month.,3
+27,109,calendar,display_calendar_of_month,What is the start day of the month?,3
+28,130,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of the cities in China?,3
+29,131,geocoding_by_api_ninjas,v1_geocoding,I need to know the coordinates of the main cities in India.,3
+30,132,geocoding_by_api_ninjas,v1_geocoding,What are the coordinates of the cities in the United States?,3
+31,133,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of the cities in California?,3
+32,134,geocoding_by_api_ninjas,v1_geocoding,I want to know the coordinates of the cities in Texas.,3
+33,136,geocoding_by_api_ninjas,v1_geocoding,Can you convert this location to coordinates?,3
+34,137,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of this place?,3
+35,138,geocoding_by_api_ninjas,v1_geocoding,Can you send me the coordinates of the main cities?,3
+36,139,geocoding_by_api_ninjas,v1_geocoding,I need the coordinates. Can you provide them?,3
+37,140,geocoding_by_api_ninjas,v1_reversegeocoding,"I have the latitude 22.5431, what city is closest to this latitude?",3
+38,141,geocoding_by_api_ninjas,v1_reversegeocoding,Can you tell me the location that corresponds to the latitude 34.0522?,3
+39,142,geocoding_by_api_ninjas,v1_reversegeocoding,I wanna know which city is at latitude 51.5074.,3
+40,143,geocoding_by_api_ninjas,v1_reversegeocoding,What city is near the longitude 114.0579?,3
+41,144,geocoding_by_api_ninjas,v1_reversegeocoding,I want to know which city is located at longitude -118.2437?,3
+42,145,geocoding_by_api_ninjas,v1_reversegeocoding,What city corresponds to longitude 0.1276?,3
+43,146,geocoding_by_api_ninjas,v1_reversegeocoding,Can you tell me the city at these coordinates?,3
+44,148,geocoding_by_api_ninjas,v1_reversegeocoding,"I'm trying to figure out which city these coordinates point to, could you help me out?",3
+45,149,geocoding_by_api_ninjas,v1_reversegeocoding,Can you help me find the city location for these coordinates I have been given?,3
+46,150,google_api,video_search,Can you find videos for me?,3
+48,152,google_api,video_search,Can you find me videos with moderate safesearch enabled?,3
+49,153,google_api,video_search,I would like to see videos with safesearch turned off.,3
+51,155,google_api,video_search,Show me videos from the UK region.,3
+53,161,google_translate,detect,"I received a message, can you help me figure out what language it is in?",3
+54,162,google_translate,detect,"I found a foreign text, can you analyze its language origin?",3
+55,163,google_translate,detect,Can you identify the language of this song lyrics?,3
+56,164,google_translate,detect,"I recorded a snippet of conversation, can you tell me what language they're speaking?",3
+57,165,google_translate,detect,I have a cultural artifact with inscriptions on it. Can you tell me what language this might be?,3
+58,166,google_translate,detect,I have a document in an unknown language. Can you help me identify it?,3
+59,167,google_translate,detect,What language is this poem written in?,3
+60,168,google_translate,detect,"I found a note, can you determine its language origin for me?",3
+61,169,google_translate,detect,What language does this sign use?,3
+62,190,image_processing,compress_image,Can you compress this image to a quality of 50?,3
+63,191,image_processing,compress_image,"I want to reduce the quality of my photo to 30, can you help me?",3
+64,192,image_processing,compress_image,"I need to lower the quality of this picture to 15, can you do it?",3
+65,193,image_processing,compress_image,Can you compress the size of my image?,3
+66,194,image_processing,compress_image,"I want to reduce the quality of this image, can you assist?",3
+67,195,image_processing,compress_image,Can this image be compressed to a smaller size?,3
+68,196,image_processing,compress_image,Could you compress this photo for me?,3
+69,197,image_processing,compress_image,"I need to compress an image, could you help?",3
+70,199,image_processing,compress_image,"I'd like to reduce the file size of an image, could you do it for me?",3
+71,200,image_processing,resize_image,Can you resize the image from this path files/object_detection/panda.jpg?,3
+72,201,image_processing,resize_image,"I found a cool picture at files/object_detection/tiger.jpg, can you make it bigger?",3
+73,202,image_processing,resize_image,Resize the image from my download folder at files/object_detection/dog-and-cat2.jpeg.,3
+74,203,image_processing,resize_image,"I want to increase the image size by 1.5 times, can you do it?",3
+75,204,image_processing,resize_image,Can we reduce the image size by half?,3
+76,205,image_processing,resize_image,"Make the image three quarters of its original size, please.",3
+77,206,image_processing,resize_image,Can you resize the image for me?,3
+78,207,image_processing,resize_image,"I want the image to be bigger, can you help?",3
+79,208,image_processing,resize_image,Can I have this image in a smaller size?,3
+80,209,image_processing,resize_image,Is it possible to change the image size?,3
+81,210,image_processing,convert_format,Can you convert my image to a PNG format?,3
+82,211,image_processing,convert_format,I want to change the format of my photo to JPEG.,3
+83,212,image_processing,convert_format,How can I get my picture in the WebP format?,3
+84,213,image_processing,convert_format,"I have an image at ""files/rm_bg/dog2.jpg"", can you convert it to another format?",3
+85,214,image_processing,convert_format,"Please convert my image located at ""files/rm_bg/flower.jpg"".",3
+86,215,image_processing,convert_format,"I need to change the format of my logo, which is at ""files/rm_bg/dog2.jpg"".",3
+87,216,image_processing,convert_format,How can I convert an image format?,3
+88,217,image_processing,convert_format,Can you help me change the format of a picture?,3
+89,218,image_processing,convert_format,"I want to convert a photo to another format, how can I do that?",3
+90,219,image_processing,convert_format,Is it possible to change my image to a different format?,3
+91,220,image_remove_bg,remove_bg,Can you remove the background of this picture?,3
+92,221,image_remove_bg,remove_bg,I want to get rid of the background in my image.,3
+93,222,image_remove_bg,remove_bg,How can I make the background of my photo transparent?,3
+94,223,image_remove_bg,remove_bg,I'd like to have an image without its background.,3
+95,224,image_remove_bg,remove_bg,Can you help me with background removal?,3
+96,225,image_remove_bg,remove_bg,Is it possible to erase the background of a given image?,3
+97,226,image_remove_bg,remove_bg,How do I remove the background from a photo?,3
+98,227,image_remove_bg,remove_bg,I want to create a transparent background for my image.,3
+99,228,image_remove_bg,remove_bg,Can you make the background of this picture disappear?,3
+100,229,image_remove_bg,remove_bg,I need assistance with removing the background of an image.,3
+101,230,image_translation,image_translation,Can you translate the text in this image for me?,3
+102,231,image_translation,image_translation,"I can't understand the text in this image, could you translate it?",3
+103,232,image_translation,image_translation,"Please help me translate the text this image, it's in a different language.",3
+104,233,image_translation,image_translation,Can you translate this text from German for me?,3
+105,234,image_translation,image_translation,"I have a picture with Italian text, can you translate it?",3
+106,235,image_translation,image_translation,Please translate this text from French to English. ,3
+107,236,image_translation,image_translation,Can you translate this image's text into Chinese?,3
+108,237,image_translation,image_translation,Please translate this French text into German.,3
+109,238,image_translation,image_translation,I need this Hungarian text to be translated to Spanish. ,3
+110,239,image_translation,image_translation,"I have an image with German text, can you translate it? ",3
+111,252,ip_geo_location,ip_lookup,In what format can I get geo information for my IP? ,3
+112,255,ip_geo_location,ip_lookup,Can you show me the ip details in Chinese?,3
+113,257,ip_geo_location,ip_lookup,I want to look up the details of this IP.,3
+114,258,ip_geo_location,ip_lookup,I would like to know about an IP address.,3
+119,300,objects_detection,objects_detection,Can you analyse this image I have on my device?,3
+120,301,objects_detection,objects_detection,What objects are in this artwork I photographed?,3
+121,303,objects_detection,objects_detection,Could you analyse this image I found online for objects?,3
+122,304,objects_detection,objects_detection,"I have found an interesting image on the internet, can it be analyzed for identifiable objects?",3
+123,305,objects_detection,objects_detection,What objects are in this online image?,3
+124,306,objects_detection,objects_detection,Can you detect objects in images?,3
+125,308,objects_detection,objects_detection,Can you describe what is in this image?,3
+126,309,objects_detection,objects_detection,Could you find out about the objects in my image?,3
+127,310,ocr_extract_text,extract_text_from_image_url,Can you help me extract text from this image?,3
+128,311,ocr_extract_text,extract_text_from_image_url,"I have a photo with texts that I want to get, can you do it?",3
+129,312,ocr_extract_text,extract_text_from_image_url,"I cannot read the texts in the picture I have, can your tool help?",3
+130,313,ocr_extract_text,extract_text_from_image_url,"There is an article printed on the paper, and I have shot a photo of it, can you help me extract the contents?",3
+131,320,ocr_extract_text,extract_text_from_image_file,Can you extract the text in the image I have?,3
+132,321,ocr_extract_text,extract_text_from_image_file,"I have a JPEG file, can you read the text from it?",3
+133,322,ocr_extract_text,extract_text_from_image_file,What text is written in this PNG image?,3
+134,323,ocr_extract_text,extract_text_from_image_file,"I have a picture with some text, can you help me get that text?",3
+135,324,ocr_extract_text,extract_text_from_image_file,"There's an image with words in it, can you tell me what it says?",3
+136,325,ocr_extract_text,extract_text_from_image_file,Can you extract text from a photo for me?,3
+137,326,ocr_extract_text,extract_text_from_image_file,"I need to get the text out of an image, can you help?",3
+138,327,ocr_extract_text,extract_text_from_image_file,Is it possible to extract text from this picture I have?,3
+139,328,ocr_extract_text,extract_text_from_image_file,"I want to know the text in this image I found, can you help?",3
+140,329,ocr_extract_text,extract_text_from_image_file,Can you read the text from a picture I've got?,3
+141,330,onecompiler_apis,execute_code,Can you execute my code?,3
+142,331,onecompiler_apis,execute_code,I want to test my python program online.,3
+143,332,onecompiler_apis,execute_code,Can you run a script for me?,3
+144,333,onecompiler_apis,execute_code,How can I execute this script online?,3
+145,334,onecompiler_apis,execute_code,"I have this Python function to calculate the factorial of a number, can I test it online?",3
+146,335,onecompiler_apis,execute_code,"Look at this Python loop, can you execute it?",3
+147,336,onecompiler_apis,execute_code,Can I run this python Hello World code on your platform?,3
+148,338,onecompiler_apis,execute_code,I wrote this Python code and I need to know if it runs properly.,3
+149,339,onecompiler_apis,execute_code,Will this Python code for sorting a list give the right output?,3
+150,341,public_holiday,public_holidays,Can you tell me the public holidays in the United States?,3
+151,343,public_holiday,public_holidays,When are the public holidays for 2025?,3
+152,344,public_holiday,public_holidays,What were the public holidays in 2022?,3
+153,345,public_holiday,public_holidays,Were there any bank holidays in 2020?,3
+154,346,public_holiday,public_holidays,When are the public holidays?,3
+155,347,public_holiday,public_holidays,Can you show me the bank holidays?,3
+156,348,public_holiday,public_holidays,I want to know the holidays.,3
+157,349,public_holiday,public_holidays,What are the important dates to remember this year?,3
+158,352,recipe_by_api_ninjas,v1_recipe,Do you have any cooking ideas?,3
+160,354,recipe_by_api_ninjas,v1_recipe,What should I cook today?,3
+161,355,recipe_by_api_ninjas,v1_recipe,Could you recommend me some dishes to cook?,3
+163,357,recipe_by_api_ninjas,v1_recipe,What can I cook with these ingredients? ,3
+164,358,recipe_by_api_ninjas,v1_recipe,"I'm not sure what to cook, do you have any recommendations?",3
+165,359,recipe_by_api_ninjas,v1_recipe,Can you give me some recipes for me to try out? ,3
+166,445,skyscanner80,hotels_hotel_auto_complete,Can you recommend some hotels for my trip?,3
+167,446,skyscanner80,hotels_hotel_auto_complete,"I'm planning to visit a city, can you find hotels for me?",3
+168,447,skyscanner80,hotels_hotel_auto_complete,Where can I find hotels during my vacation?,3
+169,448,skyscanner80,hotels_hotel_auto_complete,Can you help me search for hotels during my stay?,3
+170,449,skyscanner80,hotels_hotel_auto_complete,How do I find the best hotels in the destination I'm traveling to?,3
+171,580,weatherapi_com,realtime_weather_api,What is the current weather?,3
+172,581,weatherapi_com,realtime_weather_api,Can you tell me the real-time temperature right now?,3
+173,582,weatherapi_com,realtime_weather_api,Is it going to rain in the next hour?,3
+174,583,weatherapi_com,realtime_weather_api,What's the humidity level at the moment?,3
+175,584,weatherapi_com,realtime_weather_api,How strong is the wind currently?,3
+176,585,weatherapi_com,realtime_weather_api,Is there any weather alert right now?,3
+177,586,weatherapi_com,realtime_weather_api,Can you tell me the air quality index right now?,3
+178,587,weatherapi_com,realtime_weather_api,What is the current visibility?,3
+179,588,weatherapi_com,realtime_weather_api,Is it cloudy outside?,3
+180,589,weatherapi_com,realtime_weather_api,What's the weather condition right now?,3
+181,590,weatherapi_com,forecast_weather_api,What's the weather forecast for the next week?,3
+182,591,weatherapi_com,forecast_weather_api,Can you tell me the weather alerts for the coming days?,3
+185,595,weatherapi_com,forecast_weather_api,Is there any weather alerts for the day after tomorrow?,3
+186,598,weatherapi_com,forecast_weather_api,Can you tell me the weather forecast?,3
+187,599,weatherapi_com,forecast_weather_api,Can I have the weather alerts for the upcoming days?,3
+188,609,weatherapi_com,ip_lookup_api,How do I get information about an IP address?,3
+189,610,weatherapi_com,time_zone_api,What's the current time now?,3
+190,611,weatherapi_com,time_zone_api,Can you tell me the time in the location I'm going to travel?,3
+191,612,weatherapi_com,time_zone_api,"I'm in a online meeting right now, can you tell me the local time of the participants?",3
+192,613,weatherapi_com,time_zone_api,Do you know the time difference between my place and the place I'm going to have a business trip?,3
+193,614,weatherapi_com,time_zone_api,What is the time zone of my place?,3
+194,615,weatherapi_com,time_zone_api,"Can you tell me the local time of my friend in another country, I don't remember his city name.",3
+195,616,weatherapi_com,time_zone_api,What's the current time at the airport I'm heading to?,3
+196,617,weatherapi_com,time_zone_api,Can you inform me about the local time at my next stop?,3
+197,618,weatherapi_com,time_zone_api,"I want to check my system clock, should be there any reference?",3
+198,619,weatherapi_com,time_zone_api,"I want to keep track of the time, can you help me?",3
+204,625,weatherapi_com,astronomy_api,"What was the moonset time for January 1, 2023?",3
+205,626,weatherapi_com,astronomy_api,"Could you provide the sunrise time for December 25, 2023?",3
+208,629,weatherapi_com,astronomy_api,What was the illumination feature yesterday?,3
+209,641,web_capture,take_image_screenshot,I need a screenshot from this YouTube video.,3
+210,643,web_capture,take_image_screenshot,I need a screenshot with a height of 480 pixels.,3
+211,644,web_capture,take_image_screenshot,Can I get an image with the height of 1024px?,3
+212,645,web_capture,take_image_screenshot,Can you provide a screenshot with a height of 768 pixels?,3
+213,646,web_capture,take_image_screenshot,I need a screenshot with a width of 1280 pixels.,3
+214,647,web_capture,take_image_screenshot,Can I get an image with the width of 720px?,3
+215,648,web_capture,take_image_screenshot,Can you provide a screenshot with a width of 840 pixels?,3
+216,649,web_capture,take_image_screenshot,Can you take a screenshot?,3

@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,image_translation,image_translation,Can you translate the text in this image for me?,3
+1,,,"I can't understand the text in this image, could you translate it?",3
+2,,,"Please help me translate the text this image, it's in a different language.",3
+3,,,Can you translate this text from German for me?,3
+4,,,"I have a picture with Italian text, can you translate it?",3
+5,,,Please translate this text from French to English. ,3
+6,,,Can you translate this image's text into Chinese?,3
+7,,,Please translate this French text into German.,3
+8,,,I need this Hungarian text to be translated to Spanish. ,3
+9,,,"I have an image with German text, can you translate it? ",3

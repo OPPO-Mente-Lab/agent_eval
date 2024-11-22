@@ -1,0 +1,179 @@
+{
+  "tool_name": "tourist_attraction",
+  "tool_description": "Discover the world\u2019s wonders with ease using the Tourist Attraction API. Unleash a wealth of information about popular attractions worldwide, including historical sites, natural landmarks, museums, and more. Seamlessly integrate this API to provide users with detailed insights, captivating images, and essential details, enriching their travel experiences like never before. Whether you\u2019re crafting travel apps, tour guides, or adventure platforms, the Tourist Attraction API is your gateway to enhancing journeys and exploration.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "currencies",
+        "description": "Get list of Currency",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "languages",
+        "description": "Get list of language",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "typeahead",
+        "description": "Autocomplete search functionality provides real-time suggestions and predictions as you type, streamlining your search process and making it more efficient.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "q",
+            "language"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search",
+        "description": "Search tourist attraction",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location_id": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language": {
+              "type": "STRING",
+              "description": ""
+            },
+            "currency": {
+              "type": "STRING",
+              "description": ""
+            },
+            "offset": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "location_id",
+            "language",
+            "currency"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "detail",
+        "description": "Get detail of tourist attraction",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location_id": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language": {
+              "type": "STRING",
+              "description": ""
+            },
+            "currency": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "location_id",
+            "language",
+            "currency"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "photos",
+        "description": "Get photos of tourist attraction",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location_id": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language": {
+              "type": "STRING",
+              "description": ""
+            },
+            "currency": {
+              "type": "STRING",
+              "description": ""
+            },
+            "offset": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "location_id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "reviews",
+        "description": "Get reviews of tourist attraction",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location_id": {
+              "type": "STRING",
+              "description": ""
+            },
+            "language": {
+              "type": "STRING",
+              "description": ""
+            },
+            "currency": {
+              "type": "STRING",
+              "description": ""
+            },
+            "offset": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "location_id",
+            "language"
+          ]
+        }
+      }
+    }
+  ]
+}

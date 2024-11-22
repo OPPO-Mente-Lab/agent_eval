@@ -1,0 +1,47 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: Discover the world's wonders with ease using the Tourist Attraction API. Unleash a wealth of information about popular attractions worldwide, including historical sites, natural landmarks, museums, and more. Seamlessly integrate this API to provide users with detailed insights, captivating images, and essential details, enriching their travel experiences like never before. Whether you’re crafting travel apps, tour guides, or adventure platforms, the Tourist Attraction API is your gateway to enhancing journeys and exploration.
+API-1. Search tourist attraction
+API-2. Get detail of tourist attraction
+API-3. Get photos of tourist attraction
+API-4. Get reviews of tourist attraction
+
+For example:
+Instruction: I am planning a travel and I am considering Tokyo. Can you show me some tourist attractions there?
+
+
+==== RESPONSE ====
+Certainly! Here are five high-level instructions that could potentially leverage a combination of the Tourist Attraction APIs:
+
+1. Instruction: I'm interested in exploring ancient ruins on my trip to Greece. Can you provide me with a list of historical sites, detailed information about their significance, and some images to help me decide which ones to visit?
+
+   - Use API-1 to search for historical sites in Greece.
+   - Use API-2 to get detailed information about each historical site's significance.
+   - Use API-3 to retrieve photos of each of the ancient ruins to visualize the attractions.
+
+2. Instruction: For my upcoming trip to Paris, I’d like to visit the top-rated museums. Could you give me a list of museums with the best reviews and some pictures?
+
+   - Use API-1 to search for museums in Paris.
+   - Use API-4 to obtain reviews of museums and sort them by rating to find the top-rated ones.
+   - Use API-3 to get photos of the highest-rated museums to aid in making a final decision.
+
+3. Instruction: I'm planning a nature-focused vacation in Canada. Can you give me information about the most popular natural landmarks, along with photos and what visitors have to say about them?
+
+   - Use API-1 to search for natural landmarks in Canada.
+   - Use API-2 to get detailed information about each landmark.
+   - Use API-3 to get photos of these natural landmarks.
+   - Use API-4 to read reviews from visitors about these sites to gauge popularity and visitor satisfaction.
+
+4. Instruction: I'm taking a historical tour around Egypt and want a curated experience. Can you compile a list of must-see attractions, including a brief history, images, and current visitor perceptions?
+
+   - Use API-1 to search for must-see tourist attractions in Egypt.
+   - Use API-2 to gather a brief history of each attraction.
+   - Use API-3 to collect images of these attractions for a visual preview.
+   - Use API-4 to summarize current visitor reviews to understand recent perceptions and experiences.
+
+5. Instruction: I am writing an article about hidden gems in Italy and need insider information on lesser-known attractions, including vivid images and testimonials from those who've visited.
+
+   - Use API-1 to find off-the-beaten-path attractions in Italy.
+   - Use API-2 to get in-depth details for crafting an insightful article.
+   - Use API-3 to obtain captivating images that depict these hidden gems.
+   - Use API-4 to collect visitor testimonials for authentic insights into these lesser-known sites.

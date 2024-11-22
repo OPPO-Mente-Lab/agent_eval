@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,world_time_by_api_ninjas,v1_worldtime,"What is the current time at location 35.6832,139.5394?",3
+1,,,"Can you tell me what the current time is at coordinates 36.8944,104.1660?",3
+2,,,"What is the current time in New York, New York?",3
+3,,,"Could you please tell me what time it is now in Los Angeles, California?",3
+4,,,"What time is it currently in Paris, France?",3
+5,,,"Can you tell me what time it is now in London, England?",3
+6,,,Can I know the current time in the GMT timezone?,3
+7,,,I would like to know the current time in the EST timezone.,3
+8,,,"Can you tell me the time in Sydney, New South Wales, Australia?",3
+9,,,"What is the current time at location 48.8566,2.3522 in the CET timezone?",3

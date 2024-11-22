@@ -1,0 +1,46 @@
+{
+  "tool_name": "currency_exchange",
+  "tool_description": "Live currency and foreign exchange rates by specifying source and destination quotes and optionally amount to calculate. Support vast amount of quotes around the world.\nLive currency and foreign exchange rates by specifying source and destination quotes and optionally amount to calculate. Support vast amount of quotes around the world.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "listquotes",
+        "description": "List the available quotes in JSON Array this API support, all the available quotes can be used in source and destination quote. Refer exchange endpoint for more information how to call the currency exchange from the source quote to destination quote.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "exchange",
+        "description": "Get Currency Exchange by specifying the quotes of source (from) and destination (to), and optionally the source amount to calculate which to get the destination amount, by default the source amount will be 1.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "from": {
+              "type": "STRING",
+              "description": "Source Quote"
+            },
+            "to": {
+              "type": "STRING",
+              "description": "Destination Quote"
+            },
+            "q": {
+              "type": "NUMBER",
+              "description": "Source Amount"
+            }
+          },
+          "required": [
+            "from",
+            "to"
+          ]
+        }
+      }
+    }
+  ]
+}

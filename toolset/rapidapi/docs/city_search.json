@@ -1,0 +1,56 @@
+{
+  "tool_name": "city_search",
+  "tool_description": "City search API designed to find information about cities all over the globe. You can autocomplete names, find cities by ISO-3166 Alpha2 country code, etc.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "autocomplete_city",
+        "description": "Gives cities base on their name",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "input": {
+              "type": "STRING",
+              "description": ""
+            },
+            "countryCode": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "input"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_cities_from_country_code",
+        "description": "Grabs data about all cities in country",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "countryCode": {
+              "type": "STRING",
+              "description": ""
+            },
+            "limit": {
+              "type": "STRING",
+              "description": "Max: 200 cities per request"
+            },
+            "page": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "countryCode"
+          ]
+        }
+      }
+    }
+  ]
+}

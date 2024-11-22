@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,calculator,calculate,Can you help me calculate the result of 2 + 3 * 4?,2
+1,,,What is the value of the expression (5 - 2) * (3 + 1)?,2
+2,,,Can you find the result of 100 / (10 - 5) * 2?,2
+3,,,What is the result of ((3 + 7) * 5) - 2?,2
+4,,,Calculate the value of this math problem: 20 * (4 + 1) - 10?,2
+5,,,Please solve the following expression: (15 - 10) * (6 / 2) + 5,2
+6,,,Can you calculate this formula for me: (9 + 3) / 4 * 8?,2
+7,,,What is the result of (12*2) / (6*1) + 7?,2
+8,,,Could you please calculate the expression (25 + 35) / (3 * 5) - 4?,2
+9,,,Can you tell me the result of this math problem: 18 - (3 * 6) / 2?,2

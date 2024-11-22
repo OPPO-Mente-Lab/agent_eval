@@ -1,0 +1,35 @@
+{
+    "tool_name": "image_translation",
+    "tool_description": "Translate the characters on an image.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "image_translation",
+                "description": "Given the local path of an image, Translate the characters on the image, and save it to a local path.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The local path of the image."
+                        },
+                        "from_lang": {
+                            "type": "STRING",
+                            "description": "The language to translate from. Must in this list: ['Afrikaans', 'Albanian', 'Arabic', 'Assamese', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bhojpuri', 'Bosnian', 'Bulgarian', 'Chinese (simplified)', 'Chinese (traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'English', 'Estonian', 'French', 'German', 'Hindi', 'Hungarian', 'Icelandic', 'Indonesian', 'Irish', 'Italian', 'Japanese', 'Kannada', 'Korean', 'Latin', 'Latvian', 'Lithuanian', 'Maithili', 'Malay', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Norwegian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Tamil', 'Telugu', 'Thai', 'Turkish', 'Urdu', 'Uyghur', 'Uzbek', 'Vietnamese', 'Welsh']"
+                        },
+                        "to_lang": {
+                            "type": "STRING",
+                            "description": "The language to translate to. Must in this list: ['Afrikaans', 'Albanian', 'Arabic', 'Assamese', 'Azerbaijani', 'Belarusian', 'Bengali', 'Bhojpuri', 'Bosnian', 'Bulgarian', 'Chinese (simplified)', 'Chinese (traditional)', 'Croatian', 'Czech', 'Danish', 'Dutch', 'English', 'Estonian', 'French', 'German', 'Hindi', 'Hungarian', 'Icelandic', 'Indonesian', 'Irish', 'Italian', 'Japanese', 'Kannada', 'Korean', 'Latin', 'Latvian', 'Lithuanian', 'Maithili', 'Malay', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Norwegian', 'Polish', 'Portuguese', 'Romanian', 'Russian', 'Slovak', 'Slovenian', 'Spanish', 'Swahili', 'Swedish', 'Tajik', 'Tamil', 'Telugu', 'Thai', 'Turkish', 'Urdu', 'Uyghur', 'Uzbek', 'Vietnamese', 'Welsh']"
+                        }
+                    },
+                    "required": [
+                        "image_path",
+                        "from_lang",
+                        "to_lang"
+                    ]
+                }
+            }
+        }
+    ]
+}

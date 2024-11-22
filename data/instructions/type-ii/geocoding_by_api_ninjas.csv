@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,geocoding_by_api_ninjas,v1_geocoding,"Can you provide the latitude and longitude of New York City, United States?",2
+1,,,"I need to find the coordinates for Tokyo, Japan. Can you give me that information?",2
+2,,,"Can I know the exact latitude and longitude for Beijing, China?",2
+3,,,"I am trying to pinpoint Los Angeles, California on a map, could you provide me with the exact coordinates?",2
+4,,,"I'd like to know the geographical coordinates for Sydney, Australia. Can you help me with that?",2
+5,,,"Can you give me the latitude and longitude for Berlin, Germany?",2
+6,,,"Could you provide the exact coordinates for Paris, France?",2
+7,,,"I'm planning a trip to Dubai in United Arab Emirates, could you tell me what its latitude and longitude are?",2
+8,,,"I am trying to locate Moscow, Russia on my global map, could you provide its coordinates?",2
+9,,,"I am looking for the exact location for Madrid, Spain on the map. Can you provide the latitude and longitude?",2
+10,,v1_reversegeocoding,What city is located at latitude 22.5429 and longitude 114.0595?,2
+11,,,Can you tell me the name of the city with latitude 30.0339 and longitude 31.2195?,2
+12,,,What is the name of the place at latitude 51.5072 and longitude -0.1276?,2
+13,,,Which city can be found at coordinates 37.7749 and -122.4194?,2
+14,,,What location corresponds to latitude 40.7128 and longitude -74.0060?,2
+15,,,"I am currently at coordinates 22.5736 and 113.8889, what city am I in?",2
+16,,,Can you identify the city with latitude 48.8566 and longitude 2.3522?,2
+17,,,What city is located at latitude 35.6895 and longitude 139.6917?,2
+18,,,Can you please tell me the name of the city with latitude 52.5200 and longitude 13.4050?,2
+19,,,Which city can be found at the coordinates 28.7041 and 77.1025?,2

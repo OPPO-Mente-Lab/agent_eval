@@ -1,0 +1,56 @@
+## image urls for image translation tool
+proverb1.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb1.jpg
+proverb2.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb7.jpg
+proverb3.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb5.jpg
+proverb4.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb6.jpg
+proverb5.jpg	https://ninchanese.com/wp-content/uploads/2016/04/proverb2.jpg
+proverb6.jpg	https://i.pinimg.com/736x/0a/f5/f9/0af5f9b4294cdfefb298487fc44493d1.jpg
+proverb7.jpg	https://i.pinimg.com/736x/92/ec/d9/92ecd95bce2c7dc86d5ec525108fd110.jpg
+proverb8.png	https://i.pinimg.com/originals/a4/f6/73/a4f67312ae4b54eba3d105c64afe6843.png
+proverb9.png	https://www.superchinese.com/img/Image%201%20(1).10cf70f2.png
+proverb10.png	https://www.superchinese.com/img/Image%201%20(2).fbc4934c.png
+
+## animal image urls, can be used for object detection tool
+birds.jpg	https://crowsnestvet.com.au/wp-content/uploads/2019/11/Keeping-Birds-Feathered-Friends.jpg
+dog-and-cat.jpg	https://storage.googleapis.com/petbacker/images/blog/2017/dog-and-cat-cover.jpg
+dog-and-cat2.jpeg	https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2015/06/28184009/Golden-Retriever-laying-down-playing-with-a-cat.jpeg
+dolphins.jpg	https://www.thoughtco.com/thmb/bwzNgsAEcKhBi49Eg7GEpWUIMg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/two-bottlenose-dolphins-leaping-from-the-water-dv1689001-5bfc567a46e0fb0026652224.jpg
+elephants.jpg	https://images.desenio.com/zoom/18375-8elephantsinthewild50x70.jpg
+koala.jpg	https://media.istockphoto.com/id/965307846/photo/baby-koala-on-a-tree.jpg?s=612x612&w=0&k=20&c=Xmpb8ywXYsDGB-iRQh0VQ4cWElqWFVg9UAuSsy4a_kk=
+panda.jpg	https://media.istockphoto.com/id/523761634/photo/cute-panda-bear-climbing-in-tree.jpg?s=612x612&w=0&k=20&c=TxsmORsbuY1LpxQsc6T8fpWJo7lBwncciYhroAr8rXI=
+quokka.jpg	https://t4.ftcdn.net/jpg/06/08/19/37/360_F_608193739_jAKeehmsoFz8NJdUl9R1MmaBmKCwrIvz.jpg
+tiger.jpg	https://www.clevelandzoosociety.org/files/blog/page/adobestock170818276.jpg
+wallaby.jpg	https://indianapublicmedia.org/large-images/amos-images/red_neck_wallaby.jpg
+
+## image urls for ocr tool
+quotes-1.jpg	https://images.ctfassets.net/pdf29us7flmy/7gy0r75zJRlIjq0QYz4ZHI/c3129417675361bce0d92399a2ede7ff/resized.jpg?w=720&q=100&fm=jpg
+quotes-2.jpg	https://images.ctfassets.net/pdf29us7flmy/3fDtiphlV4fKyXhzANvbRa/ebfcaf71ff5140e6d995017b96761fff/resized.jpg?w=720&q=100&fm=jpg
+quotes-3.jpg	https://images.ctfassets.net/pdf29us7flmy/6dUqzLou9eaR5a4laikLzy/b3cc20e7d4a44116d5ad06e8145005f7/resized.jpg
+quotes-4.jpg	https://cdn.geckoandfly.com/wp-content/uploads/2017/07/top-best-quotes-01-830x467.jpg
+quotes-5.jpg	https://cms-article.forbesindia.com/media/images/2023/May/img_207569_thomasedison.jpg
+quotes-6.jpg	https://cms-article.forbesindia.com/media/images/2023/May/img_207571_tonyrobbins.jpg
+quotes-7.jpg	https://images.ctfassets.net/pdf29us7flmy/7eJIWOZSOd9p79EGHcEOqQ/4678b6fd4199c9e7b71d6dacd0c56097/resized.jpg?w=720&q=100&fm=jpg
+quotes-8.jpg	https://www.southernliving.com/thmb/gcIVfPLWMWQbBWOLouJH6JPGSGQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SL_INSPIRATIONQUOTE_01-102545aa08da44eabd35b7bd456c01e9.jpg
+quotes-9.jpg	https://images.ctfassets.net/pdf29us7flmy/2aufE71KN154w8kNytZcU8/44bf4b509cf193c50a555dae97c4e662/resized.jpg
+quotes-10.jpg	https://clockify.me/blog/wp-content/uploads/2023/12/Lincoln.jpg
+
+## images for "remove background" tool
+albert-einstein.jpg	https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/albert-einstein-1933340-1920_ver_1.jpg
+apollo_moon_landing.jpg	https://www.rmg.co.uk/sites/default/files/styles/full_width_1440/public/Apollo%2011%20Moon%20landing%20US%20flag%20salute_0.jpg?itok=m7MSvSJ4
+dog.jpg	https://www.thesprucepets.com/thmb/vO-_aKBa6C6kQzgYHQc6b8lOo_M=/2121x0/filters:no_upscale():strip_icc()/Greyhoundbuchsammy-c0aadb138aa64c2cb85050f7795a81c9.jpg
+dog2.jpg	https://media.istockphoto.com/id/1252455620/photo/golden-retriever-dog.jpg?s=612x612&w=0&k=20&c=3KhqrRiCyZo-RWUeWihuJ5n-qRH1MfvEboFpf5PvKFg=
+flower.jpg	https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg
+flower2.jpg	https://static.pexels.com/photos/36753/flower-purple-lical-blosso.jpg
+kobe-bryant.jpg	https://ew.com/thmb/XoWCPkHqWW_fgYYutiw9ugmthbw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kobe-bryant-0d4dffb9eac446ec8aa5a5536f6ca1ff.jpg
+moon.jpg	https://cdn.mos.cms.futurecdn.net/z46tBMVRUamXXVJec3R2RJ-1200-80.jpg
+mountain.jpg	https://miro.medium.com/v2/resize:fit:643/1*06ujBAXVeGHGifgqzuMn6Q.jpeg
+talor-swift.jpg	https://s.abcnews.com/images/GMA/eras-1-gty-er-231009_1696884374859_hpMain_16x9_992.jpg
+
+
+## website urls for web capture tool
+https://google.com
+https://www.bing.com/
+https://arxiv.org/
+https://www.wikipedia.org/
+https://huggingface.co/
+https://news.google.com/

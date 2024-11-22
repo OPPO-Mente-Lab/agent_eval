@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,bing_search_apis,images_search,Can you show me some cat pictures on the third page with a resolution of 1080p?,3
+1,,,"I want to see some high-resolution photos of Shenzhen, can you find them for me?",3
+2,,,Can you provide me with 4K images of famous landmarks?,3
+3,,,Show me the second page of results for nature images.,3
+4,,,Can you display the fifth page for pictures of delicious food?,3
+5,,,"I'd like to search for some images, can you help me?",3
+6,,,"Can you find some pictures for me, please?",3
+7,,,"I'm interested in looking at some images, can you assist me with that?",3
+8,,,Can you find some interesting images for me?,3
+9,,,"I want to see some images, but I'm not sure what I want to search for.",3

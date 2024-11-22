@@ -1,0 +1,53 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. Compress image size at the cost of lower quality.
+2. Changing the size (i.e. width and height) of image.
+3. Convert the format of an image.
+4. remove the background of an image.
+
+For example:
+Instruction: I have one image at files/object_detection/birds.jpg. I want to remove its background, and save it to png format.
+
+
+==== RESPONSE ====
+Here are 5 high-level instructions that involve the combination of the APIs listed:
+
+Instruction 1:
+"I have a set of product photos in a folder named 'inventory/photos'. I need to compress their sizes for faster loading on my e-commerce website, change their dimensions to fit the site's image placeholders, and convert them all to JPEG format."
+
+Combination of APIs:
+1. Use the compress image size API to reduce the quality of each photo for a smaller file size.
+2. Utilize the change image size API to resize each image according to the website's requirements.
+3. Apply the convert image format API to switch all images to the JPEG format.
+
+Instruction 2:
+"We need to prepare images for a presentation. Take the images from 'presentation/slides', remove the backgrounds to highlight the subjects, resize them to 800px by 600px, and save the edited images as PNG files to retain transparency."
+
+Combination of APIs:
+1. Apply the remove background API to each image to isolate the subjects.
+2. Use the change image size API to adjust the resolution to 800px by 600px.
+3. Implement the convert image format API to save the results in PNG format.
+
+Instruction 3:
+"For a mobile app, I need to batch process images in 'app_assets/icons'. First, I want to convert each image from PNG to SVG for scalability purposes, then remove the backgrounds, and finally resize the images to 100x100 pixels for icons."
+
+Combination of APIs:
+1. Call the convert image format API to change every image from PNG to SVG format.
+2. Employ the remove background API for eliminating the backgrounds of these SVG images.
+3. Use the change image size API to adjust each image's dimensions to 100x100 pixels for uniformity as icons.
+
+Instruction 4:
+"In our 'marketing/banners' folder, we have banner images that are too heavy for the web. Compress them to reduce file size by 50%, convert them to web-optimized JPEG format, and ensure each image is 1920px wide while maintaining the aspect ratio."
+
+Combination of APIs:
+1. Use the compress image size API to reduce file size by roughly 50%.
+2. Utilize the convert image format API to switch the images to a web-optimized JPEG format.
+3. Apply the change image size API to make the images 1920px in width, preserving their respective aspect ratios.
+
+Instruction 5:
+"The photos from 'events/conference' need editing before uploading to our gallery. We want to remove any distracting backgrounds, compress the file size for quicker web page load times, and standardize all images to a width of 1200px."
+
+Combination of APIs:
+1. Apply the remove background API to each photo to clean up distractions.
+2. Utilize the compress image size API to make the files lighter and faster to load.
+3. Use the change image size API to set the width of each cleaned photo to 1200px, maintaining the aspect ratio.

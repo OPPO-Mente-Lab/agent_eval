@@ -1,0 +1,30 @@
+{
+  "tool_name": "list_of_all_countries_and_languages_with_their_codes",
+  "tool_description": "An API showing List of All Countries with their Official Name, Two Letter Code, Numeric code and Int",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "list_of_all_countries",
+        "description": "This endpoint will list all Countries with their Country Name, Official State Name, Alpha 2 Code, Alpha 3 Code,\nNumeric Code, Internet Cctld Code.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "list_of_all_languages",
+        "description": "This endpoint will list all Languages with their ISO Language Name and their 639-1 Codes",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,access_user_info,get_user_profile,Can you show me my user profile?,2
+1,,,Can I see what language is set on my profile?,2
+2,,,What is my current location as per my profile?,2
+3,,,What age is recorded in my profile?,2
+4,,,Can I have a look at the personal details in my profile?,2
+5,,,What's the gender information in my profile?,2
+6,,,"I want to confirm, is my profile showing the correct name?",2
+7,,,Can I check whether my profile reflects my current city of residence?,2
+8,,,What's the information listed in my profile?,2
+9,,,Can you display the data from my user profile?,2

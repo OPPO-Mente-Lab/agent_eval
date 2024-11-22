@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,onecompiler_apis,execute_code,Can you run the Python code which calculates the factorial of 10?,2
+1,,,"I just wrote a Python script that says 'Hello World!', can you please execute it for me?",2
+2,,,Can you help me execute the Python program that calculates the Fibonnaci sequence up to the tenth term?,2
+3,,,"I have a Python code to calculate the value of pi to the 10th decimal place, could you run it for me?",2
+4,,,Could you execute my Python code that calculates the square root of 64?,2
+5,,,Can you execute my Python program for sorting a list of 10 numbers in ascending order?,2
+6,,,"I wrote a Python script that calculates the sum of all numbers in a list, can you run it?",2
+7,,,Can you help me to execute a Python code which takes the input string and converts it into lower case?,2
+8,,,Can you run a Python program that finds the smallest number in a list of ten numbers for me?,2
+9,,,"I want to execute a Python code that checks if a number is a prime number or not, can you help?",2

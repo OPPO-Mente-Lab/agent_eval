@@ -1,0 +1,11 @@
+,Tool,API,Prompt,Type
+0,onecompiler_apis,execute_code,Can you execute my code?,3
+1,,,I want to test my python program online.,3
+2,,,Can you run a script for me?,3
+3,,,How can I execute this script online?,3
+4,,,"I have this Python function to calculate the factorial of a number, can I test it online?",3
+5,,,"Look at this Python loop, can you execute it?",3
+6,,,Can I run this python Hello World code on your platform?,3
+7,,,"This is my Python code, how can one test it on your platform?",3
+8,,,I wrote this Python code and I need to know if it runs properly.,3
+9,,,Will this Python code for sorting a list give the right output?,3

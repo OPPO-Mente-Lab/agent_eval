@@ -1,0 +1,54 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. web_capture/take_image_screenshot: Get Screenshot of any website by providing URL
+2. ocr_extract_text/extract_text_from_image_file
+
+For example:
+Instruction: save this article for me https://www.infoworld.com/article/3715457/generative-ai-agents-will-revolutionize-ai-architecture.html
+
+
+==== RESPONSE ====
+Instruction 1: Create a visual summary of today's news from the New York Times homepage.
+Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to take a screenshot of the New York Times homepage by providing the URL.
+2. With the screenshot obtained, apply the ocr_extract_text/extract_text_from_image_file API to extract the headlines and any accompanying text.
+3. Store the extracted text in a document as a summary.
+4. Repeat this process daily to maintain a visual and text archive of daily news from the New York Times.
+5. Optionally categorize the summaries by section (e.g., International, Politics, Technology).
+
+Instruction 2: Generate a searchable PDF from a restaurant's online menu.
+Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Capture a screenshot of the restaurant's online menu using the web_capture/take_image_screenshot API by providing the menu's URL.
+2. Extract the text from the screenshot using ocr_extract_text/extract_text_from_image_file API.
+3. Compile the extracted text into a PDF, maintaining the original formatting to the extent possible.
+4. Ensure that the text in the PDF is selectable and searchable for easy navigation.
+5. Save the PDF with an appropriate naming convention, such as 'RestaurantName_Menu_Date.pdf'.
+
+Instruction 3: Save a copy of today's best seller list from an online bookstore.
+Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to take a screenshot of the best seller list page from the online bookstore by providing the URL.
+2. Extract the list of book titles, authors, and rankings using the ocr_extract_text/extract_text_from_image_file API.
+3. Save the extracted information in a text file or spreadsheet for personal archiving or analysis.
+4. If desired, repeat this process regularly to track changes in the bestseller list over time.
+5. For enhanced utility, create a database to input and query the data over time.
+
+Instruction 4: Document an online tutorial process for training purposes.
+Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Navigate through each step of the online tutorial and use web_capture/take_image_screenshot API to capture screenshots at key moments or instructions.
+2. Apply ocr_extract_text/extract_text_from_image_file API to extract any instructional text from these screenshots.
+3. Assemble the screenshots and text into a step-by-step instructional document.
+4. Add annotations or additional explanations as needed for clarity in the training document.
+5. Save and distribute the final document to relevant trainees or employees.
+
+Instruction 5: Archive a series of blog posts for offline reading.
+Required APIs: web_capture/take_image_screenshot, ocr_extract_text/extract_text_from_image_file
+
+1. Use the web_capture/take_image_screenshot API to capture screenshots of each blog post by navigating to their individual URLs.
+2. Extract the textual content from each image using the ocr_extract_text/extract_text_from_image_file API.
+3. Combine the text from all blog posts into a single document, preserving the order and titles.
+4. Format the document for readability, and save it both as a text file and a PDF for offline access.
+5. Organize the archived blog posts by date or topic in a folder structure for easy reference.

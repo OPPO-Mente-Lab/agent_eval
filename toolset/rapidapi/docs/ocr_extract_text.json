@@ -1,0 +1,40 @@
+{
+  "tool_name": "ocr_extract_text",
+  "tool_description": "extract texts in image",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "extract_text_from_image_url",
+        "description": "Image must be a regular **JPEG** or **PNG** image (with or without transparency)",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": ["url"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "extract_text_from_image_file",
+        "description": "Image must be a regular **JPEG** or **PNG** image (with or without transparency)",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": ["image"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,agent_equipments,get_current_time,What's the current local time and date right now?,2
+1,,,What day of the week is it today?,2
+2,,,"Can you tell me the exact time, date, and day of the week right now?",2
+3,,,What's the current time and day today?,2
+4,,,Can you provide me the current time along with today's date?,2
+5,,,What is today's date and the day of the week?,2
+6,,,Could you please tell me the exact local time and today's date?,2
+7,,,Please let me know the current time and which day of the week it is today.,2
+8,,,"Can you give me the precise local time, date, and day today?",2
+9,,,What's the current time and what day is it today?,2
+10,,get_my_location,Where am I currently located?,2
+11,,,Can you tell me my current location?,2
+12,,,What is my location right now?,2
+13,,,Could you help me find out my current location?,2
+14,,,"I am lost, where am I?",2
+15,,,What is the name of the place where I am now?,2
+16,,,Can you let me know where am I situated at this moment?,2
+17,,,"I need to know my present location, can you inform me?",2
+18,,,Now where am I?,2
+19,,,What is my pinpoint location right now?,2

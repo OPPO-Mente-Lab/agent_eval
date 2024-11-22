@@ -1,0 +1,23 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. Compress image size at the cost of lower quality.
+2. Changing the size (i.e. width and height) of image.
+3. Convert the format of an image.
+4. remove the background of an image.
+
+For example:
+Instruction: I have one image at files/object_detection/birds.jpg. I want to remove its background, and save it to png format.
+
+
+==== RESPONSE ====
+Below are five high-level instructions that combine the functionalities of the provided APIs:
+
+1. Instruction: I need to prepare product images for an online catalog. The original files are at high-resolution in the folder `/high_res_images`. Each image should have its background removed, be resized to a width of 800 pixels while maintaining aspect ratio, and saved in JPEG format with a balance between image quality and file size for web use.
+
+2. Instruction: For a presentation, I want to create thumbnails of team members' profile pictures. The profiles are located in `/team/profiles`. Each image should first have the background removed, then be resized to 100x100 pixels, and finally compressed to ensure that the file size is below 50 KB without worrying much about image quality loss.
+
+3. Instruction: We need to archive our digital art collection. The images located at `/art_collection` need to be processed for long-term storage. Each image's background should be removed and then converted into a lossless PNG format to preserve quality. No change in image dimensions is necessary.
+
+4. Instruction: I'm building a mobile app and need the app icons from `/app_icons/originals` optimized. Please remove the background from each icon, resize each to 256x256 pixels for high-resolution displays, and compress them while trying to maintain a decent quality to ensure the app remains lightweight for downloading.
+
+5. Instruction: For email marketing, we need to adjust a set of promotional images in `/emails/promos`. These images should have their background removed to create a clean look. Then, to comply with email client limitations, they need to be resized to a maximum width of 600 pixels, maintaining the aspect ratio, and saved as smaller-size JPEG images to ensure quick loading times for recipients.

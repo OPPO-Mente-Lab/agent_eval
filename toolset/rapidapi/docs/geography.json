@@ -1,0 +1,963 @@
+{
+  "tool_name": "geography",
+  "tool_description": "Get Country, City and world gender data information. Powerful APIs for getting information about Countries, Cities and World Gender Data.\nOur Geography API provides detailed information on countries, cities, and other geographic features, allowing you to access key data such as names, population, area, languages, flags, time zones and more. With this data, you can build interactive maps, analyze population trends, and make informed decisions about location-based marketing strategies.\nBy leveraging our API, you can enhance user experiences by displaying dynamic content tailored to specific countries or cities. Provide your users with localized information, personalized recommendations, or targeted marketing campaigns. The possibilities are endless!\nWith our API, you can effortlessly integrate country and city information into your applications, websites, or systems. Whether you\u2019re building a travel app, e-commerce platform, or any other project requiring geographical data, our API has got you covered",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_group",
+        "description": "Search Countries by its associated groups",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "group": {
+              "type": "STRING",
+              "description": "The group of the country. This search is case insensitive and exact match"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            }
+          },
+          "required": [
+            "group"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_neighbour_countries_by_country_code",
+        "description": "Search broder sharing countries for given country code. Country code is ISO 3166 standard alpha code",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "countryCode": {
+              "type": "STRING",
+              "description": "ISO 3166 standard alpha code of the country"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            }
+          },
+          "required": [
+            "countryCode"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_timezone",
+        "description": "Search Countries where provided TimeZone is used by the country",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "timeZone": {
+              "type": "STRING",
+              "description": "TimeZone in format (UTC+/-HH:MM). Example: UTC-04:00 or UTC+01:00"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            }
+          },
+          "required": [
+            "timeZone"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_population",
+        "description": "Search countries by minimum population or maximum population or between minimum and maximum population. Search operation will include both upper and lower limit.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "maxPopulation": {
+              "type": "NUMBER",
+              "description": "Maximum population threshold"
+            },
+            "minPopulation": {
+              "type": "NUMBER",
+              "description": "Minimum population threshold"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_currency",
+        "description": "Search Countries by currency used by the country. The search can be based on currency code or currency name. By default substring match is used. If exact match is required, one should pass query parameter \"exactMatch=true\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "type": "STRING",
+              "description": "The Currency used within the country. User can provide both currency code or currency name for searching. This search is case insensitive"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            }
+          },
+          "required": [
+            "currency"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_gdp",
+        "description": "Search countries by minimum or maximum GDP value or between minimum and maximum GDP value. Search operation will include both upper and lower limit.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "minGdp": {
+              "type": "NUMBER",
+              "description": "Minimum GDP value"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "maxGdp": {
+              "type": "NUMBER",
+              "description": "Maximum GDP value"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_language",
+        "description": "Search Countries by its used Language",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "language": {
+              "type": "STRING",
+              "description": "The language used within the country. User can provide both language code or language name for searching. This search is case insensitve and exact match"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            }
+          },
+          "required": [
+            "language"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_country_by_fifa_code",
+        "description": "Get Country by FIFA assigned Country Code",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fifaCode": {
+              "type": "STRING",
+              "description": "FIFA assigned Country Code"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            }
+          },
+          "required": [
+            "fifaCode"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_continent",
+        "description": "Search Countries by its Continent",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "continent": {
+              "type": "STRING",
+              "description": "The continent of the country. This search is case insensitive and exact match"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            }
+          },
+          "required": [
+            "continent"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_sub_region",
+        "description": "Search Countries by its Sub-Region",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "subregion": {
+              "type": "STRING",
+              "description": "The subregion of the country. This search is case insensitive and exact match"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            }
+          },
+          "required": [
+            "subregion"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_name",
+        "description": "Search Countries by Name. Both official and common names are searched",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "STRING",
+              "description": "Name of the Country to be searched. By default like query type search is supported where a country can be search by only providing part of the name. If exact match is needed, add exactMatch=true in query parameter."
+            },
+            "exactMatch": {
+              "type": "BOOLEAN",
+              "description": "Set to true if exact name match is required. Default value is false"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "includeNativeName": {
+              "type": "BOOLEAN",
+              "description": "If the name search should include Native Name as well, set it to true"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            }
+          },
+          "required": [
+            "name"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_country_by_alphacode",
+        "description": "Get brief countries details by ISO 3166 standard alpha code",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "STRING",
+              "description": "ISO 3166 standard alpha code of the country"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            }
+          },
+          "required": [
+            "code"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_capital",
+        "description": "Search Countries by capital. Both official and common names are searched",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "capital": {
+              "type": "STRING",
+              "description": "Capital of the Country to be searched. By default like query type search is supported where a country can be search by only providing part of the capital name. If exact match is needed, add exactMatch=true in query parameter."
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "exactMatch": {
+              "type": "BOOLEAN",
+              "description": "Set to true if exact name of the capital match is required. Default value is false"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            }
+          },
+          "required": [
+            "capital"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_idd",
+        "description": "Search Countries by its International Direct Dialing Number",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "idd": {
+              "type": "STRING",
+              "description": "Idd number starting with +"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            }
+          },
+          "required": [
+            "idd"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_countries",
+        "description": "Get brief details of all Countries",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "region": {
+              "type": "STRING",
+              "description": "Region the country belongs to, like Americas"
+            },
+            "unMember": {
+              "type": "BOOLEAN",
+              "description": "Is the country member of UN. Supported values are true/false"
+            },
+            "independent": {
+              "type": "BOOLEAN",
+              "description": "Countries who are recognized as independent. Values true/false."
+            },
+            "status": {
+              "type": "STRING",
+              "description": "Status of the country."
+            },
+            "landlocked": {
+              "type": "BOOLEAN",
+              "description": "Is the country landlocked. Supported values are true/false"
+            },
+            "startOfWeek": {
+              "type": "STRING",
+              "description": "Country by start day of the week"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "subregion": {
+              "type": "STRING",
+              "description": "Sub-Region the country belongs to, like Caribbean"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_countries_by_region",
+        "description": "Search Countries by its Region",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "region": {
+              "type": "STRING",
+              "description": "The region of the country. This search is case insensitive and exact match"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort order with the default value set to \"asc\" (ascending order)."
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortBy": {
+              "type": "STRING",
+              "description": "The field name by which the countries should be sorted. By default countries will be sorted by common Name in ascending order."
+            }
+          },
+          "required": [
+            "region"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_cities",
+        "description": "Get details about cities",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "countryCode": {
+              "type": "STRING",
+              "description": "Alpha-2 code of Country as per ISO-3166"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            }
+          },
+          "required": [
+            "countryCode"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_continents",
+        "description": "Get list of continents in the world",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_regions",
+        "description": "Get list of regions in the world",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_sub_regions",
+        "description": "Get list of sub regions of a region",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "region": {
+              "type": "STRING",
+              "description": "Name of the region"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort countries by population. Default sortOrder=asc."
+            }
+          },
+          "required": [
+            "region"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_subregions",
+        "description": "Get list of sub regions in the world",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_historical_gender_ratio",
+        "description": "Get historical Information about Males per 100 Females by Age Group. Currently the data is divided between age group who are below 18 called 'Youth' and age group above 18 called 'adult'. The data is sourced from UN Population data",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "genderRatioId": {
+              "type": "STRING",
+              "description": "Id of Gender Ratio Data"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort Order asc/desc. Currently sorting is only done on year field"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            }
+          },
+          "required": [
+            "genderRatioId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_literacy_rate_by_id",
+        "description": "Get literacy rate of a specific country provided as id in the path. Currently the data is divided between age group of 15-24 called 'youth' and age group above 15 called 'adult'.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "3 digit ISO code of a country"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_historical_fertility_rate",
+        "description": "Get historical fertility rate information of a given country represented by 3 digit ISO id.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "3 digit ISO code of a country"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort Order asc/desc. Currently sorting is only done on year"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_fertility_rate_by_id",
+        "description": "Get fertility rate of a specific country provided as id in the path.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "3 digit ISO code of a country"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_fertility_rate",
+        "description": "Get fertility rate of countries. Fertility rate is total births per woman, it represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the speci...",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "name": {
+              "type": "STRING",
+              "description": "Like search on name field"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_gender_ratio",
+        "description": "Get Latest Information about Males per 100 Females by Age Group. Currently the data is divided between age group who are below 18 called 'Youth' and age group above 18 called 'adult'. The data is sourced from UN Population data",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "name": {
+              "type": "STRING",
+              "description": "Part or full name of the geographic entity type. For example Country name"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_literacy_rate",
+        "description": "Get literacy rate of countries. Currently the data is divided between age group of 15-24 called 'youth' and age group above 15 called 'adult'.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "name": {
+              "type": "STRING",
+              "description": "Like search on name field"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_gender_ratio_by_id",
+        "description": "Get Latest Information about Males per 100 Females by Age Group. Currently the data is divided between age group who are below 18 called 'Youth' and age group above 18 called 'adult'. The data is sourced from UN Population data",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "genderRatioId": {
+              "type": "STRING",
+              "description": "Id of Gender Ratio Data"
+            },
+            "fields": {
+              "type": "STRING",
+              "description": "Comma separated fields list to filter response"
+            }
+          },
+          "required": [
+            "genderRatioId"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_historical_literacy_rate",
+        "description": "Get historical literacy rate information of a given country represented by 3 digit ISO id. Currently the data is divided between age group of 15-24 called 'youth' and age group above 15 called 'adult'.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "STRING",
+              "description": "3 digit ISO code of a country"
+            },
+            "sortOrder": {
+              "type": "STRING",
+              "description": "Sort Order asc/desc. Currently sorting is only done on year"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "The maximum records that can be returned within a page"
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "The page number from which the search should continue. Its zero indexed, hence, starts with 0"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    }
+  ]
+}

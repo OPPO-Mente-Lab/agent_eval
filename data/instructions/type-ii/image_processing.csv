@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,image_processing,compress_image,Can you compress the image at $FILE to save some storage space?,2
+1,,,"My image at $FILE is too large for email attachment, could you compress it?",2
+2,,,"I need to reduce the size of my photo stored at $FILE, can you compress it?",2
+3,,,I have a picture at $FILE. Can I compress it to lower the quality and reduce the size?,2
+4,,,"I've downloaded a high-quality photo at $FILE, it's too large for my presentation, can you compress it?",2
+5,,,Can you compress my image at $FILE to a quality of 50?,2
+6,,,"I want to save network data when people download my image at $FILE from my website, could you compress it?",2
+7,,,"The image at $FILE is too large for my blog, can you decrease its quality to 30 and see if it fits?",2
+8,,,Could you compress the image located at $FILE to a lower size with high quality?,2
+9,,,"My image at $FILE takes up too much space on my phone, can you compress it to a quality of 40?",2
+10,,resize_image,Can you resize my photo from $FILE to 50% of its original size?,2
+11,,,I want to make a smaller version of the image at $FILE. Can you reduce its size by 30%?,2
+12,,,I need help to resize this picture at $FILE to 70% of its original size. Can you do that?,2
+13,,,I want to fit this image at $FILE to an avatar size by reducing it to 20% of the original size. Can you help me do that?,2
+14,,,Let's downsize the image at $FILE to half of its original size for faster loading. Can I do that?,2
+15,,,"I have a wallpaper at $FILE, but I want it to be 80% smaller to fit my phone screen. Can you resize it?",2
+16,,,I need to decrease the size of this image at $FILE to 40% of its current size for email attachment purposes. Can you do that?,2
+17,,,Can you help me reduce the size of the illustration at $FILE to 60% of how big it is now?,2
+18,,,I'd like to make the image at $FILE a bit smaller – can we scale it down to 25% of its current size?,2
+19,,,"To save some storage space, can we resize the image at $FILE to 35% of the original size?",2
+20,,convert_format,How to convert the format of my picture in $FILE to jpeg?,2
+21,,,Can you help me change the format of the image at $FILE to png?,2
+22,,,"I want to transform the format of the image located at $FILE into gif, how can I do that?",2
+23,,,Is it possible to convert the image found in $FILE to a bmp file?,2
+24,,,Can I change the format of a photo in path $FILE to psd?,2
+25,,,"I would like to have the image from $FILE in tiff format, what should I do?",2
+26,,,"I have this image on $FILE, can I convert its format to webp?",2
+27,,,What steps should I follow if I need to convert an image from $FILE to pdf format?,2
+28,,,"I have an image in $FILE, could you guide me to convert it to xpm format?",2
+29,,,Can the image be converted from $FILE path to a ppm file?,2

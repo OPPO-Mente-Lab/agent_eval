@@ -1,0 +1,112 @@
+{
+  "tool_name": "factual_knowledge_graph_wikipedia",
+  "tool_description": "Factual knowledge graph to query the context of topics and search for connections in between of topics.\nEach topic is paired and synced with English Wikipedia articles.\nFactual knowledge graph to query the context of topics and search for connections in between of topics.\nEach topic is paired and synced with English Wikipedia articles.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "neighbors",
+        "description": "Neighbors - Return a list of neighbors sorted by relative rank.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "STRING",
+              "description": ""
+            },
+            "offset": {
+              "type": "NUMBER",
+              "description": "Skip first {offset} neighbors for context related to parent {_id}"
+            },
+            "limit": {
+              "type": "NUMBER",
+              "description": "Max Number of neighbors related to parent {_id}"
+            }
+          },
+          "required": [
+            "_id",
+            "offset",
+            "limit"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "api_base_endpoint",
+        "description": "Welcoming message with contact details to developer.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search",
+        "description": "Search (fuzzy) function. Based on Wikimedia API, returned topics are mapped to entities in factual knowledge graph.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "STRING",
+              "description": "Keywords to query. Keywords identify topics' name."
+            }
+          },
+          "required": [
+            "q"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "context_between_multiple_entities",
+        "description": "Return graph of connections between a set of topics. Max number of topics is 5.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "STRING",
+              "description": "ID of first entity to query, return a sub-graph of entities IDs in path URL"
+            },
+            "_second": {
+              "type": "STRING",
+              "description": "ID of a second entity to query"
+            },
+            "_n-th": {
+              "type": "STRING",
+              "description": "ID of a n-th entity to query. Response is restricted to max 5 entities' IDs in path URL"
+            }
+          },
+          "required": [
+            "_id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "context_of_a_topic",
+        "description": "Return insights about a topic. Insight is a sub-graph of first neighbours related to a parent {_id}.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "STRING",
+              "description": "Return the context of an entity as a subgraph of 6 neighbours for each entity's neighbour"
+            }
+          },
+          "required": [
+            "_id"
+          ]
+        }
+      }
+    }
+  ]
+}

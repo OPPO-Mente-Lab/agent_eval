@@ -1,0 +1,27 @@
+{
+  "tool_name": "image_compressor_api",
+  "tool_description": "CodeROG Image Compressor API is a powerful service designed to optimize image files, supporting a wide range of formats including PNG, JPG, JPEG, WEBP, AVIF, SVG, GIF, and BMP. This API excels in reducing image sizes without compromising visual quality, making it an ideal solution for developers and businesses looking to enhance website and application performance. Seamlessly integrate this API to effortlessly compress images and improve loading times across various platforms.\nKey Features:\nFormat Versatility: Support for multiple formats, including PNG, JPG, JPEG, WEBP, AVIF, SVG, GIF, and BMP, providing flexibility for diverse use cases.\nEfficient Compression: Utilize advanced algorithms to compress images, minimizing file sizes while preserving exceptional visual clarity.\nAPI Integration: Easily integrate image compression capabilities into your applications, websites, or content management systems.\nFaster Page Loads: Accelerate website loading times by serving compressed images, reducing server response times, and enhancing overall performance.\nBandwidth Optimization: Significantly decrease bandwidth consumption, making the API ideal for projects with data transfer efficiency goals.\nSupported Formats:\nPNG Compression\nJPG Compression\nJPEG Compression\nWEBP Compression\nAVIF Compression\nSVG Compression\nGIF Compression\nBMP Compression\nHow to Use:\nSubmit Image Files:\nSend image files in supported formats to the API endpoint for automatic compression.\nReceive compressed images optimized for faster loading on web and mobile platforms.\nFormat Flexibility:\nChoose from a variety of supported formats based on your application\u2019s requirements.\nEnsure compatibility with different image types across your projects.\nEasy Integration:\nIntegrate the API seamlessly with your existing systems using straightforward HTTP requests.\nEnhance your applications with on-the-fly image compression for an improved user experience.\nRequirements:\nAPI Key for Authentication\nImage files in supported formats: PNG, JPG, JPEG, WEBP, AVIF, SVG, GIF, BMP\nNote:\nEnsure that your API key is included in the headers for authentication, and refer to the API documentation for detailed parameter specifications and usage guidelines.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "compress_optimize_image",
+        "description": "Compress / Optimize Image",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "imgurl": {
+              "type": "STRING",
+              "description": ""
+            },
+            "quality": {
+              "type": "NUMBER",
+              "description": "Quality Range: (0 to 100)\nHigher = Better quality\nLower = More compression"
+            }
+          },
+          "required": ["imgurl"]
+        }
+      }
+    }
+  ]
+}

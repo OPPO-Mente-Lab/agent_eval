@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of the cities in China?,3
+1,,,I need to know the coordinates of the main cities in India.,3
+2,,,What are the coordinates of the cities in the United States?,3
+3,,,Can you tell me the coordinates of the cities in California?,3
+4,,,I want to know the coordinates of the cities in Texas.,3
+5,,,Can you give me the coordinates of the cities in New York?,3
+6,,,Can you convert this location to coordinates?,3
+7,,,Can you tell me the coordinates of this place?,3
+8,,,Can you send me the coordinates of the main cities?,3
+9,,,I need the coordinates. Can you provide them?,3
+10,,v1_reversegeocoding,"I have the latitude 22.5431, what city is closest to this latitude?",3
+11,,,Can you tell me the location that corresponds to the latitude 34.0522?,3
+12,,,I wanna know which city is at latitude 51.5074.,3
+13,,,What city is near the longitude 114.0579?,3
+14,,,I want to know which city is located at longitude -118.2437?,3
+15,,,What city corresponds to longitude 0.1276?,3
+16,,,Can you tell me the city at these coordinates?,3
+17,,,What city corresponds to these coordinates I got here?,3
+18,,,"I'm trying to figure out which city these coordinates point to, could you help me out?",3
+19,,,Can you help me find the city location for these coordinates I have been given?,3

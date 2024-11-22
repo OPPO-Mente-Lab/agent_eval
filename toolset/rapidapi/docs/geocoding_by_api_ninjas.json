@@ -1,0 +1,57 @@
+{
+  "tool_name": "geocoding_by_api_ninjas",
+  "tool_description": "Convert city locations to latitude/longitude coordinates and vice versa. See more info at https://api-ninjas.com/api/geocoding and https://api-ninjas.com/api/reversegeocoding.\nThe API Ninjas Geocoding API enables you to convert any city location from any country to latitude and longitude coordinates and vice versa,",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "v1_geocoding",
+        "description": "API Ninjas Geocoding API endpoint.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "city": {
+              "type": "STRING",
+              "description": "City name."
+            },
+            "state": {
+              "type": "STRING",
+              "description": "US state (for United States cities only)."
+            },
+            "country": {
+              "type": "STRING",
+              "description": "Country name, 2-letter ISO country code, or 3-letter ISO country code."
+            }
+          },
+          "required": [
+            "city"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "v1_reversegeocoding",
+        "description": "API Ninjas Reverse Geocoding API endpoint.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "NUMBER",
+              "description": "Latitude coordinate."
+            },
+            "lon": {
+              "type": "NUMBER",
+              "description": "Longitude coordinate."
+            }
+          },
+          "required": [
+            "lat",
+            "lon"
+          ]
+        }
+      }
+    }
+  ]
+}

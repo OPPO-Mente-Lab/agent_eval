@@ -1,0 +1,26 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. web_search: Web search.
+2. images_search: Search images from the search engine for the most relevant keywords and images related to keywords and images.
+3. video_search: Search videos over web.
+4. news_api/search: Endpoint to search news by specific keywords.
+
+For example:
+Instruction: I am a fan of Taylor Swift. Show me some recent videos and news about her.
+
+
+==== RESPONSE ====
+Instruction 1: I'm planning a vacation to Paris. Give me some ideas for top tourist attractions, and show me some images and latest news related to them.
+APIs combination: web_search (for searching top tourist attractions), images_search (for images of the attractions), news_api/search (for latest news about each attraction).
+
+Instruction 2: I want to make a presentation about the effects of climate change on polar bears. Provide me with the latest scientific research, relevant images, and videos to include in my presentation.
+APIs combination: web_search (for scientific research articles), images_search (for images of polar bears in the context of climate change), video_search (for videos showing effects of climate change on polar bears).
+
+Instruction 3: I am doing a market analysis on electric vehicles. Can you find the most recent articles, statistics, and infographics regarding electric vehicle trends and market growth?
+APIs combination: web_search (for statistics and market research), images_search (for infographics on electric vehicle trends), news_api/search (for recent news articles on the electric vehicle market).
+
+Instruction 4: I am a sports journalist looking to write a story on the rise of esports. Could you provide me with the latest esports tournament highlights, related news articles, and striking images of popular players and events?
+APIs combination: video_search (for tournament highlights), news_api/search (for the latest news on esports), images_search (for images of players and events).
+
+Instruction 5: As an educator, I want to update my curriculum on solar system exploration. Find me educational videos, recent discoveries in the field, and vivid images of the planets and space technology.
+APIs combination: video_search (for educational videos on solar system exploration), web_search (for information on recent discoveries), images_search (for images of planets and space technology).

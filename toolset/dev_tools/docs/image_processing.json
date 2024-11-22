@@ -1,0 +1,77 @@
+{
+    "tool_name": "image_processing",
+    "tool_description": "Image processing including resizing, compressing, and converting format of image.",
+    "APIs": [
+        {
+            "type": "function",
+            "function": {
+                "name": "compress_image",
+                "description": "Compress image size at the cost of lower quality.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The local path of the image."
+                        },
+                        "quality": {
+                            "type": "NUMBER",
+                            "description": "Quality of image ranging from 0 to 95. Higher quality means larger size of image file. The default value is 10 if not specified. "
+                        }
+                    },
+                    "required": [
+                        "image_path"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "resize_image",
+                "description": "Changing the size (i.e. width and height) of image.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The local path of image."
+                        },
+                        "resize_ratio": {
+                            "type": "NUMBER",
+                            "description": "resize ratio ranging from 0 to 1."
+                        }
+                    },
+                    "required": [
+                        "image_path",
+                        "resize_ratio"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "convert_format",
+                "description": "Convert the format of an image.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "image_path": {
+                            "type": "STRING",
+                            "description": "The path of the image to be converted"
+                        },
+                        "extension": {
+                            "type": "STRING",
+                            "description": "The extension of target image name, indicating its format. Support extensions: ['png', 'apng', 'jfif', 'jpe', 'jpg', 'jpeg', 'bmp', 'dib', 'gif', 'pbm', 'pgm', 'ppm', 'pnm', 'blp', 'bufr', 'cur', 'pcx', 'dcx', 'dds', 'ps', 'eps', 'fit', 'fits', 'fli', 'flc', 'ftc', 'ftu', 'gbr', 'grib', 'h5', 'hdf', 'jp2', 'j2k', 'jpc', 'jpf', 'jpx', 'j2c', 'icns', 'ico', 'im', 'iim', 'mpg', 'mpeg', 'tif', 'tiff', 'mpo', 'msp', 'palm', 'pcd', 'pdf', 'pxr', 'psd', 'qoi', 'bw', 'rgb', 'rgba', 'sgi', 'ras', 'tga', 'icb', 'vda', 'vst', 'webp', 'wmf', 'emf', 'xbm', 'xpm']"
+                        }
+                    },
+                    "required": [
+                        "image_path",
+                        "extension"
+                    ]
+                }
+            }
+        }
+    ]
+}

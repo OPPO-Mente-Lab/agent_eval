@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,airports,query_airports_by_name,Can you tell me the information about Shenzhen Bao'an International Airport?,2
+1,,,"I need details about Hong Kong International Airport, can you lookup?",2
+2,,,What can you tell me about Beijing Daxing International Airport?,2
+3,,,I would like to know about Shanghai Pudong International Airport.,2
+4,,,Can you provide me with details on Chengdu Shuangliu International Airport?,2
+5,,,What can you tell me about Guangzhou Baiyun International Airport?,2
+6,,,"I need to know about Hangzhou Xiaoshan International Airport, could you please look it up for me?",2
+7,,,Can you check for Kunming Changshui International Airport?,2
+8,,,"I need information on Nanjing Lukou International Airport, could you provide?",2
+9,,,Can you lookup for Xi'an Xianyang International Airport?,2
+10,,get_airport_by_iata_code,"What is the location of airport with IATA code ""SZX""?",2
+11,,,"Can you please tell me the ICAO code of airport with IATA code ""PEK""?",2
+12,,,"What's the local time at the airport with IATA code ""JFK""?",2
+13,,,"Could you provide information on the airport with IATA code ""LAX""?",2
+14,,,"What is the name of the airport with IATA code ""DXB""?",2
+15,,,"Can you give me the details of the airport with IATA code ""HND""?",2
+16,,,"What city is the airport with IATA code ""AMS"" located in?",2
+17,,,"What timezone does the airport with IATA code ""SFO"" belong to?",2
+18,,,"What country is the airport with IATA code ""SYD"" in?",2
+19,,,"Can you provide me the address of the airport with IATA code ""YYZ""?",2
+20,,get_airport_by_icao_code,"Can you find the location and local time of the airport with ICAO code ""ZGSZ""?",2
+21,,,"What is the information of the airport with ICAO code ""VHHH""?",2
+22,,,"I want to know the details of the airport with the ICAO code ""OMDB"".",2
+23,,,"Tell me about the airport with ICAO code ""EGLL"" - its location and current local time.",2
+24,,,"What can you tell me about the airport with ICAO code ""KLAX""?",2
+25,,,"Find me the location and local time of the airport with ICAO code ""RJTT"".",2
+26,,,"Give me the information on the airport with the ICAO code ""SCEL"".",2
+27,,,"Can you provide details about the airport with ICAO code ""LFPG""?",2
+28,,,"I'd like to know more about the airport with the ICAO code ""YSSY"".",2
+29,,,"What is the location and local time of the airport with ICAO code ""CYYZ""?",2

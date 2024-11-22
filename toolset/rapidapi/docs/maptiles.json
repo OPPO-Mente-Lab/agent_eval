@@ -1,0 +1,122 @@
+{
+  "tool_name": "maptiles",
+  "tool_description": "Map Tiles for interactive online maps based on data by OpenStreetMap contributors with labels in English, French or Spanish.\nUse our Map Tiles with English, French or Spanish labels based on OpenStreetMap data for your online map or your app map or your desktop software application like QGIS et al.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "getmaptilewithspanishlabels",
+        "description": "Raster Map Tiles with Spanish Labels. Please see tutorial on how to use the Spanish world map.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "NUMBER",
+              "description": "X-number of tile (see documentation)"
+            },
+            "z": {
+              "type": "NUMBER",
+              "description": "zoom (from 0 up to zoom 19)"
+            },
+            "y": {
+              "type": "NUMBER",
+              "description": "Y-number of tile (see documentation)"
+            }
+          },
+          "required": [
+            "x",
+            "z",
+            "y"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "getmaptilewithenglishlabels",
+        "description": "Raster Map Tiles with English Labels. Please see our tutorials page on how to use this.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "z": {
+              "type": "NUMBER",
+              "description": "zoom (from 0 up to zoom 19)"
+            },
+            "x": {
+              "type": "NUMBER",
+              "description": "X-number of tile (see documentation)"
+            },
+            "y": {
+              "type": "NUMBER",
+              "description": "Y-number of tile (see documentation)"
+            }
+          },
+          "required": [
+            "z",
+            "x",
+            "y"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "getmaptilewithfrenchlabels",
+        "description": "Raster Map Tiles with French Labels",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "NUMBER",
+              "description": "X-number of tile (see documentation)"
+            },
+            "z": {
+              "type": "NUMBER",
+              "description": "zoom (from 0 up to zoom 19)"
+            },
+            "y": {
+              "type": "NUMBER",
+              "description": "Y-number of tile (see documentation)"
+            }
+          },
+          "required": [
+            "x",
+            "z",
+            "y"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "getstandardmaptile",
+        "description": "Standard tiles with labels in local language for a place (untranslated and untransliterated) as known from OpenStreetMap",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "y": {
+              "type": "NUMBER",
+              "description": "Y-number of tile (see documentation)"
+            },
+            "x": {
+              "type": "NUMBER",
+              "description": "X-number of tile (see documentation)"
+            },
+            "z": {
+              "type": "NUMBER",
+              "description": "zoom (from 0 up to zoom 19)"
+            }
+          },
+          "required": [
+            "y",
+            "x",
+            "z"
+          ]
+        }
+      }
+    }
+  ]
+}

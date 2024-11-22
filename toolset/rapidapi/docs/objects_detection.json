@@ -1,0 +1,27 @@
+{
+  "tool_name": "objects_detection",
+  "tool_description": "Detect and identify objects in images using deep learning. Recognize over 3000 object categories and extract keywords for a comprehensive image analysis",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "objects_detection",
+        "description": "Detect and identify objects in images using deep learning. Recognize over 3000 object categories and extract keywords for a comprehensive image analysis",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "STRING",
+              "description": "Path of the input image file to upload"
+            },
+            "url": {
+              "type": "STRING",
+              "description": "The input image url"
+            }
+          },
+          "required": []
+        }
+      }
+    }
+  ]
+}

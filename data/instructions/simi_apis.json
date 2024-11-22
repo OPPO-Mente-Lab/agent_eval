@@ -1,0 +1,464 @@
+{
+  "weatherapi_com##realtime_weather_api": [
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##time_zone_api",
+    "weatherapi_com##astronomy_api",
+    "weatherapi_com##search_autocomplete_api",
+    "weatherapi_com##ip_lookup_api"
+  ],
+  "weatherapi_com##forecast_weather_api": [
+    "weatherapi_com##astronomy_api",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##time_zone_api",
+    "weatherapi_com##search_autocomplete_api",
+    "weatherapi_com##ip_lookup_api"
+  ],
+  "weatherapi_com##ip_lookup_api": [
+    "ip_geo_location##ip_lookup",
+    "ip_geo_location##visitor_lookup",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##astronomy_api"
+  ],
+  "weatherapi_com##time_zone_api": [
+    "weatherapi_com##search_autocomplete_api",
+    "weatherapi_com##astronomy_api",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##ip_lookup_api"
+  ],
+  "weatherapi_com##astronomy_api": [
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##time_zone_api",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##search_autocomplete_api",
+    "weatherapi_com##ip_lookup_api"
+  ],
+  "weatherapi_com##search_autocomplete_api": [
+    "weatherapi_com##time_zone_api",
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##astronomy_api",
+    "weatherapi_com##ip_lookup_api"
+  ],
+  "news_api##top_headlines": [
+    "news_api##search",
+    "tourist_attraction##reviews",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",
+    "tourist_attraction##search",
+    "skyscanner80##hotels_hotel_detail"
+  ],
+  "news_api##search": [
+    "news_api##top_headlines",
+    "tourist_attraction##search",
+    "tourist_attraction##reviews",
+    "weatherapi_com##ip_lookup_api",
+    "bing##web_search"
+  ],
+  "public_holiday##public_holidays": [
+    "calendar##days_of_month",
+    "tourist_attraction##detail",
+    "tourist_attraction##currencies",
+    "tourist_attraction##languages",
+    "skyscanner80##hotels_search"
+  ],
+  "recipe_by_api_ninjas##v1_recipe": [
+    "bing_search_apis##images_search",
+    "bing##web_search",
+    "geocoding_by_api_ninjas##v1_geocoding",
+    "news_api##search",
+    "airports##query_airports_by_name"
+  ],
+  "objects_detection##objects_detection": [
+    "bing_search_apis##images_search",
+    "ocr_extract_text##extract_text_from_image_file",
+    "ocr_extract_text##extract_text_from_image_url",
+    "image_processing##compress_image",
+    "image_processing##resize_image"
+  ],
+  "ocr_extract_text##extract_text_from_image_url": [
+    "ocr_extract_text##extract_text_from_image_file",
+    "image_processing##convert_format",
+    "image_translation##image_translation",
+    "objects_detection##objects_detection",
+    "image_remove_bg##remove_bg"
+  ],
+  "ocr_extract_text##extract_text_from_image_file": [
+    "ocr_extract_text##extract_text_from_image_url",
+    "image_processing##convert_format",
+    "image_translation##image_translation",
+    "objects_detection##objects_detection",
+    "image_remove_bg##remove_bg"
+  ],
+  "web_capture##take_image_screenshot": [
+    "bing_search_apis##images_search",
+    "ocr_extract_text##extract_text_from_image_url",
+    "image_processing##resize_image",
+    "ocr_extract_text##extract_text_from_image_file",
+    "image_processing##convert_format"
+  ],
+  "onecompiler_apis##execute_code": [
+    "calculator##calculate",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",
+    "airports##get_airport_by_icao_code",
+    "geocoding_by_api_ninjas##v1_geocoding"
+  ],
+  "bing##web_search": [
+    "bing_search_apis##images_search",
+    "tourist_attraction##search",
+    "news_api##search",
+    "airports##query_airports_by_name",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages"
+  ],
+  "bing_search_apis##images_search": [
+    "bing##web_search",
+    "objects_detection##objects_detection",
+    "tourist_attraction##photos",
+    "google_api##video_search",
+    "news_api##search"
+  ],
+  "google_api##video_search": [
+    "bing_search_apis##images_search",
+    "news_api##search",
+    "bing##web_search",
+    "tourist_attraction##search",
+    "google_translate##detect"
+  ],
+  "skyscanner80##get_config": [
+    "skyscanner80##flights_auto_complete",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##hotels_search"
+  ],
+  "skyscanner80##flights_auto_complete": [
+    "skyscanner80##hotels_hotel_auto_complete",
+    "skyscanner80##get_config",
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##flights_flight_detail"
+  ],
+  "skyscanner80##flights_search_one_way": [
+    "skyscanner80##flights_search_roundtrip",
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##flights_search_incomplete",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##flights_price_calendar"
+  ],
+  "skyscanner80##flights_search_roundtrip": [
+    "skyscanner80##flights_search_one_way",
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##flights_search_incomplete",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##flights_auto_complete"
+  ],
+  "skyscanner80##flights_search_everywhere": [
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##flights_search_roundtrip",
+    "skyscanner80##flights_price_calendar",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_search"
+  ],
+  "skyscanner80##flights_search_incomplete": [
+    "skyscanner80##flights_search_roundtrip",
+    "skyscanner80##flights_search_one_way",
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##hotels_hotel_detail"
+  ],
+  "skyscanner80##flights_flight_detail": [
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##flights_price_calendar",
+    "skyscanner80##hotels_search",
+    "skyscanner80##flights_search_roundtrip"
+  ],
+  "skyscanner80##flights_price_calendar": [
+    "skyscanner80##flights_search_everywhere",
+    "skyscanner80##hotels_prices",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##hotels_search",
+    "skyscanner80##hotels_hotel_detail"
+  ],
+  "skyscanner80##hotels_hotel_auto_complete": [
+    "skyscanner80##flights_auto_complete",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_search",
+    "skyscanner80##get_config",
+    "skyscanner80##flights_search_everywhere"
+  ],
+  "skyscanner80##hotels_search": [
+    "skyscanner80##hotels_prices",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_similar_hotels",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "skyscanner80##flights_search_everywhere"
+  ],
+  "skyscanner80##hotels_hotel_detail": [
+    "skyscanner80##hotels_search",
+    "skyscanner80##hotels_prices",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "skyscanner80##hotels_similar_hotels",
+    "skyscanner80##flights_search_everywhere"
+  ],
+  "skyscanner80##hotels_prices": [
+    "skyscanner80##hotels_search",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_similar_hotels",
+    "skyscanner80##flights_price_calendar",
+    "skyscanner80##hotels_hotel_auto_complete"
+  ],
+  "skyscanner80##hotels_reviews": [
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_search",
+    "skyscanner80##hotels_prices",
+    "skyscanner80##hotels_similar_hotels",
+    "skyscanner80##hotels_hotel_auto_complete"
+  ],
+  "skyscanner80##hotels_similar_hotels": [
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_search",
+    "skyscanner80##hotels_prices",
+    "skyscanner80##hotels_nearby_map",
+    "skyscanner80##hotels_hotel_auto_complete"
+  ],
+  "skyscanner80##hotels_nearby_map": [
+    "skyscanner80##hotels_similar_hotels",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "skyscanner80##hotels_search",
+    "skyscanner80##flights_search_everywhere"
+  ],
+  "currency_exchange##listquotes": [
+    "currency_exchange##exchange",
+    "tourist_attraction##currencies",
+    "skyscanner80##hotels_hotel_detail",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",
+    "skyscanner80##hotels_prices"
+  ],
+  "currency_exchange##exchange": [
+    "currency_exchange##listquotes",
+    "tourist_attraction##currencies",
+    "tourist_attraction##detail",
+    "skyscanner80##hotels_hotel_detail",
+    "skyscanner80##hotels_prices"
+  ],
+  "geocoding_by_api_ninjas##v1_geocoding": [
+    "geocoding_by_api_ninjas##v1_reversegeocoding",
+    "weatherapi_com##ip_lookup_api",
+    "ip_geo_location##ip_lookup",
+    "ip_geo_location##visitor_lookup",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries"
+  ],
+  "geocoding_by_api_ninjas##v1_reversegeocoding": [
+    "geocoding_by_api_ninjas##v1_geocoding",
+    "weatherapi_com##realtime_weather_api",
+    "world_time_by_api_ninjas##v1_worldtime",
+    "ip_geo_location##ip_lookup",
+    "weatherapi_com##forecast_weather_api"
+  ],
+  "airports##query_airports_by_name": [
+    "skyscanner80##flights_auto_complete",
+    "airports##get_airport_by_icao_code",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "airports##get_airport_by_iata_code",
+    "skyscanner80##hotels_hotel_detail"
+  ],
+  "airports##get_airport_by_iata_code": [
+    "airports##get_airport_by_icao_code",
+    "airports##query_airports_by_name",
+    "skyscanner80##flights_auto_complete",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##hotels_hotel_auto_complete"
+  ],
+  "airports##get_airport_by_icao_code": [
+    "airports##get_airport_by_iata_code",
+    "airports##query_airports_by_name",
+    "skyscanner80##flights_auto_complete",
+    "skyscanner80##flights_flight_detail",
+    "skyscanner80##get_config"
+  ],
+  "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries": [
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",
+    "tourist_attraction##languages",
+    "airports##get_airport_by_icao_code",
+    "google_translate##languages",
+    "airports##get_airport_by_iata_code"
+  ],
+  "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages": [
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",
+    "tourist_attraction##languages",
+    "google_translate##languages",
+    "airports##get_airport_by_icao_code",
+    "google_translate##detect"
+  ],
+  "tourist_attraction##currencies": [
+    "tourist_attraction##detail",
+    "tourist_attraction##languages",
+    "tourist_attraction##search",
+    "tourist_attraction##reviews",
+    "tourist_attraction##photos"
+  ],
+  "tourist_attraction##languages": [
+    "tourist_attraction##detail",
+    "tourist_attraction##currencies",
+    "tourist_attraction##reviews",
+    "tourist_attraction##search",
+    "tourist_attraction##photos"
+  ],
+  "tourist_attraction##typeahead": [
+    "tourist_attraction##search",
+    "tourist_attraction##languages",
+    "tourist_attraction##detail",
+    "tourist_attraction##reviews",
+    "skyscanner80##hotels_hotel_auto_complete"
+  ],
+  "tourist_attraction##search": [
+    "tourist_attraction##detail",
+    "tourist_attraction##reviews",
+    "tourist_attraction##photos",
+    "tourist_attraction##languages",
+    "tourist_attraction##currencies"
+  ],
+  "tourist_attraction##detail": [
+    "tourist_attraction##languages",
+    "tourist_attraction##currencies",
+    "tourist_attraction##search",
+    "tourist_attraction##reviews",
+    "tourist_attraction##photos"
+  ],
+  "tourist_attraction##photos": [
+    "tourist_attraction##search",
+    "tourist_attraction##reviews",
+    "tourist_attraction##detail",
+    "tourist_attraction##languages",
+    "tourist_attraction##currencies"
+  ],
+  "tourist_attraction##reviews": [
+    "tourist_attraction##search",
+    "tourist_attraction##detail",
+    "tourist_attraction##photos",
+    "tourist_attraction##languages",
+    "tourist_attraction##currencies"
+  ],
+  "world_time_by_api_ninjas##v1_worldtime": [
+    "geocoding_by_api_ninjas##v1_reversegeocoding",
+    "geocoding_by_api_ninjas##v1_geocoding",
+    "weatherapi_com##time_zone_api",
+    "weatherapi_com##realtime_weather_api",
+    "weatherapi_com##forecast_weather_api"
+  ],
+  "google_translate##detect": [
+    "google_translate##translate",
+    "google_translate##languages",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",
+    "tourist_attraction##languages",
+    "tourist_attraction##typeahead"
+  ],
+  "google_translate##languages": [
+    "google_translate##translate",
+    "google_translate##detect",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",
+    "image_translation##image_translation"
+  ],
+  "google_translate##translate": [
+    "google_translate##detect",
+    "google_translate##languages",
+    "image_translation##image_translation",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",
+    "list_of_all_countries_and_languages_with_their_codes##list_of_all_countries"
+  ],
+  "ip_geo_location##visitor_lookup": [
+    "ip_geo_location##ip_lookup",
+    "weatherapi_com##ip_lookup_api",
+    "skyscanner80##hotels_hotel_auto_complete",
+    "agent_equipments##get_my_location",
+    "geocoding_by_api_ninjas##v1_geocoding"
+  ],
+  "ip_geo_location##ip_lookup": [
+    "ip_geo_location##visitor_lookup",
+    "weatherapi_com##ip_lookup_api",
+    "geocoding_by_api_ninjas##v1_geocoding",
+    "geocoding_by_api_ninjas##v1_reversegeocoding",
+    "airports##query_airports_by_name"
+  ],
+  "calendar##days_of_month": [
+    "calendar##display_calendar_of_month",
+    "public_holiday##public_holidays",
+    "skyscanner80##flights_price_calendar",
+    "agent_equipments##get_current_time",
+    "skyscanner80##hotels_search"
+  ],
+  "calendar##display_calendar_of_month": [
+    "calendar##days_of_month",
+    "public_holiday##public_holidays",
+    "skyscanner80##flights_price_calendar",
+    "skyscanner80##hotels_prices",
+    "skyscanner80##hotels_search"
+  ],
+  "calculator##calculate": [
+    "onecompiler_apis##execute_code",
+    "weatherapi_com##search_autocomplete_api",
+    "weatherapi_com##astronomy_api",
+    "weatherapi_com##forecast_weather_api",
+    "weatherapi_com##time_zone_api"
+  ],
+  "image_processing##compress_image": [
+    "image_processing##resize_image",
+    "image_processing##convert_format",
+    "image_remove_bg##remove_bg",
+    "objects_detection##objects_detection",
+    "image_translation##image_translation"
+  ],
+  "image_processing##resize_image": [
+    "image_processing##compress_image",
+    "image_processing##convert_format",
+    "image_remove_bg##remove_bg",
+    "image_translation##image_translation",
+    "objects_detection##objects_detection"
+  ],
+  "image_processing##convert_format": [
+    "image_processing##resize_image",
+    "image_processing##compress_image",
+    "image_translation##image_translation",
+    "image_remove_bg##remove_bg",
+    "ocr_extract_text##extract_text_from_image_file"
+  ],
+  "image_remove_bg##remove_bg": [
+    "image_processing##resize_image",
+    "image_processing##convert_format",
+    "image_translation##image_translation",
+    "image_processing##compress_image",
+    "ocr_extract_text##extract_text_from_image_url"
+  ],
+  "image_translation##image_translation": [
+    "image_processing##convert_format",
+    "google_translate##languages",
+    "google_translate##translate",
+    "image_remove_bg##remove_bg",
+    "google_translate##detect"
+  ],
+  "access_user_info##get_user_profile": [
+    "agent_equipments##get_my_location",
+    "tourist_attraction##detail",
+    "tourist_attraction##reviews",
+    "tourist_attraction##photos",
+    "tourist_attraction##languages"
+  ],
+  "agent_equipments##get_current_time": [
+    "agent_equipments##get_my_location",
+    "calendar##days_of_month",
+    "skyscanner80##get_config",
+    "public_holiday##public_holidays",
+    "tourist_attraction##languages"
+  ],
+  "agent_equipments##get_my_location": [
+    "agent_equipments##get_current_time",
+    "skyscanner80##get_config",
+    "tourist_attraction##detail",
+    "airports##get_airport_by_icao_code",
+    "tourist_attraction##languages"
+  ]
+}

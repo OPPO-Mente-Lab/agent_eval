@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,google_translate,detect,Can you tell me what language this is?,3
+1,,,"I received a message, can you help me figure out what language it is in?",3
+2,,,"I found a foreign text, can you analyze its language origin?",3
+3,,,Can you identify the language of this song lyrics?,3
+4,,,"I recorded a snippet of conversation, can you tell me what language they're speaking?",3
+5,,,I have a cultural artifact with inscriptions on it. Can you tell me what language this might be?,3
+6,,,I have a document in an unknown language. Can you help me identify it?,3
+7,,,What language is this poem written in?,3
+8,,,"I found a note, can you determine its language origin for me?",3
+9,,,What language does this sign use?,3
+10,,languages,What languages can be translated into English?,3
+11,,,Can you give me a list of languages supported by the Neural Machine Translation model?,3
+12,,,Which languages are available for the Phrase-Based Machine Translation model?,3
+13,,,What languages supported by the NMT model can be translated into Chinese?,3
+14,,,Show me languages available for the PBMT model in my own language.,3
+15,,,What languages are supported for translation?,3
+16,,,Can you list the languages I can translate between?,3
+17,,,Tell me all the available languages for translation.,3
+18,,,What are the possible source and target languages for translation?,3
+19,,,Which languages can be used with this Translation API?,3
+20,,translate,"How do you say ""hello"" in French?",3
+21,,,"Can you translate ""I love you"" into Japanese?",3
+22,,,"What is the Spanish translation for ""Good morning""?",3
+23,,,"How to say ""你好"" in English?",3
+24,,,"What is the meaning of ""Привет"" in my language?",3
+25,,,"Translate ""안녕하세요"" into my language.",3
+26,,,"I need a translation for ""Bonjour"".",3
+27,,,"How can I understand ""Guten Tag""?",3
+28,,,"What is the meaning of ""Ciao""?",3
+29,,,"Can you help me translate ""Hola""?",3

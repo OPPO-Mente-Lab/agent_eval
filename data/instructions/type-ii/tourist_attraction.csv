@@ -1,0 +1,71 @@
+,Tool,API,Prompt,Type
+0,tourist_attraction,currencies,What are the different types of currencies available for tourists to use?,2
+1,,,Can you provide me with a list of global currencies for international travelers?,2
+2,,,"I want to know the various currencies used around the world, can you help me with that?",2
+3,,,"To plan my trip, I need to know all the currencies accepted worldwide. Can you provide this information?",2
+4,,,Which currencies are commonly used for tourist attractions around the world?,2
+5,,,"In order to prepare for my travels, I'd like to know different worldwide currencies. Can you help me?",2
+6,,,Could you please list all the currencies used in various countries for tourists?,2
+7,,,"As a traveler, I want to be informed about the different currencies. Can you provide a list for me?",2
+8,,,What are the different currencies I might encounter while traveling the world?,2
+9,,,"To ensure smooth transactions during my trip, I need to know all global currencies. Can you help me with that?",2
+10,,languages,Can you give me a list of languages available for the Tourist Attraction API?,2
+11,,,What languages can I use to access information from the Tourist Attraction API?,2
+12,,,Can you show me the different languages supported by the Tourist Attraction API?,2
+13,,,I want to browse tourist attractions in different languages; what are my options?,2
+14,,,What are the language options I can choose from when using the Tourist Attraction API?,2
+15,,,Can you provide a list of all languages supported by the Tourist Attraction API?,2
+16,,,In what languages can I get information about tourist attractions?,2
+17,,,"I want to explore global attractions in various languages, which languages are supported by the API?",2
+18,,,Can you tell me what languages the Tourist Attraction API works with?,2
+19,,,What languages can I use to explore popular tourist attractions with the Tourist Attraction API?,2
+20,,typeahead,Can you suggest some attractions in Paris as I type the name?,2
+21,,,"I'm in Rome, can you give me some sightseeing predictions while I search the city?",2
+22,,,Can you recommend some historical sites while I explore London in English?,2
+23,,,"When searching for attractions in New York City, can you give me some real-time suggestions in Chinese?",2
+24,,,"As I type ""Great Wall"", can you provide some autocomplete search results in English?",2
+25,,,"While searching for museums in Tokyo, can you predict some attractions for me in Japanese?",2
+26,,,"I want to visit Barcelona, show me real-time suggestions as I type the city's name in Spanish.",2
+27,,,Can you help generate some recommendations for natural landmarks in Sydney while I type in English?,2
+28,,,"As I search for popular attractions in Beijing, can you predict some results for me in Chinese?",2
+29,,,"I'm planning to visit San Francisco, show me some autocomplete suggestions for attractions as I type the city name in English.",2
+30,,search,"Can you tell me about the main tourist attractions in Paris, France, in English and price in Euros?",2
+31,,,"I am heading to New York after a month, could you provide me with the English details of the popular sites there and expected expenditure in US dollars?",2
+32,,,"I am planning a trip to Sydney, Australia. Could you give me some information about the attractions there in Chinese and cost in Chinese yuan?",2
+33,,,"Could you provide me with some information about tourist attractions in Tokyo, Japan, in Japanese language and the expenses in Japanese yen?",2
+34,,,"I will visit London, UK, next week, and I need English information and the cost in British Pound for the popular tourist sites there, can you do that?",2
+35,,,"I'm planning a vacation in Rome, Italy. Can you give me some information about popular attractions there in English and the cost in Euros?",2
+36,,,"Can you show me the details about the tourist attractions in Berlin, Germany, in German and the cost in Euros?",2
+37,,,"I'm interested in visiting Moscow, Russia. Could you tell me about the famous sites there and the cost in Ruble, and kindly ensure that the information is in Russian?",2
+38,,,"What are the popular tourist sites in Madrid, Spain and might I ask for the information in Spanish and the cost in Euros?",2
+39,,,"I'm going to Istanbul, Turkey next month. Can you give me information about the attractions there in Turkish and the costs in Turkish lira?",2
+40,,detail,"Can you give me more information about the Eiffel Tower in Paris, in English, using Euro as the currency?",2
+41,,,"I want to know more about the Great Wall of China in Mandarin, using Yuan as the currency.",2
+42,,,"What information is available about the Statue of Liberty in New York, in English, using US dollar?",2
+43,,,"I'm interested in the Colosseum in Rome, can I get the details in Italian, using Euro?",2
+44,,,"Can I get details about the Pyramids of Giza in Egypt, in Arabic, and using Egyptian pound as the currency?",2
+45,,,"I want to know more about Mount Fuji in Japan, in Japanese, using Yen as the currency.",2
+46,,,"Can you provide me details of the Sydney Opera House, in English, using Australian dollar?",2
+47,,,"Can you give me the detailed information about Machu Picchu in Peru, in Spanish, using Sol as the currency?",2
+48,,,"I would like to know more about the Great Barrier Reef in Australia, in English, using Australian dollar.",2
+49,,,"Can I get the details of the Christ the Redeemer in Brazil, in Portuguese, using Brazilian real as the currency?",2
+50,,photos,Can you show me some photos of the Great Wall of China?,2
+51,,,"I'd like to see images of the Eiffel Tower in Paris, France.",2
+52,,,What does the Colosseum in Rome look like? Can you show me some pictures?,2
+53,,,I'm interested in visiting Niagara Falls. Can you provide me with some images?,2
+54,,,Can you please show me some photos of the Grand Canyon?,2
+55,,,I've always wanted to visit the Sydney Opera House. Do you have any pictures of it?,2
+56,,,I'm planning a trip to London. Can you show me some images of the Buckingham Palace?,2
+57,,,"I'd like to see how the Statue of Liberty looks like, can you show me some photos?",2
+58,,,Can you provide me with some images of the beautiful Taj Mahal in India?,2
+59,,,I want to visit Machu Picchu in Peru. Can you show me some photos of this ancient site?,2
+60,,reviews,Can you tell me the users' reviews in English and the price in USD for location_id ABC123 at the Window of the World in Shenzhen?,2
+61,,,What are tourists saying in Mandarin and how much does it cost in CNY about location_id XYZ456 for visiting the Shenzhen Museum?,2
+62,,,"I'm going to the Shenzhen Safari Park, can I get the reviews in English and its entrance fee in USD for location_id QWE789?",2
+63,,,"Show me the reviews and price in CNY for the location_id MNO234 at the Happy Valley amusement park in Shenzhen, I prefer Chinese language reviews.",2
+64,,,I want to know the recent reviews in English and the ticket price in USD for location_id POI567 at the Shenzhen Bay Park.,2
+65,,,"I am interested in Splendid China Folk Village, can you provide the reviews in Mandarin and tell me the ticket price in CNY for location_id XYZ890?",2
+66,,,What do visitors say and how much does it cost in US dollars for location_id UYT345 at the Dapeng Fortress in English language reviews?,2
+67,,,Can I have the Hongfa Temple reviews in English language and the ticket price in USD with location_id KJW678?,2
+68,,,I would like to know the reviews in Chinese language and the pricing in CNY for location_id MOP234 at the Lianhuashan Park in Shenzhen.,2
+69,,,Give me the reviews in English and ticket cost in USD for location_id XWS567 at the OCT East Shenzhen theme park.,2

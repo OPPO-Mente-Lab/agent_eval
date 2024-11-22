@@ -1,0 +1,30 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool description: query hotels and flights in real-time data. By searching and comparing hotel options, the tool assists travelers in finding the most cost-effective option for their journey.
+1. This API helps to get the list of one-way flights. 
+2. This API helps to get the list of round trip flights. 
+3. This API helps to find flights with uncertain destinations.
+5. Get all the details of the fights based on itineraryId and token.
+6. This API will return a calendar for the given source and destination
+
+For example:
+Instruction: Check the prices of round-trip flights from Hongkong to Brisbane, with departure date July 10 and return date July 20. Direct flights only.
+
+
+==== RESPONSE ====
+Here are the five high-level instructions:
+
+Instruction 1:
+Determine the lowest fare for a one-way flight from New York to Paris on April 15th, considering only direct flights with morning departures.
+
+Instruction 2:
+Compare prices for round-trip flights from Tokyo to London, leaving on May 5th and returning on May 19th, including one-stop flights. Organize the results by the shortest total travel time.
+
+Instruction 3:
+Identify the best-priced flight options for a flexible traveler who wants to depart from San Francisco to an unspecified destination in Europe on June 10th. Focus on direct flights and compile a list of possible destinations based on the lowest fares available.
+
+Instruction 4: 
+Retrieve the flight details and price breakdown for a given itineraryId and token representing a previously searched round-trip from Dubai to Sydney, leaving on September 1st and returning on September 15th.
+
+Instruction 5:
+Generate a flight price calendar for the month of August for flights from Los Angeles to Toronto. Include both one-way and round-trip flight options, and highlight the days with the cheapest available prices for both types of flights.

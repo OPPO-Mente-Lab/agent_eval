@@ -1,0 +1,2116 @@
+,did,tool_name,api_name,simi_apis,instruction,type,label,explain
+0,10,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",What's the current local time and date right now?,2,1,
+1,11,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",What day of the week is it today?,2,1,
+2,12,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages","Can you tell me the exact time, date, and day of the week right now?",2,1,
+3,13,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",What's the current time and day today?,2,1,
+4,14,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",Can you provide me the current time along with today's date?,2,1,
+5,15,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",What is today's date and the day of the week?,2,1,
+6,16,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",Could you please tell me the exact local time and today's date?,2,1,
+7,17,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",Please let me know the current time and which day of the week it is today.,2,1,
+8,18,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages","Can you give me the precise local time, date, and day today?",2,1,
+9,19,agent_equipments,get_current_time,"agent_equipments##get_my_location
+calendar##days_of_month
+skyscanner80##get_config
+public_holiday##public_holidays
+tourist_attraction##languages",What's the current time and what day is it today?,2,1,
+10,30,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",Can you tell me the information about Shenzhen Bao'an International Airport?,2,1,
+11,31,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail","I need details about Hong Kong International Airport, can you lookup?",2,1,
+12,32,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",What can you tell me about Beijing Daxing International Airport?,2,1,
+13,33,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",I would like to know about Shanghai Pudong International Airport.,2,1,
+14,34,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",Can you provide me with details on Chengdu Shuangliu International Airport?,2,1,
+15,35,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",What can you tell me about Guangzhou Baiyun International Airport?,2,1,
+16,36,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail","I need to know about Hangzhou Xiaoshan International Airport, could you please look it up for me?",2,1,
+17,37,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",Can you check for Kunming Changshui International Airport?,2,1,
+18,38,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail","I need information on Nanjing Lukou International Airport, could you provide?",2,1,
+19,39,airports,query_airports_by_name,"skyscanner80##flights_auto_complete
+airports##get_airport_by_icao_code
+skyscanner80##hotels_hotel_auto_complete
+airports##get_airport_by_iata_code
+skyscanner80##hotels_hotel_detail",Can you lookup for Xi'an Xianyang International Airport?,2,1,
+20,40,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What is the location of airport with IATA code ""SZX""?",2,1,
+21,41,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","Can you please tell me the ICAO code of airport with IATA code ""PEK""?",2,1,
+22,42,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What's the local time at the airport with IATA code ""JFK""?",2,1,
+23,43,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","Could you provide information on the airport with IATA code ""LAX""?",2,1,
+24,44,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What is the name of the airport with IATA code ""DXB""?",2,1,
+25,45,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","Can you give me the details of the airport with IATA code ""HND""?",2,1,
+26,46,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What city is the airport with IATA code ""AMS"" located in?",2,1,
+27,47,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What timezone does the airport with IATA code ""SFO"" belong to?",2,1,
+28,48,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","What country is the airport with IATA code ""SYD"" in?",2,1,
+29,49,airports,get_airport_by_iata_code,"airports##get_airport_by_icao_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_hotel_auto_complete","Can you provide me the address of the airport with IATA code ""YYZ""?",2,1,
+30,50,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","Can you find the location and local time of the airport with ICAO code ""ZGSZ""?",2,1,
+31,51,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","What is the information of the airport with ICAO code ""VHHH""?",2,1,
+32,52,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","I want to know the details of the airport with the ICAO code ""OMDB"".",2,1,
+33,53,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","Tell me about the airport with ICAO code ""EGLL"" - its location and current local time.",2,1,
+34,54,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","What can you tell me about the airport with ICAO code ""KLAX""?",2,1,
+35,55,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","Find me the location and local time of the airport with ICAO code ""RJTT"".",2,1,
+36,56,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","Give me the information on the airport with the ICAO code ""SCEL"".",2,1,
+37,57,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","Can you provide details about the airport with ICAO code ""LFPG""?",2,1,
+38,58,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","I'd like to know more about the airport with the ICAO code ""YSSY"".",2,1,
+39,59,airports,get_airport_by_icao_code,"airports##get_airport_by_iata_code
+airports##query_airports_by_name
+skyscanner80##flights_auto_complete
+skyscanner80##flights_flight_detail
+skyscanner80##get_config","What is the location and local time of the airport with ICAO code ""CYYZ""?",2,1,
+40,60,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Can you find some Chinese websites about NBA?,2,1,
+41,61,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",I need top 5 articles about covid-19 vaccine in English.,2,1,
+42,62,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Could you locate recent articles about artificial intelligence development in Chinese?,2,1,
+43,63,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Are there any articles related to the 2024 US presidential election?,2,1,
+44,64,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Can you provide some research papers on Quantum Computing accessible on internet?,2,1,
+45,65,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Could you find resources about learning Mandarin online for beginners in Spanish?,2,1,
+46,66,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Are there any information about the cats commonly found in China available online in Chinese?,2,1,
+47,67,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages","I'd like to get a list of English blog articles about vegetarian recipes, can you find it?",2,1,
+48,68,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Can you find some popular online forums about game development in English?,2,1,
+49,69,bing,web_search,"bing_search_apis##images_search
+tourist_attraction##search
+news_api##search
+airports##query_airports_by_name
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages",Could you find online resources teaching Italian cooking techniques in Italian?,2,1,
+50,70,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",Can you show me some images of the Shenzhen skyline?,2,1,
+51,72,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",Can you find some images of famous Chinese celebrities?,2,1,
+52,74,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",Can you find some images of Chinese traditional architecture?,2,1,
+53,75,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",I'm looking for pictures of popular street food in Shenzhen.,2,1,
+54,76,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",Can you show me images of traditional Chinese clothing and fashion?,2,1,
+55,77,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",Can you find some images of the top 10 tallest buildings in the world?,2,1,
+56,78,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search",I'd like to see pictures of luxury hotels and resorts in Hainan.,2,1,
+57,79,bing_search_apis,images_search,"bing##web_search
+objects_detection##objects_detection
+tourist_attraction##photos
+google_api##video_search
+news_api##search","Can you find me images of animals native to China, such as pandas and golden monkeys?",2,1,
+58,80,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Can you help me calculate the result of 2 + 3 * 4?,2,1,
+59,81,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",What is the value of the expression (5 - 2) * (3 + 1)?,2,1,
+60,82,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Can you find the result of 100 / (10 - 5) * 2?,2,1,
+61,83,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",What is the result of ((3 + 7) * 5) - 2?,2,1,
+62,84,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Calculate the value of this math problem: 20 * (4 + 1) - 10?,2,1,
+63,85,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Please solve the following expression: (15 - 10) * (6 / 2) + 5,2,1,
+64,86,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Can you calculate this formula for me: (9 + 3) / 4 * 8?,2,1,
+65,87,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",What is the result of (12*2) / (6*1) + 7?,2,1,
+66,88,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Could you please calculate the expression (25 + 35) / (3 * 5) - 4?,2,1,
+67,89,calculator,calculate,"onecompiler_apis##execute_code
+weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api",Can you tell me the result of this math problem: 18 - (3 * 6) / 2?,2,1,
+68,90,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",Can you show me the calendar for May 2024?,2,1,
+69,91,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",I'd like to see the calendar for December 2023.,2,1,
+70,92,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",What day of the week does the 9th of July 2024 fall on?,2,1,
+71,93,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",Can you tell me which day of the week the first day of April 2024 is?,2,1,
+72,94,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",I need to see the calendar days for March 2024.,2,1,
+73,95,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",What are the days and their weekdays in September 2024?,2,1,
+74,96,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",Can I have a look at the calendar for June 2024?,2,1,
+75,97,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",What day of the week is the 30th of November 2024?,2,1,
+76,99,calendar,days_of_month,"calendar##display_calendar_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+agent_equipments##get_current_time
+skyscanner80##hotels_search",I'd like to know the day of the week for the 15th of October 2024.,2,1,
+77,100,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",Can you show me the calendar for April 2024?,2,1,
+78,101,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search","What does the calendar look like for the next month, April 2024?",2,1,
+79,102,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",I need to see the calendar for May 2024.,2,1,
+80,103,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",Can you display the calendar for October 2023?,2,1,
+81,104,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",Let me see the calendar of June 2025.,2,1,
+82,105,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",What's the calendar for January 2024?,2,1,
+83,106,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search","Show me the calendar of the current month, March 2024.",2,1,
+84,107,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",Please display the calendar of August 2024.,2,1,
+85,108,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",I want to check the calendar for December 2023.,2,1,
+86,109,calendar,display_calendar_of_month,"calendar##days_of_month
+public_holiday##public_holidays
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_prices
+skyscanner80##hotels_search",Can you present the calendar for September 2025?,2,1,
+87,120,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",What's the equivalent amount in Japanese Yen for 1000 Chinese Yuan?,2,1,
+88,121,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices","If I have 200 Euros, how much will it be in Canadian dollars?",2,1,
+89,122,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",Can you tell me how many Australian dollars I will get for 50 United States dollars?,2,1,
+90,123,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices","I want to know, how much British Pounds can I get for 5000 Indian Rupees?",2,1,
+91,124,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",How much Swiss Franc will I get for 15000 Korean Won?,2,1,
+92,125,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices","I have 750 Brazilian real, what will be its equivalent in Russian Ruble?",2,1,
+93,126,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",What's the current exchange rate from Chinese Yuan to United States Dollars?,2,1,
+94,127,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",How much Thai Baht can I get for 250 Singapore Dollar?,2,1,
+95,128,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",Can you tell me the conversion from South African Rand to Mexican Peso for 500 units?,2,1,
+96,129,currency_exchange,exchange,"currency_exchange##listquotes
+tourist_attraction##currencies
+tourist_attraction##detail
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_prices",What will be the equivalent amount in New Zealand Dollar for 4000 Hong Kong Dollar?,2,1,
+97,130,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","Can you provide the latitude and longitude of New York City, United States?",2,1,
+98,131,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I need to find the coordinates for Tokyo, Japan. Can you give me that information?",2,1,
+99,132,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","Can I know the exact latitude and longitude for Beijing, China?",2,1,
+100,133,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I am trying to pinpoint Los Angeles, California on a map, could you provide me with the exact coordinates?",2,1,
+101,134,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I'd like to know the geographical coordinates for Sydney, Australia. Can you help me with that?",2,1,
+102,135,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","Can you give me the latitude and longitude for Berlin, Germany?",2,1,
+103,136,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","Could you provide the exact coordinates for Paris, France?",2,1,
+104,137,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I'm planning a trip to Dubai in United Arab Emirates, could you tell me what its latitude and longitude are?",2,1,
+105,138,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I am trying to locate Moscow, Russia on my global map, could you provide its coordinates?",2,1,
+106,139,geocoding_by_api_ninjas,v1_geocoding,"geocoding_by_api_ninjas##v1_reversegeocoding
+weatherapi_com##ip_lookup_api
+ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I am looking for the exact location for Madrid, Spain on the map. Can you provide the latitude and longitude?",2,1,
+107,140,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",What city is located at latitude 22.5429 and longitude 114.0595?,2,1,
+108,141,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",Can you tell me the name of the city with latitude 30.0339 and longitude 31.2195?,2,1,
+109,142,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",What is the name of the place at latitude 51.5072 and longitude -0.1276?,2,1,
+110,143,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",Which city can be found at coordinates 37.7749 and -122.4194?,2,1,
+111,144,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",What location corresponds to latitude 40.7128 and longitude -74.0060?,2,1,
+112,145,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api","I am currently at coordinates 22.5736 and 113.8889, what city am I in?",2,1,
+113,146,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",Can you identify the city with latitude 48.8566 and longitude 2.3522?,2,1,
+114,147,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",What city is located at latitude 35.6895 and longitude 139.6917?,2,1,
+115,148,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",Can you please tell me the name of the city with latitude 52.5200 and longitude 13.4050?,2,1,
+116,149,geocoding_by_api_ninjas,v1_reversegeocoding,"geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##realtime_weather_api
+world_time_by_api_ninjas##v1_worldtime
+ip_geo_location##ip_lookup
+weatherapi_com##forecast_weather_api",Which city can be found at the coordinates 28.7041 and 77.1025?,2,1,
+117,150,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",Can you find me some videos about the latest iPhone model?,2,1,
+118,151,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",I need to find the top 5 videos about preparing Japanese ramen.,2,1,
+119,152,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",Are there any videos about the highlights of 2024 NBA's final match?,2,1,
+120,153,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect","I would like to find some cooking tutorials about seafood paella, can you help me with that?",2,1,
+121,154,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",Can you list down some recent videos about the workout plans for weight loss?,2,1,
+122,155,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",I'd like to know if there are any videos about coding using Python language?,2,1,
+123,156,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",What are the available videos about the gameplay of the newly released video game 'Cyberpunk 2077'?,2,1,
+124,157,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",I need to find some funny cat videos for my niece. ,2,1,
+125,158,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",I am interested in watching some breaking news videos from the UK. ,2,1,
+126,159,google_api,video_search,"bing_search_apis##images_search
+news_api##search
+bing##web_search
+tourist_attraction##search
+google_translate##detect",Are there any music videos of Taylor Swift's new album available online?,2,1,
+127,161,google_translate,detect,"google_translate##translate
+google_translate##languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+tourist_attraction##languages
+tourist_attraction##typeahead","Can you identify the language of this sentence, ""Ich liebe dich""?",2,1,
+128,162,google_translate,detect,"google_translate##translate
+google_translate##languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+tourist_attraction##languages
+tourist_attraction##typeahead","What language does ""Amo la pizza"" belong to?",2,1,
+129,166,google_translate,detect,"google_translate##translate
+google_translate##languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+tourist_attraction##languages
+tourist_attraction##typeahead","I found ""Eu te amo"" in my letter, which language is it?",2,1,
+130,167,google_translate,detect,"google_translate##translate
+google_translate##languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+tourist_attraction##languages
+tourist_attraction##typeahead","I don't recognize the language of this phrase ""Jeg elsker dig"", do you know?",2,1,
+131,169,google_translate,detect,"google_translate##translate
+google_translate##languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+tourist_attraction##languages
+tourist_attraction##typeahead","I received a message ""浣犲ソ"", could you tell me what language it is?",2,1,
+132,180,google_translate,translate,"google_translate##detect
+google_translate##languages
+image_translation##image_translation
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","Can you translate 'Hello, how are you?' to French for me?",2,1,
+133,181,google_translate,translate,"google_translate##detect
+google_translate##languages
+image_translation##image_translation
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",What is 'Je t'aime' in English?,2,1,
+134,185,google_translate,translate,"google_translate##detect
+google_translate##languages
+image_translation##image_translation
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries","I have HTML text, 'Je suis content', translate it to English please.",2,1,
+135,188,google_translate,translate,"google_translate##detect
+google_translate##languages
+image_translation##image_translation
+list_of_all_countries_and_languages_with_their_codes##list_of_all_languages
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries",What does this Italian sentence 'Buona notte' mean in Korean?,2,1,
+136,190,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation",Can you compress the image at files/object_detection/birds.jpg to save some storage space?,2,1,
+137,191,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","My image at files/object_detection/dog-and-cat.jpg is too large for email attachment, could you compress it?",2,1,
+138,192,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","I need to reduce the size of my photo stored at files/object_detection/dolphins.jpg, can you compress it?",2,1,
+139,193,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation",I have a picture at files/object_detection/elephants.jpg. Can I compress it to lower the quality and reduce the size?,2,1,
+140,194,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","I've downloaded a high-quality photo at files/object_detection/koala.jpg, it's too large for my presentation, can you compress it?",2,1,
+141,195,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation",Can you compress my image at files/object_detection/wallaby.jpg to a quality of 50?,2,1,
+142,196,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","I want to save network data when people download my image at files/object_detection/tiger.jpg from my website, could you compress it?",2,1,
+143,197,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","The image at files/object_detection/quokka.jpg is too large for my blog, can you decrease its quality to 30 and see if it fits?",2,1,
+144,198,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation",Could you compress the image located at files/object_detection/panda.jpg to a lower size with high quality?,2,1,
+145,199,image_processing,compress_image,"image_processing##resize_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+objects_detection##objects_detection
+image_translation##image_translation","My image at files/object_detection/dog-and-cat2.jpeg takes up too much space on my phone, can you compress it to a quality of 40?",2,1,
+146,200,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",Can you resize my photo files/object_detection/dog-and-cat.jpg to 50% of its original size?,2,1,
+147,201,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",I want to make a smaller version of the image at files/object_detection/dolphins.jpg. Can you reduce its size by 30%?,2,1,
+148,202,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",I need help to resize this picture at files/object_detection/elephants.jpg to 70% of its original size. Can you do that?,2,1,
+149,203,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",I want to fit this image at files/object_detection/koala.jpg to an avatar size by reducing it to 20% of the original size. Can you help me do that?,2,1,
+150,205,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection","I have a wallpaper at files/object_detection/quokka.jpg, but I want it to be 80% smaller to fit my phone screen. Can you resize it?",2,1,
+151,206,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",I need to decrease the size of this image at files/object_detection/tiger.jpg to 40% of its current size for email attachment purposes. Can you do that?,2,1,
+152,207,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection",Can you help me reduce the size of the illustration at files/object_detection/wallaby.jpg to 60% of how big it is now?,2,1,
+153,208,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection","I'd like to make the image at files/object_detection/birds.jpg a bit smaller, can we scale it down to 25% of its current size?",2,1,
+154,209,image_processing,resize_image,"image_processing##compress_image
+image_processing##convert_format
+image_remove_bg##remove_bg
+image_translation##image_translation
+objects_detection##objects_detection","To save some storage space, can we resize the image at files/object_detection/dog-and-cat.jpg to 35% of the original size?",2,1,
+155,210,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",How to convert the format of my picture in files/rm_bg/mountain.jpg to png?,2,1,
+156,211,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",Can you help me change the format of the image at files/rm_bg/talor-swift.jpg to png?,2,1,
+157,212,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file","I want to transform the format of the image located at files/rm_bg/apollo_moon_landing.jpg into gif, how can I do that?",2,1,
+158,213,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",Is it possible to convert the image found in files/rm_bg/apollo_moon_landing.jpg to a bmp file?,2,1,
+159,214,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",Can I change the format of a photo in path files/rm_bg/flower.jpg to psd?,2,1,
+160,215,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file","I would like to have the image from files/rm_bg/apollo_moon_landing.jpg in tiff format, what should I do?",2,1,
+161,216,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file","I have this image on files/rm_bg/talor-swift.jpg, can I convert its format to webp?",2,1,
+162,217,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",What steps should I follow if I need to convert an image from files/rm_bg/apollo_moon_landing.jpg to pdf format?,2,1,
+163,218,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file","I have an image in files/rm_bg/kobe-bryant.jpg, could you guide me to convert it to xpm format?",2,1,
+164,219,image_processing,convert_format,"image_processing##resize_image
+image_processing##compress_image
+image_translation##image_translation
+image_remove_bg##remove_bg
+ocr_extract_text##extract_text_from_image_file",Can the image be converted from files/rm_bg/albert-einstein.jpg path to a ppm file?,2,1,
+165,220,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",Can you remove the background of the image at files/rm_bg/dog.jpg?,2,1,
+166,221,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",I'd like to remove the background from the photo located at files/rm_bg/flower.jpg.,2,1,
+167,222,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",Please remove the background of the picture I have saved as files/rm_bg/dog.jpg.,2,1,
+168,223,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url","I want to eliminate the background from an image with the local path files/rm_bg/flower.jpg, can you do that?",2,1,
+169,224,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",Is it possible to get rid of the background in the image I saved as files/rm_bg/talor-swift.jpg?,2,1,
+170,225,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",Can you help me in removing the background of my photo located in files/rm_bg/flower2.jpg?,2,1,
+171,226,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url","I have an image saved at files/rm_bg/mountain.jpg, can you strip away its background?",2,1,
+172,227,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url","My image with local path files/rm_bg/albert-einstein.jpg needs background removal, could you please assist?",2,1,
+173,228,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",How do I remove the background of the image I have saved at files/rm_bg/apollo_moon_landing.jpg?,2,1,
+174,229,image_remove_bg,remove_bg,"image_processing##resize_image
+image_processing##convert_format
+image_translation##image_translation
+image_processing##compress_image
+ocr_extract_text##extract_text_from_image_url",Please help me remove the background from the image I stored at files/rm_bg/kobe-bryant.jpg.,2,1,
+175,230,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",Can you translate the English text on this image (files/img_trans/proberb9.png) into Chinese (simplified)?,2,1,
+176,231,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect","Can you help me translate the Japanese characters on this photo (files/img_trans/proverb1.jpg) to English, please?",2,1,
+177,232,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",I need the Portuguese text on this image (files/img_trans/proberb9.png) translated to Spanish. Can you do that?,2,1,
+178,233,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect","I have a Russian sign in this picture (files/img_trans/proverb5.jpg), can you translate it to German for me?",2,1,
+179,234,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect","There is some Arabic text on this image (files/img_trans/quote-cn-1.png); I need it translated to French, please.",2,1,
+180,235,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",Can you help me convert the Korean characters on this file (files/img_trans/proverb2.jpg) into Italian text?,2,1,
+181,236,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",Could you translate the Dutch text in this photo (files/img_trans/proverb1.jpg) to Swedish for me?,2,1,
+182,237,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect","Can you translate the Hindi characters on this image (files/img_trans/proverb3.jpg) into Vietnamese, please?",2,1,
+183,238,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",There's some Turkish text in this picture (files/img_trans/proverb7.jpg); can you translate it to Norwegian for me?,2,1,
+184,239,image_translation,image_translation,"image_processing##convert_format
+google_translate##languages
+google_translate##translate
+image_remove_bg##remove_bg
+google_translate##detect",Please help me translate the text in the Polish image (files/img_trans/proverb6.jpg) into Danish.,2,1,
+185,250,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name",What city and country is associated with IP address 123.34.55.78?,2,1,
+186,251,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","Can you tell me the latitude, longitude, and time zone information for the IP address 192.168.1.102?",2,1,
+187,252,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name",What is the currency and postal code for IP address 231.45.23.108?,2,1,
+188,253,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","Can you provide me with the city, country, and security information for IP address 180.211.100.1 in French language?",2,1,
+189,254,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name",What is the area and continent information for IP address 122.165.10.53 in Chinese language?,2,1,
+190,255,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name",What are the ASN and time zone details for IP address 56.134.10.30?,2,1,
+191,256,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","I'm interested in knowing the area, currency, and postal code for IP address 144.123.33.11. Can you provide that information in German language?",2,1,
+192,257,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","Can you give me the city, country, and time information for IP address 205.201.89.34 in Spanish language?",2,1,
+193,258,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","What are the city, latitude, longitude, and postal code details for IP address 38.120.203.95?",2,1,
+194,259,ip_geo_location,ip_lookup,"ip_geo_location##visitor_lookup
+weatherapi_com##ip_lookup_api
+geocoding_by_api_ninjas##v1_geocoding
+geocoding_by_api_ninjas##v1_reversegeocoding
+airports##query_airports_by_name","Please provide me with the currency, time, and security information for IP address 238.24.60.72 in Russian language.",2,1,
+195,280,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail",What are the top technology news headlines in the United States today?,2,1,
+196,281,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail",Show me the most recent sports news in China in the Chinese language.,2,1,
+197,282,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail",Can you find the latest business news articles in India?,2,1,
+198,283,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail",What are the top entertainment stories in the United Kingdom right now?,2,1,
+199,284,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail","Can you find the top science news in Japan, in Japanese?",2,1,
+200,285,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail","What are the latest headlines about health in France, in French?",2,1,
+201,286,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail",Please show me the most recent articles on sports in Australia.,2,1,
+202,287,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail","Can you provide the top news stories in South Africa, only related to business?",2,1,
+203,288,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail","What are the current top headlines in Mexico, in the technology category?",2,1,
+204,289,news_api,top_headlines,"news_api##search
+tourist_attraction##reviews
+list_of_all_countries_and_languages_with_their_codes##list_of_all_countries
+tourist_attraction##search
+skyscanner80##hotels_hotel_detail","Can you find the latest news about entertainment in Brazil, in Portuguese?",2,1,
+205,290,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search","Are there any recent news about the COVID-19 situation in Shenzhen, China?",2,1,
+206,291,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",What's the latest news in the technology industry in the US?,2,1,
+207,292,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",Can you find some financial news in English from the past week?,2,1,
+208,293,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",I'm interested in the top news stories about soccer in the UK since 2024-3-20. ,2,1,
+209,294,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",Can you search for any environmental news articles in Australia from 2024-3-1 to 2024-3-25?,2,1,
+210,295,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",Are there any headlines related to the cryptocurrency market in China within the past month?,2,1,
+211,296,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",How is the entertainment industry in Japan doing? Can you find some recent trending news?,2,1,
+212,297,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",Show me the major political news in Hong Kong from 2024-3-10 to 2024-3-25 sorted by popularity.,2,1,
+213,298,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",I'm looking for health news articles published in French language newspapers from France within the last week.,2,1,
+214,299,news_api,search,"news_api##top_headlines
+tourist_attraction##search
+tourist_attraction##reviews
+weatherapi_com##ip_lookup_api
+bing##web_search",Can you find some science and technology news stories from Indian publishers in the past month?,2,1,
+215,300,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Can you tell me what objects are in this photo I took at the park? files/object_detection/dolphins.jpg,2,1,
+216,301,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",What items are present in this image I found online? https://media.istockphoto.com/id/523761634/photo/cute-panda-bear-climbing-in-tree.jpg?s=612x612&w=0&k=20&c=TxsmORsbuY1LpxQsc6T8fpWJo7lBwncciYhroAr8rXI=,2,1,
+217,302,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Can you tell me what's in this picture I took during my vacation? files/object_detection/tiger.jpg,2,1,
+218,303,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Which objects appear in this image from a news article? https://media.istockphoto.com/id/965307846/photo/baby-koala-on-a-tree.jpg?s=612x612&w=0&k=20&c=Xmpb8ywXYsDGB-iRQh0VQ4cWElqWFVg9UAuSsy4a_kk=,2,1,
+219,304,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Please identify the objects in this photo from my friend's birthday party. files/object_detection/wallaby.jpg,2,1,
+220,305,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Could you help me analyze this picture I found on a blog? https://media.istockphoto.com/id/523761634/photo/cute-panda-bear-climbing-in-tree.jpg?s=612x612&w=0&k=20&c=TxsmORsbuY1LpxQsc6T8fpWJo7lBwncciYhroAr8rXI=,2,1,
+221,306,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",What are the objects in this photograph I took at a concert? files/object_detection/quokka.jpg,2,1,
+222,307,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image","I found this image with a strange scene, can you tell me what's in it? https://www.thoughtco.com/thmb/bwzNgsAEcKhBi49Eg7GEpWUIMg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/two-bottlenose-dolphins-leaping-from-the-water-dv1689001-5bfc567a46e0fb0026652224.jpg",2,1,
+223,308,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",Can you help me identify the items in this picture I took at a museum? files/object_detection/koala.jpg,2,1,
+224,309,objects_detection,objects_detection,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_file
+ocr_extract_text##extract_text_from_image_url
+image_processing##compress_image
+image_processing##resize_image",What objects can you detect in this image from a store catalog? https://crowsnestvet.com.au/wp-content/uploads/2019/11/Keeping-Birds-Feathered-Friends.jpg,2,1,
+225,310,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Can you tell me what the text says in this JPEG image I found online? Here's the URL: https://images.ctfassets.net/pdf29us7flmy/7gy0r75zJRlIjq0QYz4ZHI/c3129417675361bce0d92399a2ede7ff/resized.jpg?w=720&q=100&fm=jpg,2,1,
+226,311,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",I found a PNG image with some text on it. Can you extract the text for me? The image URL is: https://cms-article.forbesindia.com/media/images/2023/May/img_207571_tonyrobbins.jpg,2,1,
+227,312,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",What's the text content in this image from the following link? https://cms-article.forbesindia.com/media/images/2023/May/img_207569_thomasedison.jpg,2,1,
+228,313,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",I have an image containing text at this URL: https://cms-article.forbesindia.com/media/images/2023/May/img_207571_tonyrobbins.jpg. Can you tell me what it says?,2,1,
+229,314,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Could you please extract the text from this image for me? The image can be found at this URL: https://cms-article.forbesindia.com/media/images/2023/May/img_207571_tonyrobbins.jpg,2,1,
+230,315,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",I need to know the content written in the following image. Can you help me with that? Here's the image URL: https://images.ctfassets.net/pdf29us7flmy/7eJIWOZSOd9p79EGHcEOqQ/4678b6fd4199c9e7b71d6dacd0c56097/resized.jpg?w=720&q=100&fm=jpg,2,1,
+231,316,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Can you read the text from this image for me? Here is the image link: https://images.ctfassets.net/pdf29us7flmy/2aufE71KN154w8kNytZcU8/44bf4b509cf193c50a555dae97c4e662/resized.jpg,2,1,
+232,317,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",I found an image with text that I can't read. Can you extract the text from this link? https://images.ctfassets.net/pdf29us7flmy/6dUqzLou9eaR5a4laikLzy/b3cc20e7d4a44116d5ad06e8145005f7/resized.jpg,2,1,
+233,318,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg","There's some text in this image, but I can't quite make it out. Could you extract it for me? Here's the URL: https://images.ctfassets.net/pdf29us7flmy/6dUqzLou9eaR5a4laikLzy/b3cc20e7d4a44116d5ad06e8145005f7/resized.jpg",2,1,
+234,319,ocr_extract_text,extract_text_from_image_url,"ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Please help me with the text in the following image. This is the URL where you can find it: https://cdn.geckoandfly.com/wp-content/uploads/2017/07/top-best-quotes-01-830x467.jpg,2,1,
+235,321,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Can you read the plate number in the picture files/img_trans/proverb7.jpg I took?,2,1,
+236,322,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",What is the text in the billboard image files/img_trans/proverb10.png I shot?,2,1,
+237,323,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",What does the text say in the road sign from my image files/img_trans/proverb3.jpg?,2,1,
+238,324,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Could you help me read the text in the screenshot files/img_trans/proverb3.jpg of my phone?,2,1,
+239,325,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Can you tell me the text content on the book cover in the image files/img_trans/proverb3.jpg?,2,1,
+240,326,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Could you recognize the letters in the artwork photo files/img_trans/proverb2.jpg?,2,1,
+241,327,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg","I can't read the message in the picture files/img_trans/proverb6.jpg, can you help?",2,1,
+242,328,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",Can you decipher the text on the poster in this image files/img_trans/proverb1.jpg?,2,1,
+243,329,ocr_extract_text,extract_text_from_image_file,"ocr_extract_text##extract_text_from_image_url
+image_processing##convert_format
+image_translation##image_translation
+objects_detection##objects_detection
+image_remove_bg##remove_bg",What is the text in this graffiti picture files/img_trans/proberb9.png I have?,2,1,
+244,340,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Can you tell me the public holidays for the United States in 2024?,2,1,
+245,341,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Are there any public holidays in Japan for the year 2024?,2,1,
+246,342,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",What were the public holidays in France in 2020?,2,1,
+247,343,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Could you let me know the public holidays for 2023 in India?,2,1,
+248,344,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Did Canada have any public holidays in the year 2021?,2,1,
+249,345,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",What are the public holidays in Australia for the year 2024?,2,1,
+250,346,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Were there any public holidays in the United Kingdom in 2022?,2,1,
+251,347,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Could you please lookup the public holidays in China for the year 2024?,2,1,
+252,348,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Please tell me the public holidays in Germany for 2024.,2,1,
+253,349,public_holiday,public_holidays,"calendar##days_of_month
+tourist_attraction##detail
+tourist_attraction##currencies
+tourist_attraction##languages
+skyscanner80##hotels_search",Could you give me information on the public holidays in Italy for the year 2020?,2,1,
+254,350,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",Could you suggest some recipes to make Italian pasta?,2,1,
+255,351,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",What are some easy recipes for a Chicken Biryani?,2,1,
+256,352,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",I want to try out some Chinese dishes. Can you give me some recipes?,2,1,
+257,353,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",Can you give me the recipes to make Mexican Tacos?,2,1,
+258,354,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name","I want to make some desserts, can you suggest some recipes?",2,1,
+259,355,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",I got some fresh salmon. Can you give me some recipe suggestions?,2,1,
+260,356,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name","I want to make a vegan dish, can you show me some recipes?",2,1,
+261,357,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",Are there any recipes to make a gluten-free cake?,2,1,
+262,358,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name",Can you suggest some recipes for a healthy breakfast meal?,2,1,
+263,359,recipe_by_api_ninjas,v1_recipe,"bing_search_apis##images_search
+bing##web_search
+geocoding_by_api_ninjas##v1_geocoding
+news_api##search
+airports##query_airports_by_name","I'm looking for some Japanese sushi recipes, can you help me?",2,1,
+264,370,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",Can you help me find out the airports in Beijing?,2,1,
+265,371,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",What are the airports available in London?,2,1,
+266,372,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",Are there any airports accessible in Tokyo for my visit?,2,1,
+267,373,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail","I want to travel to New York, could you list me the airports there?",2,1,
+268,374,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",Which airport should I go to if I want to land in Sydney?,2,1,
+269,375,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail","I'm planning my trip to Paris, do you know what airports are there?",2,1,
+270,376,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",I need to know the airports in Los Angeles for my upcoming business trip.,2,1,
+271,377,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail",Can you provide information about airports in Singapore?,2,1,
+272,378,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail","I've got a sudden trip to Berlin, can you tell me about the airports there?",2,1,
+273,379,skyscanner80,flights_auto_complete,"skyscanner80##hotels_hotel_auto_complete
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere
+skyscanner80##hotels_hotel_detail
+skyscanner80##flights_flight_detail","I am organizing a trip to Moscow, could you please tell me what airports are there?",2,1,
+274,380,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",I'm planning to fly from Beijing to Shenzhen on 2024-04-10. Can you find me a one-way flight?,2,1,
+275,381,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",Can you help me search for a one-way flight from New York City to London departing on 2024-06-01 for 2 adults and 1 child?,2,1,
+276,382,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar","I'm looking for a one-way flight from Sydney, Australia to Paris, France, with the departure date set for 2024-07-15. Can you assist me?",2,1,
+277,383,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",I am traveling alone from Shanghai to Tokyo and will depart on 2024-08-08. Can I know the available flights?,2,1,
+278,384,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar","I need to find a one-way flight from Bangkok to Singapore for 2 adults, 1 child, and 1 infant departing on 2024-05-10, can you help me look it up?",2,1,
+279,385,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",Can you find a one-way flight from Seoul to Beijing for 3 adults departing on 2024-12-24 in the first class cabin?,2,1,
+280,386,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",Can you find a one-way business class flight from Frankfurt to Madrid departing on 2024-06-15 for 4 adults?,2,1,
+281,387,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar","I'm traveling from Toronto to Vancouver with my family including 2 adults and 2 children, departure date is 2024-07-24. What flights are available?",2,1,
+282,388,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar","I need a one-way flight from Athens to Rome for 1 adult and 1 infant, departing on 2024-05-30. Can you help me find one?",2,1,
+283,389,skyscanner80,flights_search_one_way,"skyscanner80##flights_search_roundtrip
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_price_calendar",I'm planning a trip from Dublin to London on 2024-09-15 for 2 adults. Can you find me flights?,2,1,
+284,390,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","Can you help me find a round trip flight from Shenzhen to Beijing departing on 2024-04-01 and returning on 2024-04-07, for two adults and one infant?",2,1,
+285,391,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","I'm looking to book a round trip flight in premium economy class from Shanghai to Tokyo, leaving on 2024-04-10 and coming back on 2024-04-20, just for me. Can you help me with that?",2,1,
+286,392,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete",What are my flight options for a round trip from Guangzhou to Sydney departing on 2024-05-01 and returning on 2024-05-18 for one adult and two children?,2,1,
+287,393,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","I want to book a round trip flight in first class from Beijing to New York, leaving on 2024-06-01 and coming back on 2024-06-20. It's for me and my wife. Can you help me find options?",2,1,
+288,394,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete",Can you help me find a round trip flight from Shenzhen to London departing on 2024-07-01 and returning on 2024-07-14 for three adults and provided with the currency option?,2,1,
+289,395,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","I wish to book a round trip flight in business class from Shanghai to Dubai, leaving on 2024-08-01 and coming back on 2024-08-10 for me. Can you help me with that and provide options in my local language?",2,1,
+290,396,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete",What are my flight options for a round trip from Beijing to Paris departing on 2024-09-01 and returning on 2024-09-20 for two adults and one child? Can you provide the results in Chinese market context?,2,1,
+291,397,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","I'm interested in booking a round trip flight from Guangzhou to Singapore, leaving on 2024-10-01 and coming back on 2024-10-10, for me and my two children, considering local market and currency. Can you assist?",2,1,
+292,398,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","Can you help me find a round trip flight from Shenzhen to Seoul departing on 2024-11-01 and returning on 2024-11-07, for two adults, one child, and one infant, in my local market context and language?",2,1,
+293,399,skyscanner80,flights_search_roundtrip,"skyscanner80##flights_search_one_way
+skyscanner80##flights_search_everywhere
+skyscanner80##flights_search_incomplete
+skyscanner80##flights_flight_detail
+skyscanner80##flights_auto_complete","Can you provide me with a round trip flight option from Beijing to Melbourne departing on 2024-12-01 and returning on 2024-12-20, for an adult in first class, considering the local market and currency?",2,1,
+294,400,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search",I want to go on a trip from Shenzhen on 2024-04-05 but I'm not sure where to. Can you help me find flights?,2,1,
+295,401,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search","I'm planning a holiday from Beijing with my wife and 2 kids, departing on 2024-07-10. Can you find flights for us?",2,1,
+296,403,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search",Can you find flights departing from Hong Kong in first class on 2024-11-25 for me and my wife?,2,1,
+297,404,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search",My friend and I want to go on an adventure from Guangzhou but we don't know where to go. We will depart on 2024-12-30. Can you help us find some flights?,2,1,
+298,405,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search","I'm planning a trip from Shenzhen with my wife and 3 kids, we want to depart on 2024-05-01. Can you help us find flights?",2,1,
+299,406,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search","My 2 friends and I want to make a surprise trip from Shanghai, we have no idea where we will go, and we plan to depart on 2024-08-01. Could you help us with that?",2,1,
+300,407,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search",I'm from Taipei and I want to plan a free travel destination. We want to leave on 2024-10-10. Can you help me find flights?,2,1,
+301,408,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search","I plan to travel from Beijing with my pet and 2 children on 2024-07-15, pretend I don't care about the destination. Can you find flights for us?",2,1,
+302,409,skyscanner80,flights_search_everywhere,"skyscanner80##flights_flight_detail
+skyscanner80##flights_search_roundtrip
+skyscanner80##flights_price_calendar
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search",Can you help me and my wife find premium economy flights from Shenzhen on 2024-05-25 to anywhere unknown?,2,1,
+303,430,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail",Can I see the flight price calendar from Shenzhen to Beijing for the departure on 1st May 2024 and return on 7th May 2024?,2,1,
+304,431,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","I am planning a round trip from Shanghai to Tokyo, departing on 10th April 2024, and coming back on 17th April 2024, can you show me the price calendar?",2,1,
+305,432,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","I want to know the price differences for flights from Guangzhou to New York, departing on 25th June 2024 and returning on 10th July 2024.",2,1,
+306,433,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail",Can you show the price calendar for the flights from Hong Kong to London for the departure on 15th August 2024 and return on 29th August 2024?,2,1,
+307,434,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","I would like to view the prices for flights from Xi'an to Paris, departing on 18th July 2024 and returning on 30th July 2024.",2,1,
+308,435,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","Can I see the flight price calendar from Taipei to Sydney, with my departure on 2nd September 2024 and my return on 16th September 2024?",2,1,
+309,436,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","Can you provide the price calendar for flights from Chengdu to Amsterdam, departing on 21st October 2024 and returning on 5th November 2024?",2,1,
+310,437,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","Can I check the prices for flights from Hangzhou to Moscow, departing on 13th December 2024 and returning on 27th December 2024?",2,1,
+311,438,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","I need the prices for roundtrip flights from Nanjing to Rome, I am leaving on 7th November 2024 and coming back on 21st November 2024.",2,1,
+312,439,skyscanner80,flights_price_calendar,"skyscanner80##flights_search_everywhere
+skyscanner80##hotels_prices
+skyscanner80##flights_flight_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_hotel_detail","Could you display the price calendar for flights from Wuhan to Madrid, if I depart on 16th May 2024 and return on 30th May 2024?",2,1,
+313,440,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere",What are some hotel options in Beijing?,2,1,
+314,441,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere",Can you suggest a list of hotels in Tokyo for my trip?,2,1,
+315,442,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere","I am planning to visit London, what are the hotels available there?",2,1,
+316,443,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere",Are there any hotels near Disneyland in Paris?,2,1,
+317,444,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere",Can you find some hotel options in San Francisco for my upcoming trip?,2,1,
+318,445,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere",What hotels can I choose from in New York City?,2,1,
+319,446,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere","I'm looking for a list of hotels in Sydney, Australia.",2,1,
+320,447,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere","What are some hotel choices in Rome, Italy?",2,1,
+321,448,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere","Can you find some hotels for me in Seoul, South Korea?",2,1,
+322,449,skyscanner80,hotels_hotel_auto_complete,"skyscanner80##flights_auto_complete
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##get_config
+skyscanner80##flights_search_everywhere","What hotels are available in Bangkok, Thailand?",2,1,
+323,450,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",What are some hotels are available in Beijing from 2024-04-12 to 2024-04-15?,2,1,
+324,451,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",Can you recommend me some hotels in Tokyo for my stay from 2024-05-10 to 2024-05-14?,2,1,
+325,452,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",Which hotels can I choose from in Hong Kong when I visit from 2024-07-20 to 2024-07-25?,2,1,
+326,453,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",I'm planning a trip to Paris. What hotels are available from 2024-08-10 to 2024-08-17?,2,1,
+327,454,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",Help me find hotels in New York City for my trip from 2024-09-10 to 2024-09-15.,2,1,
+328,455,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere","I'll be in London from 2024-10-01 to 2024-10-07, can you find me some hotels to stay in?",2,1,
+329,456,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",Recommend me hotels in San Francisco for my vacation from 2024-12-01 to 2024-12-10.,2,1,
+330,457,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",I am visiting Seoul on 2024-11-15 and will stay until 2024-11-20. Which hotels should I consider?,2,1,
+331,458,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",My trip to Sydney is from 2024-06-30 to 2024-07-06. Can you help me find a hotel?,2,1,
+332,459,skyscanner80,hotels_search,"skyscanner80##hotels_prices
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##flights_search_everywhere",Find me the hotels available in Bangkok from 2024-08-20 to 2024-08-27.,2,1,
+333,499,skyscanner80,hotels_similar_hotels,"skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_search
+skyscanner80##hotels_prices
+skyscanner80##hotels_nearby_map
+skyscanner80##hotels_hotel_auto_complete",What are some hotels similar to the one with ID 218005414 that I can book from 2024-12-25 to 2024-12-30 in Shenzhen?,2,1,
+334,500,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","Can you show me a list of hotels near the Shenzhen airport (22.6393, 113.8107)?",2,1,
+335,501,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","Which hotels are close to the 30.54277, 114.34216 coordinates in Wuhan?",2,1,
+336,502,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","I am currently at latitude 22.5501 and longitude 114.0569 in Shenzhen, can you find nearby hotels for me?",2,1,
+337,503,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","Can you find hotels around the Beijing train station (39.9042, 116.4074) in Chinese currency (CNY)?",2,1,
+338,504,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","What are the available hotels near the Guangzhou Tower (23.1054, 113.3250) for a UK traveler?",2,1,
+339,505,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere",Can you list the hotels close to the latitude 31.2304 and longitude 121.4737 in Shanghai in British Pounds (GBP)?,2,1,
+340,506,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","I'm at location 24.4798, 118.0894 in Xiamen, can you search for hotels near me in US dollars?",2,1,
+341,507,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","Please find hotels near the coordinates 29.8683, 121.5439 in Ningbo for a Canadian traveler in CAD.",2,1,
+342,508,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","Can you show me hotels around 43.8280, 87.6179 in Urumqi using Australian dollars (AUD)?",2,1,
+343,509,skyscanner80,hotels_nearby_map,"skyscanner80##hotels_similar_hotels
+skyscanner80##hotels_hotel_detail
+skyscanner80##hotels_hotel_auto_complete
+skyscanner80##hotels_search
+skyscanner80##flights_search_everywhere","I am located at 23.1291, 113.2644 in Guangzhou, please find nearby hotels for me in Euros (EUR).",2,1,
+344,532,tourist_attraction,typeahead,"tourist_attraction##search
+tourist_attraction##languages
+tourist_attraction##detail
+tourist_attraction##reviews
+skyscanner80##hotels_hotel_auto_complete",Can you recommend some historical sites while I explore London in English?,2,1,
+345,533,tourist_attraction,typeahead,"tourist_attraction##search
+tourist_attraction##languages
+tourist_attraction##detail
+tourist_attraction##reviews
+skyscanner80##hotels_hotel_auto_complete","When searching for attractions in New York City, can you give me some real-time suggestions in Chinese?",2,1,
+346,535,tourist_attraction,typeahead,"tourist_attraction##search
+tourist_attraction##languages
+tourist_attraction##detail
+tourist_attraction##reviews
+skyscanner80##hotels_hotel_auto_complete","While searching for museums in Tokyo, can you predict some attractions for me in Japanese?",2,1,
+347,540,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","Can you tell me about the main tourist attractions in Paris, France, in English and price in Euros?",2,1,
+348,541,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I am heading to New York after a month, could you provide me with the English details of the popular sites there and expected expenditure in US dollars?",2,1,
+349,542,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I am planning a trip to Sydney, Australia. Could you give me some information about the attractions there in Chinese and cost in Chinese yuan?",2,1,
+350,543,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","Could you provide me with some information about tourist attractions in Tokyo, Japan, in Japanese language and the expenses in Japanese yen?",2,1,
+351,544,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I will visit London, UK, next week, and I need English information and the cost in British Pound for the popular tourist sites there, can you do that?",2,1,
+352,545,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I'm planning a vacation in Rome, Italy. Can you give me some information about popular attractions there in English and the cost in Euros?",2,1,
+353,546,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","Can you show me the details about the tourist attractions in Berlin, Germany, in German and the cost in Euros?",2,1,
+354,547,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I'm interested in visiting Moscow, Russia. Could you tell me about the famous sites there and the cost in Ruble, and kindly ensure that the information is in Russian?",2,1,
+355,548,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","What are the popular tourist sites in Madrid, Spain and might I ask for the information in Spanish and the cost in Euros?",2,1,
+356,549,tourist_attraction,search,"tourist_attraction##detail
+tourist_attraction##reviews
+tourist_attraction##photos
+tourist_attraction##languages
+tourist_attraction##currencies","I'm going to Istanbul, Turkey next month. Can you give me information about the attractions there in Turkish and the costs in Turkish lira?",2,1,
+357,550,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","Can you give me more information about the Eiffel Tower in Paris, in English, using Euro as the currency?",2,1,
+358,551,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","I want to know more about the Great Wall of China in Mandarin, using Yuan as the currency.",2,1,
+359,552,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","What information is available about the Statue of Liberty in New York, in English, using US dollar?",2,1,
+360,553,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","I'm interested in the Colosseum in Rome, can I get the details in Italian, using Euro?",2,1,
+361,554,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","Can I get details about the Pyramids of Giza in Egypt, in Arabic, and using Egyptian pound as the currency?",2,1,
+362,555,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","I want to know more about Mount Fuji in Japan, in Japanese, using Yen as the currency.",2,1,
+363,556,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","Can you provide me details of the Sydney Opera House, in English, using Australian dollar?",2,1,
+364,557,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","Can you give me the detailed information about Machu Picchu in Peru, in Spanish, using Sol as the currency?",2,1,
+365,558,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","I would like to know more about the Great Barrier Reef in Australia, in English, using Australian dollar.",2,1,
+366,559,tourist_attraction,detail,"tourist_attraction##languages
+tourist_attraction##currencies
+tourist_attraction##search
+tourist_attraction##reviews
+tourist_attraction##photos","Can I get the details of the Christ the Redeemer in Brazil, in Portuguese, using Brazilian real as the currency?",2,1,
+367,580,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api","What's the current weather in Shenzhen, China?",2,1,
+368,582,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What's the weather like at the Shenzhen Bao'an International Airport (IATA code: SZX)?,2,1,
+369,583,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Is it cloudy or sunny in Beijing right now?,2,1,
+370,584,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What is the current temperature in New York City (US zip: 10001)?,2,1,
+371,585,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Can you provide real-time weather information for London (UK postcode: SW1)?,2,1,
+372,586,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What are the current weather conditions in Toronto (Canada postal code: M5H)?,2,1,
+373,587,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Is it currently snowing in Moscow?,2,1,
+374,588,weatherapi_com,realtime_weather_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##astronomy_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What's the weather like right now at the Paris-Charles de Gaulle Airport (IATA code: CDG)?,2,1,
+375,590,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What will the weather in Beijing be like in 5 days?,2,1,
+376,591,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Give me a 7-day forecast for the weather in Hongkong.,2,1,
+377,592,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What's the weather forecast in Shenzhen for the next 10 days?,2,1,
+378,593,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",I am planning a trip to San Francisco next week. Can you tell me the weather forecast?,2,1,
+379,594,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Can you provide a weather forecast for the next 14 days in London in French?,2,1,
+380,595,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",I need a 3-day weather forecast for 10001 zip code area in New York.,2,1,
+381,597,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api","We are planning a picnic in Hawaii next Sunday the 2nd of April, what is the weather forecast?",2,1,
+382,598,weatherapi_com,forecast_weather_api,"weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api","My sister lives in Canada, postal code G2J. Can you tell me the weather forecast there for the next week?",2,1,
+383,600,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",Can you find out information about the IP address 192.168.0.1?,2,1,
+384,601,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",What info is available for IP address 2001:0db8:85a3:0000:0000:8a2e:0370:7334 in IPv6 format?,2,1,
+385,603,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",Can you look up information for IP 172.16.254.100?,2,1,
+386,604,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",Help me find details about IP address 123.45.67.89.,2,1,
+387,605,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api","I want to know information about IP 10.0.0.2, can you find it for me?",2,1,
+388,606,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",Provide information about IP address 2405:204:1234:abcd::1 in IPv6 format.,2,1,
+389,607,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",What can you find about the IP address 223.255.255.254?,2,1,
+390,608,weatherapi_com,ip_lookup_api,"ip_geo_location##ip_lookup
+ip_geo_location##visitor_lookup
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##astronomy_api",Can you get me details about IP address 169.254.0.1?,2,1,
+391,610,weatherapi_com,time_zone_api,"weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##ip_lookup_api",What's the current local time in Paris?,2,1,
+392,611,weatherapi_com,time_zone_api,"weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##ip_lookup_api",Could you tell me the time zone of New York City by its zip code 10001?,2,1,
+393,613,weatherapi_com,time_zone_api,"weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##ip_lookup_api",Can you provide the current time in Vancouver with its postal code G2J?,2,1,
+394,617,weatherapi_com,time_zone_api,"weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##ip_lookup_api",What's the local time now in Tokyo?,2,1,
+395,618,weatherapi_com,time_zone_api,"weatherapi_com##search_autocomplete_api
+weatherapi_com##astronomy_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api
+weatherapi_com##ip_lookup_api",Could you please let me know the current time in London using its postcode SW1?,2,1,
+396,620,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",When will the sun rise and set in Shenzhen today?,2,1,
+397,621,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What time is moonrise and moonset in Paris on 2024-3-25?,2,1,
+398,622,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What is the current moon phase and illumination in London on 2024-3-25?,2,1,
+399,623,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Can you tell me the sunrise and sunset times in New York City for 2024-03-25?,2,1,
+400,624,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",I want to know the moonrise and moonset times for Tokyo on 2024-03-25.,2,1,
+401,626,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",When does the sun rise and set in ZIP code 10001 on 2024-03-25?,2,1,
+402,627,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",Can you provide the moon phase and illumination for Vancouver with the postal code G2J on 2024-3-25?,2,1,
+403,628,weatherapi_com,astronomy_api,"weatherapi_com##forecast_weather_api
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##search_autocomplete_api
+weatherapi_com##ip_lookup_api",What are the sunrise and sunset times for the UK postcode SW1 on 2024-03-25?,2,1,
+404,640,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format","Can I obtain a screenshot of the website: https://www.wikipedia.org/ with width 500 pixels, and height of 700 pixels?",2,1,
+405,641,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",How does the homepage of https://arxiv.org/ look like in a picture of 250 x 300 resolution.,2,1,
+406,642,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",I want the screenshot of website https://google.com with the dimension of 800x600.,2,1,
+407,643,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",Can I take a screenshot of the website https://google.com? Use width 350 pixels and height 500 pixels.,2,1,
+408,644,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",Could you give me a screenshot of my personal blog at https://huggingface.co/? Let's have it in a 1280x720 resolution.,2,1,
+409,645,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",How can I get a picture of the page https://arxiv.org/ in a 720x480 size?,2,1,
+410,646,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",I need a screenshot of my online course homepage on https://www.wikipedia.org/ at 1024x768 pixels.,2,1,
+411,647,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format",Can you help me take a screen capture of the news page https://huggingface.co/ at the current date and time with a resolution of 500x700?,2,1,
+412,648,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format","How to make a screenshot of the webpage https://www.bing.com/, with the image size of 800 by 600?",2,1,
+413,649,web_capture,take_image_screenshot,"bing_search_apis##images_search
+ocr_extract_text##extract_text_from_image_url
+image_processing##resize_image
+ocr_extract_text##extract_text_from_image_file
+image_processing##convert_format","Can I have a screenshot of the website https://www.bing.com/, at a resolution of 1920x1080?",2,1,
+414,650,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","What is the current time in New York City, United States?",2,1,
+415,651,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","Can you tell me the current time in Paris, France?",2,1,
+416,652,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","What's the time in Los Angeles, California, USA right now?",2,1,
+417,653,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","I need to know the current time in London, United Kingdom.",2,1,
+418,654,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","What is the time in Tokyo, Japan at the moment?",2,1,
+419,655,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api",Please tell me the current time for the timezone Europe/Berlin.,2,1,
+420,656,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","Can you find out the time in Sydney, Australia right now?",2,1,
+421,658,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","How late is it in Moscow, Russia at this moment?",2,1,
+422,659,world_time_by_api_ninjas,v1_worldtime,"geocoding_by_api_ninjas##v1_reversegeocoding
+geocoding_by_api_ninjas##v1_geocoding
+weatherapi_com##time_zone_api
+weatherapi_com##realtime_weather_api
+weatherapi_com##forecast_weather_api","I would like to know the current time in Rio de Janeiro, Brazil.",2,1,

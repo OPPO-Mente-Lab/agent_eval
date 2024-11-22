@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,agent_equipments,get_current_time,Could you tell me what the day is?,3
+1,,,Can I know the current time?,3
+2,,,Please let me know today's date.,3
+3,,,What is the timestamp right now?,3
+4,,,Could you inform me of the current time and date?,3
+5,,,What day of the week is it today?,3
+6,,,Could you tell me the current date and time?,3
+7,,,"Let me know, what time is it now?",3
+8,,,What is today's date?,3
+9,,,Would you tell me the day of the week?,3
+10,,get_my_location,Where am I right now?,3
+11,,,Can you tell me my current location?,3
+12,,,What's my current address?,3
+13,,,Tell me the name of the city I'm in.,3
+14,,,Find my coordinates.,3
+15,,,What is my latitude and longitude?,3
+16,,,In which country do I currently reside?,3
+17,,,Please provide the name of the province or state I am in.,3
+18,,,Determine my geographic location without using GPS.,3
+19,,,Help me locate myself on a map.,3

@@ -1,0 +1,61 @@
+,Tool,API,Prompt,Type
+0,weatherapi_com,realtime_weather_api,What is the current weather?,3
+1,,,Can you tell me the real-time temperature right now?,3
+2,,,Is it going to rain in the next hour?,3
+3,,,What's the humidity level at the moment?,3
+4,,,How strong is the wind currently?,3
+5,,,Is there any weather alert right now?,3
+6,,,Can you tell me the air quality index right now?,3
+7,,,What is the current visibility?,3
+8,,,Is it cloudy outside?,3
+9,,,What's the weather condition right now?,3
+10,,forecast_weather_api,What's the weather forecast for the next week?,3
+11,,,Can you tell me the weather alerts for the coming days?,3
+12,,,What is the expected weather in Chicago?,3
+13,,,Any weather alerts for Paris for the upcoming time?,3
+14,,,Can I have the details for tomorrow's weather?,3
+15,,,Is there any weather alerts for the day after tomorrow?,3
+16,,,Can you tell me the weather in French for the next 10 days?,3
+17,,,Can you provide the details of the weather forecast in Spanish?,3
+18,,,Can you tell me the weather forecast?,3
+19,,,Can I have the weather alerts for the upcoming days?,3
+20,,ip_lookup_api,What's the geolocation of this IP?,3
+21,,,Can you give me information about this IP address?,3
+22,,,What is the Internet Service Provider for this IP?,3
+23,,,Is this IP address from a residential or business network?,3
+24,,,Can you tell me the city and country associated with an IP address?,3
+25,,,Where is the user with this IP located?,3
+26,,,What is the time zone of the person using this IP address?,3
+27,,,Is there any information on the organization associated with this IP?,3
+28,,,Can you provide any data about the usage type of this IP address?,3
+29,,,How do I get information about an IP address?,3
+30,,time_zone_api,What's the current time now?,3
+31,,,Can you tell me the time in the location I'm going to travel?,3
+32,,,"I'm in a online meeting right now, can you tell me the local time of the participants?",3
+33,,,Do you know the time difference between my place and the place I'm going to have a business trip?,3
+34,,,What is the time zone of my place?,3
+35,,,"Can you tell me the local time of my friend in another country, I don't remember his city name.",3
+36,,,What's the current time at the airport I'm heading to?,3
+37,,,Can you inform me about the local time at my next stop?,3
+38,,,"I want to check my system clock, should be there any reference?",3
+39,,,"I want to keep track of the time, can you help me?",3
+40,,astronomy_api,What time is sunrise in Beijing?,3
+41,,,Can you tell me the time of moonset for London?,3
+42,,,What's the moon phase in New York currently?,3
+43,,,Give me the sunrise and sunset times for Paris.,3
+44,,,Tell me about the current illumination in Sydney.,3
+45,,,"What was the moonset time for January 1, 2023?",3
+46,,,"Could you provide the sunrise time for December 25, 2023?",3
+47,,,What was the moon phase on the last Christmas?,3
+48,,,Could you tell me the time of sunrise?,3
+49,,,What was the illumination feature yesterday?,3
+50,,search_autocomplete_api,What's the weather like in the city I'm thinking of?,3
+51,,,Can you tell me the real-time weather?,3
+52,,,What's the air quality index today?,3
+53,,,Are there any weather alerts right now?,3
+54,,,What's the humidity level in that place?,3
+55,,,How's the wind speed right now?,3
+56,,,Is it raining somewhere today?,3
+57,,,What's the current temperature outside?,3
+58,,,Can you tell me the UV index?,3
+59,,,What's the sunrise and sunset time today?,3

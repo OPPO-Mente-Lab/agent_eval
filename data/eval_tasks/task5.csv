@@ -1,0 +1,373 @@
+,did,tool_name,api_name,instruction,type
+0,0,access_user_info,get_user_profile,How can I improve my English speaking skills?,1
+1,1,access_user_info,get_user_profile,"What are some popular social activities for 20-year-olds in Shenzhen, China?",1
+2,2,access_user_info,get_user_profile,Can you recommend a good Chinese language course in Shenzhen?,1
+3,3,access_user_info,get_user_profile,How do I update my personal information on social media?,1
+4,4,access_user_info,get_user_profile,What are some age-appropriate exercises for a 20-year-old man?,1
+5,5,access_user_info,get_user_profile,"In Chinese culture, what role does age play in social interactions? ",1
+6,6,access_user_info,get_user_profile,Which part of Shenzhen has the best nightlife scene for young people? ,1
+7,7,access_user_info,get_user_profile,How do language barriers affect communication in multicultural cities like Shenzhen?,1
+8,8,access_user_info,get_user_profile,Can you advise on a suitable gift for a 20-year-old Chinese man's birthday?,1
+9,9,access_user_info,get_user_profile,What are some healthy and delicious local dishes in Shenzhen worth trying?,1
+10,10,agent_equipments,get_current_time,Is today a legal holiday in China?,1
+11,11,agent_equipments,get_current_time,How many time zones does China have?,1
+12,12,agent_equipments,get_current_time,"As a foreigner, what documents do I need to stay in Shenzhen?",1
+13,13,agent_equipments,get_current_time,What's the public transportation like in Shenzhen?,1
+14,14,agent_equipments,get_current_time,Are there any cultural norms or etiquette I should be aware of while in China?,1
+15,16,agent_equipments,get_current_time,Is Shenzhen considered a coastal city?,1
+16,19,agent_equipments,get_current_time,What foods are Shenzhen known for?,1
+17,30,airports,query_airports_by_name,How can I get to the closest international airport from Downtown Shenzhen?,1
+18,31,airports,query_airports_by_name,What's the fastest way to travel between Beijing Capital International Airport and Beijing South Railway Station?,1
+19,32,airports,query_airports_by_name,What does IATA stand for and what is its purpose?,1
+20,33,airports,query_airports_by_name,Can you tell me about the history of Shenzhen Bao'an International Airport?,1
+21,34,airports,query_airports_by_name,What are the public transit options from Los Angeles International Airport to Hollywood?,1
+22,35,airports,query_airports_by_name,Are there usually traffic jams around Shenzhen Bao'an International Airport in the mornings?,1
+23,36,airports,query_airports_by_name,What services are available for people with disabilities at airports in general?,1
+24,37,airports,query_airports_by_name,Can you tell me when the rush hours are at Hartsfield-Jackson Atlanta International Airport?,1
+25,38,airports,query_airports_by_name,What's the best way to spend a 10-hour layover at Tokyo Narita International Airport?,1
+26,39,airports,query_airports_by_name,How early should I check-in for an international flight at Shanghai Pudong International Airport?,1
+27,40,airports,get_airport_by_iata_code,What is the best time of year to visit the Singapore airport?,1
+28,41,airports,get_airport_by_iata_code,Are there any good hotels near the Singapore airport?,1
+29,42,airports,get_airport_by_iata_code,How can I take the bus from downtown to the Singapore airport?,1
+30,43,airports,get_airport_by_iata_code,What's the historical cultural significance of the Sydney airport?,1
+31,44,airports,get_airport_by_iata_code,How much time should I leave for check-in and security at the San Francisco International Airport?,1
+32,45,airports,get_airport_by_iata_code,Which airport in North America has the most annual passengers?,1
+33,46,airports,get_airport_by_iata_code,"What are the visa requirements for a 20-year old man from Shenzhen, China who's traveling to Heathrow, London?",1
+34,47,airports,get_airport_by_iata_code,How much does it cost to park my car for a week at the Dubai airport?,1
+35,48,airports,get_airport_by_iata_code,Can you recommend some local dishes that I should try when I visit the Osaka airport?,1
+36,49,airports,get_airport_by_iata_code,What's the fastest way to get to the Paris airport from the city center?,1
+37,50,airports,get_airport_by_icao_code,What's the best way to get from the city center to Singapore Changi Airport?,1
+38,51,airports,get_airport_by_icao_code,Is there any restaurant in Singapore Changi Airport where I can have a good meal?,1
+39,52,airports,get_airport_by_icao_code,What is the difference between ICAO and IATA airport codes?,1
+40,53,airports,get_airport_by_icao_code,What are some hotels near the Singapore Changi airport?,1
+41,54,airports,get_airport_by_icao_code,What are the recommended sights to see in Singapore if I have a long layover?,1
+42,55,airports,get_airport_by_icao_code,What are the visa requirements for a Chinese citizen traveling to Singapore?,1
+43,56,airports,get_airport_by_icao_code,Can I take the MRT from Singapore city center to Changi airport? ,1
+44,57,airports,get_airport_by_icao_code,When was the Singapore Changi Airport built?,1
+45,58,airports,get_airport_by_icao_code,What are the operating hours of Singapore Changi Airport?,1
+46,59,airports,get_airport_by_icao_code,What is the airport luggage policy in Singapore Changi Airport?,1
+47,60,bing,web_search,How can I improve my searching skills on the internet?,1
+48,61,bing,web_search,How to evaluate the credibility of a website?,1
+49,62,bing,web_search,How to filter explicit content from search results?,1
+50,63,bing,web_search,What does metadata mean in the context of web searches?,1
+51,64,bing,web_search,What does the HTTP 404 error mean?,1
+52,65,bing,web_search,Which popular search engines can I use other than Google?,1
+53,66,bing,web_search,How is search engine optimization (SEO) crucial for a company's online visibility?,1
+54,67,bing,web_search,What to do if my internet connection is slow?,1
+55,68,bing,web_search,How does a web crawler function?,1
+56,69,bing,web_search,How can I protect my privacy during online searching?,1
+57,70,bing_search_apis,images_search,How do I change the default search engine in my web browser?,1
+58,74,bing_search_apis,images_search,How can I determine the original source of an image I found on the internet? ,1
+59,75,bing_search_apis,images_search,How to use proper keywords to increase the visibility of my images in searches?,1
+60,76,bing_search_apis,images_search,How to protect my images from being unauthorized used when they appear in search result?,1
+61,77,bing_search_apis,images_search,Is there any method to find the high-resolution version of an image?,1
+62,78,bing_search_apis,images_search,What's the relationship between image file size and its loading speed on a webpage?,1
+63,79,bing_search_apis,images_search,Is it constructive to use watermarks on my images to prevent unauthorized use? ,1
+64,80,calculator,calculate,What is the history and development of Python programming language?,1
+65,81,calculator,calculate,How can I learn Python programming for a beginner?,1
+66,82,calculator,calculate,Does Python programming language support all kinds of mathematical operations?,1
+67,83,calculator,calculate,What does the * symbol represent in mathematical operations?,1
+68,84,calculator,calculate,What other programming languages are suitable for mathematical calculations?,1
+69,85,calculator,calculate,Can other programming languages calculate mathematical expressions in the same way as Python?,1
+70,86,calculator,calculate,Can I run Python programs on any operating system?,1
+71,87,calculator,calculate,How to solve the issue if there is a syntax error in my Python formula?,1
+72,88,calculator,calculate,How to improve the efficiency of mathematical calculations in my Python program?,1
+73,89,calculator,calculate,What are the difference between Python and other programming languages in processing mathematical expressions?,1
+74,91,calendar,days_of_month,How can I tell if a year is a leap year?,1
+75,92,calendar,days_of_month,What is the maximum number of days in any month?,1
+76,93,calendar,days_of_month,Is there any month that has less than 28 days?,1
+77,97,calendar,days_of_month,Is the Chinese New Year always in the month of February?,1
+78,98,calendar,days_of_month,What holidays are there in the month of December in China?,1
+79,99,calendar,days_of_month,"If a project deadline is set to be the third Friday of April, how can I calculate the date?",1
+80,100,calendar,display_calendar_of_month,How many days are in the month of February in a leap year?,1
+81,101,calendar,display_calendar_of_month,How can I determine whether a year is a leap year or not?,1
+82,102,calendar,display_calendar_of_month,What is the significance of the Chinese Lunar New Year in Chinese culture?,1
+83,103,calendar,display_calendar_of_month,Which day of the week does Christmas usually fall on?,1
+84,104,calendar,display_calendar_of_month,What are some traditions associated with celebrating Halloween?,1
+85,105,calendar,display_calendar_of_month,Can you recommend any productivity apps to help me keep track of my schedule and appointments?,1
+86,106,calendar,display_calendar_of_month,How do people typically celebrate the Mid-Autumn Festival in China?,1
+87,107,calendar,display_calendar_of_month,"What is the origin of the Gregorian calendar, and how does it differ from other calendars?",1
+88,108,calendar,display_calendar_of_month,Why do some cultures have a 13-month calendar instead of a 12-month calendar?,1
+89,109,calendar,display_calendar_of_month,Are there any international holidays that are celebrated by multiple countries?,1
+90,110,currency_exchange,listquotes,"Which currency is generally stronger, the US Dollar or the Euro?",1
+91,111,currency_exchange,listquotes,How can I exchange my currency at a local bank or currency exchange office?,1
+92,112,currency_exchange,listquotes,What is the typical commission fee for exchanging currency at a physical exchange service?,1
+93,113,currency_exchange,listquotes,Can I use credit cards in most places while traveling abroad?,1
+94,114,currency_exchange,listquotes,Which countries use the Euro as their official currency?,1
+95,115,currency_exchange,listquotes,What is the historical significance of the British Pound in the global financial market?,1
+96,116,currency_exchange,listquotes,How has the Chinese Yuan's exchange rate changed in the past 5 years?,1
+97,117,currency_exchange,listquotes,What factors can influence the exchange rate fluctuations between currencies?,1
+98,118,currency_exchange,listquotes,Are there any restrictions on carrying large amounts of cash when traveling to another country?,1
+99,119,currency_exchange,listquotes,How do I determine if a currency exchange rate is favorable for me when traveling or making an international transaction?,1
+100,132,geocoding_by_api_ninjas,v1_geocoding,Can I get the temperature by knowing latitude and longitude?,1
+101,135,geocoding_by_api_ninjas,v1_geocoding,What's the difference between the 2-letter ISO country code and the 3-letter one?,1
+102,136,geocoding_by_api_ninjas,v1_geocoding,Can I determine the time zone based on latitude and longitude? ,1
+103,137,geocoding_by_api_ninjas,v1_geocoding,Will the longitude and latitude of a city change over time due to continental drift?,1
+104,138,geocoding_by_api_ninjas,v1_geocoding,Why is geographic coordinate division expressed in latitude and longitude rather than other units?,1
+105,139,geocoding_by_api_ninjas,v1_geocoding,"In the northern hemisphere, does latitude influence the amount of sunlight a region receives?",1
+106,140,geocoding_by_api_ninjas,v1_reversegeocoding,What's the capital city of China?,1
+107,141,geocoding_by_api_ninjas,v1_reversegeocoding,Is the city I am in the Northern or Southern hemisphere?,1
+108,142,geocoding_by_api_ninjas,v1_reversegeocoding,Which city is located on the Mengtze River in China?,1
+109,143,geocoding_by_api_ninjas,v1_reversegeocoding,How can I measure the latitude and longitude of my current location?,1
+110,144,geocoding_by_api_ninjas,v1_reversegeocoding,How many time zones are there in Russia?,1
+111,145,geocoding_by_api_ninjas,v1_reversegeocoding,What is the distance between London and New York?,1
+112,146,geocoding_by_api_ninjas,v1_reversegeocoding,How can I book a flight to London from Shenzhen?,1
+113,147,geocoding_by_api_ninjas,v1_reversegeocoding,What are the different types of map projections?,1
+114,148,geocoding_by_api_ninjas,v1_reversegeocoding,What kind of activities can I do in Hawaii?,1
+115,149,geocoding_by_api_ninjas,v1_reversegeocoding,What is the geographical difference between Hong Kong and Macau?,1
+116,150,google_api,video_search,What are some popular video sharing platforms besides YouTube?,1
+117,151,google_api,video_search,How can I download a video from the internet?,1
+118,152,google_api,video_search,What are the best video formats for online streaming?,1
+119,153,google_api,video_search,Is there a website that allows me to subtitle my videos for free?,1
+120,154,google_api,video_search,What video editing software is recommended for beginners?,1
+121,155,google_api,video_search,How can I improve video resolution without making the file size too big?,1
+122,156,google_api,video_search,Which social media platforms are suitable for short video clips and stories?,1
+123,157,google_api,video_search,What are the recommended video settings for uploading to different platforms?,1
+124,158,google_api,video_search,Is there a way to create an animated video from a series of images?,1
+125,159,google_api,video_search,How can I protect my videos from being re-uploaded by others?,1
+126,160,google_translate,detect,How can I improve my English pronunciation skill?,1
+127,161,google_translate,detect,Can I learn French by myself?,1
+128,162,google_translate,detect,Is it difficult to translate ancient Chinese texts into English?,1
+129,163,google_translate,detect,What are some common phrases in Spanish that I should learn as a beginner?,1
+130,164,google_translate,detect,Can Google detect the difference between UK English and US English?,1
+131,165,google_translate,detect,How can I make my Japanese handwriting better?,1
+132,166,google_translate,detect,What's the limits of machine translation?,1
+133,167,google_translate,detect,Can you interpret this song's lyrics?,1
+134,168,google_translate,detect,Is there a universal language that everyone can understand?,1
+135,169,google_translate,detect,How can I keep my language skills from deteriorating when I don't get the chance to use them?,1
+136,190,image_processing,compress_image,What is the difference between JPEG and PNG format?,1
+137,191,image_processing,compress_image,How to change image format on Windows without using any software?,1
+138,192,image_processing,compress_image,Why is it necessary to compress an image file?,1
+139,193,image_processing,compress_image,What might be the possible reasons behind a slow-loading image?,1
+140,194,image_processing,compress_image,Can compressing an image lead to loss of its quality?,1
+141,195,image_processing,compress_image,What are some of the software I can use to compress an image?,1
+142,196,image_processing,compress_image,How large usually should an image file be for a website to load efficiently?,1
+143,197,image_processing,compress_image,Does reducing the size of an image affect its resolution?,1
+144,198,image_processing,compress_image,Are there apps available to compress images on my phone?,1
+145,199,image_processing,compress_image,What are some effective ways to save storage space on my computer?,1
+146,200,image_processing,resize_image,What are some popular image formats?,1
+147,201,image_processing,resize_image,How does the clarity of the image change when it is compressed?,1
+148,202,image_processing,resize_image,Is it possible to change a colored image to black-and-white without photo editing software?,1
+149,203,image_processing,resize_image,What is the advantage of converting a .jpeg image to a .png?,1
+150,204,image_processing,resize_image,What causes pixelation in images?,1
+151,205,image_processing,resize_image,How to take a clear picture with phone?,1
+152,206,image_processing,resize_image,When should I use lossless compression over lossy compression for images?,1
+153,207,image_processing,resize_image,Can you tell the difference between a high resolution image and a low resolution image just by looking at it?,1
+154,208,image_processing,resize_image,Does resizing an image affect its file size significantly?,1
+155,209,image_processing,resize_image,What is the suitable resolution for an image to be used on a website?,1
+156,210,image_processing,convert_format,What are the differences between the 'jpg' and 'png' format?,1
+157,211,image_processing,convert_format,Which image format is the best for preserving the quality of photographs?,1
+158,212,image_processing,convert_format,How can I reduce the size of an image without losing too much quality?,1
+159,213,image_processing,convert_format,What is the most commonly used image format on the internet and why?,1
+160,214,image_processing,convert_format,Which image format should I use for a transparent background?,1
+161,216,image_processing,convert_format,What's the benefit of compressing an image?,1
+162,217,image_processing,convert_format,How does an image resizing tool work?,1
+163,218,image_processing,convert_format,What are the basic principles of image processing?,1
+164,219,image_processing,convert_format,Which image format is best for printing purposes?,1
+165,220,image_remove_bg,remove_bg,What kinds of images are typically easier to edit by removing the background?,1
+166,221,image_remove_bg,remove_bg,How may I boost my photography skills to take photos with a clear distinction between the focus and the background?,1
+167,222,image_remove_bg,remove_bg,"In general, how can I take a photo that makes the background easier to remove?",1
+168,223,image_remove_bg,remove_bg,Is there some software I can use on my PC to manually remove the background of an image?,1
+169,224,image_remove_bg,remove_bg,"How does a ""green screen"" aid in separating a subject from the background in an image?",1
+170,225,image_remove_bg,remove_bg,Does wearing contrast-colored clothes help in separating myself from the background when taking photos?,1
+171,227,image_remove_bg,remove_bg,"After removing a background, how can I add a new background?",1
+172,228,image_remove_bg,remove_bg,I've heard about something called chroma key applied in filmmaking. What's the principle behind it?,1
+173,229,image_remove_bg,remove_bg,Why do photographers like using a white background when doing portrait photography?,1
+174,230,image_translation,image_translation,"I have an image with Japanese text, is Japanese a difficult language to learn?",1
+175,231,image_translation,image_translation,Can you give me some tips for learning Chinese characters more effectively?,1
+176,232,image_translation,image_translation,How long does it usually take to become fluent in French for an English speaker?,1
+177,233,image_translation,image_translation,"In Shenzhen, China, which foreign language would be most useful for job opportunities?",1
+178,234,image_translation,image_translation,How many languages are typically spoken in Europe?,1
+179,235,image_translation,image_translation,Do native speakers of English and Spanish find it easier to learn Italian?,1
+180,236,image_translation,image_translation,Which language uses the Cyrillic alphabet?,1
+181,237,image_translation,image_translation,Is it better to learn the traditional or simplified version of Chinese characters first?,1
+182,238,image_translation,image_translation,What are some popular language learning apps or websites?,1
+183,239,image_translation,image_translation,What's the best method for retaining vocabulary when learning a new language?,1
+184,252,ip_geo_location,ip_lookup,What is the difference between IPv4 and IPv6?,1
+185,253,ip_geo_location,ip_lookup,Are there any tools that I can use to find my public IP address?,1
+186,255,ip_geo_location,ip_lookup,Are the results of API calls in different languages different at the level of content or just differences in translation?,1
+187,258,ip_geo_location,ip_lookup,What is ASN in the network field?,1
+188,260,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Which country has the highest population in the world?,1
+189,261,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,In what year did China switch its country code from +86 to +85?,1
+190,262,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,How can I get a visa for traveling to France?,1
+191,263,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Which is the smallest country by land area?,1
+192,264,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,"Is the United Kingdom part of the European Union in my current year, 2024?",1
+193,265,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,What's the currency of India?,1
+194,266,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Where is the capital of Brazil?,1
+195,267,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Can you tell me the history behind the two-letter code of Australia?,1
+196,268,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,What language is mainly spoken in Spain?,1
+197,269,list_of_all_countries_and_languages_with_their_codes,list_of_all_countries,Does the two-letter code of USA has any relation to its official name?,1
+198,270,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,"How do I say ""Good Morning"" in French?",1
+199,271,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,What is the population of China?,1
+200,272,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,Can you tell me the currency used in Germany?,1
+201,273,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,What is the capital of Australia?,1
+202,274,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,Which language is mostly spoken in India?,1
+203,275,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,What is the famous food in Italy?,1
+204,276,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,Which countries are part of European union?,1
+205,277,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,What is the literacy rate in KSA?,1
+206,278,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,Can you tell me the difference between American English and British English?,1
+207,279,list_of_all_countries_and_languages_with_their_codes,list_of_all_languages,What is the historical background of Spanish language?,1
+208,280,news_api,top_headlines,What's the difference between international news and domestic news?,1
+209,281,news_api,top_headlines,Why is the sports category usually separate from other news categories?,1
+210,282,news_api,top_headlines,How can I tell if a news source is credible?,1
+211,283,news_api,top_headlines,What is the typical news cycle length for major world events?,1
+212,284,news_api,top_headlines,"Are newspapers still popular in urban areas, or have they mostly transitioned to digital platforms?",1
+213,285,news_api,top_headlines,How do different countries approach journalism and freedom of the press?,1
+214,286,news_api,top_headlines,What is the impact of social media on traditional news media?,1
+215,287,news_api,top_headlines,How can I submit my own news article to a local news website?,1
+216,288,news_api,top_headlines,How do news organizations maintain objectivity in their reporting?,1
+217,289,news_api,top_headlines,"How often should I check the news to stay informed, but not be overwhelmed by information?",1
+218,290,news_api,search,Will reading news online use a lot of mobile data?,1
+219,291,news_api,search,Would English version news cover as much content as the original language version?,1
+220,292,news_api,search,Is the news covering topics worldwide usually providing timely information?,1
+221,293,news_api,search,Who can help me understand the news in foreign language?,1
+222,294,news_api,search,How to improve my reading speed for news articles?,1
+223,296,news_api,search,Can I rely totally on one news source for global news?,1
+224,298,news_api,search,Are there any benefits of reading news in the early morning?,1
+225,299,news_api,search,How can the information in the news help my daily work?,1
+226,301,objects_detection,objects_detection,What photography techniques should I know to clearly capture objects in images?,1
+227,302,objects_detection,objects_detection,Can any ordinary camera capture images for deep learning analysis?,1
+228,303,objects_detection,objects_detection,Are certain image formats better for object detection?,1
+229,305,objects_detection,objects_detection,Can deep learning image analysis be applied to video sequences?,1
+230,306,objects_detection,objects_detection,What is the difference between deep learning and machine learning in image analysis?,1
+231,307,objects_detection,objects_detection,What kind of deep learning algorithms are typically used for image analysis?,1
+232,308,objects_detection,objects_detection,How can I improve the quality of images for better object detection?,1
+233,309,objects_detection,objects_detection,How does deep learning allow for object recognition in images?,1
+234,310,ocr_extract_text,extract_text_from_image_url,What is the difference between JPEG and PNG file formats?,1
+235,311,ocr_extract_text,extract_text_from_image_url,How can I convert a PDF file to a PNG or JPEG image?,1
+236,312,ocr_extract_text,extract_text_from_image_url,Are there any free online tools to compress JPEG or PNG images?,1
+237,314,ocr_extract_text,extract_text_from_image_url,How do I ensure the best image quality for text recognition?,1
+238,317,ocr_extract_text,extract_text_from_image_url,How can I improve the lighting of an image to enhance text recognition?,1
+239,318,ocr_extract_text,extract_text_from_image_url,What are the common applications of Optical Character Recognition (OCR)?,1
+240,319,ocr_extract_text,extract_text_from_image_url,"How does OCR technology work, and what are the underlying principles?",1
+241,320,ocr_extract_text,extract_text_from_image_file,What kind of image file formats are considered high quality for viewing and editing?,1
+242,321,ocr_extract_text,extract_text_from_image_file,What are some ways to enhance the resolution of an image to make it clearer?,1
+243,322,ocr_extract_text,extract_text_from_image_file,How to convert a PDF file into a JPEG image?,1
+244,323,ocr_extract_text,extract_text_from_image_file,What is the fastest way to scan a physical document into an image?,1
+245,324,ocr_extract_text,extract_text_from_image_file,How do I resize my PNG image without losing quality?,1
+246,325,ocr_extract_text,extract_text_from_image_file,What are some commonly used software for viewing or editing JPEG images?,1
+247,326,ocr_extract_text,extract_text_from_image_file,How can I protect my personal images from being used without my permission?,1
+248,327,ocr_extract_text,extract_text_from_image_file,What is the difference between JPEG and PNG file formats?,1
+249,330,onecompiler_apis,execute_code,How does Python handle exceptions in programming?,1
+250,331,onecompiler_apis,execute_code,What's the difference between a tuple and a list in Python?,1
+251,332,onecompiler_apis,execute_code,How to optimize Python code for better performance?,1
+252,333,onecompiler_apis,execute_code,How do I install Python packages with pip?,1
+253,334,onecompiler_apis,execute_code,What are some common Python coding mistakes that beginners make?,1
+254,335,onecompiler_apis,execute_code,How do I convert a string to an integer in Python?,1
+255,336,onecompiler_apis,execute_code,What are the differences between Python2 and Python3?,1
+256,337,onecompiler_apis,execute_code,Which Integrated Development Environment (IDE) is best for Python programming?,1
+257,338,onecompiler_apis,execute_code,How is multi-threading handled in Python?,1
+258,339,onecompiler_apis,execute_code,How to use Python for web scraping?,1
+259,340,public_holiday,public_holidays,Which countries usually have more public holidays?,1
+260,341,public_holiday,public_holidays,Can private companies in China set their own holiday schedules?,1
+261,342,public_holiday,public_holidays,Is Golden Week a public holiday in all parts of China?,1
+262,343,public_holiday,public_holidays,How does the public holiday system in America differ from the one in China?,1
+263,344,public_holiday,public_holidays,Are there any universal holidays observed by all countries around the world?,1
+264,345,public_holiday,public_holidays,Is it necessary for companies to pay overtime wages for employees who work on public holidays?,1
+265,346,public_holiday,public_holidays,How does the British public holiday system work?,1
+266,347,public_holiday,public_holidays,Do all industries in the United States follow the same public holiday schedule?,1
+267,348,public_holiday,public_holidays,How do people in India typically spend their national holidays?,1
+268,349,public_holiday,public_holidays,Is Christmas day a public holiday worldwide?,1
+269,350,recipe_by_api_ninjas,v1_recipe,What are some healthy ingredients I can add to my salad?,1
+270,351,recipe_by_api_ninjas,v1_recipe,Can you suggest a few vegetarian dishes from Chinese cuisine?,1
+271,352,recipe_by_api_ninjas,v1_recipe,How can I properly store leftovers in the refrigerator to retain freshness?,1
+272,353,recipe_by_api_ninjas,v1_recipe,What kitchen gadgets can help me prepare meals more quickly?,1
+273,354,recipe_by_api_ninjas,v1_recipe,How do I properly clean and disinfect my cutting board after using raw meat?,1
+274,355,recipe_by_api_ninjas,v1_recipe,What are some basic food safety guidelines I should follow in the kitchen?,1
+275,356,recipe_by_api_ninjas,v1_recipe,How can I improve my knife skills for more efficient cooking?,1
+276,357,recipe_by_api_ninjas,v1_recipe,Are there any helpful cooking apps or websites that I can use to find recipes?,1
+277,358,recipe_by_api_ninjas,v1_recipe,Should I let hot food cool down before storing it in the fridge?,1
+278,359,recipe_by_api_ninjas,v1_recipe,What are the common mistakes that first-time cooks make in the kitchen?,1
+279,440,skyscanner80,hotels_hotel_auto_complete,Do I need any travel documents when staying in a hotel in Paris?,1
+280,441,skyscanner80,hotels_hotel_auto_complete,Is it cheaper to rent a car or to use public transportation in Los Angeles?,1
+281,442,skyscanner80,hotels_hotel_auto_complete,What are some popular tourist spots in New York?,1
+282,443,skyscanner80,hotels_hotel_auto_complete,What are the best way to travel from one city to another in Japan?,1
+283,444,skyscanner80,hotels_hotel_auto_complete,Would it be better to book a hotel in advance for a trip during the peak season?,1
+284,445,skyscanner80,hotels_hotel_auto_complete,What are the common customs and etiquette in hotels in Dubai?,1
+285,446,skyscanner80,hotels_hotel_auto_complete,How many days should I plan for a trip to London?,1
+286,447,skyscanner80,hotels_hotel_auto_complete,Can you recommend any good restaurants near the hotels in Rome?,1
+287,448,skyscanner80,hotels_hotel_auto_complete,What times of the year are the cheapest to book hotels in Sydney?,1
+288,449,skyscanner80,hotels_hotel_auto_complete,Which credit cards typically offer the best travel rewards for booking hotels and flights?,1
+289,500,skyscanner80,hotels_nearby_map,What is the average cost of a hotel room in Shenzhen?,1
+290,501,skyscanner80,hotels_nearby_map,Which hotel in Shenzhen is the best for a business trip?,1
+291,502,skyscanner80,hotels_nearby_map,What is the check-in and check-out time usually for hotels?,1
+292,503,skyscanner80,hotels_nearby_map,How can I find hotels that allow pets?,1
+293,504,skyscanner80,hotels_nearby_map,When is the best time to book a hotel in Shenzhen for getting a good deal?,1
+294,507,skyscanner80,hotels_nearby_map,What is a good hotel etiquette to follow?,1
+295,508,skyscanner80,hotels_nearby_map,Are there any hotels in Shenzhen that offer a shuttle service from the airport?,1
+296,580,weatherapi_com,realtime_weather_api,What's the optimal temperature for my plants growing at home?,1
+297,581,weatherapi_com,realtime_weather_api,Does the amount of cloud impact the city's temperature?,1
+298,582,weatherapi_com,realtime_weather_api,Will wearing a winter jacket in 10 degrees Celsius weather make me feel hot?,1
+299,583,weatherapi_com,realtime_weather_api,Is it often sunny in California?,1
+300,584,weatherapi_com,realtime_weather_api,"When is the best time for me to go hiking, considering the weather conditions?",1
+301,585,weatherapi_com,realtime_weather_api,Why does it often rain in spring?,1
+302,586,weatherapi_com,realtime_weather_api,"From the perspective of weather, when is the ideal time to visit Hawaii?",1
+303,587,weatherapi_com,realtime_weather_api,How does air pollution affect the weather?,1
+304,588,weatherapi_com,realtime_weather_api,What causes the four seasons to change?,1
+305,589,weatherapi_com,realtime_weather_api,Should I wear long sleeves if the temperature is 20.C outside?,1
+306,590,weatherapi_com,forecast_weather_api,"What are some common weather conditions during the month of April in Shenzhen, China?",1
+307,591,weatherapi_com,forecast_weather_api,How do typhoons usually affect the weather in Shenzhen?,1
+308,592,weatherapi_com,forecast_weather_api,Is it common for Shenzhen to have a humid climate during the summer months?,1
+309,594,weatherapi_com,forecast_weather_api,Which month of the year typically experiences the highest rainfall in Shenzhen?,1
+310,595,weatherapi_com,forecast_weather_api,How does the pollution in Shenzhen usually affect air quality in various seasons?,1
+311,596,weatherapi_com,forecast_weather_api,Are there any traditional festivals or events in Shenzhen that are affected by the weather?,1
+312,597,weatherapi_com,forecast_weather_api,How do people in Shenzhen usually prepare for sudden weather changes or emergencies?,1
+313,598,weatherapi_com,forecast_weather_api,Is it generally safe to go swimming at the beach in Shenzhen during the summer months?,1
+314,599,weatherapi_com,forecast_weather_api,What are the typical temperature ranges for each season in Shenzhen?,1
+315,600,weatherapi_com,ip_lookup_api,What is the difference between IPv4 and IPv6 addresses?,1
+316,601,weatherapi_com,ip_lookup_api,Can an IP address reveal my exact physical location?,1
+317,602,weatherapi_com,ip_lookup_api,How can I change my IP address for privacy reasons?,1
+318,603,weatherapi_com,ip_lookup_api,Do IP addresses change frequently for mobile devices?,1
+319,604,weatherapi_com,ip_lookup_api,What type of information can be gathered from an IP geolocation API?,1
+320,605,weatherapi_com,ip_lookup_api,How can a VPN help me mask my IP address?,1
+321,606,weatherapi_com,ip_lookup_api,What are the public and private IP address ranges?,1
+322,607,weatherapi_com,ip_lookup_api,How does dynamic IP allocation work?,1
+323,608,weatherapi_com,ip_lookup_api,Are there any precautions I should take when sharing my IP address online?,1
+324,610,weatherapi_com,time_zone_api,When do we need to adjust the clock for daylight saving time in Shenzhen?,1
+325,611,weatherapi_com,time_zone_api,How many time zones are there in the world?,1
+326,612,weatherapi_com,time_zone_api,Is the time difference between New York and Los Angeles always constant?,1
+327,613,weatherapi_com,time_zone_api,What is the standard time zone for China?,1
+328,614,weatherapi_com,time_zone_api,How do I know if my device automatically updates the time for daylight saving time?,1
+329,615,weatherapi_com,time_zone_api,When was the concept of time zones first introduced?,1
+330,616,weatherapi_com,time_zone_api,How do we calculate the time difference between two places given their longitudes?,1
+331,617,weatherapi_com,time_zone_api,What is the purpose of having Coordinated Universal Time (UTC)?,1
+332,619,weatherapi_com,time_zone_api,Which countries do not observe daylight saving time?,1
+333,620,weatherapi_com,astronomy_api,Why does the moon appear larger when it's near the horizon?,1
+334,621,weatherapi_com,astronomy_api,What causes the change in colors during sunrise and sunset?,1
+335,622,weatherapi_com,astronomy_api,How does the altitude and latitude of a location affect the length of day and night?,1
+336,623,weatherapi_com,astronomy_api,What is the difference between a solar eclipse and a lunar eclipse?,1
+337,624,weatherapi_com,astronomy_api,What is the cause of the moon's changing phases?,1
+338,625,weatherapi_com,astronomy_api,"In general, do summer days have earlier sunrises and later sunsets?",1
+339,626,weatherapi_com,astronomy_api,How does daylight saving time affect sunrise and sunset times?,1
+340,627,weatherapi_com,astronomy_api,What is the reason for the varying lengths of twilight throughout the year?,1
+341,628,weatherapi_com,astronomy_api,Why do some places in the world have midnight sun or polar night?,1
+342,629,weatherapi_com,astronomy_api,"What are some traditional cultural events related to the phases of the moon, such as Chinese Moon Festival?",1
+343,630,weatherapi_com,search_autocomplete_api,Can you recommend some popular tourist attractions in Paris?,1
+344,631,weatherapi_com,search_autocomplete_api,What is the most populous city in the world?,1
+345,632,weatherapi_com,search_autocomplete_api,How do I obtain a bus route from Shenzhen to nearby cities?,1
+346,633,weatherapi_com,search_autocomplete_api,Is it common to have traffic congestion in big cities like Beijing?,1
+347,634,weatherapi_com,search_autocomplete_api,What time does the last subway train depart in Shenzhen?,1
+348,635,weatherapi_com,search_autocomplete_api,Can you suggest some authentic Chinese restaurants in Shenzhen?,1
+349,636,weatherapi_com,search_autocomplete_api,What is the local language spoken in Paris?,1
+350,637,weatherapi_com,search_autocomplete_api,What's the average living cost in New York City?,1
+351,638,weatherapi_com,search_autocomplete_api,Are there any famous universities in London?,1
+352,639,weatherapi_com,search_autocomplete_api,How far is the Great Wall of China from Beijing?,1
+353,640,web_capture,take_image_screenshot,What's a recommended image resolution for posting website screenshots on social media?,1
+354,641,web_capture,take_image_screenshot,Can I use website screenshots for educational purposes under fair use policy?,1
+355,642,web_capture,take_image_screenshot,What's the importance of responsive web design in modern websites?,1
+356,643,web_capture,take_image_screenshot,How do I optimize the load time of a website for better performance?,1
+357,644,web_capture,take_image_screenshot,What are some tips for effective website design to enhance user experience?,1
+358,645,web_capture,take_image_screenshot,How should I cite a website screenshot when using it in a research paper?,1
+359,646,web_capture,take_image_screenshot,What's the difference between PNG and JPG image formats for saving screenshots?,1
+360,647,web_capture,take_image_screenshot,What are some popular screenshot tools available for desktop and mobile devices?,1
+361,648,web_capture,take_image_screenshot,How can I check the compatibility and responsiveness of my website across multiple devices?,1
+362,649,web_capture,take_image_screenshot,Which tools or methods can I use for color picking from a website screenshot?,1
+363,650,world_time_by_api_ninjas,v1_worldtime,What time do people in China usually have lunch?,1
+364,651,world_time_by_api_ninjas,v1_worldtime,When does daylight saving time begin in the United States?,1
+365,652,world_time_by_api_ninjas,v1_worldtime,How many time zones are there in Russia?,1
+366,653,world_time_by_api_ninjas,v1_worldtime,When does New Year's Eve happen in Australia compared to the United States?,1
+367,654,world_time_by_api_ninjas,v1_worldtime,"What time is the best to call my friend in London if I am in Shenzhen, and don't want to disturb his sleep?",1
+368,655,world_time_by_api_ninjas,v1_worldtime,Is there any country that observes half-hour time zone differences?,1
+369,656,world_time_by_api_ninjas,v1_worldtime,How long does it usually take to adapt to a 6-hour time difference when traveling?,1
+370,658,world_time_by_api_ninjas,v1_worldtime,Do all the states in the United States observe daylight saving time?,1
+371,659,world_time_by_api_ninjas,v1_worldtime,Which two countries have the largest time difference between them?,1

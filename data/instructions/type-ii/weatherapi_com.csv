@@ -1,0 +1,61 @@
+,Tool,API,Prompt,Type
+0,weatherapi_com,realtime_weather_api,"What's the current weather in Shenzhen, China?",2
+1,,,"Can you tell me the real-time weather condition at 22.5431, 114.0579 (Shenzhen's latitude and longitude)?",2
+2,,,What's the weather like at the Shenzhen Bao'an International Airport (IATA code: SZX)?,2
+3,,,Is it cloudy or sunny in Beijing right now?,2
+4,,,What is the current temperature in New York City (US zip: 10001)?,2
+5,,,Can you provide real-time weather information for London (UK postcode: SW1)?,2
+6,,,What are the current weather conditions in Toronto (Canada postal code: M5H)?,2
+7,,,Is it currently snowing in Moscow?,2
+8,,,What's the weather like right now at the Paris-Charles de Gaulle Airport (IATA code: CDG)?,2
+9,,,Can you give me the current weather for my location (auto:ip)?,2
+10,,forecast_weather_api,What will the weather in Beijing be like in 5 days?,2
+11,,,Give me a 7-day forecast for the weather in Hongkong.,2
+12,,,What's the weather forecast in Shenzhen for the next 10 days?,2
+13,,,I’m planning a trip to San Francisco next week. Can you tell me the weather forecast?,2
+14,,,Can you provide a weather forecast for the next 14 days in London in French?,2
+15,,,I need a 3-day weather forecast for 10001 zip code area in New York.,2
+16,,,Could you provide me with a 14 day weather forecast for the airport with the IATA code LHR?,2
+17,,,"We are planning a picnic in Hawaii next Sunday the 2nd of April, what is the weather forecast?",2
+18,,,"My sister lives in Canada, postal code G2J. Can you tell me the weather forecast there for the next week?",2
+19,,,"Can I have an 8-day weather forecast for the coordinates 48.8567,2.3508?",2
+20,,ip_lookup_api,Can you find out information about the IP address 192.168.0.1?,2
+21,,,What info is available for IP address 2001:0db8:85a3:0000:0000:8a2e:0370:7334 in IPv6 format?,2
+22,,,What details can you provide for my current IP address?,2
+23,,,Can you look up information for IP 172.16.254.100?,2
+24,,,Help me find details about IP address 123.45.67.89.,2
+25,,,"I want to know information about IP 10.0.0.2, can you find it for me?",2
+26,,,Provide information about IP address 2405:204:1234:abcd::1 in IPv6 format.,2
+27,,,What can you find about the IP address 223.255.255.254?,2
+28,,,Can you get me details about IP address 169.254.0.1?,2
+29,,,"I need information about my current IP address, can you help me?",2
+30,,time_zone_api,What's the current local time in Paris?,2
+31,,,Could you tell me the time zone of New York City by its zip code 10001?,2
+32,,,What is the local time at the location with latitude 48.8567 and longitude 2.3508?,2
+33,,,Can you provide the current time in Vancouver with its postal code G2J?,2
+34,,,"I need to know the time zone of the location with IP address 100.0.0.1, can you get it?",2
+35,,,What is the current time at EGLL airport by using its metar code?,2
+36,,,Can you tell me what is the time zone of the city where the DXB airport is located by using its IATA code?,2
+37,,,What's the local time now in Tokyo?,2
+38,,,Could you please let me know the current time in London using its postcode SW1?,2
+39,,,"By using the IP lookup method, could you tell me what the current time is for the place corresponding to my IP?",2
+40,,astronomy_api,When will the sun rise and set in Shenzhen today?,2
+41,,,What time is moonrise and moonset in Paris on 2024-3-25?,2
+42,,,What is the current moon phase and illumination in London on 2024-3-25?,2
+43,,,Can you tell me the sunrise and sunset times in New York City for 2024-03-25?,2
+44,,,I want to know the moonrise and moonset times for Tokyo on 2024-03-25.,2
+45,,,"What are the astronomy details for the coordinates 48.8567, 2.3508 on 2024-3-25?",2
+46,,,When does the sun rise and set in ZIP code 10001 on 2024-03-25?,2
+47,,,Can you provide the moon phase and illumination for Vancouver with the postal code G2J on 2024-3-25?,2
+48,,,What are the sunrise and sunset times for the UK postcode SW1 on 2024-03-25?,2
+49,,,"Using IP lookup, please tell me the astronomy information for my current location in Shenzhen on 2024-3-25.",2
+50,,search_autocomplete_api,Can you show me all the cities that match 'Shen'?,2
+51,,,What cities or towns exist with names that contain 'Beijing'?,2
+52,,,What towns in the UK have postal codes that begin with 'SW1'?,2
+53,,,Are there any towns whose names contain 'Zhuhai'?,2
+54,,,Can you list all the towns or cities that match 'Guang'?,2
+55,,,I’m looking for Canadian towns with postal code 'G2J'. What can you find?,2
+56,,,What are the cities that relate to 'Chicago' when I use the keyword searching?,2
+57,,,In what city will I find the airport with IATA code 'DXB'?,2
+58,,,"I have an IP address '100.0.0.1', what city does it relate to?",2
+59,,,I'm looking for cities and towns that have 'York' in their name.,2

@@ -1,0 +1,312 @@
+,did,tool_name,api_name,instruction,type,label
+0,40,airports,get_airport_by_iata_code,Can you tell me more information about the airport?,3,1
+1,41,airports,get_airport_by_iata_code,I want to know more about Hong Kong International Airport.,3,1
+2,42,airports,get_airport_by_iata_code,What is the information of Beijing International Airport?,3,1
+3,43,airports,get_airport_by_iata_code,Can you give me the local time of an airport?,3,1
+4,45,airports,get_airport_by_iata_code,Could I know the location of the airport?,3,1
+5,46,airports,get_airport_by_iata_code,What's the information about Frankfurt airport in Germany?,3,1
+6,47,airports,get_airport_by_iata_code,Is Los Angeles International Airport a large or small airport?,3,1
+7,48,airports,get_airport_by_iata_code,How many gates does the airport have?,3,1
+8,50,airports,get_airport_by_icao_code,Can you tell me the location of an airport?,3,1
+9,54,airports,get_airport_by_icao_code,Can you provide me with information about an airport?,3,1
+10,57,airports,get_airport_by_icao_code,How can I find the details of an airport nearby?,3,1
+11,59,airports,get_airport_by_icao_code,What are the airport facilities available?,3,1
+12,75,bing_search_apis,images_search,"I'd like to search for some images, can you help me?",3,1
+13,76,bing_search_apis,images_search,"Can you find some pictures for me, please?",3,1
+14,77,bing_search_apis,images_search,"I'm interested in looking at some images, can you assist me with that?",3,1
+15,78,bing_search_apis,images_search,Can you find some interesting images for me?,3,1
+16,81,calculator,calculate,Can you help me solve this equation?,3,1
+17,82,calculator,calculate,I need the answer to this arithmetic question.,3,1
+18,83,calculator,calculate,What's the outcome of this mathematical expression?,3,1
+19,84,calculator,calculate,Can you assist me in finding the solution to this problem?,3,1
+20,85,calculator,calculate,What is the value of this operation?,3,1
+21,86,calculator,calculate,I need help with computing this formula.,3,1
+22,87,calculator,calculate,Can you evaluate this math equation for me?,3,1
+23,88,calculator,calculate,I want to know the result of this calculation.,3,1
+24,89,calculator,calculate,Can you find the solution to this mathematical issue?,3,1
+25,106,calendar,display_calendar_of_month,Display the calendar of a certain month.,3,1
+26,107,calendar,display_calendar_of_month,Show me the number of weekends in a month.,3,1
+27,109,calendar,display_calendar_of_month,What is the start day of the month?,3,1
+28,120,currency_exchange,exchange,How much do I get for 100 USD in another currency?,3,1
+29,121,currency_exchange,exchange,What's the exchange rate from Euro to another currency?,3,1
+30,122,currency_exchange,exchange,"I want to exchange my British Pounds, what's the rate?",3,1
+31,126,currency_exchange,exchange,Can you tell me the current exchange rate?,3,1
+32,128,currency_exchange,exchange,I want to understand how much I get when I exchange money. ,3,1
+33,130,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of the cities in China?,3,1
+34,131,geocoding_by_api_ninjas,v1_geocoding,I need to know the coordinates of the main cities in India.,3,1
+35,132,geocoding_by_api_ninjas,v1_geocoding,What are the coordinates of the cities in the United States?,3,1
+36,133,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of the cities in California?,3,1
+37,134,geocoding_by_api_ninjas,v1_geocoding,I want to know the coordinates of the cities in Texas.,3,1
+38,136,geocoding_by_api_ninjas,v1_geocoding,Can you convert this location to coordinates?,3,1
+39,137,geocoding_by_api_ninjas,v1_geocoding,Can you tell me the coordinates of this place?,3,1
+40,138,geocoding_by_api_ninjas,v1_geocoding,Can you send me the coordinates of the main cities?,3,1
+41,139,geocoding_by_api_ninjas,v1_geocoding,I need the coordinates. Can you provide them?,3,1
+42,140,geocoding_by_api_ninjas,v1_reversegeocoding,"I have the latitude 22.5431, what city is closest to this latitude?",3,1
+43,141,geocoding_by_api_ninjas,v1_reversegeocoding,Can you tell me the location that corresponds to the latitude 34.0522?,3,1
+44,142,geocoding_by_api_ninjas,v1_reversegeocoding,I wanna know which city is at latitude 51.5074.,3,1
+45,143,geocoding_by_api_ninjas,v1_reversegeocoding,What city is near the longitude 114.0579?,3,1
+46,144,geocoding_by_api_ninjas,v1_reversegeocoding,I want to know which city is located at longitude -118.2437?,3,1
+47,145,geocoding_by_api_ninjas,v1_reversegeocoding,What city corresponds to longitude 0.1276?,3,1
+48,146,geocoding_by_api_ninjas,v1_reversegeocoding,Can you tell me the city at these coordinates?,3,1
+49,148,geocoding_by_api_ninjas,v1_reversegeocoding,"I'm trying to figure out which city these coordinates point to, could you help me out?",3,1
+50,149,geocoding_by_api_ninjas,v1_reversegeocoding,Can you help me find the city location for these coordinates I have been given?,3,1
+51,150,google_api,video_search,Can you find videos for me?,3,1
+52,151,google_api,video_search,Which videos are trending right now?,3,1
+53,152,google_api,video_search,Can you find me videos with moderate safesearch enabled?,3,1
+54,153,google_api,video_search,I would like to see videos with safesearch turned off.,3,1
+55,154,google_api,video_search,I want to watch videos popular in the US.,3,1
+56,155,google_api,video_search,Show me videos from the UK region.,3,1
+57,159,google_api,video_search,Show me the top five videos.,3,1
+58,161,google_translate,detect,"I received a message, can you help me figure out what language it is in?",3,1
+59,162,google_translate,detect,"I found a foreign text, can you analyze its language origin?",3,1
+60,163,google_translate,detect,Can you identify the language of this song lyrics?,3,1
+61,164,google_translate,detect,"I recorded a snippet of conversation, can you tell me what language they're speaking?",3,1
+62,165,google_translate,detect,I have a cultural artifact with inscriptions on it. Can you tell me what language this might be?,3,1
+63,166,google_translate,detect,I have a document in an unknown language. Can you help me identify it?,3,1
+64,167,google_translate,detect,What language is this poem written in?,3,1
+65,168,google_translate,detect,"I found a note, can you determine its language origin for me?",3,1
+66,169,google_translate,detect,What language does this sign use?,3,1
+67,190,image_processing,compress_image,Can you compress this image to a quality of 50?,3,1
+68,191,image_processing,compress_image,"I want to reduce the quality of my photo to 30, can you help me?",3,1
+69,192,image_processing,compress_image,"I need to lower the quality of this picture to 15, can you do it?",3,1
+70,193,image_processing,compress_image,Can you compress the size of my image?,3,1
+71,194,image_processing,compress_image,"I want to reduce the quality of this image, can you assist?",3,1
+72,195,image_processing,compress_image,Can this image be compressed to a smaller size?,3,1
+73,196,image_processing,compress_image,Could you compress this photo for me?,3,1
+74,197,image_processing,compress_image,"I need to compress an image, could you help?",3,1
+75,199,image_processing,compress_image,"I'd like to reduce the file size of an image, could you do it for me?",3,1
+76,200,image_processing,resize_image,Can you resize the image from this path files/object_detection/panda.jpg?,3,1
+77,201,image_processing,resize_image,"I found a cool picture at files/object_detection/tiger.jpg, can you make it bigger?",3,1
+78,202,image_processing,resize_image,Resize the image from my download folder at files/object_detection/dog-and-cat2.jpeg.,3,1
+79,203,image_processing,resize_image,"I want to increase the image size by 1.5 times, can you do it?",3,1
+80,204,image_processing,resize_image,Can we reduce the image size by half?,3,1
+81,205,image_processing,resize_image,"Make the image three quarters of its original size, please.",3,1
+82,206,image_processing,resize_image,Can you resize the image for me?,3,1
+83,207,image_processing,resize_image,"I want the image to be bigger, can you help?",3,1
+84,208,image_processing,resize_image,Can I have this image in a smaller size?,3,1
+85,209,image_processing,resize_image,Is it possible to change the image size?,3,1
+86,210,image_processing,convert_format,Can you convert my image to a PNG format?,3,1
+87,211,image_processing,convert_format,I want to change the format of my photo to JPEG.,3,1
+88,212,image_processing,convert_format,How can I get my picture in the WebP format?,3,1
+89,213,image_processing,convert_format,"I have an image at ""files/rm_bg/dog2.jpg"", can you convert it to another format?",3,1
+90,214,image_processing,convert_format,"Please convert my image located at ""files/rm_bg/flower.jpg"".",3,1
+91,215,image_processing,convert_format,"I need to change the format of my logo, which is at ""files/rm_bg/dog2.jpg"".",3,1
+92,216,image_processing,convert_format,How can I convert an image format?,3,1
+93,217,image_processing,convert_format,Can you help me change the format of a picture?,3,1
+94,218,image_processing,convert_format,"I want to convert a photo to another format, how can I do that?",3,1
+95,219,image_processing,convert_format,Is it possible to change my image to a different format?,3,1
+96,220,image_remove_bg,remove_bg,Can you remove the background of this picture?,3,1
+97,221,image_remove_bg,remove_bg,I want to get rid of the background in my image.,3,1
+98,222,image_remove_bg,remove_bg,How can I make the background of my photo transparent?,3,1
+99,223,image_remove_bg,remove_bg,I'd like to have an image without its background.,3,1
+100,224,image_remove_bg,remove_bg,Can you help me with background removal?,3,1
+101,225,image_remove_bg,remove_bg,Is it possible to erase the background of a given image?,3,1
+102,226,image_remove_bg,remove_bg,How do I remove the background from a photo?,3,1
+103,227,image_remove_bg,remove_bg,I want to create a transparent background for my image.,3,1
+104,228,image_remove_bg,remove_bg,Can you make the background of this picture disappear?,3,1
+105,229,image_remove_bg,remove_bg,I need assistance with removing the background of an image.,3,1
+106,230,image_translation,image_translation,Can you translate the text in this image for me?,3,1
+107,231,image_translation,image_translation,"I can't understand the text in this image, could you translate it?",3,1
+108,232,image_translation,image_translation,"Please help me translate the text this image, it's in a different language.",3,1
+109,233,image_translation,image_translation,Can you translate this text from German for me?,3,1
+110,234,image_translation,image_translation,"I have a picture with Italian text, can you translate it?",3,1
+111,235,image_translation,image_translation,Please translate this text from French to English. ,3,1
+112,236,image_translation,image_translation,Can you translate this image's text into Chinese?,3,1
+113,237,image_translation,image_translation,Please translate this French text into German.,3,1
+114,238,image_translation,image_translation,I need this Hungarian text to be translated to Spanish. ,3,1
+115,239,image_translation,image_translation,"I have an image with German text, can you translate it? ",3,1
+116,252,ip_geo_location,ip_lookup,In what format can I get geo information for my IP? ,3,1
+117,255,ip_geo_location,ip_lookup,Can you show me the ip details in Chinese?,3,1
+118,257,ip_geo_location,ip_lookup,I want to look up the details of this IP.,3,1
+119,258,ip_geo_location,ip_lookup,I would like to know about an IP address.,3,1
+120,290,news_api,search,Tell me about the current news in Shenzhen.,3,1
+121,292,news_api,search,What are the recent news articles from the US?,3,1
+122,294,news_api,search,Can I get the top news in English?,3,1
+123,298,news_api,search,What were the major news events between 2024-03-01 and 2024-03-20?,3,1
+124,300,objects_detection,objects_detection,Can you analyse this image I have on my device?,3,1
+125,301,objects_detection,objects_detection,What objects are in this artwork I photographed?,3,1
+126,303,objects_detection,objects_detection,Could you analyse this image I found online for objects?,3,1
+127,304,objects_detection,objects_detection,"I have found an interesting image on the internet, can it be analyzed for identifiable objects?",3,1
+128,305,objects_detection,objects_detection,What objects are in this online image?,3,1
+129,306,objects_detection,objects_detection,Can you detect objects in images?,3,1
+130,308,objects_detection,objects_detection,Can you describe what is in this image?,3,1
+131,309,objects_detection,objects_detection,Could you find out about the objects in my image?,3,1
+132,310,ocr_extract_text,extract_text_from_image_url,Can you help me extract text from this image?,3,1
+133,311,ocr_extract_text,extract_text_from_image_url,"I have a photo with texts that I want to get, can you do it?",3,1
+134,312,ocr_extract_text,extract_text_from_image_url,"I cannot read the texts in the picture I have, can your tool help?",3,1
+135,313,ocr_extract_text,extract_text_from_image_url,"There is an article printed on the paper, and I have shot a photo of it, can you help me extract the contents?",3,1
+136,320,ocr_extract_text,extract_text_from_image_file,Can you extract the text in the image I have?,3,1
+137,321,ocr_extract_text,extract_text_from_image_file,"I have a JPEG file, can you read the text from it?",3,1
+138,322,ocr_extract_text,extract_text_from_image_file,What text is written in this PNG image?,3,1
+139,323,ocr_extract_text,extract_text_from_image_file,"I have a picture with some text, can you help me get that text?",3,1
+140,324,ocr_extract_text,extract_text_from_image_file,"There's an image with words in it, can you tell me what it says?",3,1
+141,325,ocr_extract_text,extract_text_from_image_file,Can you extract text from a photo for me?,3,1
+142,326,ocr_extract_text,extract_text_from_image_file,"I need to get the text out of an image, can you help?",3,1
+143,327,ocr_extract_text,extract_text_from_image_file,Is it possible to extract text from this picture I have?,3,1
+144,328,ocr_extract_text,extract_text_from_image_file,"I want to know the text in this image I found, can you help?",3,1
+145,329,ocr_extract_text,extract_text_from_image_file,Can you read the text from a picture I've got?,3,1
+146,330,onecompiler_apis,execute_code,Can you execute my code?,3,1
+147,331,onecompiler_apis,execute_code,I want to test my python program online.,3,1
+148,332,onecompiler_apis,execute_code,Can you run a script for me?,3,1
+149,333,onecompiler_apis,execute_code,How can I execute this script online?,3,1
+150,334,onecompiler_apis,execute_code,"I have this Python function to calculate the factorial of a number, can I test it online?",3,1
+151,335,onecompiler_apis,execute_code,"Look at this Python loop, can you execute it?",3,1
+152,336,onecompiler_apis,execute_code,Can I run this python Hello World code on your platform?,3,1
+153,338,onecompiler_apis,execute_code,I wrote this Python code and I need to know if it runs properly.,3,1
+154,339,onecompiler_apis,execute_code,Will this Python code for sorting a list give the right output?,3,1
+155,341,public_holiday,public_holidays,Can you tell me the public holidays in the United States?,3,1
+156,343,public_holiday,public_holidays,When are the public holidays for 2025?,3,1
+157,344,public_holiday,public_holidays,What were the public holidays in 2022?,3,1
+158,345,public_holiday,public_holidays,Were there any bank holidays in 2020?,3,1
+159,346,public_holiday,public_holidays,When are the public holidays?,3,1
+160,347,public_holiday,public_holidays,Can you show me the bank holidays?,3,1
+161,348,public_holiday,public_holidays,I want to know the holidays.,3,1
+162,349,public_holiday,public_holidays,What are the important dates to remember this year?,3,1
+163,352,recipe_by_api_ninjas,v1_recipe,Do you have any cooking ideas?,3,1
+164,353,recipe_by_api_ninjas,v1_recipe,"I want to cook something new, what do you suggest?",3,1
+165,354,recipe_by_api_ninjas,v1_recipe,What should I cook today?,3,1
+166,355,recipe_by_api_ninjas,v1_recipe,Could you recommend me some dishes to cook?,3,1
+167,356,recipe_by_api_ninjas,v1_recipe,Any recipe suggestions for tonight's dinner?,3,1
+168,357,recipe_by_api_ninjas,v1_recipe,What can I cook with these ingredients? ,3,1
+169,358,recipe_by_api_ninjas,v1_recipe,"I'm not sure what to cook, do you have any recommendations?",3,1
+170,359,recipe_by_api_ninjas,v1_recipe,Can you give me some recipes for me to try out? ,3,1
+171,374,skyscanner80,flights_auto_complete,Show me the information of airports in my language Russian.,3,1
+172,375,skyscanner80,flights_auto_complete,Can you display airport options in Japanese?,3,1
+173,376,skyscanner80,flights_auto_complete,Can I know the different airports for my flights?,3,1
+174,377,skyscanner80,flights_auto_complete,Can you show me the options of airports?,3,1
+175,378,skyscanner80,flights_auto_complete,Where can I find airport options?,3,1
+176,379,skyscanner80,flights_auto_complete,Can you provide a list of available airports?,3,1
+177,381,skyscanner80,flights_search_one_way,Can you give me some suggestions on the one-way flights from Beijing tomorrow?,3,1
+178,382,skyscanner80,flights_search_one_way,I want to know the one-way flights from New York on 2024-06-01.,3,1
+179,384,skyscanner80,flights_search_one_way,Could you please provide me with some choices of one-way flights to Orlando?,3,1
+180,385,skyscanner80,flights_search_one_way,I'm planning to go to London. Any advice on one-way flights?,3,1
+181,387,skyscanner80,flights_search_one_way,I want to leave the city around this year's national day. Can you help to find some one-way flights?,3,1
+182,388,skyscanner80,flights_search_one_way,Is there any recommended one-way flight on 2024-06-01?,3,1
+183,389,skyscanner80,flights_search_one_way,Could you help me to look up some one-way flights?,3,1
+184,390,skyscanner80,flights_search_roundtrip,Can you find me a round trip flight from Shenzhen?,3,1
+185,391,skyscanner80,flights_search_roundtrip,"I want to book a round trip flight to Tokyo, can you help me with that?",3,1
+186,392,skyscanner80,flights_search_roundtrip,"Can you show me round trip flights leaving on May 10th, 2024?",3,1
+187,393,skyscanner80,flights_search_roundtrip,"I'd like to return on May 20th, 2024. Can you find me a round trip flight?",3,1
+188,394,skyscanner80,flights_search_roundtrip,Can you help me find round trip flights from Shenzhen to Bangkok?,3,1
+189,395,skyscanner80,flights_search_roundtrip,"I want to fly from Shenzhen on August 15th, 2024. Can you find me a round trip flight?",3,1
+190,396,skyscanner80,flights_search_roundtrip,"I need to fly from Shenzhen and come back on September 10th, 2024. Can you help?",3,1
+191,397,skyscanner80,flights_search_roundtrip,"I'd like to fly to London on October 1st, 2024. Can you find me a round trip flight?",3,1
+192,398,skyscanner80,flights_search_roundtrip,"Can you find me a round trip flight to Sydney that returns on December 1st, 2024?",3,1
+193,399,skyscanner80,flights_search_roundtrip,"Can you book me a round trip flight between April 1st, 2024, and April 15th, 2024?",3,1
+194,404,skyscanner80,flights_search_everywhere,"What destinations are available for flights departing on October 1st, 2024?",3,1
+195,405,skyscanner80,flights_search_everywhere,"Show me flight options for May 20th, 2024.",3,1
+196,407,skyscanner80,flights_search_everywhere,"I want to go on a trip, but I'm not sure where. Please suggest some flights.",3,1
+197,408,skyscanner80,flights_search_everywhere,Show me flights for my next vacation.,3,1
+198,409,skyscanner80,flights_search_everywhere,"I'm looking for flight ideas, can you help me?",3,1
+199,410,skyscanner80,flights_search_incomplete,Can I see the possible flights for my trip?,3,1
+200,412,skyscanner80,flights_search_incomplete,How much does it cost for the flight I found before?,3,1
+201,427,skyscanner80,flights_flight_detail,I would like to know more about my flight.,3,1
+202,430,skyscanner80,flights_price_calendar,"I'm planning a trip from New York to London, when should I book my flights?",3,1
+203,431,skyscanner80,flights_price_calendar,Can you compare flight rates from Beijing to Sydney for me?,3,1
+204,432,skyscanner80,flights_price_calendar,What are the flights from Paris to Rome?,3,1
+205,433,skyscanner80,flights_price_calendar,I want to leave from San Francisco around the start of June and return in a week. What are my options?,3,1
+206,434,skyscanner80,flights_price_calendar,Can you find flights for me from LA from 2024-05-01 to 2024-05-07?,3,1
+207,435,skyscanner80,flights_price_calendar,"I'm starting from Tokyo, planning for a 2-week holiday around 2024-10-15. What would you suggest?",3,1
+208,436,skyscanner80,flights_price_calendar,"I'm planning a trip to Sydney, leaving around the middle of July and coming back at the beginning of August. Can you find flights for me?",3,1
+209,437,skyscanner80,flights_price_calendar,I want to go to London from 2024-09-01 to 2024-09-10. Can you help me find flights?,3,1
+210,438,skyscanner80,flights_price_calendar,Can you find flights for me to Rome around 2024-12-25 for about two weeks?,3,1
+211,445,skyscanner80,hotels_hotel_auto_complete,Can you recommend some hotels for my trip?,3,1
+212,446,skyscanner80,hotels_hotel_auto_complete,"I'm planning to visit a city, can you find hotels for me?",3,1
+213,447,skyscanner80,hotels_hotel_auto_complete,Where can I find hotels during my vacation?,3,1
+214,448,skyscanner80,hotels_hotel_auto_complete,Can you help me search for hotels during my stay?,3,1
+215,449,skyscanner80,hotels_hotel_auto_complete,How do I find the best hotels in the destination I'm traveling to?,3,1
+216,450,skyscanner80,hotels_search,Can you find hotels in Shenzhen for me?,3,1
+217,452,skyscanner80,hotels_search,"I need to book a hotel from 2024-06-02, can you help me find one?",3,1
+218,453,skyscanner80,hotels_search,What options do I have for hotels starting from 2024-07-01?,3,1
+219,454,skyscanner80,hotels_search,"I want to check out on 2024-07-10, what hotels can I choose from?",3,1
+220,455,skyscanner80,hotels_search,Can you find me hotels with checkout on 2024-08-01?,3,1
+221,456,skyscanner80,hotels_search,"Can you help me book a hotel in Shenzhen, China, starting from 2024-07-20?",3,1
+222,459,skyscanner80,hotels_search,"Can you find me hotels in Shenzhen, China, with check-out on 2024-05-20?",3,1
+223,463,skyscanner80,hotels_hotel_detail,What can you tell me about the hotels in the US market?,3,1
+224,472,skyscanner80,hotels_prices,"I want to check-in on 2024-05-01, how much will it cost?",3,1
+225,473,skyscanner80,hotels_prices,What's the price if I check-in on 2024-07-01?,3,1
+226,474,skyscanner80,hotels_prices,"If I check-out on 2024-06-05, how much will I need to pay?",3,1
+227,475,skyscanner80,hotels_prices,What would the price be if I check-out on 2024-11-15?,3,1
+228,476,skyscanner80,hotels_prices,Can you tell me the prices of hotels? ,3,1
+229,477,skyscanner80,hotels_prices,"I'm planning a trip, can you tell me the cost of stay? ",3,1
+230,478,skyscanner80,hotels_prices,"I am planning to travel tomorrow, can you tell me how much it costs to stay at the hotel?",3,1
+231,479,skyscanner80,hotels_prices,Can you provide some information on the cost of hotels?,3,1
+232,492,skyscanner80,hotels_similar_hotels,"I need a hotel on 2024-04-15, can you help?",3,1
+233,493,skyscanner80,hotels_similar_hotels,I'm planning to stay in a hotel starting from 2024-05-22.,3,1
+234,494,skyscanner80,hotels_similar_hotels,"I will check out on 2024-07-14, what are some similar hotels for my stay?",3,1
+235,495,skyscanner80,hotels_similar_hotels,Which hotels are similar to this one if I want to check out on 2024-08-30?,3,1
+236,540,tourist_attraction,search,What tourist attractions can I visit in Paris?,3,1
+237,541,tourist_attraction,search,Are there any historical sites worth visiting in Beijing?,3,1
+238,542,tourist_attraction,search,"I am going to Tokyo, what can I visit there?",3,1
+239,543,tourist_attraction,search,Can you provide me information of tourist attractions in French?,3,1
+240,545,tourist_attraction,search,Can you provide attraction details in Spanish?,3,1
+241,546,tourist_attraction,search,I want to know the ticket prices in EUR for the tourist sites.,3,1
+242,547,tourist_attraction,search,Can you provide me the attraction prices in USD?,3,1
+243,548,tourist_attraction,search,I need to know how much it costs to enter those places in CNY.,3,1
+244,550,tourist_attraction,detail,Can you give me more details about the Statue of Liberty?,3,1
+245,551,tourist_attraction,detail,Can you provide more information about the Eiffel Tower?,3,1
+246,552,tourist_attraction,detail,Can you give me some information about a certain tourist spot in English?,3,1
+247,553,tourist_attraction,detail,"I am planning my schedule currently, could you present some details of tourist attractions in Mandarin?",3,1
+248,555,tourist_attraction,detail,"I am budgeting for a tour, could you provide data about some famous tourist attractions using the British Pound as the currency?",3,1
+249,556,tourist_attraction,detail,Can you provide details about the Great Wall of China in German?,3,1
+250,557,tourist_attraction,detail,I want to know more about the Leaning Tower of Pisa in Italian language.,3,1
+251,558,tourist_attraction,detail,Could you give me details of the Sydney Opera House with the cost in dollars?,3,1
+252,560,tourist_attraction,photos,Could you show me the photos of the Eiffel Tower with descriptions in French?,3,1
+253,561,tourist_attraction,photos,I want to see some photos of the Great Wall. The explanation should be in Mandarin.,3,1
+254,562,tourist_attraction,photos,How much does it cost to visit the Colosseum in euros?,3,1
+255,563,tourist_attraction,photos,Show me a photo of the Grand Canyon and tell me the admission fee in USD.,3,1
+256,564,tourist_attraction,photos,What are the standard prices for popular attractions in Germany in euros? Can you provide details in German?,3,1
+257,566,tourist_attraction,photos,Can you show me some photos of London Eye?,3,1
+258,567,tourist_attraction,photos,I want to see how the Sydney Opera House looks like.,3,1
+259,568,tourist_attraction,photos,Could you provide some pictures with Italian descriptions?,3,1
+260,569,tourist_attraction,photos,I wish to view photos with detailed descriptions in Spanish.,3,1
+261,571,tourist_attraction,reviews,What's being said in Mandarin about the Eiffel Tower?,3,1
+262,575,tourist_attraction,reviews,Can you show me reviews for Disneyland?,3,1
+263,580,weatherapi_com,realtime_weather_api,What is the current weather?,3,1
+264,581,weatherapi_com,realtime_weather_api,Can you tell me the real-time temperature right now?,3,1
+265,582,weatherapi_com,realtime_weather_api,Is it going to rain in the next hour?,3,1
+266,583,weatherapi_com,realtime_weather_api,What's the humidity level at the moment?,3,1
+267,584,weatherapi_com,realtime_weather_api,How strong is the wind currently?,3,1
+268,585,weatherapi_com,realtime_weather_api,Is there any weather alert right now?,3,1
+269,586,weatherapi_com,realtime_weather_api,Can you tell me the air quality index right now?,3,1
+270,587,weatherapi_com,realtime_weather_api,What is the current visibility?,3,1
+271,588,weatherapi_com,realtime_weather_api,Is it cloudy outside?,3,1
+272,589,weatherapi_com,realtime_weather_api,What's the weather condition right now?,3,1
+273,590,weatherapi_com,forecast_weather_api,What's the weather forecast for the next week?,3,1
+274,591,weatherapi_com,forecast_weather_api,Can you tell me the weather alerts for the coming days?,3,1
+275,592,weatherapi_com,forecast_weather_api,What is the expected weather in Chicago?,3,1
+276,594,weatherapi_com,forecast_weather_api,Can I have the details for tomorrow's weather?,3,1
+277,595,weatherapi_com,forecast_weather_api,Is there any weather alerts for the day after tomorrow?,3,1
+278,598,weatherapi_com,forecast_weather_api,Can you tell me the weather forecast?,3,1
+279,599,weatherapi_com,forecast_weather_api,Can I have the weather alerts for the upcoming days?,3,1
+280,609,weatherapi_com,ip_lookup_api,How do I get information about an IP address?,3,1
+281,610,weatherapi_com,time_zone_api,What's the current time now?,3,1
+282,611,weatherapi_com,time_zone_api,Can you tell me the time in the location I'm going to travel?,3,1
+283,612,weatherapi_com,time_zone_api,"I'm in a online meeting right now, can you tell me the local time of the participants?",3,1
+284,613,weatherapi_com,time_zone_api,Do you know the time difference between my place and the place I'm going to have a business trip?,3,1
+285,614,weatherapi_com,time_zone_api,What is the time zone of my place?,3,1
+286,615,weatherapi_com,time_zone_api,"Can you tell me the local time of my friend in another country, I don't remember his city name.",3,1
+287,616,weatherapi_com,time_zone_api,What's the current time at the airport I'm heading to?,3,1
+288,617,weatherapi_com,time_zone_api,Can you inform me about the local time at my next stop?,3,1
+289,618,weatherapi_com,time_zone_api,"I want to check my system clock, should be there any reference?",3,1
+290,619,weatherapi_com,time_zone_api,"I want to keep track of the time, can you help me?",3,1
+291,620,weatherapi_com,astronomy_api,What time is sunrise in Beijing?,3,1
+292,621,weatherapi_com,astronomy_api,Can you tell me the time of moonset for London?,3,1
+293,622,weatherapi_com,astronomy_api,What's the moon phase in New York currently?,3,1
+294,623,weatherapi_com,astronomy_api,Give me the sunrise and sunset times for Paris.,3,1
+295,624,weatherapi_com,astronomy_api,Tell me about the current illumination in Sydney.,3,1
+296,625,weatherapi_com,astronomy_api,"What was the moonset time for January 1, 2023?",3,1
+297,626,weatherapi_com,astronomy_api,"Could you provide the sunrise time for December 25, 2023?",3,1
+298,627,weatherapi_com,astronomy_api,What was the moon phase on the last Christmas?,3,1
+299,628,weatherapi_com,astronomy_api,Could you tell me the time of sunrise?,3,1
+300,629,weatherapi_com,astronomy_api,What was the illumination feature yesterday?,3,1
+301,641,web_capture,take_image_screenshot,I need a screenshot from this YouTube video.,3,1
+302,643,web_capture,take_image_screenshot,I need a screenshot with a height of 480 pixels.,3,1
+303,644,web_capture,take_image_screenshot,Can I get an image with the height of 1024px?,3,1
+304,645,web_capture,take_image_screenshot,Can you provide a screenshot with a height of 768 pixels?,3,1
+305,646,web_capture,take_image_screenshot,I need a screenshot with a width of 1280 pixels.,3,1
+306,647,web_capture,take_image_screenshot,Can I get an image with the width of 720px?,3,1
+307,648,web_capture,take_image_screenshot,Can you provide a screenshot with a width of 840 pixels?,3,1
+308,649,web_capture,take_image_screenshot,Can you take a screenshot?,3,1
+309,656,world_time_by_api_ninjas,v1_worldtime,Can I know the current time in the GMT timezone?,3,1
+310,657,world_time_by_api_ninjas,v1_worldtime,I would like to know the current time in the EST timezone.,3,1

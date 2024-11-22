@@ -1,0 +1,43 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+1. web_search: Web search.
+2. images_search: Search images from the search engine for the most relevant keywords and images related to keywords and images.
+3. video_search: Search videos over web.
+4. news_api/search: Endpoint to search news by specific keywords.
+
+For example:
+Instruction: Any news about NBA finals?
+
+
+==== RESPONSE ====
+Instruction 1:
+Create a monthly report providing a comparison between the current market trends of electric vehicles and hybrid cars.
+- Use the `web_search` API to gather data on the latest electric vehicle technologies and market trends.
+- Use the `news_api/search` with keywords such as "electric vehicles market trends" and "hybrid cars market analysis" to find recent articles and analyses.
+- Compile the information highlighting key points where electric vehicles excel and where hybrid cars may be falling behind or advancing.
+
+Instruction 2:
+Prepare a travel guide for top historic destinations in Europe including visual content.
+- Utilize the `web_search` API to find top-rated historic sites within Europe.
+- Use the `images_search` API for each destination to source a collection of high-quality images.
+- Execute a `video_search` for travel vlogs or documentaries related to each of these historic destinations to provide additional visual insights.
+- Assemble this information into an engaging travel guide format.
+
+Instruction 3:
+Compile a weekly sports highlight reel featuring top football moments.
+- Implement the `news_api/search` with keywords such as “football highlights” and “top football plays this week” to get the latest news and events.
+- Use the `video_search` API to find clips and highlights from recent football games mentioned in the news.
+- Merge the content into a video compilation that showcases spectacular moments from the week’s games, providing narration or subtitles summarizing the clips if necessary.
+
+Instruction 4:
+Research and present a brief analysis of the impact of artificial intelligence on healthcare in the last year.
+- Apply the `news_api/search` using keywords like “artificial intelligence in healthcare” and select the filter for the past year to gather relevant articles.
+- Leverage the `web_search` API for academic papers, white papers, or case studies to gain deeper insights.
+- Summarize your findings that detail how AI integration is influencing different areas of healthcare, such as diagnostics, treatment personalization, and patient care.
+
+Instruction 5:
+Create an educational piece on the latest advancements in renewable energy and their environmental benefits.
+- Use the `web_search` API to collect up-to-date information on the newest renewable energy technologies and recent advancements.
+- Employ the `images_search` API to find diagrams, infographics, or visual representations of these technologies and their operation.
+- Engage the `news_api/search` to source recent news articles discussing the environmental impacts and benefits of the latest advancements in renewable energy.
+- Present the information as an article or a video to educate readers or viewers about the state-of-the-art in renewable energy and its positive effects on the environment.

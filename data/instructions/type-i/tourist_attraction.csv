@@ -1,0 +1,71 @@
+,Tool,API,Prompt,Type
+0,tourist_attraction,currencies,What would be an ideal time to visit the Great Wall of China?,1
+1,,,How can I protect myself from pickpockets when visiting tourist attractions?,1
+2,,,What other famous landmarks are near the Sydney Opera House?,1
+3,,,What is the local traditional dish I should try when visiting the Eiffel Tower in Paris?,1
+4,,,What kind of outfit is appropriate outdoors considering the current climate in London?,1
+5,,,What should I bring as a gift if I visit a local family in Japan?,1
+6,,,How can I communicate with local people in Egypt if I can't speak Arabic?,1
+7,,,Do I need a visa or special permission to tour the Great Mosque of Mecca in Saudi Arabia?,1
+8,,,"Is it safe for solo female travelers in Istanbul, Turkey?",1
+9,,,"Are there any recommended travel insurance companies for a trip to Rome, Italy?",1
+10,,languages,What is the recommended duration of a visit to the Louvre Museum in Paris?,1
+11,,,Does the Great Wall of China have wheelchair accessibility?,1
+12,,,How much is the average cost of food near the Pyramids of Giza?,1
+13,,,What is the best time of year to visit the Eiffel Tower in Paris?,1
+14,,,What do I need to wear when visiting the Taj Mahal in India?,1
+15,,,Can I bring my pet with me to Disneyland in California?,1
+16,,,Is it safe to visit the Colosseum in Rome at night?,1
+17,,,How to travel from downtown London to the British Museum by bus?,1
+18,,,Where can I find a guide for a tour in the Acropolis in Athens?,1
+19,,,Are there any children's activities at the Natural History Museum in Washington D.C?,1
+20,,typeahead,What is the best time of year to visit the Great Wall of China?,1
+21,,,What cultural significance does the Forbidden City hold in Chinese history?,1
+22,,,What is the typical cost to visit Disneyland in Hong Kong?,1
+23,,,What do I need to know about local customs and etiquette before visiting the Taj Mahal?,1
+24,,,Can you recommend local restaurants near the Louvre Museum in Paris?,1
+25,,,Are there any hiking trails available near the Victoria Peak in Hong Kong?,1
+26,,,What is the recommended itinerary for a day trip to the Summer Palace in Beijing?,1
+27,,,What are some of the notable exhibits in the British Museum in London?,1
+28,,,Is there a recommended time to visit the Pyramids of Giza to avoid the crowds?,1
+29,,,What are some of the must-have travel items for a trip to Mount Everest? ,1
+30,,search,Is it better to visit the Eiffel Tower in the morning or in the afternoon?,1
+31,,,What metro station is closest to the Great Wall of China?,1
+32,,,What is the best season to visit Mount Fuji?,1
+33,,,What is the history behind Colosseum in Rome?,1
+34,,,How much does it cost to enter the Louvre Museum in Paris?,1
+35,,,What are the opening hours of the British Museum in London?,1
+36,,,What precautions should I take while visiting Machu Picchu?,1
+37,,,Are there any dress codes for visiting the Grand Mosque in Abu Dhabi?,1
+38,,,What is the significance of the Statue of Liberty in the United States?,1
+39,,,"Is it safe to visit the Pyramids of Egypt now, considering the current global political situation?",1
+40,,detail,"What was the architect behind the design of the Eiffel Tower in Paris, France?",1
+41,,,Is it advisable to visit the Great Wall of China in the winter season?,1
+42,,,How do I get a visa to visit the landmarks in Italy as a Chinese citizen?,1
+43,,,What other famous landmarks are there in Rome besides the Colosseum?,1
+44,,,Does the Chinese National Museum have disability access?,1
+45,,,"How old should my child be before I can take them to Universal Studios, Florida?",1
+46,,,What are the safety measures I need to observe while visiting the Galapagos Islands in Ecuador?,1
+47,,,Do I need to carry my passport when visiting internal attractions within my country?,1
+48,,,What is the historical significance of Angkor Wat in Cambodia?,1
+49,,,How can I prepare for high-altitude sickness when visiting Machu Picchu in Peru?,1
+50,,photos,What are some must-visit tourist attractions in Shenzhen?,1
+51,,,How much time should I allot for visiting the Great Wall of China?,1
+52,,,What is the best time of year to visit the Li River in Yangshuo?,1
+53,,,Are there any famous local foods to try near the Terracotta Warriors in Xi'an?,1
+54,,,Which public transportation options are available near the Potala Palace in Lhasa?,1
+55,,,What is the recommended dress code for visiting religious attractions in China?,1
+56,,,What are the entrance fees for general admission to the Forbidden City?,1
+57,,,Are guided tours available at the Yellow Mountain in Huangshan?,1
+58,,,Is it necessary to buy tickets in advance for the Tian Tan Buddha in Hong Kong?,1
+59,,,What hours of operation can I expect at Chengdu's Panda Research Base?,1
+60,,reviews,Where can I buy tickets for the Louvre Museum in Paris?,1
+61,,,How can I reach the Great Wall of China from downtown Beijing?,1
+62,,,What are the opening hours of the British Museum?,1
+63,,,Are there any restrictions for taking photos at the Sistine Chapel?,1
+64,,,Is it easy to find vegetarian food near the Eiffel Tower?,1
+65,,,What's the best time to visit the Grand Canyon to avoid crowds?,1
+66,,,What local souvenirs can I buy near the Pyramids of Giza?,1
+67,,,Are there audio guides available in Italian at the Tokyo National Museum?,1
+68,,,What is the history behind the construction of the Taj Mahal?,1
+69,,,Is it possible to reach the top of the Statue of Liberty?,1

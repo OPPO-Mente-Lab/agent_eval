@@ -1,0 +1,31 @@
+{
+  "tool_name": "bing",
+  "tool_description": "",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "web_search",
+        "description": "Web search.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": "Search query"
+            },
+            "offset": {
+              "type": "Number",
+              "description": "Starting point for retrieving results"
+            },
+            "language": {
+              "type": "STRING",
+              "description": "The language (ISO 639-1 code) of results"
+            }
+          },
+          "required": ["query"]
+        }
+      }
+    }
+  ]
+}

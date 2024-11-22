@@ -1,0 +1,138 @@
+{
+    "tool_name": "duckduckgo",
+    "tool_description": "Search anything from DuckDuckGo without any limits! Get images, videos, news, or search results from DuckDuckGo right away! Extremely fast, and free plan available. Adjust your results by region or safety modes!\nSearch anything from DuckDuckGo without any limits! Get images, videos, news, or search results from DuckDuckGo right away! Extremely fast, and free plan available. Adjust your results by region or safety modes!",
+    "APIs": [
+      {
+        "type": "function",
+        "function": {
+          "name": "getsearchresults",
+          "description": "Returns a list of URLs from the search results with pagination.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "term": {
+                "type": "STRING",
+                "description": "Keyword you want to search on DuckDuckGo."
+              },
+              "safeSearch": {
+                "type": "STRING",
+                "description": "Search safety parameter. Enum: off,moderate,strict"
+              },
+              "region": {
+                "type": "STRING",
+                "description": "Region that you want to initiate the search. Enum: wt-wt,ar-es,au-en,at-de,be-fr,be-nl,br-pt,bg-bg,ca-en,ca-fr,ct-ca,cl-es,cn-zh,co-es,hr-hr,cz-cs,dk-da,ee-et,fi-fi,fr-fr,de-de,gr-el,hk-tzh,hu-hu,in-en,id-en,ie-en,il-en,it-it,jp-jp,kr-kr,lv-lv,lt-lt,my-en,mx-es,nl-nl,nz-en,no-no,pk-en,pe-es,ph-en,pl-pl,pt-pt,ro-ro,ru-ru,xa-ar,sg-en,sk-sk,sl-sl,za-en,es-ca,es-es,se-sv,ch-de,ch-fr,tw-tzh,th-en,tr-tr,us-en,us-es,ua-uk,uk-en,vn-en"
+              },
+              "offset": {
+                "type": "NUMBER",
+                "description": "The number to offset the search results."
+              }
+            },
+            "required": [
+              "term",
+              "safeSearch",
+              "region"
+            ]
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "getimagesearchresults",
+          "description": "Returns a list of images from the search results with pagination.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "term": {
+                "type": "STRING",
+                "description": "Keyword you want to search on DuckDuckGo for images."
+              },
+              "region": {
+                "type": "STRING",
+                "description": "Region that you want to initiate the search. Enum: wt-wt,ar-es,au-en,at-de,be-fr,be-nl,br-pt,bg-bg,ca-en,ca-fr,ct-ca,cl-es,cn-zh,co-es,hr-hr,cz-cs,dk-da,ee-et,fi-fi,fr-fr,de-de,gr-el,hk-tzh,hu-hu,in-en,id-en,ie-en,il-en,it-it,jp-jp,kr-kr,lv-lv,lt-lt,my-en,mx-es,nl-nl,nz-en,no-no,pk-en,pe-es,ph-en,pl-pl,pt-pt,ro-ro,ru-ru,xa-ar,sg-en,sk-sk,sl-sl,za-en,es-ca,es-es,se-sv,ch-de,ch-fr,tw-tzh,th-en,tr-tr,us-en,us-es,ua-uk,uk-en,vn-en"
+              },
+              "safeSearch": {
+                "type": "STRING",
+                "description": "Search safety parameter. Enum: off,moderate,strict"
+              },
+              "offset": {
+                "type": "NUMBER",
+                "description": "The number to offset the search results."
+              }
+            },
+            "required": [
+              "term",
+              "region",
+              "safeSearch"
+            ]
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "getvideosearchresults",
+          "description": "Returns a list of videos from the search results with pagination.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "safeSearch": {
+                "type": "STRING",
+                "description": "Search safety parameter. Enum: off,moderate,strict"
+              },
+              "term": {
+                "type": "STRING",
+                "description": "Keyword you want to search on DuckDuckGo for videos."
+              },
+              "region": {
+                "type": "STRING",
+                "description": "Region that you want to initiate the search. Enum: wt-wt,ar-es,au-en,at-de,be-fr,be-nl,br-pt,bg-bg,ca-en,ca-fr,ct-ca,cl-es,cn-zh,co-es,hr-hr,cz-cs,dk-da,ee-et,fi-fi,fr-fr,de-de,gr-el,hk-tzh,hu-hu,in-en,id-en,ie-en,il-en,it-it,jp-jp,kr-kr,lv-lv,lt-lt,my-en,mx-es,nl-nl,nz-en,no-no,pk-en,pe-es,ph-en,pl-pl,pt-pt,ro-ro,ru-ru,xa-ar,sg-en,sk-sk,sl-sl,za-en,es-ca,es-es,se-sv,ch-de,ch-fr,tw-tzh,th-en,tr-tr,us-en,us-es,ua-uk,uk-en,vn-en"
+              },
+              "offset": {
+                "type": "NUMBER",
+                "description": "The number to offset the search results."
+              }
+            },
+            "required": [
+              "safeSearch",
+              "term",
+              "region"
+            ]
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "getnewssearchresults",
+          "description": "Returns a list of news from the search results with pagination.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "term": {
+                "type": "STRING",
+                "description": "Keyword you want to search on DuckDuckGo for news."
+              },
+              "region": {
+                "type": "STRING",
+                "description": "Region that you want to initiate the search. Enum: wt-wt,ar-es,au-en,at-de,be-fr,be-nl,br-pt,bg-bg,ca-en,ca-fr,ct-ca,cl-es,cn-zh,co-es,hr-hr,cz-cs,dk-da,ee-et,fi-fi,fr-fr,de-de,gr-el,hk-tzh,hu-hu,in-en,id-en,ie-en,il-en,it-it,jp-jp,kr-kr,lv-lv,lt-lt,my-en,mx-es,nl-nl,nz-en,no-no,pk-en,pe-es,ph-en,pl-pl,pt-pt,ro-ro,ru-ru,xa-ar,sg-en,sk-sk,sl-sl,za-en,es-ca,es-es,se-sv,ch-de,ch-fr,tw-tzh,th-en,tr-tr,us-en,us-es,ua-uk,uk-en,vn-en"
+              },
+              "safeSearch": {
+                "type": "STRING",
+                "description": "Search safety parameter. Enum: off,moderate,strict"
+              },
+              "offset": {
+                "type": "NUMBER",
+                "description": "The number to offset the search results."
+              }
+            },
+            "required": [
+              "term",
+              "region",
+              "safeSearch"
+            ]
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,35 @@
+{
+  "tool_name": "google_api",
+  "tool_description": "Build powerful applications and integrate Google API into your web and mobile applications with the REST API.",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "video_search",
+        "description": "Search videos over web.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "STRING",
+              "description": "Search query"
+            },
+            "safesearch": {
+              "type": "STRING",
+              "description": "on, moderate, off. Defaults to 'moderate'."
+            },
+            "region": {
+              "type": "STRING",
+              "description": "wt-wt, us-en, uk-en, ru-ru, etc. Defaults to 'wt-wt'."
+            },
+            "max_results": {
+              "type": "Number",
+              "description": "Max number of results to show. 20 by default."
+            }
+          },
+          "required": ["text"]
+        }
+      }
+    }
+  ]
+}

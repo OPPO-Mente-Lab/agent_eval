@@ -1,0 +1,50 @@
+Please generate 5 high-level instructions which can be solved with the combination of some of the APIs below. 
+
+Tool: query hotels and flights in real-time data. By searching and comparing hotel options, the tool assists travelers in finding the most cost-effective option for their journey.
+API-1. for providing a list of hotels
+API-2. for providing hotel details
+API-3. for checking hotel price
+API-4. for providing a review list
+API-5. for providing a list of similar hotels
+
+For example:
+Instruction: provide me with a list of hotels in the downtown area of Shenzhen, sorted by price.
+
+
+==== RESPONSE ====
+1. Instruction: Find the most affordable hotel near the Eiffel Tower in Paris, including detailed amenities and user reviews.
+   Steps:
+   - Use API-1 to provide a list of hotels near the Eiffel Tower.
+   - Use API-3 to check and compare the prices of these hotels.
+   - Use API-2 to get detailed information on the amenities of the least expensive option.
+   - Use API-4 to access and display a list of reviews for that hotel to ensure quality.
+
+2. Instruction: Identify a top-rated luxury hotel in New York City with similar alternatives in case the primary option is fully booked.
+   Steps:
+   - Use API-1 to provide a list of luxury hotels in New York City.
+   - Use API-4 to find the hotel with the best user reviews.
+   - Use API-5 to provide a list of similar hotels as alternatives.
+   - Use API-3 to check real-time prices for the primary and alternative hotels.
+
+3. Instruction: Curate a list of budget-friendly hotels in downtown Tokyo that have consistently received positive reviews.
+   Steps:
+   - Use API-1 to provide a list of budget-friendly hotels in downtown Tokyo.
+   - Use API-4 to gather review lists for each of the hotels provided.
+   - Use API-3 to confirm the real-time prices to ensure they are budget-friendly.
+   - Filter the results by those with a high percentage of positive reviews to finalize the curated list.
+
+4. Instruction: Assemble a comprehensive report on a five-star hotel in Dubai, including pricing, amenities, reviews, and a list of similar hotels.
+   Steps:
+   - Use API-1 to search for five-star hotels in Dubai.
+   - Use API-2 to acquire detailed information about the hotel's amenities.
+   - Use API-3 to check the current pricing for the selected hotel.
+   - Use API-4 to compile the latest reviews.
+   - Use API-5 to generate a list of similar hotels for comparison or alternative options.
+
+5. Instruction: Plan a romantic getaway in Venice, identifying a hotel with a view of the Grand Canal, its price trends, and alternatives with equally attractive views.
+   Steps:
+   - Use API-1 to locate hotels with views of the Grand Canal in Venice.
+   - Use API-2 to collect details on the specific views and romantic amenities of those hotels.
+   - Use API-3 to analyze price trends and availability for the chosen hotels.
+   - Use API-4 to read through reviews for insights into the romantic experiences of past guests.
+   - Use API-5 to present a list of similar hotels that also offer views of the Grand Canal as backup options.

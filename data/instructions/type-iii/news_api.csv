@@ -1,0 +1,21 @@
+,Tool,API,Prompt,Type
+0,news_api,top_headlines,Can you show me the top headlines for China?,3
+1,,,I want to see what's happening in the US. Can you show me their top news?,3
+2,,,"Give me the latest famous news in Japan, please.",3
+3,,,"Could you display the top news in French, please?",3
+4,,,I would like to read the news in German. Can you make it happen?,3
+5,,,"Show me the top headlines in Mandarin, please.",3
+6,,,Can I have the latest 20 news headlines?,3
+7,,,"I don't have much time, give me only 5 headlines.",3
+8,,,Can you show me a list of the top 10 news stories?,3
+9,,,Can you tell me the top sports news?,3
+10,,search,Tell me about the current news in Shenzhen.,3
+11,,,What's the news about the recent tsunami?,3
+12,,,What are the recent news articles from the US?,3
+13,,,Show me the latest news in technology from Australia.,3
+14,,,Can I get the top news in English?,3
+15,,,Show me the most recent news in Chinese.,3
+16,,,Show me the first 10 news articles related to sports.,3
+17,,,Can I see the top 5 recent news on AI?,3
+18,,,What were the major news events between 2024-03-01 and 2024-03-20?,3
+19,,,Are there any news about electric vehicles from the last week?,3

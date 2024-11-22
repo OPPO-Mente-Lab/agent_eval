@@ -1,0 +1,31 @@
+,Tool,API,Prompt,Type
+0,airports,query_airports_by_name,How can I get to the closest international airport from Downtown Shenzhen?,1
+1,,,What's the fastest way to travel between Beijing Capital International Airport and Beijing South Railway Station?,1
+2,,,What does IATA stand for and what is its purpose?,1
+3,,,Can you tell me about the history of Shenzhen Bao'an International Airport?,1
+4,,,What are the public transit options from Los Angeles International Airport to Hollywood?,1
+5,,,Are there usually traffic jams around Shenzhen Bao'an International Airport in the mornings?,1
+6,,,What services are available for people with disabilities at airports in general?,1
+7,,,Can you tell me when the rush hours are at Hartsfield-Jackson Atlanta International Airport?,1
+8,,,What's the best way to spend a 10-hour layover at Tokyo Narita International Airport?,1
+9,,,How early should I check-in for an international flight at Shanghai Pudong International Airport?,1
+10,,get_airport_by_iata_code,What is the best time of year to visit the Singapore airport?,1
+11,,,Are there any good hotels near the Singapore airport?,1
+12,,,How can I take the bus from downtown to the Singapore airport?,1
+13,,,What's the historical cultural significance of the Sydney airport?,1
+14,,,How much time should I leave for check-in and security at the San Francisco International Airport?,1
+15,,,Which airport in North America has the most annual passengers?,1
+16,,,"What are the visa requirements for a 20-year old man from Shenzhen, China who's traveling to Heathrow, London?",1
+17,,,How much does it cost to park my car for a week at the Dubai airport?,1
+18,,,Can you recommend some local dishes that I should try when I visit the Osaka airport?,1
+19,,,What's the fastest way to get to the Paris airport from the city center?,1
+20,,get_airport_by_icao_code,What's the best way to get from the city center to Singapore Changi Airport?,1
+21,,,Is there any restaurant in Singapore Changi Airport where I can have a good meal?,1
+22,,,What is the difference between ICAO and IATA airport codes?,1
+23,,,What are some hotels near the Singapore Changi airport?,1
+24,,,What are the recommended sights to see in Singapore if I have a long layover?,1
+25,,,What are the visa requirements for a Chinese citizen traveling to Singapore?,1
+26,,,Can I take the MRT from Singapore city center to Changi airport? ,1
+27,,,When was the Singapore Changi Airport built?,1
+28,,,What are the operating hours of Singapore Changi Airport?,1
+29,,,What is the airport luggage policy in Singapore Changi Airport?,1

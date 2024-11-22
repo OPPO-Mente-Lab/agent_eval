@@ -1,0 +1,94 @@
+{
+  "tool_name": "country_info",
+  "tool_description": "API for getting basic country info like name, code, dial-code, flag, currency-code, continent.\nThis API will returns the basic data of the country. It will support to fetch all country data, search by country name, get country info by country-code, currency-code and continent, etc\u2026",
+  "APIs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "all_country_list",
+        "description": "This API will return all country details from the server. It contains the following info\nCountry Name\nCountry Code\nDial Code\nContinent\nCurrency Code",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_country_by_country_name",
+        "description": "This API will return the country info based on the query value which is passing in query string",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_country_info_by_continent",
+        "description": "This API will return basic info of a country which is exactly matched with the continent name in param",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "continent-name": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "continent-name"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_country_info_by_currency_code",
+        "description": "This API will return basic info of a country which is exactly matched with the currency code in param",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "currency-code": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "currency-code"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_country_info_by_country_code",
+        "description": "This API will return basic info of a country which is exactly matched with the country code in param",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "country-code": {
+              "type": "STRING",
+              "description": ""
+            }
+          },
+          "required": [
+            "country-code"
+          ]
+        }
+      }
+    }
+  ]
+}
